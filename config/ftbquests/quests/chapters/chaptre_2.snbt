@@ -3,13 +3,13 @@
 	group: "0889EAB460A6BD29"
 	order_index: 1
 	filename: "chaptre_2"
-	title: "&b第二章&r&6-&r冶炼厂和工具"
+	title: "&b第二章&r&6-&r冶炼炉和工具"
 	icon: "tconstruct:smeltery_controller"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "&7匠魂黏土空岛&r"
+			title: "&7匠魂黏土岛&r"
 			x: -5.0d
 			y: -10.0d
 			dependencies: ["56E33A3A0C9966C3"]
@@ -18,7 +18,7 @@
 			tasks: [{
 				id: "2BD62C616FCB49F9"
 				type: "advancement"
-				title: "找到一座&7粘土岛&r"
+				title: "找到一座&7黏土岛&r"
 				icon: "minecraft:grass_block"
 				advancement: "tconstruct:world/clay_island"
 				criterion: ""
@@ -31,11 +31,11 @@
 			}]
 		}
 		{
-			title: "为了水泥去搞到黏土沙子和砂砾"
+			title: "去搞些&7黏土&r、&#C2B280沙子&r和&#909BA3砂砾&r来制作&7砖泥&r"
 			icon: "tconstruct:grout"
 			x: -5.0d
 			y: -8.0d
-			subtitle: "制造水泥"
+			subtitle: "制造砖泥"
 			description: ["当你环游世界时，这些材料是相当有必要的。"]
 			dependencies: [
 				"3378D54ED18FC564"
@@ -47,7 +47,7 @@
 				{
 					id: "69D93E0629AF5C10"
 					type: "item"
-					title: "16x&7粘土&r"
+					title: "16x&7黏土&r"
 					item: "minecraft:clay"
 					count: 16L
 				}
@@ -81,12 +81,12 @@
 			}]
 		}
 		{
-			title: "&2匠魂史莱姆空岛&r"
+			title: "&2匠魂黏液空岛&r"
 			icon: "tconstruct:earth_earth_slime_grass"
 			disable_toast: true
 			x: -3.0d
 			y: -10.0d
-			description: ["找到四种&2匠魂史莱姆空岛&r中的一种。"]
+			description: ["找到四种&2匠魂黏液空岛&r中的一种。"]
 			hide_dependency_lines: true
 			dependencies: ["5818D79835BC71DA"]
 			min_required_tasks: 1
@@ -95,7 +95,7 @@
 				{
 					id: "2F17AC75EE4BF554"
 					type: "advancement"
-					title: "找到一座&2大地史莱姆岛&r"
+					title: "找到一座&2大地黏液岛&r"
 					icon: "tconstruct:earth_earth_slime_grass"
 					disable_toast: true
 					advancement: "tconstruct:world/earth_island"
@@ -104,7 +104,7 @@
 				{
 					id: "28115D66CAB7B751"
 					type: "advancement"
-					title: "找到一座&3碧空史莱姆岛&r"
+					title: "找到一座&3碧空黏液岛&r"
 					icon: "tconstruct:sky_sky_slime_grass"
 					disable_toast: true
 					advancement: "tconstruct:world/sky_island"
@@ -122,7 +122,7 @@
 				{
 					id: "3A6765962EB5CC2B"
 					type: "advancement"
-					title: "找到一座&5末影史莱姆岛&r"
+					title: "找到一座&5末影黏液岛&r"
 					icon: "tconstruct:ender_ender_slime_grass"
 					disable_toast: true
 					advancement: "tconstruct:world/ender_island"
@@ -131,7 +131,7 @@
 				{
 					id: "10ABC481802465E1"
 					type: "checkmark"
-					title: "找到&2匠魂史莱姆空岛&r"
+					title: "找到&2匠魂黏液岛&r"
 					icon: "tconstruct:earth_earth_slime_grass"
 					secret: true
 				}
@@ -181,7 +181,7 @@
 			]
 		}
 		{
-			title: "&2史莱姆&r"
+			title: "&2黏液&r"
 			icon: "minecraft:slime_block"
 			x: -3.0d
 			y: -8.0d
@@ -191,7 +191,7 @@
 				{
 					id: "4CF6F7DF3A32CEA2"
 					type: "item"
-					title: "凝固粘液块"
+					title: "凝固黏液块"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -203,7 +203,7 @@
 				{
 					id: "41A75385842C8BAA"
 					type: "item"
-					title: "粘液泥土"
+					title: "黏液泥土"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -232,7 +232,7 @@
 				{
 					id: "5A0D685D56365735"
 					type: "item"
-					title: "黏滑原木"
+					title: "黏液原木"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -244,7 +244,7 @@
 				{
 					id: "070FCF56ED24BF9A"
 					type: "item"
-					title: "黏滑树苗"
+					title: "黏液树苗"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -262,7 +262,7 @@
 			}]
 		}
 		{
-			title: "史莱姆弹弓"
+			title: "黏液弹弓"
 			x: -1.0d
 			y: -8.0d
 			subtitle: "让旅行更酷"
@@ -271,7 +271,7 @@
 			tasks: [{
 				id: "6C75B5590C3D79B3"
 				type: "item"
-				title: "史莱姆弹弓"
+				title: "黏液弹弓"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -325,7 +325,7 @@
 			tasks: [{
 				id: "0B0664B538512CF4"
 				type: "item"
-				title: "3x 工匠青铜块"
+				title: "3x工匠青铜块"
 				item: "tconstruct:tinkers_bronze_block"
 				count: 3L
 			}]
@@ -376,11 +376,11 @@
 				"首先，你的冶炼炉必须有一个由玻璃以外的冶炼炉方块铺成的地板。它必须是矩形的，不能是L形，圆形或是十二边形。"
 				"冶炼炉的最大尺寸是16x16x65，其有着14x14x64的内部空间。"
 				""
-				"&6&l&n合金化：&r"
+				"&6&l&n合金：&r"
 				""
-				"合金化是一个允许你将材料组合成更强大形式的过程。"
+				"合金是一个允许你将材料组合成更强大形式的过程。"
 				""
-				"为了制造合金，你需要寻找两种不同的可以进行合金化的材料。"
+				"为了制造合金，你需要寻找两种不同的可以进行合金的材料。"
 				""
 				"某些材料需要更高热量的燃料来让它混合，我们将在稍后回到这个问题上来"
 			]
@@ -405,7 +405,7 @@
 				{
 					id: "301991D81A850D16"
 					type: "item"
-					title: "2x 浇筑口"
+					title: "2x浇注口"
 					item: "tconstruct:seared_faucet"
 					count: 2L
 				}
@@ -442,9 +442,9 @@
 			x: -7.5d
 			y: -5.5d
 			description: [
-				"焦黑材料量器是盛放材料的理想容器，它能够存放32锭的液体（4.6b）"
+				"焦黑材料量器是盛放材料的理想容器，它能够存放32锭的液体（4.6B）"
 				""
-				"从根本上说，焦黑燃料量器和焦黑材料量器相同。它可以作为冶炼炉的心脏，并且能够存放4桶燃料。Seared Fuel Gauge is basically the same as the Seared Fuel Tank. It can be used as Smeltery heart, and can hold 4 buckets."
+				"从根本上说，焦黑燃料量器和焦黑材料量器相同。它可以作为冶炼炉的心脏，并且能够存放4桶燃料。"
 				""
 				"你必须使用它们中的一个制造焦黑熔化炉。"
 				""
@@ -484,9 +484,9 @@
 				""
 				"&l&n&6操作方法：&r"
 				""
-				"你可以看见&3三个&r格子来放置你想融化的东西。它可以是矿石，锭或是其他你觉得可以融化的东西！"
+				"你可以看见&3三个&r格子来放置你想融化的东西。它可以是矿石，锭或是其他你觉得可以熔化的东西！"
 				""
-				"你已经融化了材料将会展示在&3中间的槽&r里。记住，同一时间你只能有一种融化的材料在这座融化炉里。"
+				"你已经熔化了材料将会展示在中间的&3槽&r里。请记住，焦黑熔化炉中一次只有一种熔融材料。"
 				""
 				"&3右边的格子&r是你放置燃料的地方。如果你使用的是加热器，它将会展露出来并让你能够放入任何可以作为燃料的东西。如果你使用的是燃料量器，它将会显示一个装有燃料的小棒棒。"
 			]
@@ -538,7 +538,7 @@
 			x: -7.5d
 			y: -8.0d
 			shape: "gear"
-			subtitle: "熔炼水泥"
+			subtitle: "熔炼砖泥"
 			description: ["&7&l匠魂&r最好的朋友"]
 			dependencies: [
 				"60E0E583C1CBCE56"
@@ -820,7 +820,7 @@
 			}]
 		}
 		{
-			title: "&d肩托架&r"
+			title: "&d肩驮架&r"
 			x: -2.75d
 			y: 1.75d
 			dependencies: ["2B867BAFE6E5AACB"]
@@ -858,7 +858,7 @@
 			x: -7.5d
 			y: 2.5d
 			subtitle: "重复利用"
-			description: ["&e&l&n金质铸模&r是可重复利用的&r。想要制作一个时，只需要简单地将想要铸造的部件放置在焦黑铸件台上，在倒一锭量的融熔金在上面即可。在这个过程中，该部件会被消耗。"]
+			description: ["&e&l&n金质铸模&r是可重复利用的&r。想要制作一个时，只需要简单地将想要铸造的部件放置在焦黑铸件台上，再倒1锭量的融熔金在上面即可。在这个过程中，该部件会被消耗。"]
 			dependencies: ["4FF742939987793B"]
 			id: "3F047B28738897A0"
 			tasks: [{
@@ -900,7 +900,7 @@
 			}]
 		}
 		{
-			title: "打火石和 _____"
+			title: "燧石和 _____"
 			icon: {
 				id: "minecraft:flint_and_steel"
 				Count: 1b
@@ -954,7 +954,7 @@
 			}]
 		}
 		{
-			title: "&5地狱&r"
+			title: "&5下界&r"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -993,7 +993,7 @@
 			}]
 		}
 		{
-			title: "&#61666A铅&r"
+			title: "&#61666A钴&r"
 			x: -9.75d
 			y: 9.75d
 			shape: "pentagon"
@@ -1086,7 +1086,7 @@
 			x: -4.75d
 			y: 13.0d
 			shape: "square"
-			subtitle: "焦褐合金"
+			subtitle: "焦褐合金炉"
 			description: [
 				"{image:chroma:textures/quests/alloyer.png width:150 height:125 align:1}"
 				""
@@ -1146,9 +1146,9 @@
 			x: -4.75d
 			y: 10.75d
 			description: [
-				"焦褐材料量器是盛放材料的理想容器，它能够存放32锭的液体（4.6b）。"
+				"焦褐材料量器是盛放材料的理想容器，它能够存放32锭的液体（4.6B）。"
 				""
-				"从根本上说，焦褐燃料量器和焦褐材料量器相同，都可以作为焦褐燃料容器。它可以被用作为熔铸炉燃料容器，并且能够存放4桶燃料。Scorched Fuel Gauge is basically the same as the Scorched Fuel Tank. It can be used as Foundry tank, and can hold 4 buckets."
+				"从根本上说，焦褐燃料量器和焦褐材料量器相同，都可以作为焦褐燃料容器。它可以被用作为熔铸炉燃料容器，并且能够存放4桶燃料。"
 				""
 				"你必须使用它们中的一个制造焦褐合金炉。"
 				""
@@ -1421,7 +1421,7 @@
 				""
 				"首先，你的熔铸炉必须有一个由玻璃以外的熔铸炉方块铺成的地板。它也必须是矩形的，不能是L形，圆形或是十二边形。"
 				""
-				"它必须要有全部的边和角以正确运转！"
+				"它必须要有全部的边和角以正确生效！"
 				""
 				"&n&6&l熔铸炉的GUI：&r"
 				""

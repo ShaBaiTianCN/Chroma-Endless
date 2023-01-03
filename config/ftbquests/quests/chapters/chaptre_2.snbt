@@ -3,13 +3,13 @@
 	group: "0889EAB460A6BD29"
 	order_index: 1
 	filename: "chaptre_2"
-	title: "&bChapter 2&r &6-&r Smeltery and better tools"
+	title: "&b第二章&r&6-&r冶炼炉和工具"
 	icon: "tconstruct:smeltery_controller"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "&7Tinkers' Construct Clay Island&r"
+			title: "&7匠魂黏土岛&r"
 			x: -5.0d
 			y: -10.0d
 			dependencies: ["56E33A3A0C9966C3"]
@@ -18,7 +18,7 @@
 			tasks: [{
 				id: "2BD62C616FCB49F9"
 				type: "advancement"
-				title: "Find a &7Clay Island&r"
+				title: "找到一座&7黏土岛&r"
 				icon: "minecraft:grass_block"
 				advancement: "tconstruct:world/clay_island"
 				criterion: ""
@@ -31,12 +31,12 @@
 			}]
 		}
 		{
-			title: "&7Clay&r, &#C2B280Sand&r \\& &#909BA3Gravel&r for &7Grout&r"
+			title: "去搞些&7黏土&r、&#C2B280沙子&r和&#909BA3砂砾&r来制作&7砖泥&r"
 			icon: "tconstruct:grout"
 			x: -5.0d
 			y: -8.0d
-			subtitle: "Making Grout"
-			description: ["As you travel the world, those materials will really be necessary."]
+			subtitle: "制造砖泥"
+			description: ["当你环游世界时，这些材料是相当有必要的。"]
 			dependencies: [
 				"3378D54ED18FC564"
 				"56E33A3A0C9966C3"
@@ -47,14 +47,14 @@
 				{
 					id: "69D93E0629AF5C10"
 					type: "item"
-					title: "16x &7Clay&r"
+					title: "16x&7黏土&r"
 					item: "minecraft:clay"
 					count: 16L
 				}
 				{
 					id: "0329A34A4A84F74A"
 					type: "item"
-					title: "64x &#C2B280Sand&r"
+					title: "64x&#C2B280沙子&r"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -67,7 +67,7 @@
 				{
 					id: "104193E87E7EB0A7"
 					type: "item"
-					title: "64x &#909BA3Gravel&r"
+					title: "64x&#909BA3沙砾&r"
 					item: "minecraft:gravel"
 					count: 64L
 				}
@@ -81,12 +81,12 @@
 			}]
 		}
 		{
-			title: "&2Tinkers' Construct Slime Islands&r"
+			title: "&2匠魂黏液空岛&r"
 			icon: "tconstruct:earth_earth_slime_grass"
 			disable_toast: true
 			x: -3.0d
 			y: -10.0d
-			description: ["Find one of the four &2Tinkers' Construct Slime Islands&r."]
+			description: ["找到四种&2匠魂黏液空岛&r中的一种。"]
 			hide_dependency_lines: true
 			dependencies: ["5818D79835BC71DA"]
 			min_required_tasks: 1
@@ -95,7 +95,7 @@
 				{
 					id: "2F17AC75EE4BF554"
 					type: "advancement"
-					title: "Find an &2Earthslime Island&r"
+					title: "找到一座&2大地黏液岛&r"
 					icon: "tconstruct:earth_earth_slime_grass"
 					disable_toast: true
 					advancement: "tconstruct:world/earth_island"
@@ -104,7 +104,7 @@
 				{
 					id: "28115D66CAB7B751"
 					type: "advancement"
-					title: "Find a &3Skyslime Island&r"
+					title: "找到一座&3碧空黏液岛&r"
 					icon: "tconstruct:sky_sky_slime_grass"
 					disable_toast: true
 					advancement: "tconstruct:world/sky_island"
@@ -113,7 +113,7 @@
 				{
 					id: "51AFAE1AF044F57D"
 					type: "advancement"
-					title: "Find a &cBlood Island&r"
+					title: "找到一座&c黏血岛&r"
 					icon: "tconstruct:blood_ichor_slime_grass"
 					disable_toast: true
 					advancement: "tconstruct:world/blood_island"
@@ -122,7 +122,7 @@
 				{
 					id: "3A6765962EB5CC2B"
 					type: "advancement"
-					title: "Find an &5Enderslime Island&r"
+					title: "找到一座&5末影黏液岛&r"
 					icon: "tconstruct:ender_ender_slime_grass"
 					disable_toast: true
 					advancement: "tconstruct:world/ender_island"
@@ -131,7 +131,7 @@
 				{
 					id: "10ABC481802465E1"
 					type: "checkmark"
-					title: "Find &2Tinkers' Construct Slime Island&r"
+					title: "找到&2匠魂黏液岛&r"
 					icon: "tconstruct:earth_earth_slime_grass"
 					secret: true
 				}
@@ -181,7 +181,7 @@
 			]
 		}
 		{
-			title: "&2Slime&r"
+			title: "&2黏液&r"
 			icon: "minecraft:slime_block"
 			x: -3.0d
 			y: -8.0d
@@ -191,7 +191,7 @@
 				{
 					id: "4CF6F7DF3A32CEA2"
 					type: "item"
-					title: "Congealed Slime"
+					title: "凝固黏液块"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -203,7 +203,7 @@
 				{
 					id: "41A75385842C8BAA"
 					type: "item"
-					title: "Slime Dirt"
+					title: "黏液泥土"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -232,7 +232,7 @@
 				{
 					id: "5A0D685D56365735"
 					type: "item"
-					title: "Slimy Logs"
+					title: "黏液原木"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -244,7 +244,7 @@
 				{
 					id: "070FCF56ED24BF9A"
 					type: "item"
-					title: "Slimy Saplings"
+					title: "黏液树苗"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -262,15 +262,16 @@
 			}]
 		}
 		{
+			title: "黏液弹弓"
 			x: -1.0d
 			y: -8.0d
-			subtitle: "Making Travelling Cool"
+			subtitle: "让旅行更酷"
 			dependencies: ["4866C5C9EF6794DA"]
 			id: "7A172669A4672D91"
 			tasks: [{
 				id: "6C75B5590C3D79B3"
 				type: "item"
-				title: "Slime Sling"
+				title: "黏液弹弓"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -316,7 +317,7 @@
 			}]
 		}
 		{
-			title: "Tinker's Bronze"
+			title: "工匠青铜"
 			x: -4.75d
 			y: -2.25d
 			dependencies: ["4FF742939987793B"]
@@ -324,7 +325,7 @@
 			tasks: [{
 				id: "0B0664B538512CF4"
 				type: "item"
-				title: "3x Blocks of Tinker's Bronze"
+				title: "3x工匠青铜块"
 				item: "tconstruct:tinkers_bronze_block"
 				count: 3L
 			}]
@@ -355,7 +356,7 @@
 			}]
 		}
 		{
-			title: "Smeltery"
+			title: "冶炼炉"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -366,22 +367,22 @@
 			x: -7.5625d
 			y: 0.0d
 			shape: "square"
-			subtitle: "Hotter Than Furnaces"
+			subtitle: "比熔炉更热"
 			description: [
-				"&n&6&lStructure Requirements :&r"
+				"&n&6&l结构要求：&r"
 				""
-				"Your smeltery has some requirements to run correctly. "
+				"为了能够正确的运转，你的冶炼炉需要满足一些要求。"
 				""
-				"First of all, your smeltery must have a floor made of acceptable smeltery blocks excluding glass. It also has to be rectangular, it can't be L shaped, circle shaped or dodecahedron shaped."
-				"The max size of your smeltery is 16x16x65 external or 14x14x64 internal."
+				"首先，你的冶炼炉必须有一个由玻璃以外的冶炼炉方块铺成的地板。它必须是矩形的，不能是L形，圆形或是十二边形。"
+				"冶炼炉的最大尺寸是16x16x65，其有着14x14x64的内部空间。"
 				""
-				"&6&l&nAlloying :&r"
+				"&6&l&n合金：&r"
 				""
-				"Alloying is a process that will allow you to combine your materials into stronger ones."
+				"合金是一个允许你将材料组合成更强大形式的过程。"
 				""
-				"In order to alloy, you will have to find two materials that can be alloyed together. "
+				"为了制造合金，你需要寻找两种不同的可以进行合金的材料。"
 				""
-				"Some materials need hotter fuels in order to mix, we will come back to this later in the quests."
+				"某些材料需要更高热量的燃料来让它混合，我们将在稍后回到这个问题上来"
 			]
 			dependencies: [
 				"52157E7FBFE05315"
@@ -404,7 +405,7 @@
 				{
 					id: "301991D81A850D16"
 					type: "item"
-					title: "2x Seared Faucets"
+					title: "2x浇注口"
 					item: "tconstruct:seared_faucet"
 					count: 2L
 				}
@@ -437,17 +438,17 @@
 			}]
 		}
 		{
-			title: "Seared Ingot \\& Fuel Gauge"
+			title: "材料量器和燃料量器"
 			x: -7.5d
 			y: -5.5d
 			description: [
-				"Seared Ingot Gauge is ideal for metals. It can hold 32 ingots of fluid (4.6 buckets)."
+				"焦黑材料量器是盛放材料的理想容器，它能够存放32锭的液体（4.6B）"
 				""
-				"Seared Fuel Gauge is basically the same as the Seared Fuel Tank. It can be used as Smeltery heart, and can hold 4 buckets."
+				"从根本上说，焦黑燃料量器和焦黑材料量器相同。它可以作为冶炼炉的心脏，并且能够存放4桶燃料。"
 				""
-				"You have to use one of the two to craft the Seared Melter."
+				"你必须使用它们中的一个制造焦黑熔化炉。"
 				""
-				"&o(No need to craft both to complete the quest, only one is enough)&r"
+				"&o（不必将它们都制造出来以完成任务，一个就足够了）&r"
 			]
 			dependencies: ["25090E1CB30B5131"]
 			min_required_tasks: 1
@@ -477,17 +478,17 @@
 			x: -7.5d
 			y: -3.25d
 			shape: "square"
-			subtitle: "Early Smelting"
+			subtitle: "早期的冶炼炉"
 			description: [
 				"{image:chroma:textures/quests/melter.png width:200 height:150 align:1}"
 				""
-				"&l&n&6Operation :&r"
+				"&l&n&6操作方法：&r"
 				""
-				"There are as you can see &33&r slots where you put in what you want to melt. It may be ores, ingots, or anything else you feel like attempting to melt!."
+				"你可以看见&3三个&r格子来放置你想融化的东西。它可以是矿石，锭或是其他你觉得可以熔化的东西！"
 				""
-				"The &3Gauge&r in the middle is where your molten material will show. Remember that you may only have one molten material at a time in the melter."
+				"你已经熔化了材料将会展示在中间的&3槽&r里。请记住，焦黑熔化炉中一次只有一种熔融材料。"
 				""
-				"The &3Right Slot&r is where your fuel is shown. If you have a heater it will appear as shown and you will be able to insert any item that can be used as fuel. If you have a seared tank, it will show a bar with liquid fuel in it."
+				"&3右边的格子&r是你放置燃料的地方。如果你使用的是加热器，它将会展露出来并让你能够放入任何可以作为燃料的东西。如果你使用的是燃料量器，它将会显示一个装有燃料的小棒棒。"
 			]
 			dependencies: ["5B8F2CFF9902433F"]
 			size: 1.5d
@@ -533,12 +534,12 @@
 			}]
 		}
 		{
-			title: "Seared Bricks"
+			title: "焦黑砖"
 			x: -7.5d
 			y: -8.0d
 			shape: "gear"
-			subtitle: "Smelting Grout"
-			description: ["&7&lTinker Construct's&r best friend"]
+			subtitle: "熔炼砖泥"
+			description: ["&7&l匠魂&r最好的朋友"]
 			dependencies: [
 				"60E0E583C1CBCE56"
 				"381C9C82AD9505C7"
@@ -548,7 +549,7 @@
 			tasks: [{
 				id: "5A8C02CC1E501307"
 				type: "item"
-				title: "Seared Bricks"
+				title: "焦黑砖"
 				item: "tconstruct:seared_brick"
 				count: 8L
 			}]
@@ -645,11 +646,11 @@
 			}]
 		}
 		{
-			title: "Decorative Seared blocks"
+			title: "装饰方块"
 			icon: "tconstruct:seared_glass_pane"
 			x: -10.25d
 			y: -2.25d
-			description: ["These blocks can used as decoration, but NOT as a replacement of Seared Bricks in the Smeltery."]
+			description: ["这些方块可以被用作装饰，但是千万不要用作代替冶炼炉的焦黑方块。"]
 			dependencies: ["59BEB656F387591D"]
 			optional: true
 			id: "0ED7F51D56C65AB0"
@@ -718,13 +719,13 @@
 			}]
 		}
 		{
-			title: "Alternatives to Seared Bricks"
+			title: "其他的代替方块"
 			icon: "tconstruct:seared_glass"
 			x: -10.25d
 			y: -0.25d
 			description: [
-				"You can use these blocks to replace the Seared Bricks in the Smeltery."
-				"They can also used as decoration."
+				"你可以用这些方块来代替冶炼炉中的焦黑方块。"
+				"它们也可以用作装饰 。"
 			]
 			dependencies: ["4FF742939987793B"]
 			optional: true
@@ -819,7 +820,7 @@
 			}]
 		}
 		{
-			title: "&dPiggybackpack&r"
+			title: "&d肩驮架&r"
 			x: -2.75d
 			y: 1.75d
 			dependencies: ["2B867BAFE6E5AACB"]
@@ -852,18 +853,18 @@
 			}]
 		}
 		{
-			title: "Gold Cast"
+			title: "铸模"
 			icon: "tconstruct:blank_cast"
 			x: -7.5d
 			y: 2.5d
-			subtitle: "Reusable "
-			description: ["&e&l&nGold Casts&r are reusable&r. To make one, simply pour one ingot worht of molten gold over a tool part placed in a casting table. The tool part is used up in the process."]
+			subtitle: "重复利用"
+			description: ["&e&l&n金质铸模&r是可重复利用的&r。想要制作一个时，只需要简单地将想要铸造的部件放置在焦黑铸件台上，再倒1锭量的融熔金在上面即可。在这个过程中，该部件会被消耗。"]
 			dependencies: ["4FF742939987793B"]
 			id: "3F047B28738897A0"
 			tasks: [{
 				id: "62D0F17BF463D8EC"
 				type: "item"
-				title: "Gold Cast"
+				title: "金质铸模"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -881,7 +882,7 @@
 		{
 			x: -9.5d
 			y: 2.5d
-			subtitle: "Storing Casts"
+			subtitle: "保存铸模"
 			dependencies: [
 				"3F047B28738897A0"
 				"1195924B8477153E"
@@ -899,7 +900,7 @@
 			}]
 		}
 		{
-			title: "Flint and _____"
+			title: "燧石和 _____"
 			icon: {
 				id: "minecraft:flint_and_steel"
 				Count: 1b
@@ -914,7 +915,7 @@
 			tasks: [{
 				id: "403E5F81136B97B9"
 				type: "item"
-				title: "Flint and Steel or Bronze"
+				title: "打火石或青铜打火石"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -931,7 +932,7 @@
 			}]
 		}
 		{
-			title: "&#B9F2FFObsidian&r"
+			title: "&#B9F2FF黑曜石&r"
 			x: -7.5d
 			y: 6.5d
 			shape: "pentagon"
@@ -941,7 +942,7 @@
 			tasks: [{
 				id: "7FEF20DF46B2E091"
 				type: "item"
-				title: "10x Obsidians"
+				title: "10x黑曜石"
 				item: "minecraft:obsidian"
 				count: 10L
 			}]
@@ -953,7 +954,7 @@
 			}]
 		}
 		{
-			title: "&5The Nether&r"
+			title: "&5下界&r"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -964,7 +965,7 @@
 			x: -7.5d
 			y: 8.75d
 			shape: "rsquare"
-			subtitle: "Going to Hell"
+			subtitle: "前往下界"
 			dependencies: [
 				"6770AB2A85C49A63"
 				"0F01F4CCB3915082"
@@ -975,13 +976,13 @@
 				{
 					id: "6C902F1FE4656987"
 					type: "dimension"
-					title: "Go to &5The Nether&r"
+					title: "前往&5下界&r"
 					dimension: "minecraft:the_nether"
 				}
 				{
 					id: "1A50D8484E987C47"
 					type: "checkmark"
-					title: "&aDone&r"
+					title: "&a完成&r"
 				}
 			]
 			rewards: [{
@@ -992,7 +993,7 @@
 			}]
 		}
 		{
-			title: "&#61666ACobalt&r"
+			title: "&#61666A钴&r"
 			x: -9.75d
 			y: 9.75d
 			shape: "pentagon"
@@ -1010,7 +1011,7 @@
 			}]
 		}
 		{
-			title: "&#B9F2FFAncient Debris&r"
+			title: "&#B9F2FF远古残骸&r"
 			x: -9.75d
 			y: 8.75d
 			shape: "pentagon"
@@ -1028,7 +1029,7 @@
 			}]
 		}
 		{
-			title: "&#61666ANether Quartz&r"
+			title: "&#61666A下界石英&r"
 			x: -9.75d
 			y: 7.75d
 			shape: "pentagon"
@@ -1085,23 +1086,23 @@
 			x: -4.75d
 			y: 13.0d
 			shape: "square"
-			subtitle: "Scorched Alloying "
+			subtitle: "焦褐合金炉"
 			description: [
 				"{image:chroma:textures/quests/alloyer.png width:150 height:125 align:1}"
 				""
-				"Since the &6Foundry&r can't alloy here is a solution simpler to use."
+				"由于&6熔铸炉&r不能用于铸造合金，现在有了一个更加简便的方法。"
 				""
-				"As you can see, it requires a fuel tank or a heater, better fuel allows the smeltery to make better alloys."
+				"正如你所看到的那样，它需要一个燃料量器或是一个加热器，更高级的燃料会允许它制造更好的合金。"
 				""
-				"It can takes input from tanks around the alloyer, adding more tanks gives you more metals to alloy it with at once."
+				"它可以从合金炉附近的容器中接收输入，添加更多容器以一次性制作更多材料的合金。"
 				""
-				"&6&l&nAlloyer Gui :&r"
+				"&6&l&n合金炉的GUI：&r"
 				""
-				"The &3first slot&r is the area where you see the materials in the side tanks, more tanks equals more spots for materials."
+				"&3第一个槽&r可以看见旁边容器中的材料，容器数量越多则原料槽就越多。"
 				""
-				"The &3Gauge&r in the middle is where your alloyed materials will show once they are finished working their magic."
+				"一旦它工作完成，&3第二个槽&r将会展示你所得到的合金。"
 				""
-				"The &3Left Slot&r is where your fuel shows. Hotter fuels means you can melt more things."
+				"&3第三个槽&r会展示你所用的燃料，燃料温度越高则可以制造的合金种类越多。"
 			]
 			dependencies: ["13D4E1A361C32E93"]
 			size: 1.5d
@@ -1142,17 +1143,16 @@
 			}]
 		}
 		{
-			title: "Scorched Ingot \\& Fuel Gauge"
 			x: -4.75d
 			y: 10.75d
 			description: [
-				"Scorched Ingot Gauge is ideal for metals. It can hold 32 ingots of fluid (4.6 buckets)."
+				"焦褐材料量器是盛放材料的理想容器，它能够存放32锭的液体（4.6B）。"
 				""
-				"Scorched Fuel Gauge is basically the same as the Scorched Fuel Tank. It can be used as Foundry tank, and can hold 4 buckets."
+				"从根本上说，焦褐燃料量器和焦褐材料量器相同，都可以作为焦褐燃料容器。它可以被用作为熔铸炉燃料容器，并且能够存放4桶燃料。"
 				""
-				"You have to use one of the two for crafting the Scorched Alloyer."
+				"你必须使用它们中的一个制造焦褐合金炉。"
 				""
-				"&o(No need to craft both to complete the quest, only one is enough)&r"
+				"&o（不必将它们都制造出来以完成任务，一个就足够了。）&r"
 			]
 			dependencies: ["11525ED89B361FB8"]
 			min_required_tasks: 1
@@ -1178,7 +1178,7 @@
 			}]
 		}
 		{
-			title: "Scorched Bricks"
+			title: "焦褐砖"
 			x: -4.75d
 			y: 8.75d
 			dependencies: ["3A3CDBD5FF1985DB"]
@@ -1186,7 +1186,7 @@
 			tasks: [{
 				id: "517378CFB6ECFC36"
 				type: "item"
-				title: "Scorched Bricks"
+				title: "焦褐砖"
 				item: "tconstruct:scorched_brick"
 				count: 8L
 			}]
@@ -1199,11 +1199,11 @@
 			}]
 		}
 		{
-			title: "Decorative Scorched blocks"
+			title: "装饰方块"
 			icon: "tconstruct:scorched_glass_pane"
 			x: -2.0d
 			y: 8.0d
-			description: ["These blocks can used as decoration, but NOT as a replacement for the Scorched Bricks in the Foundry."]
+			description: ["这些方块可以被用作装饰，但是千万不要用作代替熔铸炉里的焦褐方块。"]
 			dependencies: ["667A9CA631F41AF2"]
 			optional: true
 			id: "3FFCA0A02D7BDF2D"
@@ -1247,13 +1247,13 @@
 			}]
 		}
 		{
-			title: "Alternatives to Scorched Bricks"
+			title: "其他的代替方块"
 			icon: "tconstruct:scorched_glass"
 			x: -2.0d
 			y: 6.0d
 			description: [
-				"You can use these blocks to replace the Scorched Bricks in the Foundry."
-				"They can also be used as decoration."
+				"你可以用这些方块代替熔铸炉的焦褐方块。"
+				"它们也可以用作装饰。"
 			]
 			dependencies: ["0F1BD6C918F471B1"]
 			optional: true
@@ -1402,7 +1402,7 @@
 			}]
 		}
 		{
-			title: "Foundry"
+			title: "熔铸"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -1413,23 +1413,23 @@
 			x: -4.75d
 			y: 6.0d
 			shape: "square"
-			subtitle: "Hotter Than The Smeltery"
+			subtitle: "比熔炼炉更热"
 			description: [
-				"&n&6&lStructure Requirements :&r"
+				"&n&6&l结构要求：&r"
 				""
-				"Your foundry has some requirements to run correctly. "
+				"为了能够正确地运转，你的熔铸炉需要满足一些要求。"
 				""
-				"First of all, your foundry must have a floor made of acceptable foundry blocks excluding glass. It also has to be rectangular, it can't be L shaped, circle shaped or dodecahedron shaped."
+				"首先，你的熔铸炉必须有一个由玻璃以外的熔铸炉方块铺成的地板。它也必须是矩形的，不能是L形，圆形或是十二边形。"
 				""
-				"It must have corners and edges to work correctly ! "
+				"它必须要有全部的边和角以正确生效！"
 				""
-				"&n&6&lFoundry GUI :&r"
+				"&n&6&l熔铸炉的GUI：&r"
 				""
-				"First of all, &3the left slot&r is where the item that you want to smelt goes. The number of slots will change depending on the size of your foundry."
+				"首先，&3左边的槽&r是你想要熔炼的东西将要去的地方。能够放入物品的数量将取决于你的熔铸炉有多大。"
 				""
-				"The &3Gauge&r in the middle is where your molten materials will be seen. You can click on one to select it for pouring, hovering over the blank section will give you details avout the capacity of the foundry."
+				"在&3中间的槽&r，你将看见被融化的材料。你可以点击它们中的一个以选择将其倒出，也可以将鼠标悬停在空白区域以查看熔铸炉容量的详细信息。"
 				""
-				"Finally, the &3Right Slot&r is where you can see the fuel you have. Hovering over it wills how the exact amout and type."
+				"最后，在&3右边的槽&r你将能够看见你所拥有的燃料。将鼠标悬停在上面可以看见确切的数量和种类。"
 			]
 			dependencies: ["11525ED89B361FB8"]
 			size: 2.75d
@@ -1574,8 +1574,8 @@
 			x: -11.0d
 			y: 8.75d
 			shape: "hexagon"
-			subtitle: "AllTheModium Harvest Level required"
-			description: ["&aWarped Forests and Crimson Forest, Y 107 to 113"]
+			subtitle: "ATM金属采掘等级需求"
+			description: ["&a诡异森林和绯红森林，Y=107-113"]
 			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "15CE779A150EDE8F"
 			tasks: [{

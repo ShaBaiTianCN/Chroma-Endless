@@ -790,7 +790,7 @@
 			}]
 		}
 		{
-			title: "拜访所有群系"
+			title: "拜访所有生物群系"
 			icon: "supplementaries:globe"
 			x: 6.0d
 			y: -4.0d

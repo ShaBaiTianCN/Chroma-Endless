@@ -287,7 +287,7 @@
 			x: -4.25d
 			y: -7.75d
 			description: [
-				"&6离心机&r试用RF能源将你的蜜脾变成资源。"
+				"&6离心机&r消耗RF将你的蜜脾变成资源。"
 				""
 				"有一个限制，它只能处理蜜脾，而不能处理蜜脾块。"
 				""
@@ -960,11 +960,11 @@
 			}]
 		}
 		{
-			title: "烈焰蜂"
+			title: "烈焰蜜蜂"
 			x: 17.22551020408163d
 			y: -7.899659863945544d
 			shape: "hexagon"
-			subtitle: "在下届生成"
+			subtitle: "在下界生成"
 			hide_dependency_lines: true
 			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "589D4FAB92ACB60C"
@@ -1070,7 +1070,7 @@
 			x: 13.042176870748392d
 			y: -5.527551020408133d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "6D17FF2CFD79A44D"
@@ -1091,7 +1091,7 @@
 			x: 8.184523809523796d
 			y: -1.404761904761898d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"51512A9F63424E85"
@@ -2125,11 +2125,11 @@
 			}]
 		}
 		{
-			title: "萤石蜂"
+			title: "荧石蜜蜂"
 			x: 17.223129251700655d
 			y: -8.780612244897931d
 			shape: "hexagon"
-			subtitle: "在下届生成"
+			subtitle: "在下界生成"
 			hide_dependency_lines: true
 			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "4B62CECB7C22C581"
@@ -2150,7 +2150,7 @@
 			x: 14.97551020408163d
 			y: -7.899659863945544d
 			shape: "hexagon"
-			subtitle: "在下届生成"
+			subtitle: "在下界生成"
 			hide_dependency_lines: true
 			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "3C2409703CB7A690"
@@ -2236,7 +2236,7 @@
 			x: 12.301020408163211d
 			y: -8.344557823129229d
 			shape: "hexagon"
-			subtitle: "在下届生成"
+			subtitle: "在下界生成"
 			hide_dependency_lines: true
 			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "4D6DA222145EE14F"
@@ -2379,7 +2379,7 @@
 			}]
 		}
 		{
-			title: "下届蜂"
+			title: "下界蜜蜂"
 			x: 17.999319727891162d
 			y: -7.899659863945544d
 			shape: "hexagon"
@@ -2402,11 +2402,11 @@
 			}]
 		}
 		{
-			title: "下届石英蜂"
+			title: "下界石英蜂"
 			x: 16.480272108843522d
 			y: -8.780612244897931d
 			shape: "hexagon"
-			subtitle: "在下届生成"
+			subtitle: "在下界生成"
 			hide_dependency_lines: true
 			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "605C1A4203A832F0"
@@ -2423,11 +2423,11 @@
 			}]
 		}
 		{
-			title: "下届蜂"
+			title: "下界蜂"
 			x: 15.737414965986389d
 			y: -8.780612244897931d
 			shape: "hexagon"
-			subtitle: "在下届生成"
+			subtitle: "在下界生成"
 			hide_dependency_lines: true
 			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "10CF9A9C60204ABB"
@@ -2469,7 +2469,7 @@
 			}]
 		}
 		{
-			title: "马玉灵蜜蜂"
+			title: "玛玉灵蜜蜂"
 			x: 8.956462585034075d
 			y: -4.109183673469346d
 			shape: "hexagon"
@@ -2520,7 +2520,7 @@
 			x: 16.47551020408163d
 			y: -7.899659863945544d
 			shape: "hexagon"
-			subtitle: "在下届生成"
+			subtitle: "在下界生成"
 			hide_dependency_lines: true
 			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "75DBEAD012A0991A"
@@ -2724,7 +2724,7 @@
 			}]
 		}
 		{
-			title: "下届水晶蜜蜂"
+			title: "下界晶体蜜蜂"
 			x: 17.426190476190413d
 			y: -3.9663265306121644d
 			shape: "hexagon"
@@ -2749,7 +2749,7 @@
 			}]
 		}
 		{
-			title: "钻石水晶蜜蜂"
+			title: "钻石晶体蜜蜂"
 			x: 16.671088435374074d
 			y: -3.9663265306121644d
 			shape: "hexagon"
@@ -3065,7 +3065,7 @@
 			}]
 		}
 		{
-			title: "史莱姆蜂"
+			title: "黏液蜜蜂"
 			x: 7.265646258503381d
 			y: -7.846938775510182d
 			shape: "hexagon"

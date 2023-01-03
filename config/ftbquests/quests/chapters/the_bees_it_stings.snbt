@@ -1111,7 +1111,7 @@
 			}]
 		}
 		{
-			title: "太古合金蜂"
+			title: "太古合金蜜蜂"
 			x: 16.13129251700684d
 			y: -6.066326530612194d
 			shape: "hexagon"
@@ -1202,7 +1202,7 @@
 			}]
 		}
 		{
-			title: "粘土蜂"
+			title: "黏土蜜蜂"
 			x: 13.040476190476099d
 			y: -9.25d
 			shape: "hexagon"
@@ -1223,7 +1223,7 @@
 			}]
 		}
 		{
-			title: "青铜蜂"
+			title: "青铜蜜蜂"
 			x: 7.404761904761841d
 			y: -3.23673469387753d
 			shape: "hexagon"
@@ -1246,7 +1246,7 @@
 			}]
 		}
 		{
-			title: "黄铜蜂"
+			title: "黄铜蜜蜂"
 			x: 8.180612244897944d
 			y: -3.2306122448979124d
 			shape: "hexagon"
@@ -1359,7 +1359,7 @@
 			}]
 		}
 		{
-			title: "龙蜂"
+			title: "龙蜜蜂"
 			x: 16.49251700680273d
 			y: -6.971088435374121d
 			shape: "hexagon"
@@ -1450,7 +1450,7 @@
 			}]
 		}
 		{
-			title: "铜蜂"
+			title: "铜蜜蜂"
 			x: 13.009183673469408d
 			y: -6.442346938775501d
 			shape: "hexagon"
@@ -1494,7 +1494,7 @@
 			}]
 		}
 		{
-			title: "压缩铁蜂"
+			title: "压缩铁蜜蜂"
 			x: 13.062585034013665d
 			y: -4.620748299319693d
 			shape: "hexagon"
@@ -1515,7 +1515,7 @@
 			}]
 		}
 		{
-			title: "钴蜂"
+			title: "钴蜜蜂"
 			x: 8.19217687074837d
 			y: -4.119897959183632d
 			shape: "hexagon"
@@ -1536,7 +1536,7 @@
 			}]
 		}
 		{
-			title: "煤蜂"
+			title: "煤蜜蜂"
 			x: 12.290476190476099d
 			y: -11.0d
 			shape: "hexagon"
@@ -1668,7 +1668,7 @@
 			}]
 		}
 		{
-			title: "源质蜂"
+			title: "源质钢蜜蜂"
 			x: 13.82108843537425d
 			y: -0.7811224489795023d
 			shape: "hexagon"
@@ -1736,7 +1736,7 @@
 			}]
 		}
 		{
-			title: "浸透铁蜂"
+			title: "浸透铁蜜蜂"
 			x: 11.19285714285715d
 			y: 1.053741496598711d
 			shape: "hexagon"
@@ -1809,7 +1809,7 @@
 			x: 15.915986394557777d
 			y: -2.394897959183602d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: ["42B4D74321A27197"]
 			id: "7AD3A385444D5E7E"
@@ -1870,11 +1870,11 @@
 			}]
 		}
 		{
-			title: "火焰合金蜂"
+			title: "火焰合金蜜蜂"
 			x: 12.69285714285715d
 			y: 1.053741496598711d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"4D0FEA96A6DFE6C9"
@@ -1895,11 +1895,11 @@
 			}]
 		}
 		{
-			title: "仙女蜂"
+			title: "仙女蜜蜂"
 			x: 8.187414965986363d
 			y: -2.3397959183673294d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"448EA86687BE6A64"
@@ -1923,7 +1923,7 @@
 			x: 13.10340136054431d
 			y: -3.670918367346907d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"33C16FAD439619C2"
@@ -1990,7 +1990,7 @@
 			}]
 		}
 		{
-			title: "灵浆Bee"
+			title: "灵浆蜜蜂"
 			x: 7.409183673469343d
 			y: -2.3428571428571203d
 			shape: "hexagon"
@@ -2017,7 +2017,7 @@
 			x: 8.96292517006799d
 			y: -2.3397959183673294d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"605C1A4203A832F0"
@@ -2040,7 +2040,7 @@
 			}]
 		}
 		{
-			title: "守卫者蜂"
+			title: "守卫者蜜蜂"
 			x: 8.043197278911606d
 			y: -7.824829931972737d
 			shape: "hexagon"
@@ -2059,7 +2059,7 @@
 			}]
 		}
 		{
-			title: "沙砾蜂"
+			title: "沙砾蜜蜂"
 			x: 12.290476190476099d
 			y: -9.25d
 			shape: "hexagon"
@@ -2084,7 +2084,7 @@
 			x: 17.432312925170052d
 			y: -2.3935374149658344d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"5AE479976404293E"
@@ -2108,7 +2108,7 @@
 			x: 10.761904761904688d
 			y: -10.101360544217663d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: ["4FF742939987793B"]
 			id: "448EA86687BE6A64"
@@ -2190,7 +2190,7 @@
 			}]
 		}
 		{
-			title: "纯镥Bee"
+			title: "镠蜜蜂"
 			x: 15.942517006802618d
 			y: -1.4969387755101309d
 			shape: "hexagon"
@@ -2211,11 +2211,11 @@
 			}]
 		}
 		{
-			title: "铅蜂"
+			title: "铅蜜蜂"
 			x: 10.759183673469394d
 			y: -5.549489795918355d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "6C4F7E8498D9A01C"
@@ -2256,7 +2256,7 @@
 			x: 11.53741496598633d
 			y: -10.121768707482964d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: ["4FF742939987793B"]
 			id: "5C0249E7EC12F8B1"
@@ -2293,11 +2293,11 @@
 			}]
 		}
 		{
-			title: "铁蜂"
+			title: "铁蜜蜂"
 			x: 13.040476190476099d
 			y: -11.0d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: ["4FF742939987793B"]
 			id: "6B6D7B4AA8FFDC17"
@@ -2314,7 +2314,7 @@
 			}]
 		}
 		{
-			title: "殷钢蜂"
+			title: "殷钢蜜蜂"
 			x: 12.280272108843619d
 			y: -5.515646258503374d
 			shape: "hexagon"
@@ -2358,11 +2358,11 @@
 			}]
 		}
 		{
-			title: "镍蜂"
+			title: "镍蜜蜂"
 			x: 11.509183673469394d
 			y: -5.549489795918355d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "087BAE46F4305FC8"
@@ -2448,7 +2448,7 @@
 			x: 11.494557823129341d
 			y: -0.7811224489795023d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"1356E497437B716A"
@@ -2496,7 +2496,7 @@
 			x: 10.714285714285722d
 			y: 0.10850340136060055d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"6B6D7B4AA8FFDC17"
@@ -2581,11 +2581,11 @@
 			}]
 		}
 		{
-			title: "硝酸钾蜂"
+			title: "硝酸钾蜜蜂"
 			x: 13.478571428571414d
 			y: 1.053741496598711d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"1356E497437B716A"
@@ -2609,7 +2609,7 @@
 			x: 15.72551020408163d
 			y: -7.899659863945544d
 			shape: "hexagon"
-			subtitle: "在下届生成"
+			subtitle: "在下界生成"
 			hide_dependency_lines: true
 			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "6AFDB77ABAA77390"
@@ -2631,11 +2631,11 @@
 			}]
 		}
 		{
-			title: "锇蜂"
+			title: "锇蜜蜂"
 			x: 13.035374149659859d
 			y: -1.7071428571427631d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"2BC1BD4FBA3C3EAC"
@@ -2681,7 +2681,7 @@
 			x: 8.5d
 			y: -6.0d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"24058CE8785ACBF8"
@@ -2799,7 +2799,7 @@
 			}]
 		}
 		{
-			title: "沙蜂"
+			title: "沙蜜蜂"
 			x: 11.540476190476099d
 			y: -9.25d
 			shape: "hexagon"
@@ -2843,7 +2843,7 @@
 			}]
 		}
 		{
-			title: "沉积蜜蜂"
+			title: "悖谬蜜蜂"
 			x: 16.692517006802618d
 			y: -1.4969387755101309d
 			shape: "hexagon"
@@ -2885,11 +2885,11 @@
 			}]
 		}
 		{
-			title: "贵豪蜂"
+			title: "贵豪蜜蜂"
 			x: 17.07925170068023d
 			y: -3.211224489795846d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: ["0A2D533F8AB68EEA"]
 			id: "5B7CB0F4DC76A848"
@@ -2906,11 +2906,11 @@
 			}]
 		}
 		{
-			title: "强化黑曜石蜂"
+			title: "强化黑曜石蜜蜂"
 			x: 11.48435374149659d
 			y: -1.7071428571427631d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"348E5CA782AD3F4C"
@@ -2934,7 +2934,7 @@
 			x: 12.256802721088363d
 			y: -1.713265306122402d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"4B62CECB7C22C581"
@@ -2954,7 +2954,7 @@
 			}]
 		}
 		{
-			title: "红石蜂"
+			title: "红石蜜蜂"
 			x: 13.042517006802655d
 			y: -10.101360544217663d
 			shape: "hexagon"
@@ -3025,7 +3025,7 @@
 			x: 9.738435374149631d
 			y: -2.3397959183673294d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"33F152A85C0B28CD"
@@ -3045,11 +3045,11 @@
 			}]
 		}
 		{
-			title: "灵魂熔岩蜂"
+			title: "灵魂熔岩蜜蜂"
 			x: 13.051020408163211d
 			y: -8.344557823129229d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: ["589D4FAB92ACB60C"]
 			id: "51512A9F63424E85"
@@ -3069,7 +3069,7 @@
 			x: 7.265646258503381d
 			y: -7.846938775510182d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"1356E497437B716A"
@@ -3133,11 +3133,11 @@
 			}]
 		}
 		{
-			title: "银蜂"
+			title: "银蜜蜂"
 			x: 11.509183673469408d
 			y: -6.442346938775501d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "6061CB6EADFDDAD8"
@@ -3154,7 +3154,7 @@
 			}]
 		}
 		{
-			title: "信素蜂"
+			title: "信素蜜蜂"
 			x: 11.487074829932055d
 			y: 0.1231292517007887d
 			shape: "hexagon"
@@ -3207,7 +3207,7 @@
 			x: 8.934523809523796d
 			y: -1.404761904761898d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"0760AEB4D4BB74C5"
@@ -3227,11 +3227,11 @@
 			}]
 		}
 		{
-			title: "锡蜂"
+			title: "锡蜜蜂"
 			x: 12.259183673469408d
 			y: -6.442346938775501d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "7272BBFF9AAC9CA7"
@@ -3248,11 +3248,11 @@
 			}]
 		}
 		{
-			title: "铊蜂"
+			title: "铊蜜蜂"
 			x: 16.90340136054425d
 			y: -6.051020408163211d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: ["1C2488763CCCA93F"]
 			id: "5300901FD4BA85DC"
@@ -3273,7 +3273,7 @@
 			x: 12.270068027210982d
 			y: -0.7811224489795023d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"70A9CA8A58DB8873"
@@ -3295,11 +3295,11 @@
 			}]
 		}
 		{
-			title: "终界蜂"
+			title: "终界蜜蜂"
 			x: 17.658503401360562d
 			y: -6.051020408163211d
 			shape: "hexagon"
-			subtitle: ""查看 &4蜂罐&r 的合成表"
+			subtitle: ""查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: ["5300901FD4BA85DC"]
 			id: "487D00E19338C817"
@@ -3320,7 +3320,7 @@
 			x: 11.94285714285715d
 			y: 1.053741496598711d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"6DC436C371D0ECF2"
@@ -3341,7 +3341,7 @@
 			}]
 		}
 		{
-			title: "石蜂"
+			title: "石头蜜蜂"
 			x: 11.540476190476099d
 			y: -11.0d
 			shape: "hexagon"
@@ -3362,11 +3362,11 @@
 			}]
 		}
 		{
-			title: "钢铁蜜蜂"
+			title: "钢蜜蜂"
 			x: 10.779591836734681d
 			y: -4.630952380952365d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: ["6B6D7B4AA8FFDC17"]
 			id: "33F152A85C0B28CD"
@@ -3404,11 +3404,11 @@
 			}]
 		}
 		{
-			title: "锌蜂"
+			title: "锌蜜蜂"
 			x: 13.813265306122616d
 			y: -5.493707482993145d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "58D08C026677106B"
@@ -3425,7 +3425,7 @@
 			}]
 		}
 		{
-			title: "雪人蜂"
+			title: "雪人蜜蜂"
 			x: 8.805102040816365d
 			y: -7.824829931972737d
 			shape: "hexagon"
@@ -3492,7 +3492,7 @@
 			}]
 		}
 		{
-			title: "水蜂"
+			title: "水蜜蜂"
 			x: 11.551020408163211d
 			y: -8.344557823129229d
 			shape: "hexagon"
@@ -3512,11 +3512,11 @@
 			}]
 		}
 		{
-			title: "振金蜂"
+			title: "振金蜜蜂"
 			x: 7.434523809523796d
 			y: -1.404761904761898d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"1A6EA32BFBE0BAAE"
@@ -3540,7 +3540,7 @@
 			x: 15.160884353741451d
 			y: -2.394897959183602d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: ["42B4D74321A27197"]
 			id: "6AE60E6312DF4B23"
@@ -3557,11 +3557,11 @@
 			}]
 		}
 		{
-			title: "铀蜂"
+			title: "铀蜜蜂"
 			x: 11.552380952381014d
 			y: -4.620748299319693d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "42419E07F45208E2"
@@ -3681,7 +3681,7 @@
 			x: 9.25d
 			y: -6.0d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			dependencies: ["5174E5B7DC17EF63"]
 			id: "6DBEEB8F8D3ABDCC"
 			tasks: [{

@@ -264,7 +264,7 @@
 		{
 			x: -8.0d
 			y: -2.75d
-			subtitle: "蜜蜂棒棒能使蜜蜂和”花朵“链接"
+			subtitle: "蜜蜂棒棒能使蜜蜂和“花朵”链接"
 			description: [
 				"你可以设置蜜蜂的蜂巢或花的位置，这样你就可以将蜜蜂分开，避免它们都聚集在一朵花周围。"
 				""
@@ -1001,7 +1001,7 @@
 			}]
 		}
 		{
-			title: "蜂力怕"蜜蜂
+			title: "蜂力怕蜜蜂"
 			x: 6.515646258503381d
 			y: -7.846938775510182d
 			shape: "hexagon"
@@ -1047,7 +1047,7 @@
 			x: 18.002721088435365d
 			y: -6.965986394557788d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"5A07D9CF3FD9C816"
@@ -1115,7 +1115,7 @@
 			x: 16.13129251700684d
 			y: -6.066326530612194d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: ["487D00E19338C817"]
 			id: "1524181F40000154"
@@ -1158,7 +1158,7 @@
 			x: 17.834353741496543d
 			y: -3.211224489795846d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"6B6D7B4AA8FFDC17"
@@ -1182,7 +1182,7 @@
 			x: 15.35646258503398d
 			y: -6.0697278911564325d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"7419F92850195AF6"
@@ -1363,7 +1363,7 @@
 			x: 16.49251700680273d
 			y: -6.971088435374121d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"1C2488763CCCA93F"
@@ -1386,7 +1386,7 @@
 			x: 17.247619047619054d
 			y: -6.971088435374121d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"050F2D70D0777FB3"
@@ -1454,7 +1454,7 @@
 			x: 13.009183673469408d
 			y: -6.442346938775501d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "3DB1DBE894C2FA8B"
@@ -1498,7 +1498,7 @@
 			x: 13.062585034013665d
 			y: -4.620748299319693d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: ["7515931B78C983B4"]
 			id: "7162685E96B5836D"
@@ -1519,7 +1519,7 @@
 			x: 8.19217687074837d
 			y: -4.119897959183632d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: ["10CF9A9C60204ABB"]
 			id: "5BC68FBD947AEB91"
@@ -1540,7 +1540,7 @@
 			x: 12.290476190476099d
 			y: -11.0d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: ["4FF742939987793B"]
 			id: "5AE479976404293E"
@@ -1672,7 +1672,7 @@
 			x: 13.82108843537425d
 			y: -0.7811224489795023d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"70A9CA8A58DB8873"
@@ -1740,7 +1740,7 @@
 			x: 11.19285714285715d
 			y: 1.053741496598711d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"6B6D7B4AA8FFDC17"
@@ -1764,7 +1764,7 @@
 			x: 13.045578231292609d
 			y: -0.7811224489795023d
 			shape: "hexagon"
-			subtitle: "查看 &4蜂罐&r 的合成表"
+			subtitle: "查看&4蜂罐&r的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"239B5A55E70CD33C"

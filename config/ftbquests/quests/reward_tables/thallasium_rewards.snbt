@@ -1,7 +1,7 @@
 {
 	id: "0D55C142F97E43EC"
 	order_index: 5
-	title: "Thallasium Rewards"
+	title: "铊质工具奖励"
 	icon: "betterendforge:thallasium_bulb_lantern_magenta"
 	loot_size: 1
 	rewards: [

@@ -3,7 +3,7 @@
 	group: "34085A64296DE6C7"
 	order_index: 1
 	filename: "the_endless"
-	title: "永恒"
+	title: "无尽"
 	icon: "storagedrawers:creative_vending_upgrade"
 	default_quest_shape: "pentagon"
 	default_hide_dependency_lines: false

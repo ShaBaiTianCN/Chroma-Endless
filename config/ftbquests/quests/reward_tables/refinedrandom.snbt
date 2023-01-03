@@ -1,7 +1,7 @@
 {
 	id: "0C17081CC194C68B"
 	order_index: 19
-	title: "RefinedRandom"
+	title: "随机“精致存储”物品"
 	icon: "refinedstorage:wrench"
 	loot_size: 1
 	rewards: [

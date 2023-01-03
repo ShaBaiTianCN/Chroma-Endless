@@ -1,7 +1,7 @@
 {
 	id: "56F0616919B31A11"
 	order_index: 4
-	title: "Terminite Rewards"
+	title: "终界铁奖励 "
 	icon: "betterendforge:terminite_bulb_lantern_magenta"
 	loot_size: 1
 	rewards: [

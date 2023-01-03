@@ -1,7 +1,7 @@
 {
 	id: "3659745B3FDF2716"
 	order_index: 14
-	title: "Singularity's reward"
+	title: "奇点奖励"
 	icon: "extendedcrafting:ultimate_singularity"
 	loot_size: 1
 	rewards: [

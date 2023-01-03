@@ -1,7 +1,7 @@
 {
 	id: "71D3CB5AD8167477"
 	order_index: 8
-	title: "Occultism random"
+	title: "随机“神秘学”物品"
 	icon: "occultism:ritual_dummy/familiar_beaver"
 	loot_size: 1
 	use_title: true

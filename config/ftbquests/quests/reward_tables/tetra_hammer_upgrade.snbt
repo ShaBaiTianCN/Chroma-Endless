@@ -1,7 +1,7 @@
 {
 	id: "5522BA997D40DB86"
 	order_index: 2
-	title: "Tetra Hammer Upgrade"
+	title: "“Tetra”升级锻锤的物品"
 	icon: "tetra:combustion_chamber"
 	loot_size: 1
 	rewards: [

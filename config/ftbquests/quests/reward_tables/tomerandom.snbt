@@ -1,7 +1,7 @@
 {
 	id: "5AB5FE1A82A76FC7"
 	order_index: 26
-	title: "TomeRandom"
+	title: "随机古卷"
 	icon: {
 		id: "quark:ancient_tome"
 		Count: 1b

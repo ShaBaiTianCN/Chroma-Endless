@@ -1,7 +1,7 @@
 {
 	id: "5A8C66C503E0BDA4"
 	order_index: 6
-	title: "Ores"
+	title: "矿石"
 	icon: "lootr:lootr_chest"
 	loot_size: 1
 	rewards: [

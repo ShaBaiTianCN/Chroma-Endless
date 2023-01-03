@@ -1,7 +1,7 @@
 {
 	id: "34291018EADA3A42"
 	order_index: 17
-	title: "Minecraft Log"
+	title: "我的世界原木"
 	icon: "minecraft:oak_planks"
 	loot_size: 1
 	rewards: [

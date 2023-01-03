@@ -3,7 +3,7 @@
 	group: "7DE7BB1CA4872D7D"
 	order_index: 0
 	filename: "the_bees_it_stings"
-	title: "Bees' Universe"
+	title: "蜜蜂宇宙"
 	icon: "kubejs:koepss"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -87,7 +87,7 @@
 			}]
 		}
 		{
-			title: "Overworld Bee Nest"
+			title: "主世界蜂巢"
 			icon: "resourcefulbees:bee_nest"
 			x: -1.75d
 			y: -0.5d
@@ -153,7 +153,7 @@
 			}]
 		}
 		{
-			title: "End Bee Nest"
+			title: "末地蜂巢"
 			icon: "resourcefulbees:purpur_bee_nest"
 			x: 0.0d
 			y: -0.5d
@@ -172,7 +172,7 @@
 			}]
 		}
 		{
-			title: "Nether Bee Nest"
+			title: "地狱蜂巢"
 			icon: "resourcefulbees:nether_bee_nest"
 			x: 1.0d
 			y: -0.5d
@@ -264,11 +264,11 @@
 		{
 			x: -8.0d
 			y: -2.75d
-			subtitle: "The Honey Dipper is a special tool that allows you to direct bees"
+			subtitle: "蜜蜂棒棒能使蜜蜂和”花朵“链接"
 			description: [
-				"You can set where a bee's hive or flower posistion is, allowing for you to split up bees is they all crowd around a single flower."
+				"你可以设置蜜蜂的蜂巢或花的位置，这样你就可以将蜜蜂分开，避免它们都聚集在一朵花周围。"
 				""
-				"To change a bee's settings simply &2Right Click&r on a bee and then &2Right Click&r on a hive or flower."
+				"先&2右键&r一只蜜蜂，再&2右键&r蜂箱或花朵以链接。"
 			]
 			dependencies: ["2A1D8B33F51B85A1"]
 			id: "59B083CFB85E29C4"
@@ -287,11 +287,11 @@
 			x: -4.25d
 			y: -7.75d
 			description: [
-				"The &6Centrifuge&r will use RF to turn you combs into resources."
+				"&6离心机&r试用RF能源将你的蜜脾变成资源。"
 				""
-				"There is a limitation that it can only process honeycombs, not blocks."
+				"有一个限制，它只能处理蜜脾，而不能处理蜜脾块。"
 				""
-				"This process can be automated with &6Hoppers&r."
+				"这个过程可以通过&6漏斗&r实现自动化。"
 			]
 			dependencies: ["06CC09E0AE4819E5"]
 			id: "068238B670D5838E"
@@ -415,9 +415,9 @@
 			x: -2.75d
 			y: -0.5d
 			description: [
-				"&dConsumes honey, grants bees safety."
+				"&d消耗蜂蜜，保护蜜蜂安全。"
 				""
-				"&d[Prevents bees from teleporting in effect range]&r"
+				"&d[防止蜜蜂能够在有效范围内传送]&r"
 			]
 			dependencies: ["7C54F45255FD8996"]
 			id: "11F856DB9FC55F37"
@@ -786,7 +786,7 @@
 			}]
 		}
 		{
-			title: "Centrifuge T1"
+			title: "离心控制器级别1"
 			x: -4.25d
 			y: -9.0d
 			hide_dependency_lines: true
@@ -816,7 +816,7 @@
 			}]
 		}
 		{
-			title: "Centrifuge T2"
+			title: "离心控制器级别2"
 			x: -3.25d
 			y: -9.0d
 			dependencies: ["7A66C68E1C3AF881"]
@@ -841,7 +841,7 @@
 			}]
 		}
 		{
-			title: "Centrifuge T3"
+			title: "离心控制器级别3"
 			x: -2.25d
 			y: -9.0d
 			dependencies: ["4141EE8BD098B5F7"]
@@ -867,7 +867,7 @@
 			}]
 		}
 		{
-			title: "Centrifuge T4"
+			title: "离心控制器级别4"
 			x: -1.25d
 			y: -9.0d
 			dependencies: ["5D668A7645CA9D75"]
@@ -893,7 +893,7 @@
 			}]
 		}
 		{
-			title: "Centrifuge T5"
+			title: "离心控制器级别5"
 			x: -0.25d
 			y: -9.0d
 			dependencies: ["5B4B6227A4AD5BF6"]
@@ -960,11 +960,11 @@
 			}]
 		}
 		{
-			title: "Blaze Bee"
+			title: "烈焰蜂"
 			x: 17.22551020408163d
 			y: -7.899659863945544d
 			shape: "hexagon"
-			subtitle: "Spawn in Nether"
+			subtitle: "在下届生成"
 			hide_dependency_lines: true
 			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "589D4FAB92ACB60C"
@@ -981,7 +981,7 @@
 			}]
 		}
 		{
-			title: "Bitumen Bee"
+			title: "沥青蜜蜂"
 			x: 12.30748299319734d
 			y: -4.620748299319693d
 			shape: "hexagon"
@@ -1001,11 +1001,11 @@
 			}]
 		}
 		{
-			title: "Beeper Bee"
+			title: "蜂力怕"蜜蜂
 			x: 6.515646258503381d
 			y: -7.846938775510182d
 			shape: "hexagon"
-			subtitle: "Spawn in Overworld"
+			subtitle: "在主世界生成"
 			hide_dependency_lines: true
 			dependencies: ["28709F340776730B"]
 			id: "005A0621823CB942"
@@ -1022,11 +1022,11 @@
 			}]
 		}
 		{
-			title: "Basalz Bee"
+			title: "玄武岩蜜蜂"
 			x: 6.5d
 			y: -6.947278911564602d
 			shape: "hexagon"
-			subtitle: "Spawn in Overworld"
+			subtitle: "在主世界生成"
 			hide_dependency_lines: true
 			dependencies: ["28709F340776730B"]
 			id: "7D2B680872E34FE3"
@@ -1043,11 +1043,11 @@
 			}]
 		}
 		{
-			title: "Awakened Bee"
+			title: "觉醒蜜蜂"
 			x: 18.002721088435365d
 			y: -6.965986394557788d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"5A07D9CF3FD9C816"
@@ -1066,11 +1066,11 @@
 			}]
 		}
 		{
-			title: "Aluminium Bee"
+			title: "铝蜜蜂"
 			x: 13.042176870748392d
 			y: -5.527551020408133d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "6D17FF2CFD79A44D"
@@ -1087,11 +1087,11 @@
 			}]
 		}
 		{
-			title: "AllTheModium Bee"
+			title: "ATMBee"
 			x: 8.184523809523796d
 			y: -1.404761904761898d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"51512A9F63424E85"
@@ -1111,11 +1111,11 @@
 			}]
 		}
 		{
-			title: "Aeternium Bee"
+			title: "太古合金蜂"
 			x: 16.13129251700684d
 			y: -6.066326530612194d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: ["487D00E19338C817"]
 			id: "1524181F40000154"
@@ -1136,7 +1136,7 @@
 			x: 7.0d
 			y: -6.0d
 			shape: "hexagon"
-			subtitle: "Spawn in Overworld"
+			subtitle: "在主世界生成"
 			hide_dependency_lines: true
 			dependencies: ["28709F340776730B"]
 			id: "40DCBD615084C6C3"
@@ -1154,11 +1154,11 @@
 			}]
 		}
 		{
-			title: "Cloggrum Bee"
+			title: "扼塞蜜蜂"
 			x: 17.834353741496543d
 			y: -3.211224489795846d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"6B6D7B4AA8FFDC17"
@@ -1178,11 +1178,11 @@
 			}]
 		}
 		{
-			title: "Chaotic Bee"
+			title: "混沌蜜蜂"
 			x: 15.35646258503398d
 			y: -6.0697278911564325d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"7419F92850195AF6"
@@ -1202,11 +1202,11 @@
 			}]
 		}
 		{
-			title: "Clay Bee"
+			title: "粘土蜂"
 			x: 13.040476190476099d
 			y: -9.25d
 			shape: "hexagon"
-			subtitle: "Spawn in Overworld"
+			subtitle: "在主世界生成"
 			hide_dependency_lines: true
 			dependencies: ["28709F340776730B"]
 			id: "6545A0C21D34826C"
@@ -1223,7 +1223,7 @@
 			}]
 		}
 		{
-			title: "Bronze Bee"
+			title: "青铜蜂"
 			x: 7.404761904761841d
 			y: -3.23673469387753d
 			shape: "hexagon"
@@ -1246,7 +1246,7 @@
 			}]
 		}
 		{
-			title: "Brass Bee"
+			title: "黄铜蜂"
 			x: 8.180612244897944d
 			y: -3.2306122448979124d
 			shape: "hexagon"
@@ -1269,11 +1269,11 @@
 			}]
 		}
 		{
-			title: "Blutonium Bee"
+			title: "蓝钚蜜蜂"
 			x: 18.187414965986378d
 			y: -2.3935374149658344d
 			shape: "hexagon"
-			subtitle: "Make sure to see the spawn egg recipe on &4JEI&r"
+			subtitle: "在&4JEI&r查看刷怪蛋的合成表"
 			hide_dependency_lines: true
 			dependencies: ["4D42659154BDCE04"]
 			id: "01A2C48E3267094D"
@@ -1290,11 +1290,11 @@
 			}]
 		}
 		{
-			title: "Blizz Bee"
+			title: "暴雪蜜蜂"
 			x: 7.25d
 			y: -6.947278911564602d
 			shape: "hexagon"
-			subtitle: "Spawn in Overworld"
+			subtitle: "在主世界生成"
 			hide_dependency_lines: true
 			dependencies: ["28709F340776730B"]
 			id: "16A03F5CFE8884CD"
@@ -1311,11 +1311,11 @@
 			}]
 		}
 		{
-			title: "Blitz Bee"
+			title: "闪电蜂"
 			x: 8.0d
 			y: -6.947278911564602d
 			shape: "hexagon"
-			subtitle: "Spawn in Overworld"
+			subtitle: "在主世界生成"
 			hide_dependency_lines: true
 			dependencies: ["28709F340776730B"]
 			id: "6A75FA5BAA7397EE"
@@ -1332,11 +1332,11 @@
 			}]
 		}
 		{
-			title: "Blazing Bee"
+			title: "烈焰蜜蜂"
 			x: 15.93639455782305d
 			y: -3.9663265306121644d
 			shape: "hexagon"
-			subtitle: "Make sure to see the spawn egg recipe on &4JEI&r"
+			subtitle: "在&4JEI&r查看刷怪蛋的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"589D4FAB92ACB60C"
@@ -1359,11 +1359,11 @@
 			}]
 		}
 		{
-			title: "Dragon Bee"
+			title: "龙蜂"
 			x: 16.49251700680273d
 			y: -6.971088435374121d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"1C2488763CCCA93F"
@@ -1382,11 +1382,11 @@
 			}]
 		}
 		{
-			title: "Draconium Bee"
+			title: "龙矿蜂"
 			x: 17.247619047619054d
 			y: -6.971088435374121d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"050F2D70D0777FB3"
@@ -1406,7 +1406,7 @@
 			}]
 		}
 		{
-			title: "Diamond Bee"
+			title: "钻石蜜蜂"
 			x: 13.792517006802655d
 			y: -10.101360544217663d
 			shape: "hexagon"
@@ -1429,11 +1429,11 @@
 			}]
 		}
 		{
-			title: "Cyanite Bee"
+			title: "蓝晶蜜蜂"
 			x: 16.691496598639418d
 			y: -2.394897959183602d
 			shape: "hexagon"
-			subtitle: "Make sure to see the spawn egg recipe on &4JEI&r"
+			subtitle: "在&4JEI&r查看刷怪蛋的合成表"
 			hide_dependency_lines: true
 			dependencies: ["42419E07F45208E2"]
 			id: "4D42659154BDCE04"
@@ -1450,11 +1450,11 @@
 			}]
 		}
 		{
-			title: "Copper Bee"
+			title: "铜蜂"
 			x: 13.009183673469408d
 			y: -6.442346938775501d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "3DB1DBE894C2FA8B"
@@ -1471,7 +1471,7 @@
 			}]
 		}
 		{
-			title: "Constantan Bee"
+			title: "康斯坦丹蜜蜂"
 			x: 6.63639455782311d
 			y: -2.3397959183673294d
 			shape: "hexagon"
@@ -1494,11 +1494,11 @@
 			}]
 		}
 		{
-			title: "Compressed Iron Bee"
+			title: "压缩铁蜂"
 			x: 13.062585034013665d
 			y: -4.620748299319693d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: ["7515931B78C983B4"]
 			id: "7162685E96B5836D"
@@ -1515,11 +1515,11 @@
 			}]
 		}
 		{
-			title: "Cobalt Bee"
+			title: "钴蜂"
 			x: 8.19217687074837d
 			y: -4.119897959183632d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: ["10CF9A9C60204ABB"]
 			id: "5BC68FBD947AEB91"
@@ -1536,11 +1536,11 @@
 			}]
 		}
 		{
-			title: "Coal Bee"
+			title: "煤蜂"
 			x: 12.290476190476099d
 			y: -11.0d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: ["4FF742939987793B"]
 			id: "5AE479976404293E"
@@ -1557,7 +1557,7 @@
 			}]
 		}
 		{
-			title: "Enderslime Bee"
+			title: "末影史莱姆蜜蜂"
 			x: 9.723469387755088d
 			y: -3.2306122448979124d
 			shape: "hexagon"
@@ -1580,7 +1580,7 @@
 			}]
 		}
 		{
-			title: "Enderium Bee"
+			title: "末影锭蜜蜂"
 			x: 13.81360544217695d
 			y: 0.1231292517007887d
 			shape: "hexagon"
@@ -1603,11 +1603,11 @@
 			}]
 		}
 		{
-			title: "Ender Bee"
+			title: "末影蜜蜂"
 			x: 15.737414965986389d
 			y: -6.971088435374121d
 			shape: "hexagon"
-			subtitle: "Spawn in End"
+			subtitle: "在末地生成"
 			hide_dependency_lines: true
 			dependencies: ["2BA269B9CA2B23C4"]
 			id: "1C2488763CCCA93F"
@@ -1624,11 +1624,11 @@
 			}]
 		}
 		{
-			title: "End Bee"
+			title: "末地蜜蜂"
 			x: 14.951700680272097d
 			y: -6.994897959183646d
 			shape: "hexagon"
-			subtitle: "Spawn in End"
+			subtitle: "在末地生成"
 			hide_dependency_lines: true
 			dependencies: ["2BA269B9CA2B23C4"]
 			id: "111E33A961DC42F6"
@@ -1645,7 +1645,7 @@
 			}]
 		}
 		{
-			title: "Emerald Bee"
+			title: "绿宝石蜜蜂"
 			x: 12.292517006802655d
 			y: -10.101360544217663d
 			shape: "hexagon"
@@ -1668,11 +1668,11 @@
 			}]
 		}
 		{
-			title: "Elementium Bee"
+			title: "源质蜂"
 			x: 13.82108843537425d
 			y: -0.7811224489795023d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"70A9CA8A58DB8873"
@@ -1693,7 +1693,7 @@
 			}]
 		}
 		{
-			title: "Electrum Bee"
+			title: "琥珀金蜂"
 			x: 12.262585034013696d
 			y: 0.1231292517007887d
 			shape: "hexagon"
@@ -1716,11 +1716,11 @@
 			}]
 		}
 		{
-			title: "Dungeon Bee"
+			title: "地牢蜜蜂"
 			x: 9.530952380952442d
 			y: -6.937414965986349d
 			shape: "hexagon"
-			subtitle: "Spawn in Undergarden"
+			subtitle: "在深园生成"
 			hide_dependency_lines: true
 			dependencies: ["28709F340776730B"]
 			id: "5673D229209207E6"
@@ -1736,11 +1736,11 @@
 			}]
 		}
 		{
-			title: "Drenched Iron Bee"
+			title: "浸透铁蜂"
 			x: 11.19285714285715d
 			y: 1.053741496598711d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"6B6D7B4AA8FFDC17"
@@ -1760,11 +1760,11 @@
 			}]
 		}
 		{
-			title: "Gaia Bee"
+			title: "盖亚蜜蜂"
 			x: 13.045578231292609d
 			y: -0.7811224489795023d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"239B5A55E70CD33C"
@@ -1784,11 +1784,11 @@
 			}]
 		}
 		{
-			title: "Froststeel Bee"
+			title: "霜钢蜜蜂"
 			x: 14.405782312925112d
 			y: -2.394897959183602d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: ["42B4D74321A27197"]
 			id: "0DE49A94A38583BF"
@@ -1805,11 +1805,11 @@
 			}]
 		}
 		{
-			title: "Forgotten Bee"
+			title: "被遗忘的蜜蜂"
 			x: 15.915986394557777d
 			y: -2.394897959183602d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: ["42B4D74321A27197"]
 			id: "7AD3A385444D5E7E"
@@ -1826,11 +1826,11 @@
 			}]
 		}
 		{
-			title: "Forest Bee"
+			title: "森林蜜蜂"
 			x: 8.75d
 			y: -6.947278911564602d
 			shape: "hexagon"
-			subtitle: "Spawn in Overworld"
+			subtitle: "在主世界生成"
 			hide_dependency_lines: true
 			dependencies: ["28709F340776730B"]
 			id: "24058CE8785ACBF8"
@@ -1847,7 +1847,7 @@
 			}]
 		}
 		{
-			title: "Fluorite Bee"
+			title: "氟石蜜蜂"
 			x: 10.704761904761924d
 			y: -0.787244897959134d
 			shape: "hexagon"
@@ -1870,11 +1870,11 @@
 			}]
 		}
 		{
-			title: "Fireite Bee"
+			title: "火焰合金蜂"
 			x: 12.69285714285715d
 			y: 1.053741496598711d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"4D0FEA96A6DFE6C9"
@@ -1895,11 +1895,11 @@
 			}]
 		}
 		{
-			title: "Fairy Bee"
+			title: "仙女蜂"
 			x: 8.187414965986363d
 			y: -2.3397959183673294d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"448EA86687BE6A64"
@@ -1919,11 +1919,11 @@
 			}]
 		}
 		{
-			title: "Experience Bee"
+			title: "经验蜜蜂"
 			x: 13.10340136054431d
 			y: -3.670918367346907d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"33C16FAD439619C2"
@@ -1942,11 +1942,11 @@
 			}]
 		}
 		{
-			title: "Energized Bee"
+			title: "充能蜜蜂"
 			x: 15.181292517006739d
 			y: -3.9663265306121644d
 			shape: "hexagon"
-			subtitle: "Make sure to see the spawn egg recipe on &4JEI&r"
+			subtitle: "在&4JEI&r查看刷怪蛋的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"76E20AA80F5BE12F"
@@ -1969,11 +1969,11 @@
 			}]
 		}
 		{
-			title: "Icy Bee"
+			title: "冰蜜蜂"
 			x: 13.790476190476099d
 			y: -9.25d
 			shape: "hexagon"
-			subtitle: "Spawn in Overworld"
+			subtitle: "在主世界生成"
 			hide_dependency_lines: true
 			dependencies: ["28709F340776730B"]
 			id: "13FD0A0106F7266A"
@@ -1990,7 +1990,7 @@
 			}]
 		}
 		{
-			title: "Ichorslime Bee"
+			title: "灵浆Bee"
 			x: 7.409183673469343d
 			y: -2.3428571428571203d
 			shape: "hexagon"
@@ -2013,11 +2013,11 @@
 			}]
 		}
 		{
-			title: "Hepatizon Bee"
+			title: "黑色柯林斯青铜蜜蜂"
 			x: 8.96292517006799d
 			y: -2.3397959183673294d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"605C1A4203A832F0"
@@ -2040,7 +2040,7 @@
 			}]
 		}
 		{
-			title: "Guardian Bee"
+			title: "守卫者蜂"
 			x: 8.043197278911606d
 			y: -7.824829931972737d
 			shape: "hexagon"
@@ -2059,11 +2059,11 @@
 			}]
 		}
 		{
-			title: "Gravel Bee"
+			title: "沙砾蜂"
 			x: 12.290476190476099d
 			y: -9.25d
 			shape: "hexagon"
-			subtitle: "Spawn in Overworld"
+			subtitle: "在主世界生成"
 			hide_dependency_lines: true
 			dependencies: ["28709F340776730B"]
 			id: "3C1ED4ADAEC1A528"
@@ -2080,11 +2080,11 @@
 			}]
 		}
 		{
-			title: "Graphite Bee"
+			title: "石墨蜜蜂"
 			x: 17.432312925170052d
 			y: -2.3935374149658344d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"5AE479976404293E"
@@ -2104,11 +2104,11 @@
 			}]
 		}
 		{
-			title: "Gold Bee"
+			title: "金蜂"
 			x: 10.761904761904688d
 			y: -10.101360544217663d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: ["4FF742939987793B"]
 			id: "448EA86687BE6A64"
@@ -2125,11 +2125,11 @@
 			}]
 		}
 		{
-			title: "Glowstone Bee"
+			title: "萤石蜂"
 			x: 17.223129251700655d
 			y: -8.780612244897931d
 			shape: "hexagon"
-			subtitle: "Spawn in Nether"
+			subtitle: "在下届生成"
 			hide_dependency_lines: true
 			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "4B62CECB7C22C581"
@@ -2146,11 +2146,11 @@
 			}]
 		}
 		{
-			title: "Ghast Bee"
+			title: "恶魂蜂"
 			x: 14.97551020408163d
 			y: -7.899659863945544d
 			shape: "hexagon"
-			subtitle: "Spawn in Nether"
+			subtitle: "在下届生成"
 			hide_dependency_lines: true
 			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "3C2409703CB7A690"
@@ -2167,7 +2167,7 @@
 			}]
 		}
 		{
-			title: "Lumium Bee"
+			title: "流明蜜蜂"
 			x: 13.038095238095323d
 			y: 0.1231292517007887d
 			shape: "hexagon"
@@ -2190,11 +2190,11 @@
 			}]
 		}
 		{
-			title: "Ludicrite Bee"
+			title: "纯镥Bee"
 			x: 15.942517006802618d
 			y: -1.4969387755101309d
 			shape: "hexagon"
-			subtitle: "Make sure to see the spawn egg recipe on &4JEI&r"
+			subtitle: "在&4JEI&r查看刷怪蛋的合成表"
 			hide_dependency_lines: true
 			dependencies: ["01A2C48E3267094D"]
 			id: "4F20ABECDDF633B4"
@@ -2211,11 +2211,11 @@
 			}]
 		}
 		{
-			title: "Lead Bee"
+			title: "铅蜂"
 			x: 10.759183673469394d
 			y: -5.549489795918355d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "6C4F7E8498D9A01C"
@@ -2232,11 +2232,11 @@
 			}]
 		}
 		{
-			title: "Lava Bee"
+			title: "熔岩蜜蜂"
 			x: 12.301020408163211d
 			y: -8.344557823129229d
 			shape: "hexagon"
-			subtitle: "Spawn in Nether"
+			subtitle: "在下届生成"
 			hide_dependency_lines: true
 			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "4D6DA222145EE14F"
@@ -2252,11 +2252,11 @@
 			}]
 		}
 		{
-			title: "Lapis Bee"
+			title: "青金石蜜蜂"
 			x: 11.53741496598633d
 			y: -10.121768707482964d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: ["4FF742939987793B"]
 			id: "5C0249E7EC12F8B1"
@@ -2273,11 +2273,11 @@
 			}]
 		}
 		{
-			title: "Kitten Bee"
+			title: "小猫蜜蜂"
 			x: 7.261904761904688d
 			y: -8.75d
 			shape: "hexagon"
-			subtitle: "Spawn in Overworld"
+			subtitle: "在主世界生成"
 			hide_dependency_lines: true
 			dependencies: ["28709F340776730B"]
 			id: "4CBF35606533B089"
@@ -2293,11 +2293,11 @@
 			}]
 		}
 		{
-			title: "Iron Bee"
+			title: "铁蜂"
 			x: 13.040476190476099d
 			y: -11.0d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: ["4FF742939987793B"]
 			id: "6B6D7B4AA8FFDC17"
@@ -2314,7 +2314,7 @@
 			}]
 		}
 		{
-			title: "Invar Bee"
+			title: "殷钢蜂"
 			x: 12.280272108843619d
 			y: -5.515646258503374d
 			shape: "hexagon"
@@ -2337,11 +2337,11 @@
 			}]
 		}
 		{
-			title: "Inanite Bee"
+			title: "无机蜜蜂"
 			x: 17.442517006802618d
 			y: -1.4969387755101309d
 			shape: "hexagon"
-			subtitle: "Make sure to see the spawn egg recipe on &4JEI&r"
+			subtitle: "在&4JEI&r查看刷怪蛋的合成表"
 			hide_dependency_lines: true
 			dependencies: ["636E2DCCA8630485"]
 			id: "1A9B7F94420A1FAE"
@@ -2358,11 +2358,11 @@
 			}]
 		}
 		{
-			title: "Nickel Bee"
+			title: "镍蜂"
 			x: 11.509183673469394d
 			y: -5.549489795918355d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "087BAE46F4305FC8"
@@ -2379,7 +2379,7 @@
 			}]
 		}
 		{
-			title: "Netherite Bee"
+			title: "下届蜂"
 			x: 17.999319727891162d
 			y: -7.899659863945544d
 			shape: "hexagon"
@@ -2402,11 +2402,11 @@
 			}]
 		}
 		{
-			title: "Nether Quartz Bee"
+			title: "下届石英蜂"
 			x: 16.480272108843522d
 			y: -8.780612244897931d
 			shape: "hexagon"
-			subtitle: "Spawn in Nether"
+			subtitle: "在下届生成"
 			hide_dependency_lines: true
 			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "605C1A4203A832F0"
@@ -2423,11 +2423,11 @@
 			}]
 		}
 		{
-			title: "Nether Bee"
+			title: "下届蜂"
 			x: 15.737414965986389d
 			y: -8.780612244897931d
 			shape: "hexagon"
-			subtitle: "Spawn in Nether"
+			subtitle: "在下届生成"
 			hide_dependency_lines: true
 			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "10CF9A9C60204ABB"
@@ -2444,11 +2444,11 @@
 			}]
 		}
 		{
-			title: "Mystical Bee"
+			title: "神秘蜜蜂"
 			x: 11.494557823129341d
 			y: -0.7811224489795023d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"1356E497437B716A"
@@ -2469,7 +2469,7 @@
 			}]
 		}
 		{
-			title: "Manyulyum Bee"
+			title: "马玉灵蜜蜂"
 			x: 8.956462585034075d
 			y: -4.109183673469346d
 			shape: "hexagon"
@@ -2492,11 +2492,11 @@
 			}]
 		}
 		{
-			title: "Manasteel Bee"
+			title: "魔力钢蜜蜂"
 			x: 10.714285714285722d
 			y: 0.10850340136060055d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"6B6D7B4AA8FFDC17"
@@ -2516,11 +2516,11 @@
 			}]
 		}
 		{
-			title: "Magma Bee"
+			title: "岩浆块蜜蜂"
 			x: 16.47551020408163d
 			y: -7.899659863945544d
 			shape: "hexagon"
-			subtitle: "Spawn in Nether"
+			subtitle: "在下届生成"
 			hide_dependency_lines: true
 			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "75DBEAD012A0991A"
@@ -2537,11 +2537,11 @@
 			}]
 		}
 		{
-			title: "Magentite Bee"
+			title: "磁铁矿蜂"
 			x: 15.160884353741451d
 			y: -1.4925170068025722d
 			shape: "hexagon"
-			subtitle: "Make sure to see the spawn egg recipe on &4JEI&r"
+			subtitle: "在&4JEI&r查看刷怪蛋的合成表"
 			hide_dependency_lines: true
 			dependencies: ["01A2C48E3267094D"]
 			id: "54AB52FCA0B56C97"
@@ -2558,7 +2558,7 @@
 			}]
 		}
 		{
-			title: "Rainbow Glass Bee"
+			title: "彩虹玻璃蜜蜂"
 			x: 11.580612244897964d
 			y: -3.6760204081632466d
 			shape: "hexagon"
@@ -2581,11 +2581,11 @@
 			}]
 		}
 		{
-			title: "Potassium Nitrate Bee"
+			title: "硝酸钾蜂"
 			x: 13.478571428571414d
 			y: 1.053741496598711d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"1356E497437B716A"
@@ -2605,11 +2605,11 @@
 			}]
 		}
 		{
-			title: "Pigman Bee"
+			title: "猪人蜜蜂"
 			x: 15.72551020408163d
 			y: -7.899659863945544d
 			shape: "hexagon"
-			subtitle: "Spawn in Nether"
+			subtitle: "在下届生成"
 			hide_dependency_lines: true
 			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "6AFDB77ABAA77390"
@@ -2631,11 +2631,11 @@
 			}]
 		}
 		{
-			title: "Osmium Bee"
+			title: "锇蜂"
 			x: 13.035374149659859d
 			y: -1.7071428571427631d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"2BC1BD4FBA3C3EAC"
@@ -2655,11 +2655,11 @@
 			}]
 		}
 		{
-			title: "Oreo Bee"
+			title: "奥利奥蜜蜂"
 			x: 7.75d
 			y: -6.0d
 			shape: "hexagon"
-			subtitle: "Spawn in Overworld"
+			subtitle: "在主世界生成"
 			hide_dependency_lines: true
 			dependencies: ["28709F340776730B"]
 			id: "0F304E760CEF2C4E"
@@ -2677,11 +2677,11 @@
 			}]
 		}
 		{
-			title: "Occultist Bee"
+			title: "神秘蜜蜂"
 			x: 8.5d
 			y: -6.0d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"24058CE8785ACBF8"
@@ -2701,7 +2701,7 @@
 			}]
 		}
 		{
-			title: "Obsidian Bee"
+			title: "黑曜石蜜蜂"
 			x: 10.790476190476099d
 			y: -9.25d
 			shape: "hexagon"
@@ -2724,11 +2724,11 @@
 			}]
 		}
 		{
-			title: "Nitro Bee"
+			title: "下届水晶蜜蜂"
 			x: 17.426190476190413d
 			y: -3.9663265306121644d
 			shape: "hexagon"
-			subtitle: "Make sure to see the spawn egg recipe on &4JEI&r"
+			subtitle: "在&4JEI&r查看刷怪蛋的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"745803B38BA58076"
@@ -2749,11 +2749,11 @@
 			}]
 		}
 		{
-			title: "Niotic Bee"
+			title: "钻石水晶蜜蜂"
 			x: 16.671088435374074d
 			y: -3.9663265306121644d
 			shape: "hexagon"
-			subtitle: "Make sure to see the spawn egg recipe on &4JEI&r"
+			subtitle: "在&4JEI&r查看刷怪蛋的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"33C16FAD439619C2"
@@ -2776,7 +2776,7 @@
 			}]
 		}
 		{
-			title: "Seared Bee"
+			title: "焦黑蜜蜂"
 			x: 7.409183673469386d
 			y: -4.122448979591816d
 			shape: "hexagon"
@@ -2799,11 +2799,11 @@
 			}]
 		}
 		{
-			title: "Sand Bee"
+			title: "沙蜂"
 			x: 11.540476190476099d
 			y: -9.25d
 			shape: "hexagon"
-			subtitle: "Spawn in Overworld"
+			subtitle: "在主世界生成"
 			hide_dependency_lines: true
 			dependencies: ["28709F340776730B"]
 			id: "43246CFF8E31A654"
@@ -2820,7 +2820,7 @@
 			}]
 		}
 		{
-			title: "Rose Gold Bee"
+			title: "玫瑰金蜜蜂"
 			x: 6.637755102040799d
 			y: -3.2306122448979124d
 			shape: "hexagon"
@@ -2843,11 +2843,11 @@
 			}]
 		}
 		{
-			title: "Ridiculite Bee"
+			title: "沉积蜜蜂"
 			x: 16.692517006802618d
 			y: -1.4969387755101309d
 			shape: "hexagon"
-			subtitle: "Make sure to see the spawn egg recipe on &4JEI&r"
+			subtitle: "在&4JEI&r查看刷怪蛋的合成表"
 			hide_dependency_lines: true
 			dependencies: ["4F20ABECDDF633B4"]
 			id: "636E2DCCA8630485"
@@ -2868,7 +2868,7 @@
 			x: 12.330612244897964d
 			y: -3.6760204081632466d
 			shape: "hexagon"
-			subtitle: "Spawn in Overworld"
+			subtitle: "在主世界生成"
 			hide_dependency_lines: true
 			dependencies: ["28709F340776730B"]
 			id: "1759DCC8A2F5E01F"
@@ -2885,11 +2885,11 @@
 			}]
 		}
 		{
-			title: "Regalium Bee"
+			title: "贵豪蜂"
 			x: 17.07925170068023d
 			y: -3.211224489795846d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: ["0A2D533F8AB68EEA"]
 			id: "5B7CB0F4DC76A848"
@@ -2906,11 +2906,11 @@
 			}]
 		}
 		{
-			title: "Refined Obsidian Bee"
+			title: "强化黑曜石蜂"
 			x: 11.48435374149659d
 			y: -1.7071428571427631d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"348E5CA782AD3F4C"
@@ -2930,11 +2930,11 @@
 			}]
 		}
 		{
-			title: "Refined Glowstone Bee"
+			title: "强化萤石蜂"
 			x: 12.256802721088363d
 			y: -1.713265306122402d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"4B62CECB7C22C581"
@@ -2954,7 +2954,7 @@
 			}]
 		}
 		{
-			title: "Redstone Bee"
+			title: "红石蜂"
 			x: 13.042517006802655d
 			y: -10.101360544217663d
 			shape: "hexagon"
@@ -2974,11 +2974,11 @@
 			}]
 		}
 		{
-			title: "Starry Bee"
+			title: "灿烂蜜蜂"
 			x: 13.817687074830005d
 			y: -4.620748299319693d
 			shape: "hexagon"
-			subtitle: "Spawn in End"
+			subtitle: "在末地生成"
 			hide_dependency_lines: true
 			dependencies: ["2BA269B9CA2B23C4"]
 			id: "24F82352AF6987DB"
@@ -2994,11 +2994,11 @@
 			}]
 		}
 		{
-			title: "Spirited Bee"
+			title: "富生蜜蜂"
 			x: 16.334353741496557d
 			y: -3.211224489795846d
 			shape: "hexagon"
-			subtitle: "Make sure to see the spawn egg recipe on &4JEI&r"
+			subtitle: "在&4JEI&r查看刷怪蛋的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"239B5A55E70CD33C"
@@ -3021,11 +3021,11 @@
 			}]
 		}
 		{
-			title: "Source Steel Bee"
+			title: "魔源钢蜂"
 			x: 9.738435374149631d
 			y: -2.3397959183673294d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"33F152A85C0B28CD"
@@ -3045,11 +3045,11 @@
 			}]
 		}
 		{
-			title: "Soul Lava Bee"
+			title: "灵魂熔岩蜂"
 			x: 13.051020408163211d
 			y: -8.344557823129229d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: ["589D4FAB92ACB60C"]
 			id: "51512A9F63424E85"
@@ -3065,11 +3065,11 @@
 			}]
 		}
 		{
-			title: "Slime Bee"
+			title: "史莱姆蜂"
 			x: 7.265646258503381d
 			y: -7.846938775510182d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"1356E497437B716A"
@@ -3089,7 +3089,7 @@
 			}]
 		}
 		{
-			title: "Skyslime Bee"
+			title: "碧空史莱姆蜂"
 			x: 8.95204081632653d
 			y: -3.2306122448979124d
 			shape: "hexagon"
@@ -3112,11 +3112,11 @@
 			}]
 		}
 		{
-			title: "Skeleton Bee"
+			title: "骷髅蜜蜂"
 			x: 8.771768707482863d
 			y: -8.744897959183696d
 			shape: "hexagon"
-			subtitle: "Spawn in Overworld"
+			subtitle: "在主世界生成"
 			hide_dependency_lines: true
 			dependencies: ["28709F340776730B"]
 			id: "68C959E70C5FB27F"
@@ -3133,11 +3133,11 @@
 			}]
 		}
 		{
-			title: "Silver Bee"
+			title: "银蜂"
 			x: 11.509183673469408d
 			y: -6.442346938775501d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "6061CB6EADFDDAD8"
@@ -3154,7 +3154,7 @@
 			}]
 		}
 		{
-			title: "Signalum Bee"
+			title: "信素蜂"
 			x: 11.487074829932055d
 			y: 0.1231292517007887d
 			shape: "hexagon"
@@ -3177,11 +3177,11 @@
 			}]
 		}
 		{
-			title: "Uraninite Bee"
+			title: "铀矿蜂"
 			x: 15.584353741496557d
 			y: -3.211224489795846d
 			shape: "hexagon"
-			subtitle: "Make sure to see the spawn egg recipe on &4JEI&r"
+			subtitle: "在&4JEI&r查看刷怪蛋的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"4931CF875954DA46"
@@ -3203,11 +3203,11 @@
 			}]
 		}
 		{
-			title: "Unobtainium Bee"
+			title: "难得素蜜蜂"
 			x: 8.934523809523796d
 			y: -1.404761904761898d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"0760AEB4D4BB74C5"
@@ -3227,11 +3227,11 @@
 			}]
 		}
 		{
-			title: "Tin Bee"
+			title: "锡蜂"
 			x: 12.259183673469408d
 			y: -6.442346938775501d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "7272BBFF9AAC9CA7"
@@ -3248,11 +3248,11 @@
 			}]
 		}
 		{
-			title: "Thallasium Bee"
+			title: "铊蜂"
 			x: 16.90340136054425d
 			y: -6.051020408163211d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: ["1C2488763CCCA93F"]
 			id: "5300901FD4BA85DC"
@@ -3269,11 +3269,11 @@
 			}]
 		}
 		{
-			title: "Terrasteel Bee"
+			title: "泰拉钢蜜蜂"
 			x: 12.270068027210982d
 			y: -0.7811224489795023d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"70A9CA8A58DB8873"
@@ -3295,11 +3295,11 @@
 			}]
 		}
 		{
-			title: "Terminite Bee"
+			title: "终界蜂"
 			x: 17.658503401360562d
 			y: -6.051020408163211d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: ""查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: ["5300901FD4BA85DC"]
 			id: "487D00E19338C817"
@@ -3316,11 +3316,11 @@
 			}]
 		}
 		{
-			title: "Swift Alloy Bee"
+			title: "迅金蜜蜂"
 			x: 11.94285714285715d
 			y: 1.053741496598711d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"6DC436C371D0ECF2"
@@ -3341,11 +3341,11 @@
 			}]
 		}
 		{
-			title: "Stone Bee"
+			title: "石蜂"
 			x: 11.540476190476099d
 			y: -11.0d
 			shape: "hexagon"
-			subtitle: "Spawn in Overworld"
+			subtitle: "在主世界生成"
 			hide_dependency_lines: true
 			dependencies: ["28709F340776730B"]
 			id: "2BC1BD4FBA3C3EAC"
@@ -3362,13 +3362,13 @@
 			}]
 		}
 		{
-			title: "Steel Bee"
+			title: "钢铁蜜蜂"
 			x: 10.779591836734681d
 			y: -4.630952380952365d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
-			dependencies: ["70885C4B9975D97D"]
+			dependencies: ["6B6D7B4AA8FFDC17"]
 			id: "33F152A85C0B28CD"
 			tasks: [{
 				id: "2016843988FB3D52"
@@ -3383,11 +3383,11 @@
 			}]
 		}
 		{
-			title: "Zombie Bee"
+			title: "僵尸蜜蜂"
 			x: 8.017006802721d
 			y: -8.75d
 			shape: "hexagon"
-			subtitle: "Spawn in Overworld"
+			subtitle: "在主世界生成"
 			hide_dependency_lines: true
 			dependencies: ["28709F340776730B"]
 			id: "701010A9F0A99495"
@@ -3404,11 +3404,11 @@
 			}]
 		}
 		{
-			title: "Zinc Bee"
+			title: "锌蜂"
 			x: 13.813265306122616d
 			y: -5.493707482993145d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "58D08C026677106B"
@@ -3425,11 +3425,11 @@
 			}]
 		}
 		{
-			title: "Yeti Bee"
+			title: "雪人蜂"
 			x: 8.805102040816365d
 			y: -7.824829931972737d
 			shape: "hexagon"
-			subtitle: "Spawn in Overworld"
+			subtitle: "在主世界生成"
 			hide_dependency_lines: true
 			dependencies: ["28709F340776730B"]
 			id: "4732814EE3CEB7B3"
@@ -3445,11 +3445,11 @@
 			}]
 		}
 		{
-			title: "Xion Bee"
+			title: "Xion 蜂"
 			x: 14.834353741496557d
 			y: -3.211224489795846d
 			shape: "hexagon"
-			subtitle: "Make sure to see the spawn egg recipe on &4JEI&r"
+			subtitle: "在&4JEI&r查看刷怪蛋的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"1C2488763CCCA93F"
@@ -3469,7 +3469,7 @@
 			}]
 		}
 		{
-			title: "Wither Bee"
+			title: "凋零蜜蜂"
 			x: 9.56700680272111d
 			y: -7.824829931972737d
 			shape: "hexagon"
@@ -3492,11 +3492,11 @@
 			}]
 		}
 		{
-			title: "Water Bee"
+			title: "水蜂"
 			x: 11.551020408163211d
 			y: -8.344557823129229d
 			shape: "hexagon"
-			subtitle: "Spawn in Overworld"
+			subtitle: "在主世界生成"
 			hide_dependency_lines: true
 			dependencies: ["28709F340776730B"]
 			id: "5E749C6498C40569"
@@ -3512,11 +3512,11 @@
 			}]
 		}
 		{
-			title: "Vibranium Bee"
+			title: "振金蜂"
 			x: 7.434523809523796d
 			y: -1.404761904761898d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: [
 				"1A6EA32BFBE0BAAE"
@@ -3536,11 +3536,11 @@
 			}]
 		}
 		{
-			title: "Utherium Bee"
+			title: "御腐蜜蜂"
 			x: 15.160884353741451d
 			y: -2.394897959183602d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: ["42B4D74321A27197"]
 			id: "6AE60E6312DF4B23"
@@ -3557,11 +3557,11 @@
 			}]
 		}
 		{
-			title: "Uranium Bee"
+			title: "铀蜂"
 			x: 11.552380952381014d
 			y: -4.620748299319693d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			hide_dependency_lines: true
 			dependencies: ["2BC1BD4FBA3C3EAC"]
 			id: "42419E07F45208E2"
@@ -3681,7 +3681,7 @@
 			x: 9.25d
 			y: -6.0d
 			shape: "hexagon"
-			subtitle: "Look the &4Jar&r recipe"
+			subtitle: "查看 &4蜂罐&r 的合成表"
 			dependencies: ["5174E5B7DC17EF63"]
 			id: "6DBEEB8F8D3ABDCC"
 			tasks: [{

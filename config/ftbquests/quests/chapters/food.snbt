@@ -5924,7 +5924,8 @@
 				type: "random"
 				table_id: 3261296973996135385L
 			}]
-		}		{
+		}
+		{
 			x: 0.25d
 			y: 0.75d
 			subtitle: "自动化营火"
@@ -9517,7 +9518,6 @@
 			}]
 		}
 		{
-			title: "做寿司"
 			x: 17.75d
 			y: -10.0d
 			subtitle: "最好的日本料理"
@@ -9530,7 +9530,7 @@
 			tasks: [{
 				id: "5B9B5A870F0D8644"
 				type: "checkmark"
-				title: "Sushi Go Crafting "
+				title: "做寿司"
 			}]
 		}
 	]

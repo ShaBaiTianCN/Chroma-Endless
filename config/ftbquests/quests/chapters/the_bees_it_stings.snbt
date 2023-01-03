@@ -172,7 +172,7 @@
 			}]
 		}
 		{
-			title: "地狱蜂巢"
+			title: "下界蜂巢"
 			icon: "resourcefulbees:nether_bee_nest"
 			x: 1.0d
 			y: -0.5d

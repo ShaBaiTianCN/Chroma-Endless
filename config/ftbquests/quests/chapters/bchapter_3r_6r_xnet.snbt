@@ -3,7 +3,7 @@
 	group: "649CE452F2BBF13D"
 	order_index: 1
 	filename: "bchapter_3r_6r_xnet"
-	title: "&bChapter 2&r &6-&r Automation"
+	title: "&b第二章&r&6-&r自动化"
 	icon: "xnet:controller"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -12,7 +12,7 @@
 			x: -1.25d
 			y: 2.75d
 			shape: "diamond"
-			description: ["An antenna dish has to be placed on top of an antenna base and allows very extreme wireless range."]
+			description: ["天线盘必须安装在天线基座上，可以提供十分大的无线路由范围。"]
 			dependencies: ["36ED9B870BA8D62B"]
 			id: "3AC8C0F1AD4DC5A8"
 			tasks: [{
@@ -30,7 +30,7 @@
 			x: -0.75d
 			y: 2.25d
 			shape: "diamond"
-			description: ["An antenna base has to be places on top of a wireless router."]
+			description: ["放置在无线路由器的顶部。"]
 			dependencies: ["3D9EAE5C80C31F67"]
 			id: "36ED9B870BA8D62B"
 			tasks: [{
@@ -48,7 +48,7 @@
 			x: -0.25d
 			y: 2.75d
 			shape: "diamond"
-			description: ["Place one or two antenna's on top of an antenna base."]
+			description: ["放置一两根天线在天线基座的顶部。"]
 			dependencies: ["36ED9B870BA8D62B"]
 			id: "6FED5234887A2287"
 			tasks: [{
@@ -67,13 +67,13 @@
 			x: 0.25d
 			y: 0.0d
 			shape: "square"
-			description: ["Advanced connectors have other advantages. They allow higher speeds for item and fluid transfer and can store more RF."]
+			description: ["高级连接器有许多优势：更高的物品、流体传输速度，更高的RF存储量。"]
 			dependencies: ["75DBA9C5F7F613A3"]
 			id: "56874C2267490738"
 			tasks: [{
 				id: "33285BFEA30D258C"
 				type: "item"
-				title: "Advanced Connector"
+				title: "高级连接器"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -152,9 +152,9 @@
 			y: 0.0d
 			shape: "square"
 			description: [
-				"You use connectors to connect machines to your network."
+				"使用连接器将机器连入你的网络。"
 				""
-				"Normal connectors only allow access through the side from which you are placing the connector."
+				"普通的连接器只允许从放置的面连接机器。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["53C00669B4F7C55C"]
@@ -162,7 +162,7 @@
 			tasks: [{
 				id: "1075039F3691230A"
 				type: "item"
-				title: "Connector"
+				title: "连接器"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -227,7 +227,7 @@
 			tasks: [{
 				id: "498DFFED7A6A65BD"
 				type: "item"
-				title: "Network Cable"
+				title: "网络电缆"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -266,9 +266,9 @@
 			y: -1.75d
 			shape: "octagon"
 			description: [
-				"A network is basically a single section of connected cables connected (via connectors) to various blocks (chests, machines, ...) and one controller. The controller is the block that does the actual work for that network."
+				"一个基础的网络是网络线缆（通过连接器）连接到各种方块（箱子、机器等）和一个控制器。控制器是一个网络的核心。"
 				""
-				"Every network can have 8 channels maximum. Every channel has a type (energy, item, fluid, logic, ...) that you can configure in the controller. Depending on the type of a channel and the machines that are connected to that channel various things can happen."
+				"每个网络最多可以拥有8个频道。在控制器中可以为每个频道设置一种类型（能量，物品，流体，逻辑等）。基于不同的频道类型和连接的机器，可以组合出千万种可能。"
 			]
 			dependencies: [
 				"3D9EAE5C80C31F67"
@@ -291,9 +291,9 @@
 			x: -0.75d
 			y: -1.0d
 			description: [
-				"The Facade is a block which can \"mimic\" blocks (inherit their texture). It can cover a regular or advanced Connector, a Network Cable, or a Routing Cable."
+				"伪装器会“模仿”别的方块（继承其材质）。它可以覆盖在两种连接器、网络线缆或路由网络线缆上。"
 				""
-				"To mimic a block, the player must place or find the block they want mimicked and shift-right click on it. Then, they can right-click on one of the blocks above with the Facade to apply it."
+				"玩家必须放置或找到需要模仿的方块并手持伪装器Shift右键，之后即可用伪装器右键上面说到的东西进行伪装。"
 			]
 			dependencies: ["3D9EAE5C80C31F67"]
 			id: "7F80F5EADC88B370"
@@ -316,11 +316,11 @@
 			y: -1.75d
 			shape: "octagon"
 			description: [
-				"If you want to go beyond the 8 channel limit or you want to connect multiple distinct networks you can make a 'routing network' using routers."
+				"如果你想要超越8个频道的限制或者连接数个不同的网络，那你就需要使用路由器制作一个“路由网络”。"
 				""
-				" A single router is already sufficient to connect up to six (six sides of the router) channels but using routing cables and routing connectors you can also make a routing network out of routers."
+				"单独一个路由器就足以连接最多6个频道（路由器的6个面），使用路由网络线缆和路由连接器可以在路由器之外搭建路由网络。"
 				""
-				"Note that on a single routing network you can only have 32 published channels."
+				"请注意在一个路由网络上你只能拥有32个公共频道。"
 				"{image:chroma:textures/quests/router.png width:250 height:180 align:1}"
 			]
 			dependencies: [
@@ -332,7 +332,7 @@
 			tasks: [{
 				id: "778F4EAF12F84590"
 				type: "item"
-				title: "Router"
+				title: "路由器"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -357,6 +357,7 @@
 			}]
 		}
 		{
+			title: "XNet机械框架"
 			x: -0.75d
 			y: -3.5d
 			shape: "gear"

@@ -1,7 +1,7 @@
 {
 	id: "11821E0E986716B1"
 	order_index: 1
-	title: "“Tetra ”实用物品"
+	title: "“Tetra”实用物品"
 	icon: "tetra:forged_bolt"
 	loot_size: 1
 	rewards: [

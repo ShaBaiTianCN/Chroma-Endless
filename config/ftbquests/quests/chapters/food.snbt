@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 6
 	filename: "food"
-	title: "Kitchen Nightmares"
+	title: "噩梦厨房"
 	icon: "minecraft:enchanted_golden_apple"
 	default_quest_shape: "square"
 	default_hide_dependency_lines: false
@@ -5825,7 +5825,7 @@
 		{
 			x: 9.25d
 			y: -3.5d
-			description: ["&aThe Kitchen Station&r needs to be placed as part of the kitchen network."]
+			description: ["&a厨房网络接收站&r放置时需作为厨房网络的部分。"]
 			dependencies: [
 				"5DD910CC64152089"
 				"1416718F40ED7569"
@@ -5846,11 +5846,11 @@
 			x: 8.0d
 			y: -3.5d
 			description: [
-				"The Kitchen Station acts as Refined Storage Network Receiver and needs to be attached to a Kitchen Network Card."
+				"厨房网络接收站可充当精致存储网络的接收器，需要连接厨房网卡。"
 				""
-				"Then this Kitchen Network Card needs to be placed inside a Kitchen Access Point, which acts a Refined Storage Network Transmitter."
+				"接着，把这张厨房网卡放进厨房网络接入点内，作为精致存储网络的发射器。"
 				""
-				"Once everything is connected, you'll be able to consume items from your Refined Storage network right from your cooking table."
+				"连接好所有组件后，您就可以直接从烹饪桌上使用精致存储网络中的物品。"
 			]
 			dependencies: [
 				"5DD910CC64152089"
@@ -5928,7 +5928,7 @@
 		{
 			x: 0.25d
 			y: 0.75d
-			subtitle: "Campfire Automation"
+			subtitle: "自动化营火"
 			dependencies: ["1416718F40ED7569"]
 			id: "2498700E5DE54817"
 			tasks: [{
@@ -5945,8 +5945,8 @@
 		{
 			x: -1.75d
 			y: 0.75d
-			subtitle: "Please use it in your kitchen only..."
-			description: ["The Cutting Board needs it to make some interesting foods "]
+			subtitle: "请仅在你的厨房内使用……"
+			description: ["砧板需要用它做一些有趣的食物"]
 			dependencies: ["1416718F40ED7569"]
 			id: "37A579F0F4A74D97"
 			tasks: [{
@@ -5994,8 +5994,8 @@
 		{
 			x: -1.75d
 			y: -0.25d
-			subtitle: "It knows everything "
-			description: ["This &6Book&r keeps a record of what you ate in your adventure and what you did not eat! Plenty of food can be eaten ! So what are you waiting for?"]
+			subtitle: "它知道一切"
+			description: ["这本&6书&r记录着你在冒险中吃过的还有没吃过的东西！还有大量的食物可以吃！所以你还在等什么？"]
 			dependencies: ["1416718F40ED7569"]
 			id: "3AD8866E2110EC44"
 			tasks: [{
@@ -6012,7 +6012,7 @@
 		{
 			x: 10.5d
 			y: -3.5d
-			description: ["&aThe Kitchen Access Points&r needs to be placed in the Refined Storage Network."]
+			description: ["&a厨房接入点&r需要放在精致存储网络中。"]
 			dependencies: [
 				"5DD910CC64152089"
 				"1416718F40ED7569"
@@ -6033,8 +6033,8 @@
 			icon: "cookingforblockheads:cow_jar"
 			x: 3.25d
 			y: -3.25d
-			subtitle: "Moooh"
-			description: ["Placed on the &6Kitchen Counter&r"]
+			subtitle: "哞"
+			description: ["放置在&6厨柜&r上"]
 			dependencies: ["1416718F40ED7569"]
 			id: "6801AA2A88049CC1"
 			tasks: [
@@ -6074,7 +6074,7 @@
 		{
 			x: 3.25d
 			y: -0.25d
-			subtitle: "Made to build the multiblock"
+			subtitle: "搭建多方块结构"
 			dependencies: ["1416718F40ED7569"]
 			id: "40CAFDA38F402BD5"
 			tasks: [{
@@ -6091,7 +6091,7 @@
 		{
 			x: 3.25d
 			y: -2.25d
-			subtitle: "Kitcher Counter are really useful you know?"
+			subtitle: "厨柜真的很有用你知道吗？"
 			dependencies: ["1416718F40ED7569"]
 			id: "7466159125783619"
 			tasks: [{
@@ -6186,7 +6186,7 @@
 		{
 			x: 2.25d
 			y: -0.25d
-			subtitle: "Kitchening is really hot"
+			subtitle: "厨房真热"
 			dependencies: ["1416718F40ED7569"]
 			id: "0512195374E84676"
 			tasks: [{
@@ -6236,7 +6236,7 @@
 		{
 			x: 3.25d
 			y: -1.25d
-			subtitle: "Place it on Kitchen Counter"
+			subtitle: "放在厨柜上"
 			dependencies: ["1416718F40ED7569"]
 			id: "491B202F129CD16C"
 			tasks: [{
@@ -6255,10 +6255,10 @@
 		{
 			x: -0.75d
 			y: -2.25d
-			subtitle: "Create your own sandwich !"
+			subtitle: "制作你的三明治！"
 			description: [
-				"To start your sandwich simply place one single bread in &6the left slot&r."
-				"Then add any ingredient you wish in your sandwich !"
+				"要开始制作三明治，只需要将一个面包放在&6左边的槽中&r。"
+				"然后在三明治中加入你需要的任何配料！"
 			]
 			dependencies: ["1416718F40ED7569"]
 			id: "17797F07B18465A1"
@@ -6435,7 +6435,7 @@
 		{
 			x: -0.75d
 			y: -0.25d
-			subtitle: "Cooking Chief"
+			subtitle: "烹饪主管"
 			dependencies: ["1416718F40ED7569"]
 			id: "470D7199F995F6C9"
 			tasks: [{
@@ -6452,7 +6452,7 @@
 		{
 			x: 0.25d
 			y: -0.25d
-			subtitle: "Students best friend"
+			subtitle: "学生们最好的朋友"
 			dependencies: ["1416718F40ED7569"]
 			id: "5A72F37E04A2E812"
 			tasks: [{
@@ -6540,8 +6540,8 @@
 		{
 			x: 4.25d
 			y: -2.25d
-			subtitle: "Stocking ingredients for kitchen"
-			description: ["Can be placed above the kitchen !"]
+			subtitle: "给厨房储备食材"
+			description: ["可以放在厨房上方！"]
 			dependencies: ["1416718F40ED7569"]
 			id: "0A1E402753E07846"
 			tasks: [{
@@ -6590,13 +6590,13 @@
 		{
 			x: 9.25d
 			y: -2.25d
-			subtitle: "Refined Storage + Kitchen "
+			subtitle: "精致存储+厨房"
 			dependencies: ["1416718F40ED7569"]
 			id: "5DD910CC64152089"
 			tasks: [{
 				id: "3DB3A6290CDBD7A8"
 				type: "checkmark"
-				title: "Refined Cooking"
+				title: "精致烹饪"
 			}]
 		}
 		{
@@ -9520,17 +9520,17 @@
 		{
 			x: 17.75d
 			y: -10.0d
-			subtitle: "Japanese Food at it's best"
+			subtitle: "最好的日本料理"
 			description: [
-				"This mod will allow you to craft sushis ! "
-				"Willy you manage to create them all? To do so my only advice is to &nexplore the world !&r"
+				"这个模组将允许你制作寿司！"
+				"你能把它们都制作出来吗？要做到这一点，我唯一的建议就是&n探索世界！&r"
 			]
 			dependencies: ["1416718F40ED7569"]
 			id: "64176D550FB4BDD6"
 			tasks: [{
 				id: "5B9B5A870F0D8644"
 				type: "checkmark"
-				title: "Sushi Go Crafting "
+				title: "做寿司"
 			}]
 		}
 	]

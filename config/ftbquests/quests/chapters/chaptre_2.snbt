@@ -1574,7 +1574,7 @@
 			x: -11.0d
 			y: 8.75d
 			shape: "hexagon"
-			subtitle: "ATM采掘等级需求"
+			subtitle: "ATM金属采掘等级需求"
 			description: ["&a诡异森林和绯红森林，Y=107-113"]
 			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "15CE779A150EDE8F"

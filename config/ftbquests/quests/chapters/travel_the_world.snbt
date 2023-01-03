@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 5
 	filename: "travel_the_world"
-	title: "Travel around the world"
+	title: "周游世界"
 	icon: "environmental:cartwheel"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -79,7 +79,7 @@
 			tasks: [{
 				id: "527EB3F01BBB8DC6"
 				type: "checkmark"
-				title: "To adventure and the beyond"
+				title: "冒险和超越"
 			}]
 		}
 		{
@@ -6361,7 +6361,7 @@
 			tasks: [{
 				id: "548591A6FDEBBC19"
 				type: "item"
-				title: "Waystone"
+				title: "指路石"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b

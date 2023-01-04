@@ -1,12 +1,12 @@
 {
   "controllerId": "cuttingmachine",
-  "name": "Cutting Machine",
+  "name": "切割机",
   "textureOverride": "envirocore:block/structure/_frame_base",
   "ports": [
     {
       "type": "masterfulmachinery:items",
       "textureOverride": "envirocore:block/component/io/_base",
-      "name": "Cutting Machine Item",
+      "name": "切割机物品",
       "id": "cuttingmachine_item",
       "data": {
         "rows": 4,
@@ -16,7 +16,7 @@
     {
       "type": "masterfulmachinery:create_rotation",
       "textureOverride": "envirocore:block/component/io/_base",
-      "name": "Cutting Machine Speed",
+      "name": "切割机速度",
       "id": "cuttingmachine_speed",
       "data": {
         "stress": 1

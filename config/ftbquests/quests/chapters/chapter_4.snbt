@@ -709,7 +709,7 @@
 				{
 					id: "0A16DAFB4D65FA2A"
 					type: "dimension"
-					title: "去&5末地&r"
+					title: "前往&5末地&r"
 					dimension: "minecraft:the_end"
 				}
 				{

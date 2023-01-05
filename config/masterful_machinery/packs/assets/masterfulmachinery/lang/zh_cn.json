@@ -1,0 +1,8 @@
+{
+  "block.masterfulmachinery.projector": "结构投影仪",
+  "block.masterfulmachinery.structure_generator": "结构生成器",
+  "container.masterfulmachinery.create_rotation": "旋转端口",
+  "item.masterfulmachinery.blueprint": "蓝图",
+  "item.masterfulmachinery.structure_gen_device": "结构选择器",
+  "itemGroup.masterfulmachinery": "Masterful Machinery"
+}

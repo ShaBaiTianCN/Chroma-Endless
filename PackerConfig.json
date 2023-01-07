@@ -1,7 +1,9 @@
 {
-  "projectName": "Modpack",
+  "projectName": "Chroma-Endless",
   "packVersion": "0.1",
   "files": [
+    "config",
+    "kubejs",
     "LICENSE",
     "README.md",
     "安逸汉化组成员.png",

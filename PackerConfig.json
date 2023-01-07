@@ -1,6 +1,6 @@
 {
   "projectName": "Chroma-Endless",
-  "packVersion": "0.1",
+  "packVersion": "1.0.4",
   "files": [
     "config",
     "kubejs",

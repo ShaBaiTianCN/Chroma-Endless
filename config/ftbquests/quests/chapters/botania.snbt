@@ -3,7 +3,7 @@
 	group: "206AEEAA9A4E5484"
 	order_index: 1
 	filename: "botania"
-	title: "&bChapter 2&r &6-&r Magic Botany"
+	title: "&b第二章&r&6-&r植物魔法"
 	icon: {
 		id: "botania:lexicon"
 		Count: 1b
@@ -18,11 +18,11 @@
 			x: -2.75d
 			y: -0.25d
 			description: [
-				"&5Sparks&r are interesting things. Created from a combination of raw energy and &aMana&r, they can be placed only on a few specific &aMana&r-containing or -accepting blocks (notably &5Mana Pools&r)."
+				"&5火花&r是有趣的东西啊。用原始的能量和&a魔力&r制造，它们只能被放置在一些特定的能够存储&a魔力&r或者接收&a魔力&r的方块上（例如&5魔力池&r）。"
 				""
-				"Placing a &5Spark&r over a &5Mana Pool&r and another over a nearby block that can accept it will allow the latter to access the former's reserves on demand."
+				"放置一个&5火花&r在一个&5魔力池&r上，然后放置另一个在附近的可接收的方块上，会允许后者按需获取前者的储备。"
 				""
-				"To remove a &5Spark&r, simply sneak-right click it with a &5Wand of the Forest&r. Regular right-clicking will show which other &5Sparks&r this one can transfer to."
+				"想要移除一个&5火花&r，只要手上拿着&5森林法杖&r按住潜行键鼠标右键它。普通地拿着&5森林法杖&r用鼠标右键可以看到和这个&5火花&r相连接的&5火花&r。"
 			]
 			dependencies: ["0204E5C31C281557"]
 			id: "25C615546513B729"
@@ -38,18 +38,18 @@
 			}]
 		}
 		{
-			title: "Spark Augment"
+			title: "火花升级"
 			icon: "botania:spark_upgrade_isolated"
 			x: -3.75d
 			y: -0.25d
 			description: [
-				"The &5Dispersive Augment&r allows a &5Spark&r to drain the &aMana&r in its pool to charge nearby players' &aMana&r-containing items."
+				"&5弥散升级&r允许&5火花&r耗尽魔力池里的&a魔力&r给附近玩家的&a魔力&r储存工具充能。"
 				""
-				"The &5Dominant Augment&r makes a &5Spark&r pull &aMana&r from nearby non-augmented &5Sparks'&r pools into its own, until the latter is full."
+				"&5聚集升级&r允许&5火花&r从附近的装有未升级的或装有弥散升级的&5火花&r的魔力池汲取&a魔力&r到本身的魔力池中。直到本身的魔力池变满。"
 				""
-				"The &5Recessive Augment&r makes a &5Spark&r distribute all of the &aMana&r in its pool into any nearby non-augmented or Dispersive &5Sparks'&r pools, until its own is completely empty."
+				"&5扩散升级&r允许&5火花&r分发&a魔力&r到装有未升级或装有弥散升级的&5火花&r的魔力池之中。直到本身的魔力池完全变空。"
 				""
-				"Finally, the &5Isolated Augment&r prevents a &5Spark&r from interacting with any Dominant or Recessive &5Sparks&r, but still allows it to interact with blocks that can receive their &aMana&r from the &5Spark&r network."
+				"最后，&5隔绝升级&r阻止&5火花&r与带有扩散或者聚集升级的&5火花&r魔力池交互魔力，但是仍然允许它和可以从&5火花&r网络接收&a魔力&r的方块交互。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -87,7 +87,7 @@
 			}]
 		}
 		{
-			title: "Color Quartz"
+			title: "多彩石英"
 			x: -1.25d
 			y: -0.25d
 			dependencies: ["1BA1DC174E2C6675"]
@@ -124,11 +124,11 @@
 			x: -1.0d
 			y: -1.75d
 			description: [
-				"It stores up to one stack of each color of &5Mystical Flower&r and &5Tall Mystical Flower&r, and passively catches any more that its holder picks up."
+				"它可以储存每一种颜色的&5神秘花&r和&5高神秘花&r，并被动地拾取它的持有者捡到的神秘花。"
 				""
-				"Flowers won't be picked up by the pouch if the pouch is held in your dominant hand."
+				"如果用惯用手握花袋，花袋就不会拾花。"
 				""
-				"Furthermore, sneak-right clicking the pouch on a &5Chest&r or other inventory will dump all flowers the pouch contains into said inventory."
+				"此外，在&5箱子&r或其他存储容器上右键点击采花袋将倾倒袋中包含的所有花。"
 			]
 			dependencies: ["442961BF5C16C60F"]
 			id: "765DC6C2A6F57093"
@@ -144,7 +144,7 @@
 			}]
 		}
 		{
-			title: "Mystical Petals"
+			title: "神秘花瓣"
 			icon: "botania:cyan_petal"
 			x: 0.25d
 			y: -1.75d
@@ -153,7 +153,7 @@
 			tasks: [{
 				id: "286ED4EF49887FF8"
 				type: "item"
-				title: "Mystical Petals"
+				title: "神秘花瓣"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -234,24 +234,24 @@
 			}]
 		}
 		{
-			title: "Mystical Flowers"
+			title: "神秘花"
 			icon: "botania:magenta_mystical_flower"
 			x: 0.25d
 			y: -0.25d
 			description: [
-				"Around the world, you may stumble upon a large variety of &5Mystical Flowers&r. Spotting these flowers doesn't take much work, as they glow faintly and sparkle."
-				"They come in a total of &a16&r different colors."
+				"在世界各地，你可能会偶然发现各种各样的&5神秘花&r。发现这些花并不需要太多的工作，因为它们发出微弱的光芒。"
+				"它们总共有&a16&r种不同的颜色。"
 				""
-				"These flowers can be plucked for &5Mystical Petals&r, which are used in the creation of magical instruments and plants."
-				"Right-clicking a petal upon the ground will &abury it&r, making it emit particles."
-				"These petals can also be crushed into the corresponding &5Dyes&r."
+				"这些花可以被分解为&5神秘花瓣&r，用于创造神奇的仪器和植物。"
+				"右键点击地面上的花瓣会&a掩埋它&r，使其释放特效粒子。"
+				"这些花瓣也可以碾碎成相应的&5染料&r。"
 			]
 			dependencies: ["1416718F40ED7569"]
 			id: "1BA1DC174E2C6675"
 			tasks: [{
 				id: "5C55422752CE8BD0"
 				type: "item"
-				title: "Mystical Flowers"
+				title: "神秘花"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -336,11 +336,11 @@
 			}]
 		}
 		{
-			title: "Black Lotus"
+			title: "黑莲花"
 			icon: "botania:black_lotus"
 			x: 0.25d
 			y: 1.25d
-			description: ["An elusive flower by the name of the &5Black Lotus&r exists; however, it is not known to grow or reproduce. There are no known sources of the Lotus at this time.It is known, however, that each bloom contains a good deal of concentrated &aMana&r that can be released by dissolving it inside a non-empty &5Mana Pool&r. Just throwing it in will do."]
+			description: ["有一种难以发现的花，名叫&5黑莲花&r； 然而，它不能生长或繁殖。目前还没有这种莲花的已知来源。但是，我们知道，每一朵花都含有大量的浓缩的&a魔力&r，可以通过溶解在一个非空的&5魔力池&r中释放出来。把它扔进去就行了。"]
 			dependencies: ["1BA1DC174E2C6675"]
 			id: "3E1DDD833C51220D"
 			tasks: [
@@ -365,9 +365,9 @@
 			x: 1.75d
 			y: -0.25d
 			description: [
-				"The &5Lexica Botania&r is the repository of all knowledge for all botanical matters."
+				"&5植物魔法辞典&r是所有植物学知识的宝库。"
 				""
-				"All well-known botanical knowledge is stored within these pages. For convenience, if a block happens to have an entry in here, it can be sneak-right clicked on with the &5Lexica Botania&r to open said entry."
+				"所有著名的植物学知识都储存在这些页面中。为了方便起见，如果一个方块恰好在里面有一个条目，可以拿着&5植物魔法辞典&r按住潜行键，右键点击它来打开该条目。"
 			]
 			dependencies: ["1BA1DC174E2C6675"]
 			id: "6F68A51ABF9B9FD3"
@@ -756,7 +756,7 @@
 			}]
 		}
 		{
-			title: "Rune of the Seasons"
+			title: "四季符文"
 			icon: "botania:rune_summer"
 			x: 7.25d
 			y: 1.5d
@@ -796,7 +796,7 @@
 			}]
 		}
 		{
-			title: "Other Runes"
+			title: "其他符文"
 			icon: "botania:rune_envy"
 			x: 6.25d
 			y: 1.5d
@@ -851,7 +851,7 @@
 			}]
 		}
 		{
-			title: "Element Runes"
+			title: "元素符文"
 			icon: "botania:rune_water"
 			x: 5.25d
 			y: 1.5d
@@ -931,10 +931,10 @@
 			x: 4.25d
 			y: 0.0d
 			description: [
-				"To build the Terrestrial Agglomeration plate you need :"
-				"- 1 Terrestrial Agglomeration Plate"
-				"- 4 Lapis Lazuli Blocks"
-				"- 5 Livingrocks"
+				"为了搭建泰拉凝聚板装置你需要："
+				"-一个泰拉凝聚板"
+				"-四个青金石块"
+				"-五个活石"
 				""
 				"{image:chroma:textures/quests/terrestial_agglomeration_plate.png width:200 height:150 align:1}"
 			]
@@ -980,7 +980,7 @@
 			}]
 		}
 		{
-			title: "Mana Items"
+			title: "魔力物品"
 			icon: "botania:manasteel_ingot"
 			x: 4.25d
 			y: -2.5d
@@ -1042,7 +1042,7 @@
 			tasks: [{
 				id: "68D194587C45CB7A"
 				type: "item"
-				title: "Livingrock Slab"
+				title: "活石台阶"
 				item: "botania:livingrock_slab"
 				count: 6L
 			}]
@@ -1075,13 +1075,13 @@
 			}]
 		}
 		{
-			title: "Pure Daisy"
+			title: "白雏菊"
 			x: 0.25d
 			y: -5.0d
 			description: [
-				"Far from being just the most basic, the &5Pure Daisy&r is the most important flower a botanist can have."
+				"&5白雏菊&r不仅仅是最基本的花，它也是植物学家拥有的最重要的花。"
 				""
-				"This flower will purify any adjacent &5Otherworld Wood&r and &5Otherstone&r blocks into their purified counterparts, Livingwood and Livingrock."
+				"这朵花将会净化任何相邻的&5任何世界的原木&r和&5任何世界的石头&r方块，使之成为它们净化的对应物，活木和活石。"
 				"{image:chroma:textures/quests/pure_daisy.png width:100 height:100 align:1}"
 			]
 			dependencies: ["3025A296D481E2D7"]
@@ -1102,13 +1102,13 @@
 			x: 0.25d
 			y: -3.5d
 			description: [
-				"This block, when placed in the world and given some water (by right-clicking or throwing in a &5Water Bucket&r), will accept any &5Mystical Petals&r thrown into it, absorbing their energies."
-				"Once the correct petals have been provided, throwing any &aSeeds&r in will finalize the crafting process."
-				"All &aFunctional&r and &aGenerating Flora&r are made here."
+				"当这个方块被放置在世界上并且给了它一些水（通过右键点击或扔进一个&5水桶&r），会接受任何扔进它的&5神秘花瓣&r，吸收它们的能量。"
+				"一旦提供了正确的花瓣，扔任何&a种子&r将完成合成。"
+				"所有&a功能花&r和&a产能花&r都在这里制造。"
 				""
-				"If it's filled with &5Lava&r instead of &5Water&r, the Apothecary will serve as a brazier and incinerator, destroying any items that come into contact with it."
+				"如果它装满了&5熔岩&r而不是&5水&r，花药台将充当火盆和焚化炉，摧毁任何接触到它的物品。"
 				""
-				"A simple tip for the more efficiency-minded: Up to twenty seconds after crafting a flower and after refilling the water, if you right-click the apothecary with an empty hand, it'll pull another set of the same ingredients out of your inventory, for quick crafting in bulk."
+				"一个简单的技巧让你更有效率：在制作一朵花并装满水后的20秒内，如果你空手右键单击花药台，它会从你的背包中抽出另一组相同的物品，用于快速批量制作。"
 			]
 			dependencies: [
 				"442961BF5C16C60F"
@@ -1128,7 +1128,7 @@
 			}]
 		}
 		{
-			title: "Livingwood"
+			title: "活木"
 			x: 0.25d
 			y: -6.5d
 			dependencies: [
@@ -1169,13 +1169,13 @@
 			x: 0.25d
 			y: -8.75d
 			description: [
-				"The &5Mana Spreader&r is the single most important tool a botanist needs to manipulate &aMana&r."
+				"&5魔力发射器&r是植物学家需要的最重要的用来传输&a魔力&r的工具。"
 				""
-				"This block shoots &aMana&r from point A to point B. It faces a cardinal direction when placed, but sneak-right clicking it with a &5Wand of the Forest&r on a face points it elsewhere. It can be aimed at other blocks with a wand in &aBind Mode&r."
+				"这个方块将&a魔力&r从A点射到b点。当放置时，它面对一个基本的方向，但是用一个&5森林法杖&r在一个面上右键点击它，将它指向其他地方。可以用在&a绑定模式&r的森林法杖将它瞄准向其他方块。"
 				""
-				"The &5Mana Spreader&r has a small internal buffer of &aMana&r, which will get filled by &aGenerating Flora&r bound to it. (Flowers, when placed, auto-bind to the nearest spreader.)"
+				"&5魔力发射器&r有一个小的内部&a魔力&r缓冲，会被绑定它的&a产能花&r填充。（当花放置时，自动绑定到最近的发射器。）"
 				""
-				"This buffer can be viewed by hovering over the &5Spreader&r with a &5Wand of the Forest&r in hand."
+				"这个缓冲可以通过拿着&5森林法杖&r将准星悬停在&5发射器&r上来查看。"
 			]
 			dependencies: ["0E6560337D7FFDAE"]
 			id: "62222FA0EEA728C2"
@@ -1281,8 +1281,8 @@
 		{
 			x: 6.5d
 			y: -3.75d
-			subtitle: "It's a tiny potato! It believes in you!"
-			description: ["No. Really, that's it. A &5Potato&r, thrown into a &5Mana Pool&r, gains a little spark of life and joy. The &5Tiny Potato&r is lively, but patting it with a right-click will make it even more so!A Potato can also be named in an &5Anvil&r."]
+			subtitle: "它是个小土豆！它信任着你！"
+			description: ["不。真的，就是这样。一个&5土豆&r，扔进&5魔力池&r，迸发出生命与愉悦的火花。&5小土豆&r是活着的，但用右键点击它会使它更加活泼！土豆也可以在&5铁砧&r中重命名。"]
 			dependencies: ["40AA0A493F0620AA"]
 			id: "7E22CACFC65AFEB7"
 			tasks: [{
@@ -1317,14 +1317,14 @@
 			x: 5.75d
 			y: -6.0d
 			description: [
-				"Using &5Mana Spreaders&r to transport &aMana&r is all well and good, but there are other ways of getting the stuff around too."
+				"使用&5魔力发射器&r来传输&a物品&r是不错的选择，但也有其他方法做到这件事。"
 				""
-				"The &5Mana Tablet&r is a portable item that can carry &aMana&r within itself."
-				"In addition, other items in an inventory can draw from it for their own use, making it an essential tool."
+				"&5魔力石板&r是个重要的物品，用来存储&a物品&r到它自己里。"
+				"此外，其他消耗魔力的工具会从它里面提取魔力，使其成为必不可少的工具。"
 				""
-				"Tossing a tablet into a &5Mana Pool&r will allow for flow of &aMana&r between them."
+				"将一个石板扔进一个&5魔力池&r，将允许&a魔力&r在他们之间流动。"
 				""
-				"Sneak-right clicking (or using a &5Dispenser&r) on the &5Mana Pool&r with a &5Wand of the Forest&r will change which way the &aMana&r will flow."
+				"用&5森林法杖&r在&5魔力池&r上用鼠标右键点击（或者使用&5发射器&r）将会改变&a魔力&r的流向。"
 			]
 			dependencies: ["16749BE6267748CD"]
 			id: "745EB5C8B1009207"
@@ -1517,7 +1517,7 @@
 			}]
 		}
 		{
-			title: "Alfheim Portal"
+			title: "精灵门"
 			x: 8.5d
 			y: -6.0d
 			description: ["{image:chroma:textures/quests/botania_portal_alfheim.png width:100 height:100 align:1}"]
@@ -1697,7 +1697,7 @@
 			}]
 		}
 		{
-			title: "Gaia Ritual"
+			title: "盖亚召唤仪式"
 			icon: "botania:gaia_pylon"
 			x: 8.5d
 			y: -0.5d
@@ -1957,7 +1957,7 @@
 			}]
 		}
 		{
-			title: "Flare Chakram"
+			title: "闪耀飞轮"
 			x: 5.5d
 			y: 3.0d
 			dependencies: ["40EAF924DE3DA1C0"]
@@ -2093,19 +2093,19 @@
 			x: -2.75d
 			y: -3.0d
 			description: [
-				"The &aCorporea&r system uses the energy of the &aEnd&r, and the void between worlds, to transport items from point A to point B instantly without intervening blocks.The system, at its core, uses variant &5Sparks&r (called &5Corporea Sparks&r) that transport items instead of &aMana&r."
+				"&a多媒体&r系统是一个利用&a末地&r的能量和世界的空白空间，将物品从A点瞬间到B点，无需任何连接部件。这个系统通过&5火花&r的变种来运作（称为&5多媒体火花&r），它们运输物品而不是&a魔力&r。"
 				""
-				"A few things to know: &5Corporea Sparks&r are placed over &aInventories&r (like a &5Chest&r or &5Dispenser&r), as opposed to &aMana Containers&r. There are two types of &5Corporea Sparks&r: the plain old &5Corporea Spark&r, and the &5Master Corporea Spark&r. These Sparks work in networks: each &aCorporea Network&r needs one &5Master Corporea Spark&r, but any spark can communicate with any other in the network."
+				"首先：&5多媒体火花&r可以放在&任何容器&r上方（例如&5箱子&r或&5发射器&r），不能是&a魔力容器&r。有两种&5多媒体火花&r：基础的&5多媒体火花&r和&5主媒体火花&r。这些火花在类似网络的系统内工作，每个&5主媒体火花&r代表一个&a多媒体网络&r，其中的每个火花都可以与网络内的其他火花交互。"
 				""
-				"When a &5Corporea Spark&r is placed or right-clicked, each spark in the network will connect (or reconnect) to nearby sparks, adding them to the network (as long as a &5Master Corporea Spark&r is somewhere in the network). While each individual spark's connection range is only around eight blocks, the entire spark network can go for a virtually infinite distance."
+				"当&5多媒体火花&r被放置或操作时，每个火花都会对周围任何火花操作，将它们添加到一个网络内（经常是由一个&5主媒体火花&r所代表的）并继续对周围火花操作。虽然每个火花的连接范围只有大约8个区块，但组合之后，整个火花网络几乎可以拥有无限远的距离。"
 				""
-				"A &5Corporea Spark&r can see the inventory directly beneath it, but can only access items from its top side. Each &5Corporea Spark&r can see the items of every other spark in the network, and certain blocks can use their Sparks to request items from the network."
+				"&5多媒体火花&r可以查看它下面的容器，但只能从上方输入物品。每个&5多媒体火花&r具有查看网络内其他火花及其内容的功能，以及必要时命令它们的能力，这取决与下方的方块类型。"
 				""
-				"The &5Master Corporea Spark&r, unfortunately, is too busy managing the network to see its own inventory.Furthermore, &5Corporea Sparks&r can't push items into their respective inventories; those should be added through means like &5Hoppers&r."
+				"不幸的是，&5主媒体火花&r忙于管理网络，看不到自己的库存。此外，&5多媒体火花&r没有将物品添加到网络的能力；这些应该通过&5漏斗&r等方式实现。"
 				""
-				"Like normal &5Sparks&r, &5Corporea Sparks&r can be dyed with &5Dye&r; the little star icon floating around the spark shows its current color. &5Corporea Sparks&r of different colors won't interact. Thus, multiple independent Networks can be in an area without interacting."
+				"和普通的&5火花&r一样，&5多媒体火花&r也有拓展方法，就是&5上色&r的能力；火花的周围漂浮着一圈图标，使用花粉右击火花可以改变颜色，&5多媒体火花&r不同的颜色不会链接。因此，多个独立的网络可以在一个区域内而不相互作用。"
 				""
-				"Visualizing a Network and removing a spark from a container are performed the same way they are on ordinary &5Sparks&r.Note that having two &5Master Corporea Sparks&r in the same network is a bad idea and can cause &oundefined behavior&r."
+				"查看网络和移除火花的做法和普通&5火花&r的一样。将两个同色的&5主媒体火花&r放得太近或许是个坏主意，可能会导致冲突或者&o奇怪的现象&r。"
 			]
 			dependencies: ["25C615546513B729"]
 			min_width: 400
@@ -2113,7 +2113,7 @@
 			tasks: [{
 				id: "3C5A2C5C7C3D3787"
 				type: "checkmark"
-				title: "Basics of Corporea"
+				title: "多媒体基础"
 			}]
 			rewards: [{
 				id: "758177F9C43795B5"
@@ -2210,11 +2210,11 @@
 			x: 1.5d
 			y: 8.25d
 			shape: "diamond"
-			subtitle: "Hydroangeas flowers act as liquid-based passive generators."
+			subtitle: "水绣球就像被动液体发电机。"
 			description: [
-				"They suck up any &dstill water&r in a 3x3 area (at the same altitude) around them, converting the water into &aMana&r."
+				"它们会吸收周围3x3区域内的&d静止的水&r（在同一高度），并将水转化为&a魔力&r。"
 				""
-				"Unfortunately, even though they seem to function faster during &aRain&r, their base &aMana&r throughput is still rather slow. In addition, they decay after around three days, making them nonviable for long-term Mana production."
+				"不幸的是，尽管他们在&a雨天&r期间似乎运行得更快，但他们的基础&a魔力&r吞吐量仍然相当少。此外，他们会在大约3天后腐烂，使他们无法长期生产魔力。"
 			]
 			dependencies: ["286ED4EF49887FF8"]
 			optional: true
@@ -2234,8 +2234,8 @@
 			x: 7.25d
 			y: 9.5d
 			shape: "diamond"
-			subtitle: "The slow growth of crops is a perpetual problem in the feeding of the masses"
-			description: ["The &dAgricarnation&r transforms &aMana&r into a type of natural fertilizer, causing nearby plant-life to grow faster."]
+			subtitle: "人民群众吃饭的一个永恒的问题是庄稼长得太慢了"
+			description: ["田园康乃馨将&a魔力&r转化为一种天然肥料，使附近的植物生长得更快。"]
 			dependencies: ["3FF9D870344E172E"]
 			optional: true
 			id: "2E8A6F64534263B1"
@@ -2254,11 +2254,11 @@
 			x: 9.25d
 			y: 9.5d
 			shape: "diamond"
-			subtitle: "Find it in a sandpit?"
+			subtitle: "在沙坑里找到的？"
 			description: [
-				"Quite a handy flower indeed, the &dRannuncarpus&r will pick up nearby placeable items and place them within a large radius around itself as blocks, preferably facing them towards itself."
+				"非常方便的花朵，&d手掌花&r会捡起附近可放置的物品，并将它们放置在自己周围的一个很大的半径范围内，最好是让它们朝向自己。"
 				""
-				"However, it will only place blocks on top of a specific block type at a time; to specify this block, place it right below the soil the flower rests on."
+				"然而，它只能将物品放在特定方块顶部；请将需指定的方块放在花所在土壤的正下方。"
 			]
 			dependencies: ["416DB8DB57EEBC23"]
 			optional: true
@@ -2278,13 +2278,13 @@
 			x: 8.25d
 			y: 9.5d
 			shape: "diamond"
-			subtitle: "The Hopperhock simply picks up items around it and put them in adjacent inventories."
+			subtitle: "漏斗花只是机械地拾取周围的物品，并将它们放入相邻的存储容器中。"
 			description: [
-				"&aMana&r is optional, but will increase its range if provided. Placing &dItem Frames&r on adjacent inventories will specify which items can or can't go in them."
+				"&aM魔力&r不是必要的，但如果提供将增加其范围。将&d物品展示框&r放置在相邻的存储容器中将指定哪些物品可以或不可以放入其中。"
 				""
-				"Any inventory with no adjacent &dItem Frame&r can accept any items, but labelled inventories will take priority."
+				"没有&d物品展示框&r的存储容器可以接受任何物品，但有标记的存储容器将优先。"
 				""
-				"The rule used to sort items can be changed by sneak-right clicking (or using a &dDispenser&r) on the flower with a &dWand of the Forest&r in &aFunction Mode&r."
+				"用于排序物品的规则可以通过&d森林法杖&r在&在花上右键单击（或使用&d发射器&r）来更改它的&a工作模式&r。"
 			]
 			dependencies: ["5BB4CAB70FBD40ED"]
 			optional: true
@@ -2304,8 +2304,8 @@
 			x: 3.0d
 			y: 10.5d
 			shape: "diamond"
-			subtitle: "Generating the form of natural energy that is Mana is best done from other living materials."
-			description: ["The &dMunchdew&r will eat up any nearby &dLeaves&r and convert them into &aMana&r. However, no saplings (or any other items) will be dropped from the leaves."]
+			subtitle: "产生自然能量，即魔力，的最佳方式是从其他生物材料中提取。"
+			description: ["&d咀叶花&r将吃掉附近的任何&d树叶&r，并将它们转化为&a魔力&r。但是，不会有树苗（或任何其他物品）从叶子里掉出来。"]
 			dependencies: [
 				"5CC66F915A4C9C4E"
 				"286ED4EF49887FF8"
@@ -2327,11 +2327,11 @@
 			x: 10.25d
 			y: 9.5d
 			shape: "diamond"
-			subtitle: "Any adventurer knows that Dungeons can hold valuable goodies."
+			subtitle: "任何冒险家都知道地下城可以储存有价值的东西。"
 			description: [
-				"The &dLoonium&r will, when fed quite a bit of &aMana&r, summon these items for said adventurers to collect. There's a catch, though: each item is held by a monster protecting it."
+				"当被喂食相当多的&a魔力&r时，&d聚宝花&r可以使地牢里的奖励成为可收集的物品。不过，有一个陷阱。除了这个物品外，还有一个怪物被用来保护它。"
 				""
-				"These monsters are extra-strong, but will drop their precious &adungeon loot&r when killed."
+				"这些怪物非常强大，但是当他们被杀死时会掉落&a地牢战利品&r。"
 			]
 			dependencies: [
 				"61C28C04FA961761"
@@ -2356,11 +2356,11 @@
 			x: 8.75d
 			y: 8.75d
 			shape: "diamond"
-			subtitle: "The Clayconia is a simple flower."
+			subtitle: "黏土花是一种简单的花。"
 			description: [
-				"All it does is moisten nearby &dSand&r, turning it into pellets of &dClay&r."
+				"它所做的就是润湿附近的&d沙子&r，把它变成&d黏土&r颗粒。"
 				""
-				"This process uses a decent amount of &aMana&r, but won't break the bank (or pool, as it were)."
+				"这个过程使用了相当数量的&a魔力&r，但不会耗尽整个库存（或池）。"
 			]
 			dependencies: [
 				"416DB8DB57EEBC23"
@@ -2383,11 +2383,11 @@
 			x: 9.75d
 			y: 8.75d
 			shape: "diamond"
-			subtitle: "While going mining is well and good, a renewable and sedentary means of acquiring ores is nothing to scoff at either."
+			subtitle: "尽管采矿很不错，但我们应该想些可再生的获取矿石的方式。"
 			description: [
-				"The Orechid uses &aMana&r to synthesize &aores&r from nearby &bStone&r blocks."
+				"凝矿兰消耗&a魔力&r将附近的&b石头&r块转化为&a矿物&r。"
 				""
-				"The ores it generates are random, but rarer ores seem to be created less often."
+				"它产生的矿石是随机的，但显然稀有矿石的产生频率更低。"
 			]
 			dependencies: [
 				"6E4F434AC3716518"
@@ -2412,8 +2412,8 @@
 			x: 1.0d
 			y: 10.5d
 			shape: "diamond"
-			subtitle: "The Spectrolus is a flower that's particularly fond of the various hues of Wool."
-			description: ["It'll consume any and all &dWool&r blocks dropped nearby, converting them to &aMana&r. However, it's picky as to what colors it wants. Starting from &bWhite&r, after it eats one piece of &bWool&r, it'll rotate to the next color in the spectrum."]
+			subtitle: "斑斓花是一种特别喜欢各种颜色的羊毛的花。"
+			description: ["它将吸收任何掉落在它附近的&d羊毛&r，将它们转换为&a魔力&r。然而，它对颜色十分挑剔。从&b白色&r开始，吸收一块&b羊毛&r后，它会按照顺序所求下一个颜色的羊毛。"]
 			dependencies: [
 				"5DA8E25C10505D27"
 				"5BB4CAB70FBD40ED"
@@ -2437,8 +2437,8 @@
 			x: 1.5d
 			y: 9.75d
 			shape: "diamond"
-			subtitle: "The Rafflowsia functions similarly to a Kekimurus"
-			description: ["It'll consume any nearby placed flowers and synthesize &aMana&r from them. While feeding it the same flower several times in a row yields diminishing returns, feeding it a large variety of them can yield ludicrous quantities of &aMana&r."]
+			subtitle: "噬草花的功能类似于贪食花"
+			description: ["它会寻找附近放置的所有花朵并消耗掉，并以此产生&a魔力&r。连续几次投喂同一种花的收益递减，而投喂大量不同种类的花可以产生大量的&a魔力&r。"]
 			dependencies: [
 				"416DB8DB57EEBC23"
 				"1A01B88234D229D4"
@@ -2462,11 +2462,11 @@
 			x: 3.0d
 			y: 9.0d
 			shape: "diamond"
-			subtitle: "There's some unidentified power in the universe that creates Slimes at certain points, seemingly at random."
+			subtitle: "世界上还存在着某种未知的能量场，那里会在特定的时间点上，似乎是随机地创造出史莱姆。"
 			description: [
-				"Slime Chunks, they call those points. The &dNarslimmus&r is a flower that has the ability to tap into that energy; it'll absorb &aSlimes&r created by that power and collect all the Mana generated by the destruction."
+				"人们称那些场为史莱姆区块。&d粘球草&r就能利用这种能量。如果它被种在了由这种能量创造出来的&a史莱姆&r旁边，它就会分解史莱姆，并收集这种能量，并且产生魔力。"
 				""
-				"The larger the &aSlime,&r the more &aMana&r is created. (It also makes a bit of a sticky mess.)"
+				"&a史莱姆&r越大，其产生的&a魔力&r越多。（这也造成了一些黏乎乎的麻烦。）"
 			]
 			dependencies: [
 				"746060BF1647246C"
@@ -2490,8 +2490,8 @@
 			x: 2.5d
 			y: 9.75d
 			shape: "diamond"
-			subtitle: "The Shulk Me Not is a generating flower that creates Mana from the power of the Shulker's Levitation."
-			description: ["If a nearby monster is targeted by and hit with a Shulker's projectile, and the &dShulk Me Not's&r internal buffer is empty, both mob and Shulker will be killed, generating ludicrous amounts of Mana from the process."]
+			subtitle: "勿落草不是一种利用潜影贝悬浮的力量产生魔力的产能花。"
+			description: ["如果附近的怪物被潜影贝的投射物击中，并且因此悬浮在空中，&d勿落草&r内部缓冲区为空，击中者和潜影贝都会被杀死，从这个过程中产生大量的魔力。"]
 			dependencies: [
 				"61C28C04FA961761"
 				"1EF285799C2FCE6B"
@@ -2515,8 +2515,8 @@
 			x: 3.5d
 			y: 9.75d
 			shape: "diamond"
-			subtitle: "Cake is delicious; everyone loves it, flowers included."
-			description: ["The &dKekimurus&r is one of these &dCake&r aficionados, and will eat any placed in its vicinity, synthesizing the enriching nutrients into sweet, sweet &aMana&r."]
+			subtitle: "蛋糕很好吃；每个人都喜欢它，包括花儿。"
+			description: ["&d贪食花&r就是这些&d蛋糕&r的狂热爱好者之一，他们会吃任何放置在它附近的蛋糕，将丰富的营养合成成甜甜的&a魔力&r。"]
 			dependencies: [
 				"5CC66F915A4C9C4E"
 				"03F9D608513BF37F"
@@ -2539,11 +2539,11 @@
 			x: 0.5d
 			y: 9.75d
 			shape: "diamond"
-			subtitle: "The Gourmaryllis is one hungry flower."
+			subtitle: "彼方兰是一种饥饿的花。"
 			description: [
-				"Thus, a &dSteak&r will take four seconds to digest, an &dApple&r will take two, a loaf of &dBread&r will take two and a half, and so on."
+				"因此，一份&d牛排&r需要四秒钟消化，一个&d苹果&r需要两秒钟消化，一条&d面包&r需要两秒半消化，以此类推。"
 				""
-				"The rate of &aMana&r production will also vary with nutrition: the &dGourmaryllis&r prefers bigger foods."
+				"&a魔力&r的产量也会因营养而异，&d彼方兰&r更喜欢保持度多的食物。"
 			]
 			dependencies: [
 				"2F31A00279CCC783"
@@ -2567,11 +2567,11 @@
 			x: 1.0d
 			y: 9.0d
 			shape: "diamond"
-			subtitle: "To generate a blast of Mana, in fact, a blast might be required."
+			subtitle: "事实上，为了产生一波魔力，就需要一波爆炸。"
 			description: [
-				"Igniting a block of &dTNT&r on dry land near an &dEntropinnyum&r will have the latter absorb all the entropy generated by the blast, converting it into &aMana&r and nullifying any damage in the process."
+				"靠近热爆花点燃一个&dTNT&r，&d热爆花&r就会吸收爆炸产生的热和冲击并产生大量的&a魔力&r消除一切爆炸伤害。"
 				""
-				"However, to absorb the explosion, the flower must not have any &aMana&r stored in it-- otherwise, explosions as usual."
+				"最后，为了吸收爆炸，花朵本身需要无&a魔力&r，否则吸收将会失败。"
 			]
 			dependencies: [
 				"1EF285799C2FCE6B"
@@ -2595,11 +2595,11 @@
 			x: 3.5d
 			y: 8.25d
 			shape: "diamond"
-			subtitle: "The Thermalily is a Lava-flavoured counterpart to the Hydroangeas."
+			subtitle: "炽玫瑰有着和水绣球相对的液体喜好。"
 			description: [
-				"The flower absorbs Lava around it (at the same altitude) to generate Mana."
+				"花吸收周围的熔岩（在相同的高度）来产生魔力。"
 				""
-				"After absorbing one block of Lava, the flower will produce Mana continually for around 45 seconds, but afterwards needs a bit of time (around 5 minutes) to cool down before it can absorb more."
+				"在吸收一块熔岩后，花朵会持续产生大约45秒的魔力，但之后需要一些时间（大约5分钟）冷却才能吸收更多的法力值。"
 			]
 			dependencies: [
 				"2F31A00279CCC783"
@@ -2623,8 +2623,8 @@
 			x: 2.5d
 			y: 8.25d
 			shape: "diamond"
-			subtitle: "The Endoflame is a very rudimentary generating flower"
-			description: ["it'll absorb any combustible items or blocks dropped on the nearby vicinity, one at a time, and burn through them to generate &aMana&r."]
+			subtitle: "火红莲是一种非常初级的产能花"
+			description: ["它会吸收掉在附近的任何可燃物品或方块，一次一个，并燃烧它们产生&a魔力&r。"]
 			dependencies: ["286ED4EF49887FF8"]
 			optional: true
 			id: "5EE30E24C7F97C9A"
@@ -2643,13 +2643,13 @@
 			x: 0.5d
 			y: 8.25d
 			shape: "diamond"
-			subtitle: "The Dandelifeon is not recommended for the faint of heart."
+			subtitle: "启命英并不适合胆小鬼使用。"
 			description: [
-				"This flower's function is based on a cellular automaton known as &aConway's Game of Life&r."
+				"这朵花利用了众所周知的&a康威生命游戏&r。"
 				""
-				"The area for this procedure is a 25x25 square, centered around the &dDandelifeon&r itself.As long as the flower receives a redstone signal, it'll step the automaton twice a second."
+				"工作范围是以&d启命英&r为中心的25x25的正方形。当给出红石信号时，这朵花会以每秒两次的频率执行游戏。"
 				""
-				"Each location within the flower's 25x25 area of effect counts as a &aCell&r. Cells may be alive or dead; a cell counts as alive if its respective block is a &dCellular Block&r (read on), or dead if it's anything else. The &aNeighbors&r of a cell are the eight cells surrounding any cell."
+				"游戏益细胞为单位进行，花的25x25效果区域内的每个位置都算作一个&a细胞&r。细胞有存活和死亡两种状态，如果该位置有一个&d细胞方块&r则判定为存活（接着往下读），否则判定为死亡。每一个细胞同一平面上&a相邻&r八个细胞。"
 			]
 			dependencies: [
 				"2F31A00279CCC783"
@@ -2676,15 +2676,15 @@
 			x: 7.75d
 			y: 8.75d
 			shape: "diamond"
-			subtitle: "The Orechid is a great flower"
+			subtitle: "凝矿兰是一朵很好的花"
 			description: [
-				"The ability to create raw ores from &aMana&r and &aStone&r can be a great boon to any sedentary botanist's life."
+				"用&a魔力&r和&a石头&r创造原矿的能力对任何植物学家来说都是一个巨大的福音。"
 				""
-				"However, it can't create ores of a more &aNether&r-y variety. Getting that sorted out is easy"
+				"然而，它不能创造来自&a下界&r的矿石。解决这个问题很容易。"
 				""
-				"Switching around a few petals will yield an &dOrechid Ignem&r, which creates &aNether&r ores in &aNetherrack&r instead."
+				"通过改变花瓣的配方，你得到了&d炎矿兰&r，现在它就能利用&a下界岩&r生成&a下界&r矿石。"
 				""
-				"The flower must be in the &aNether&r dimension to work."
+				"花必须在&a下界&r维度中才能工作。"
 			]
 			dependencies: [
 				"6E4F434AC3716518"

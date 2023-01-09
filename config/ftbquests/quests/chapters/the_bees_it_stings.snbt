@@ -786,7 +786,7 @@
 			}]
 		}
 		{
-			title: "离心控制器级别1"
+			title: "离心控制器T1"
 			x: -4.25d
 			y: -9.0d
 			hide_dependency_lines: true
@@ -816,7 +816,7 @@
 			}]
 		}
 		{
-			title: "离心控制器级别2"
+			title: "离心控制器T2"
 			x: -3.25d
 			y: -9.0d
 			dependencies: ["7A66C68E1C3AF881"]
@@ -841,7 +841,7 @@
 			}]
 		}
 		{
-			title: "离心控制器级别3"
+			title: "离心控制器T3"
 			x: -2.25d
 			y: -9.0d
 			dependencies: ["4141EE8BD098B5F7"]
@@ -867,7 +867,7 @@
 			}]
 		}
 		{
-			title: "离心控制器级别4"
+			title: "离心控制器T4"
 			x: -1.25d
 			y: -9.0d
 			dependencies: ["5D668A7645CA9D75"]
@@ -893,7 +893,7 @@
 			}]
 		}
 		{
-			title: "离心控制器级别5"
+			title: "离心控制器T5"
 			x: -0.25d
 			y: -9.0d
 			dependencies: ["5B4B6227A4AD5BF6"]

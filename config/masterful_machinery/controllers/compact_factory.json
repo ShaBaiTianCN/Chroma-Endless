@@ -1,12 +1,12 @@
 {
   "controllerId": "compactfactory",
-  "name": "Compact Machine Factory",
+  "name": "压缩机器工厂",
   "textureOverride": "immersiveengineering:block/metal/sheetmetal_black",
   "ports": [
     {
       "type": "masterfulmachinery:items",
       "textureOverride": "immersiveengineering:block/metal/sheetmetal_black",
-      "name": "Compact Factory Item",
+      "name": "压缩工厂物品",
       "id": "compact_item",
       "data": {
         "rows": 4,
@@ -15,7 +15,7 @@
     },
     {
       "type": "masterfulmachinery:energy",
-      "name": "Compact Factory Energy",
+      "name": "压缩工厂能量",
       "id": "compact_energy",
       "data": {
         "capacity": 1000000

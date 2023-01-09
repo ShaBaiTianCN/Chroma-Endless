@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 7
 	filename: "armor"
-	title: "Dressing Room"
+	title: "更衣室"
 	icon: {
 		id: "allthemodium:unobtainium_chestplate"
 		Count: 1b
@@ -1084,7 +1084,7 @@
 			tasks: [{
 				id: "2A5D36FCF2C39BE0"
 				type: "item"
-				title: "Slimeskull"
+				title: "黏液头颅"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b

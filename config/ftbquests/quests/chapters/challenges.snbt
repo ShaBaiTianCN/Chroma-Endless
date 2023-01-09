@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 2
 	filename: "challenges"
-	title: "Challenges"
+	title: "挑战"
 	icon: {
 		id: "ftbquests:custom_icon"
 		Count: 1b
@@ -23,7 +23,7 @@
 			tasks: [{
 				id: "4B22D023A9B02565"
 				type: "kill"
-				title: "Kill 100x Zombies"
+				title: "击杀100只僵尸"
 				icon: "minecraft:zombie_head"
 				entity: "minecraft:zombie"
 				value: 100L
@@ -45,7 +45,7 @@
 			tasks: [{
 				id: "4192EE332D53944A"
 				type: "kill"
-				title: "Kill 100x Skeletons"
+				title: "击杀100只骷髅"
 				icon: "minecraft:skeleton_skull"
 				entity: "minecraft:skeleton"
 				value: 100L
@@ -67,7 +67,7 @@
 			tasks: [{
 				id: "7BC3AEC69C7A4418"
 				type: "kill"
-				title: "Kill 100x Creepers"
+				title: "击杀100只苦力怕"
 				icon: "minecraft:creeper_head"
 				entity: "minecraft:creeper"
 				value: 100L
@@ -89,7 +89,7 @@
 			tasks: [{
 				id: "78B578213A2D2B39"
 				type: "kill"
-				title: "Kill 100x Wither Skeletons"
+				title: "击杀100只凋灵骷髅"
 				icon: "minecraft:wither_skeleton_skull"
 				entity: "minecraft:wither_skeleton"
 				value: 100L
@@ -111,7 +111,7 @@
 			tasks: [{
 				id: "4A358FCE58624600"
 				type: "kill"
-				title: "Kill 10x Ender Dragons"
+				title: "击杀10只末影龙"
 				icon: {
 					id: "ftbquests:custom_icon"
 					Count: 1b
@@ -137,7 +137,7 @@
 			tasks: [{
 				id: "1EF518A22B4DEB0C"
 				type: "kill"
-				title: "Kill 10x Withers"
+				title: "击杀10只凋灵"
 				icon: {
 					id: "ftbquests:custom_icon"
 					Count: 1b
@@ -162,7 +162,7 @@
 			tasks: [{
 				id: "3D598B07527C5ACF"
 				type: "kill"
-				title: "Kill 100x Endermans"
+				title: "击杀100只末影人"
 				icon: "tconstruct:enderman_head"
 				entity: "minecraft:enderman"
 				value: 100L
@@ -183,7 +183,7 @@
 			tasks: [{
 				id: "4A6D09902A272FD9"
 				type: "kill"
-				title: "Kill 100x Spiders"
+				title: "击杀100只蜘蛛"
 				icon: "tconstruct:spider_head"
 				entity: "minecraft:spider"
 				value: 100L
@@ -204,7 +204,7 @@
 			tasks: [{
 				id: "141CC994FB0887F5"
 				type: "kill"
-				title: "Kill 100x Cave Spiders"
+				title: "击杀100只洞穴蜘蛛"
 				icon: "tconstruct:cave_spider_head"
 				entity: "minecraft:cave_spider"
 				value: 100L
@@ -225,7 +225,7 @@
 			tasks: [{
 				id: "67FFE1A140349B1B"
 				type: "kill"
-				title: "Kill 100x Blazes"
+				title: "击杀100只烈焰人"
 				icon: "tconstruct:blaze_head"
 				entity: "minecraft:blaze"
 				value: 100L
@@ -246,7 +246,7 @@
 			tasks: [{
 				id: "073A22668C1AC07E"
 				type: "kill"
-				title: "Kill 100x Drowneds"
+				title: "击杀100只溺尸"
 				icon: "tconstruct:drowned_head"
 				entity: "minecraft:drowned"
 				value: 100L
@@ -271,7 +271,7 @@
 			tasks: [{
 				id: "75B25CDA704855DC"
 				type: "kill"
-				title: "Kill 100x Husks"
+				title: "击杀100只尸壳"
 				icon: "tconstruct:husk_head"
 				entity: "minecraft:husk"
 				value: 100L
@@ -291,7 +291,7 @@
 			tasks: [{
 				id: "38144B3502CEF57B"
 				type: "kill"
-				title: "Kill 100x Zombified Piglins"
+				title: "击杀100只僵尸猪灵"
 				icon: "tconstruct:zombified_piglin_head"
 				entity: "minecraft:zombified_piglin"
 				value: 100L
@@ -312,7 +312,7 @@
 			tasks: [{
 				id: "43AABC4E576582AA"
 				type: "kill"
-				title: "Kill 100x Strays"
+				title: "击杀100只流浪者"
 				icon: "tconstruct:stray_head"
 				entity: "minecraft:stray"
 				value: 100L
@@ -332,7 +332,7 @@
 			tasks: [{
 				id: "4562F14AB3EC3E92"
 				type: "kill"
-				title: "Kill 80x Piglins"
+				title: "击杀80只猪灵"
 				icon: "tconstruct:piglin_head"
 				entity: "minecraft:piglin"
 				value: 80L
@@ -352,7 +352,7 @@
 			tasks: [{
 				id: "6E3969BD29BBF53D"
 				type: "kill"
-				title: "Kill 20x Piglin Brutes"
+				title: "击杀20只猪灵蛮兵"
 				icon: "tconstruct:piglin_brute_head"
 				entity: "minecraft:piglin_brute"
 				value: 20L
@@ -372,7 +372,7 @@
 			tasks: [{
 				id: "17A7E28BC4851230"
 				type: "kill"
-				title: "Kill 100x Basalzs"
+				title: "击杀100只岩石人"
 				icon: {
 					id: "ftbquests:custom_icon"
 					Count: 1b
@@ -399,7 +399,7 @@
 			tasks: [{
 				id: "01FCF78824C4B797"
 				type: "kill"
-				title: "Kill 100x Blitzs"
+				title: "击杀100只狂风人"
 				icon: {
 					id: "ftbquests:custom_icon"
 					Count: 1b
@@ -426,7 +426,7 @@
 			tasks: [{
 				id: "317C71C1333E4D98"
 				type: "kill"
-				title: "Kill 100x Blizzs"
+				title: "击杀100只暴雪人"
 				icon: {
 					id: "ftbquests:custom_icon"
 					Count: 1b
@@ -790,7 +790,7 @@
 			}]
 		}
 		{
-			title: "Visit all the Biomes "
+			title: "拜访所有生物群系"
 			icon: "supplementaries:globe"
 			x: 6.0d
 			y: -4.0d

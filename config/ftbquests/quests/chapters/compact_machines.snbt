@@ -3,7 +3,7 @@
 	group: "649CE452F2BBF13D"
 	order_index: 2
 	filename: "compact_machines"
-	title: "&bChapter 3&r &6-&r Compact Machinery"
+	title: "&b第三章&r&6-&r压缩空间"
 	icon: "compactmachines:machine_maximum"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -12,7 +12,7 @@
 			x: 0.0d
 			y: -3.0d
 			shape: "diamond"
-			description: ["This tool allows you to enter your Compact Machines."]
+			description: ["你可以使用这个工具进出压缩空间。"]
 			dependencies: [
 				"68E7A3D70265EBF0"
 				"7958F40FFDC2C5D3"
@@ -55,7 +55,7 @@
 			x: -1.0d
 			y: -1.5d
 			shape: "diamond"
-			description: ["Rescan proxies are used to trigger a forced rescan on a field. Miniaturization fields sometimes fail to pick up on changes from automation-style block placers, so you can use these proxies to trigger a scan on a field. They're especially helpful on a hands-free timer setup, for easy automation of highly-used resources!"]
+			description: ["微缩力场代理（重扫描）用来对一个微缩力场触发强制重新扫描。微缩合成力场有时候会无法识别自动方块放置器产生的变化，所以你可以使用这些代理器来触发对微缩力场的扫描。他们在自动定时器的设置上特别有用，可以轻松实现高度占用资源的自动化！"]
 			dependencies: ["6D2B8CFA26118F23"]
 			id: "584CE2112B8DB37C"
 			tasks: [{
@@ -132,7 +132,7 @@
 			x: 1.0d
 			y: -1.5d
 			shape: "diamond"
-			description: ["Match proxies are used to read recipe state from an active field. They give full redstone signal (15) when a recipe is matched or actively crafting inside the field."]
+			description: ["微缩力场代理（匹配）用来读取一个激活力场中的合成配方状态。当一个合成配方在力场内被匹配或者主动合成时，它会发出满格的红石信号（15）。"]
 			dependencies: ["6D2B8CFA26118F23"]
 			id: "68B92629A6520D7F"
 			tasks: [{
@@ -147,7 +147,7 @@
 			}]
 		}
 		{
-			title: "Compact Factory Components - Part 1"
+			title: "工厂组件-第1部分"
 			icon: "masterfulmachinery:compactfactory_controller"
 			x: -0.5d
 			y: 1.25d
@@ -255,7 +255,7 @@
 			]
 		}
 		{
-			title: "Compact Factory Components - Part 2"
+			title: "工厂组件-第2部分"
 			icon: "masterfulmachinery:compactfactory_controller"
 			x: 0.5d
 			y: 1.25d
@@ -294,9 +294,9 @@
 			y: 2.25d
 			shape: "gear"
 			description: [
-				"&cIn order to make create schematics work properly, please do not rotate them while building them !"
+				"&c为了使创建的原理图正常工作，请不要在构建时旋转它们！"
 				""
-				"&bYou can use the Entangled mod to entangle the inputs of your masterful machineries and have a better automation."
+				"&b你可以使用纠缠方块模组来纠缠你精通的机械的输入面，并且有一个更好的自动化。"
 			]
 			dependencies: [
 				"7682355BCC714BB6"
@@ -306,7 +306,7 @@
 			tasks: [{
 				id: "76593CC05DEA90CB"
 				type: "checkmark"
-				title: "Build The Compact Machine Factory"
+				title: "建立压缩机器工厂"
 			}]
 		}
 		{

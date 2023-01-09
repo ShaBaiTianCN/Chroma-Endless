@@ -1,12 +1,12 @@
 {
     "controllerId": "centrifuge",
-    "name": "Atomic Centrifuge",
+    "name": "原子离心机",
     "textureOverride": "kubejs:block/centrifuge_casing",
     "ports": [
       {
           "type": "masterfulmachinery:mekanism_gas",
           "textureOverride": "kubejs:block/centrifuge_casing",
-          "name": "Atomic Centrifuge Gas",
+          "name": "原子离心机气体",
           "id": "centrifuge_gas",
           "data": {
               "capacity": 100000

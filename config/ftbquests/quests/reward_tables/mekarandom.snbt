@@ -1,7 +1,7 @@
 {
 	id: "1B6AC32BB4182826"
 	order_index: 24
-	title: "MekaRandom"
+	title: "随机“通用机械”物品"
 	icon: "mekanism:steel_casing"
 	loot_size: 1
 	rewards: [

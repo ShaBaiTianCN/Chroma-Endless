@@ -549,7 +549,7 @@
 			title: "&#009C00碧绿&r"
 			x: 6.5d
 			y: -2.25d
-			description: ["Verderium can be obtained in a &6Fluidizer&r with Liquid Blutonium and Liquid Yellorium."]
+			description: ["碧绿可使用&6流化器&r用熔融蓝钚和熔融黄铀混合得到。"]
 			dependencies: [
 				"4CB53826EBA5CDB9"
 				"1A1D558E7ECDF699"
@@ -571,7 +571,7 @@
 			title: "&#6A0000玫瑰红&r"
 			x: 3.75d
 			y: 3.5d
-			description: ["&#6A0000Liquid Rossinite&r can be obtained in a Reinforced Reactor with a &#009C00Verderium Fuel&r."]
+			description: ["&#6A0000玫瑰红流体&r可在强化反应堆用&#009C00碧绿燃料&r反应得到。"]
 			dependencies: ["6C6C2266CF4C0ECB"]
 			id: "3DC38D81B2EAB898"
 			tasks: [{
@@ -639,7 +639,7 @@
 			x: -4.25d
 			y: 6.0d
 			shape: "gear"
-			description: ["Get &#7D08AFLudicrite&r in a Reprocessor with &#1D1DB4Blutonium&r and &#97E9FFLiquid Cyanite&r."]
+			description: ["使用再处理器用&#1D1DB4蓝钚锭&r与&#97E9FF蓝晶流体&r加工得到&#7D08AF镠锭&r。"]
 			dependencies: [
 				"07E1BACA00C7D0D7"
 				"311902BAD0F0EFE0"
@@ -663,7 +663,7 @@
 			x: -7.25d
 			y: 6.0d
 			shape: "gear"
-			description: ["Get &#1D1DB4Blutonium&r in a Reprocessor with &#97E9FFCyanite&r and &bWater&r."]
+			description: ["使用再处理器用&#97E9FF蓝晶锭&r与&b水&r加工得到&#1D1DB4蓝钚锭&r。"]
 			dependencies: ["45FC67AC6AAD4EBA"]
 			size: 2.0d
 			id: "07E1BACA00C7D0D7"
@@ -1510,7 +1510,7 @@
 			x: -10.75d
 			y: -6.75d
 			subtitle: "我反应堆进了啥东西？"
-			description: ["&nThis block is optional and can be replaced by another Casing block.&r"]
+			description: ["&n该方块不是必需的，可以被另一种外壳方块替代。&r"]
 			dependencies: [
 				"47D58FD227B99611"
 				"7B9FBBCD2F962A0B"

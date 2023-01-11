@@ -219,7 +219,7 @@
 			x: 10.0d
 			y: -5.75d
 			shape: "diamond"
-			description: ["&6在末地使用等级5的虚空挖掘机（黑洞采掘闪存）得到。"]
+			description: ["&6在末地使用五级虚空矿物采掘机（黑洞采掘闪存）得到。"]
 			dependencies: [
 				"51A865804BE34E1F"
 				"3EAB4C4E47E658EA"
@@ -242,7 +242,7 @@
 			x: 10.5d
 			y: -6.5d
 			shape: "diamond"
-			description: ["&6在末地使用等级5的虚空挖掘机（黑洞采掘闪存）得到。"]
+			description: ["&6在末地使用五级虚空矿物采掘机（黑洞采掘闪存）得到。"]
 			dependencies: [
 				"51A865804BE34E1F"
 				"3EAB4C4E47E658EA"
@@ -265,7 +265,7 @@
 			x: 11.0d
 			y: -5.75d
 			shape: "diamond"
-			description: ["&6在末地使用等级5的虚空挖掘机（黑洞采掘闪存）得到。"]
+			description: ["&6在末地使用五级虚空矿物采掘机（黑洞采掘闪存）得到。"]
 			dependencies: [
 				"51A865804BE34E1F"
 				"3EAB4C4E47E658EA"

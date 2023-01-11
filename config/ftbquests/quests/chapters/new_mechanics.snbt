@@ -353,7 +353,6 @@
 			}]
 		}
 		{
-			title: "青金红石灯"
 			x: 21.5d
 			y: -7.25d
 			dependencies: ["50DB58A0B18629D9"]

@@ -611,7 +611,7 @@
 		{
 			x: -3.0d
 			y: 1.5d
-			description: ["制作一个回声定位器，它能现实附近的洞穴。"]
+			description: ["制作一个回声定位器，它能显示附近的洞穴。"]
 			dependencies: ["2A8F3F136EB8485A"]
 			id: "502819258E065AD3"
 			tasks: [

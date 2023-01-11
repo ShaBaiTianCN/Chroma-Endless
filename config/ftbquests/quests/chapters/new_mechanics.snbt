@@ -3,7 +3,7 @@
 	group: "206AEEAA9A4E5484"
 	order_index: 2
 	filename: "new_mechanics"
-	title: "&bChapter 3&r &6-&r New mechanics"
+	title: "&b第三章&r&6-&r新机械学"
 	icon: "miniutilities:the_final_opinium_core"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -159,7 +159,7 @@
 			}]
 		}
 		{
-			title: "Mechanical Machines"
+			title: "机械设备"
 			icon: "miniutilities:mechanical_miner"
 			x: 20.0d
 			y: -6.5d
@@ -324,7 +324,7 @@
 			}]
 		}
 		{
-			title: "Some Really Cool Glasses"
+			title: "一些很酷的玻璃"
 			icon: "miniutilities:glowing_glass"
 			x: 22.0d
 			y: -6.5d
@@ -353,6 +353,7 @@
 			}]
 		}
 		{
+			title: "青金红石灯"
 			x: 21.5d
 			y: -7.25d
 			dependencies: ["50DB58A0B18629D9"]
@@ -369,6 +370,7 @@
 			}]
 		}
 		{
+			title: "红石时钟"
 			x: 20.5d
 			y: -7.25d
 			dependencies: [
@@ -607,7 +609,7 @@
 		{
 			x: 23.25d
 			y: -11.75d
-			description: ["&aExperience Pearls&r are gotten when you kill a mob with &5experience harvester&r enchant."]
+			description: ["&a经验珍珠&r是当你用&5经验收割者&r附魔杀死一个生物时获得的。"]
 			id: "549773FFAA0D69FA"
 			tasks: [{
 				id: "2D2DFC20CD13189C"
@@ -685,7 +687,7 @@
 			}]
 		}
 		{
-			title: "Experience Bee"
+			title: "经验蜜蜂"
 			x: 19.5d
 			y: -9.25d
 			dependencies: [
@@ -696,7 +698,7 @@
 			tasks: [{
 				id: "22C98154A231F540"
 				type: "checkmark"
-				title: "Xp Bee"
+				title: "经验蜜蜂"
 			}]
 			rewards: [{
 				id: "77C349DF6807DC40"

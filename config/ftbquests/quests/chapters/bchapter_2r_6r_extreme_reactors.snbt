@@ -3,7 +3,7 @@
 	group: "4B06503CAA5674FC"
 	order_index: 2
 	filename: "bchapter_2r_6r_extreme_reactors"
-	title: "&bChapter 3&r &6-&r Renewable Energy"
+	title: "&b第三章&r&6-&r极限反应堆"
 	icon: "bigreactors:reinforced_reactorfuelrod"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -12,8 +12,8 @@
 			x: -8.25d
 			y: -15.0d
 			shape: "octagon"
-			subtitle: "How not to blow it all up?"
-			description: ["&6The Extreme Book&r is like an in-game wiki. Just right click with it in your hand and you will learn a lot about &l&o&6Extreme Reactors&r."]
+			subtitle: "如何不把一切搞砸？"
+			description: ["&6The Extreme Book&r如同游戏内的维基百科。只需要手持右键就可以学习到很多关于&l&o&6极限反应堆&r的知识。"]
 			dependencies: ["7A3F1BC3D6B98D77"]
 			id: "4E293B93551D5CF7"
 			tasks: [{
@@ -35,17 +35,17 @@
 			}]
 		}
 		{
-			title: "&#80B425Uranium&r"
+			title: "&#80B425铀锭&r"
 			x: -8.25d
 			y: -12.5d
 			shape: "gear"
-			subtitle: "Oh, it's radioactive!"
+			subtitle: "哦，它具有放射性！"
 			description: [
-				"You can find &l&#80B425Uranium&r in:"
+				"你可以在以下的地方找到&l&#80B425铀&r："
 				""
-				" - The &l&2Overworld&r, between &lY: 4&r and &lY: 20&r."
+				"-&l&2主世界&r，位于&lY:4&r和&lY:20&r之间。"
 				""
-				" - &l&5The Nether&r, between &lY: 50&r and &lY: 74&r (only in certains biomes, see &oJEI&r)."
+				"-&l&5下界&r，位于&lY:50&r和&lY:74&r之间（仅在特定群系生成，详情查看&oJEI&r）。"
 			]
 			dependencies: ["6B8F54AE6DE83F01"]
 			size: 2.0d
@@ -54,7 +54,7 @@
 			tasks: [{
 				id: "26F34EDD1D737BE3"
 				type: "item"
-				title: "&#80B425Uranium Ingot&r"
+				title: "&#80B425铀锭&r"
 				item: "emendatusenigmatica:uranium_ingot"
 			}]
 			rewards: [{
@@ -66,18 +66,18 @@
 			}]
 		}
 		{
-			title: "&#4B4E53Graphite&r"
+			title: "&#4B4E53石墨&r"
 			x: -5.25d
 			y: -12.5d
 			shape: "gear"
-			subtitle: "Pressured coal"
+			subtitle: "加压煤"
 			dependencies: ["7B9FBBCD2F962A0B"]
 			size: 2.0d
 			id: "2B68F6BF9FB99C2F"
 			tasks: [{
 				id: "1698A2727411A9B4"
 				type: "item"
-				title: "&#4B4E53Graphite Bar&r"
+				title: "&#4B4E53石墨棒&r"
 				item: "bigreactors:graphite_ingot"
 			}]
 			rewards: [{
@@ -92,7 +92,7 @@
 			x: -5.25d
 			y: -15.0d
 			shape: "octagon"
-			subtitle: "Just... a wrench"
+			subtitle: "就……只是个扳手"
 			dependencies: [
 				"2B68F6BF9FB99C2F"
 				"121DF7B31DB4BEF8"
@@ -101,7 +101,7 @@
 			tasks: [{
 				id: "1573C164ED6DA9E4"
 				type: "item"
-				title: "&6Extreme Wrench&r"
+				title: "&6极限扳手&r"
 				item: "bigreactors:wrench"
 			}]
 			rewards: [{
@@ -121,7 +121,7 @@
 			tasks: [{
 				id: "4F12643911EAB2D7"
 				type: "item"
-				title: "&#4B4E53Basic Reactor Casing&r"
+				title: "&#4B4E53反应堆外壳（基础）&r"
 				item: "bigreactors:basic_reactorcasing"
 			}]
 			rewards: [{
@@ -140,7 +140,7 @@
 			tasks: [{
 				id: "3EB3A3091440A3CB"
 				type: "item"
-				title: "&#505050Reinforced Reactor Casing&r"
+				title: "&#505050反应堆外壳（强化）&r"
 				item: "bigreactors:reinforced_reactorcasing"
 			}]
 			rewards: [{
@@ -164,7 +164,7 @@
 			tasks: [{
 				id: "7B661F962DD0685C"
 				type: "item"
-				title: "&#505050Reinforced Reactor Controller&r"
+				title: "&#505050反应堆控制器（强化）&r"
 				item: "bigreactors:reinforced_reactorcontroller"
 			}]
 			rewards: [{
@@ -187,7 +187,7 @@
 			tasks: [{
 				id: "18790112DB579CD5"
 				type: "item"
-				title: "&#505050Reinforced Reactor Glass&r"
+				title: "&#505050反应堆玻璃（强化）&r"
 				item: "bigreactors:reinforced_reactorglass"
 			}]
 			rewards: [{
@@ -198,7 +198,7 @@
 			}]
 		}
 		{
-			title: "&#505050Reinforced Energy Power Tap&r"
+			title: "&#505050反应堆主动FE能源接口（强化）&r"
 			x: 1.75d
 			y: -8.75d
 			dependencies: ["5A646FCC3CBF91CF"]
@@ -208,13 +208,13 @@
 				{
 					id: "4DEBE8387A8B6467"
 					type: "item"
-					title: "&#505050Reinforced Active Energy Power Tap&r"
+					title: "&#505050反应堆主动FE能源接口（强化）&r"
 					item: "bigreactors:reinforced_reactorpowertapfe_active"
 				}
 				{
 					id: "05A1BC8C4476431A"
 					type: "item"
-					title: "&#505050Reinforced Passive Energy Power Tap&r"
+					title: "&#505050反应堆被动FE能源接口（强化）&r"
 					item: "bigreactors:reinforced_reactorpowertapfe_passive"
 				}
 			]
@@ -233,7 +233,7 @@
 			tasks: [{
 				id: "08069600F62108FA"
 				type: "item"
-				title: "&#505050Reinforced Control Rod&r"
+				title: "&#505050反应堆控制杆（强化）&r"
 				item: "bigreactors:reinforced_reactorcontrolrod"
 			}]
 			rewards: [{
@@ -251,7 +251,7 @@
 			tasks: [{
 				id: "2507E5225753ADC7"
 				type: "item"
-				title: "&#505050Reinforced Fuel Rod&r"
+				title: "&#505050反应堆燃料棒（强化）&r"
 				item: "bigreactors:reinforced_reactorfuelrod"
 			}]
 			rewards: [{
@@ -261,7 +261,7 @@
 			}]
 		}
 		{
-			title: "&#505050Reinforced Mekanism Fluid Port&r"
+			title: "&#505050反应堆通用机械被动流体端口（强化）&r"
 			x: 2.25d
 			y: -7.25d
 			dependencies: [
@@ -275,7 +275,7 @@
 			tasks: [{
 				id: "033135E0C2CD22D2"
 				type: "item"
-				title: "&#505050Reinforced Passive Mekanism Fluid Port&r"
+				title: "&#505050反应堆通用机械被动流体端口（强化）&r"
 				item: "bigreactors:reinforced_reactorfluidport_mekanism_passive"
 			}]
 			rewards: [{
@@ -286,7 +286,7 @@
 			}]
 		}
 		{
-			title: "&#505050Reinforced Fluid Port&r"
+			title: "&#505050反应堆主动流体端口（强化）&r"
 			x: 2.75d
 			y: -8.25d
 			dependencies: [
@@ -301,13 +301,13 @@
 				{
 					id: "6E1B49535F0C89FC"
 					type: "item"
-					title: "&#505050Reinforced Active Fluid Port&r"
+					title: "&#505050反应堆主动流体端口（强化）&r"
 					item: "bigreactors:reinforced_reactorfluidport_forge_active"
 				}
 				{
 					id: "3F8D9E68BDC976A1"
 					type: "item"
-					title: "&#505050Reinforced Passive Fluid Port&r"
+					title: "&#505050反应堆被动流体端口（强化）&r"
 					item: "bigreactors:reinforced_reactorfluidport_forge_passive"
 				}
 			]
@@ -329,7 +329,7 @@
 			tasks: [{
 				id: "28371FD1C909A474"
 				type: "item"
-				title: "&#505050Reinforced Solid Access Port&r"
+				title: "&#505050反应堆固体访问端口（强化）&r"
 				item: "bigreactors:reinforced_reactorsolidaccessport"
 			}]
 			rewards: [{
@@ -352,7 +352,7 @@
 			tasks: [{
 				id: "6D22FCD8B0890482"
 				type: "item"
-				title: "&#505050Reinforced Computer Port&r"
+				title: "&#505050反应堆电脑端口（强化）&r"
 				item: "bigreactors:reinforced_reactorcomputerport"
 			}]
 			rewards: [{
@@ -374,7 +374,7 @@
 			tasks: [{
 				id: "3AAA6CF2EF3E44CE"
 				type: "item"
-				title: "&#505050Reinforced Reactor Port&r"
+				title: "&#505050反应堆红石端口（强化）&r"
 				item: "bigreactors:reinforced_reactorredstoneport"
 			}]
 			rewards: [{
@@ -397,7 +397,7 @@
 			tasks: [{
 				id: "535E3E2117F0D8B4"
 				type: "item"
-				title: "&#505050Reinforced Energy Charging Port&r"
+				title: "&#505050反应堆FE充电端口（强化）&r"
 				item: "bigreactors:reinforced_reactorchargingportfe"
 			}]
 			rewards: [{
@@ -416,7 +416,7 @@
 			tasks: [{
 				id: "6174A2E262B4D091"
 				type: "item"
-				title: "&#505050Reinforced Fuel Injection Port&r"
+				title: "&#505050反应堆燃料注入端口（强化）&r"
 				item: "bigreactors:reinforced_reactorfluidaccessport"
 			}]
 			rewards: [{
@@ -427,7 +427,7 @@
 			}]
 		}
 		{
-			title: "&#F3CD5FAnglesite&r"
+			title: "&#F3CD5F硫酸铅矿晶体(PbSO4)&r"
 			x: 4.5d
 			y: -6.75d
 			hide_dependency_lines: true
@@ -436,7 +436,7 @@
 			tasks: [{
 				id: "722CDF991FBF10C0"
 				type: "item"
-				title: "&#F3CD5FAnglesite (PbSO4)&r"
+				title: "&#F3CD5硫酸铅矿晶体(PbSO4)&r"
 				item: "bigreactors:anglesite_crystal"
 			}]
 			rewards: [{
@@ -446,7 +446,7 @@
 			}]
 		}
 		{
-			title: "&#680018Cryomisi&r"
+			title: "&#680018赤雪液&r"
 			x: 4.5d
 			y: -4.75d
 			dependencies: ["4F46D07D4530D22B"]
@@ -454,7 +454,7 @@
 			tasks: [{
 				id: "478AE605D1784CC7"
 				type: "item"
-				title: "&#680018Cryomisi Bucket&r"
+				title: "&#680018赤雪液桶&r"
 				item: "bigreactors:cryomisi_bucket"
 			}]
 			rewards: [{
@@ -464,7 +464,7 @@
 			}]
 		}
 		{
-			title: "&#4F2C1FTangerium&r"
+			title: "&#4F2C1F赤凛液&r"
 			x: 4.5d
 			y: -3.75d
 			dependencies: [
@@ -475,7 +475,7 @@
 			tasks: [{
 				id: "1FF1827AFA8FB565"
 				type: "item"
-				title: "&#4F2C1FTangerium Bucket&r"
+				title: "&#4F2C1F赤凛液桶&r"
 				item: "bigreactors:tangerium_bucket"
 			}]
 			rewards: [{
@@ -485,7 +485,7 @@
 			}]
 		}
 		{
-			title: "&#80B425Liquid Uranium&r"
+			title: "&#80B425熔融铀&r"
 			x: 4.5d
 			y: -2.75d
 			dependencies: ["4F46D07D4530D22B"]
@@ -493,7 +493,7 @@
 			tasks: [{
 				id: "16769186BB90FADF"
 				type: "item"
-				title: "&#80B425Yellorium Bucket&r"
+				title: "&#80B425熔融黄铀桶&r"
 				item: "bigreactors:yellorium_bucket"
 			}]
 			rewards: [{
@@ -503,7 +503,7 @@
 			}]
 		}
 		{
-			title: "&#1D1DB4Liquid Blutonium&r"
+			title: "&#1D1DB4熔融蓝钚&r"
 			x: 4.5d
 			y: -1.75d
 			hide_dependency_lines: false
@@ -515,7 +515,7 @@
 			tasks: [{
 				id: "4D5A74C2735E4F0E"
 				type: "item"
-				title: "&#1D1DB4Blutonium Bucket&r"
+				title: "&#1D1DB4熔融蓝钚桶&r"
 				item: "bigreactors:blutonium_bucket"
 			}]
 			rewards: [{
@@ -525,7 +525,7 @@
 			}]
 		}
 		{
-			title: "&#3E6D60Redfrigium&r"
+			title: "&#3E6D60赤冰液&r"
 			x: 6.5d
 			y: -4.25d
 			dependencies: [
@@ -536,7 +536,7 @@
 			tasks: [{
 				id: "09D96911D6C55D87"
 				type: "item"
-				title: "&#3E6D60Redfrigium Bucket&r"
+				title: "&#3E6D60赤冰液桶&r"
 				item: "bigreactors:redfrigium_bucket"
 			}]
 			rewards: [{
@@ -546,10 +546,10 @@
 			}]
 		}
 		{
-			title: "&#009C00Verderium&r"
+			title: "&#009C00碧绿&r"
 			x: 6.5d
 			y: -2.25d
-			description: ["Verderium can be obtained in a &6Fluidizer&r with Liquid Blutonium and Liquid Yellorium."]
+			description: ["碧绿可使用&6流化器&r用熔融蓝钚和熔融黄铀混合得到。"]
 			dependencies: [
 				"4CB53826EBA5CDB9"
 				"1A1D558E7ECDF699"
@@ -558,7 +558,7 @@
 			tasks: [{
 				id: "0BEF029B8519B049"
 				type: "item"
-				title: "&#009C00Verderium Bucket&r"
+				title: "&#009C00碧绿桶&r"
 				item: "bigreactors:verderium_bucket"
 			}]
 			rewards: [{
@@ -568,16 +568,16 @@
 			}]
 		}
 		{
-			title: "&#6A0000Rossinite&r"
+			title: "&#6A0000玫瑰红&r"
 			x: 3.75d
 			y: 3.5d
-			description: ["&#6A0000Liquid Rossinite&r can be obtained in a Reinforced Reactor with a &#009C00Verderium Fuel&r."]
+			description: ["&#6A0000玫瑰红流体&r可在强化反应堆用&#009C00碧绿燃料&r反应得到。"]
 			dependencies: ["6C6C2266CF4C0ECB"]
 			id: "3DC38D81B2EAB898"
 			tasks: [{
 				id: "0C811932095A93F8"
 				type: "item"
-				title: "&#6A0000Rossinite Bucket&r"
+				title: "&#6A0000玫瑰红桶&r"
 				item: "bigreactors:rossinite_bucket"
 			}]
 			rewards: [{
@@ -587,11 +587,11 @@
 			}]
 		}
 		{
-			title: "&#F53389Inanite&r"
+			title: "&#F53389空想锭&r"
 			x: 1.75d
 			y: 6.0d
 			shape: "gear"
-			description: ["Get &#F53389Inanite&r in a Reprocessor with &#D2B8D5Ridiculite&r and &#D2B8D5Liquid Rossinite&r."]
+			description: ["使用再处理器用&#D2B8D5悖谬锭&r与&#D2B8D5玫瑰红流体&r加工得到&#F53389空想锭&r。"]
 			dependencies: [
 				"63C3991EACE67994"
 				"3DC38D81B2EAB898"
@@ -601,7 +601,7 @@
 			tasks: [{
 				id: "55FED2169DC65EEA"
 				type: "item"
-				title: "&#F53389Inanite Ingot&r"
+				title: "&#F53389空想锭&r"
 				item: "bigreactors:inanite_ingot"
 			}]
 			rewards: [{
@@ -611,11 +611,11 @@
 			}]
 		}
 		{
-			title: "&#D2B8D5Ridiculite&r"
+			title: "&#D2B8D5悖谬锭&r"
 			x: -1.25d
 			y: 6.0d
 			shape: "gear"
-			description: ["Obtain &#D2B8D5Ridiculite&r in a Reprocessor with &#7D08AFLudicrite&r and &#EA26EALiquid Magentite&r."]
+			description: ["使用再处理器用&#7D08AF镠锭&r与&#EA26EA品红流体&r加工得到&#D2B8D5悖谬锭&r。"]
 			dependencies: [
 				"078727DADC660D58"
 				"44D3AC1068B07EAE"
@@ -625,7 +625,7 @@
 			tasks: [{
 				id: "287301CEFE0F4AB2"
 				type: "item"
-				title: "&#D2B8D5Ridiculite Ingot&r"
+				title: "&#D2B8D5悖谬锭&r"
 				item: "bigreactors:ridiculite_ingot"
 			}]
 			rewards: [{
@@ -635,11 +635,11 @@
 			}]
 		}
 		{
-			title: "&#7D08AFLudicrite&r"
+			title: "&#7D08AF镠锭&r"
 			x: -4.25d
 			y: 6.0d
 			shape: "gear"
-			description: ["Get &#7D08AFLudicrite&r in a Reprocessor with &#1D1DB4Blutonium&r and &#97E9FFLiquid Cyanite&r."]
+			description: ["使用再处理器用&#1D1DB4蓝钚锭&r与&#97E9FF蓝晶流体&r加工得到&#7D08AF镠锭&r。"]
 			dependencies: [
 				"07E1BACA00C7D0D7"
 				"311902BAD0F0EFE0"
@@ -649,7 +649,7 @@
 			tasks: [{
 				id: "5FBBA5D75DA0D4EE"
 				type: "item"
-				title: "&#7D08AFLudicrite Ingot&r"
+				title: "&#7D08AF镠锭&r"
 				item: "bigreactors:ludicrite_ingot"
 			}]
 			rewards: [{
@@ -659,18 +659,18 @@
 			}]
 		}
 		{
-			title: "&#1D1DB4Blutonium&r"
+			title: "&#1D1DB4蓝钚锭&r"
 			x: -7.25d
 			y: 6.0d
 			shape: "gear"
-			description: ["Get &#1D1DB4Blutonium&r in a Reprocessor with &#97E9FFCyanite&r and &bWater&r."]
+			description: ["使用再处理器用&#97E9FF蓝晶锭&r与&b水&r加工得到&#1D1DB4蓝钚锭&r。"]
 			dependencies: ["45FC67AC6AAD4EBA"]
 			size: 2.0d
 			id: "07E1BACA00C7D0D7"
 			tasks: [{
 				id: "5AE09A771BA1D679"
 				type: "item"
-				title: "&#1D1DB4Blutonium Ingot&r"
+				title: "&#1D1DB4蓝钚锭&r"
 				item: "bigreactors:blutonium_ingot"
 			}]
 			rewards: [{
@@ -680,11 +680,11 @@
 			}]
 		}
 		{
-			title: "&#EA26EAMagentite&r"
+			title: "&#EA26EA品红锭&r"
 			x: -10.25d
 			y: 6.0d
 			shape: "gear"
-			description: ["Get &#EA26EAMagentite&r in a Reinforced Reactor with &#1D1DB4Blutonium fuel&r."]
+			description: ["使用强化反应堆用&#1D1DB4蓝钚燃料&r反应得到&#EA26EA品红锭&r。"]
 			dependencies: [
 				"07E1BACA00C7D0D7"
 				"7B661F962DD0685C"
@@ -694,7 +694,7 @@
 			tasks: [{
 				id: "6DC4C73055E5FE09"
 				type: "item"
-				title: "&#EA26EAMagentite Ingot&r"
+				title: "&#EA26EA品红锭&r"
 				item: "bigreactors:magentite_ingot"
 			}]
 			rewards: [{
@@ -704,10 +704,10 @@
 			}]
 		}
 		{
-			title: "&#EA26EALiquid Magentite&r"
+			title: "&#EA26EA品红流体&r"
 			x: 1.75d
 			y: 3.5d
-			description: ["&#EA26EALiquid Magentite&r can be obtained in a Fluidizer with a &#EA26EAMagentite ingot&r."]
+			description: ["&#EA26EA品红流体&r可以使用流化器用&#EA26EA品红锭&r流化得到。"]
 			dependencies: [
 				"6DC4C73055E5FE09"
 				"4F46D07D4530D22B"
@@ -725,10 +725,10 @@
 			}]
 		}
 		{
-			title: "&#97E9FFLiquid Cyanite&r"
+			title: "&#97E9F蓝晶流体&r"
 			x: -0.25d
 			y: 3.5d
-			description: ["&#97E9FFLiquid Cyanite&r can be obtained in a Fluidizer with a &#97E9FFCyanite ingot&r."]
+			description: ["&#97E9FF蓝晶流体&r可以使用流化器用&#97E9FF蓝晶锭&r流化得到。"]
 			hide_dependency_lines: false
 			dependencies: ["4F46D07D4530D22B"]
 			dependency_requirement: "one_completed"
@@ -756,7 +756,7 @@
 			tasks: [{
 				id: "0719E27B3E215F15"
 				type: "item"
-				title: "&#435548Reprocessor Glass&r"
+				title: "&#435548再处理器玻璃&r"
 				item: "bigreactors:reprocessorglass"
 			}]
 			rewards: [{
@@ -775,7 +775,7 @@
 			tasks: [{
 				id: "11CD63A56D8E853D"
 				type: "item"
-				title: "&#435548Output Port&r"
+				title: "&#435548输出端口&r"
 				item: "bigreactors:reprocessoroutputport"
 			}]
 			rewards: [{
@@ -792,7 +792,7 @@
 			tasks: [{
 				id: "23AAF9105554A0A4"
 				type: "item"
-				title: "&#435548Collector&r"
+				title: "&#435548收集器&r"
 				item: "bigreactors:reprocessorcollector"
 			}]
 			rewards: [{
@@ -812,7 +812,7 @@
 			tasks: [{
 				id: "0CEC77C232609E7F"
 				type: "item"
-				title: "&#435548Power Port&r"
+				title: "&#435548能源接口&r"
 				item: "bigreactors:reprocessorpowerport"
 			}]
 			rewards: [{
@@ -830,7 +830,7 @@
 			tasks: [{
 				id: "697DF2F516351EF5"
 				type: "item"
-				title: "&#435548Fluid Injector&r"
+				title: "&#435548流体注入器&r"
 				item: "bigreactors:reprocessorfluidinjector"
 			}]
 			rewards: [{
@@ -848,7 +848,7 @@
 			tasks: [{
 				id: "6702A4F420743A30"
 				type: "item"
-				title: "&#435548Waste Injector&r"
+				title: "&#435548废料注入器&r"
 				item: "bigreactors:reprocessorwasteinjector"
 			}]
 			rewards: [{
@@ -862,15 +862,15 @@
 			x: -4.25d
 			y: 0.5d
 			shape: "square"
-			subtitle: "Hollow Multiblock "
-			description: ["The &2Reprocessor&r must be 3x3x7 to work perfectly. For further informations see the &e&lExtreme Book&r"]
+			subtitle: "空心的多方块结构"
+			description: ["&2再处理器&r必须是3x3x7大小才能完美运行。详见手册&e&lExtreme Book&r"]
 			dependencies: ["5FBB48BC5223C760"]
 			size: 1.5d
 			id: "45FC67AC6AAD4EBA"
 			tasks: [{
 				id: "0576EB76860BBEDF"
 				type: "item"
-				title: "&#435548Reprocessor Controller&r"
+				title: "&#435548再处理器控制器&r"
 				item: "bigreactors:reprocessorcontroller"
 			}]
 			rewards: [{
@@ -892,7 +892,7 @@
 			tasks: [{
 				id: "3EA6A47C2DF72A50"
 				type: "item"
-				title: "&#435548Reprocessor Casing&r"
+				title: "&#435548再处理器外壳&r"
 				item: "bigreactors:reprocessorcasing"
 			}]
 			rewards: [{
@@ -904,7 +904,7 @@
 			}]
 		}
 		{
-			title: "&#97E9FFCyanite&r"
+			title: "&#97E9FF蓝晶锭&r"
 			x: -4.25d
 			y: -4.25d
 			shape: "gear"
@@ -918,7 +918,7 @@
 			tasks: [{
 				id: "19A27F02019AB288"
 				type: "item"
-				title: "&#97E9FFCyanite Ingot&r"
+				title: "&#97E9FF蓝晶锭&r"
 				item: "bigreactors:cyanite_ingot"
 			}]
 			rewards: [{
@@ -980,7 +980,7 @@
 			tasks: [{
 				id: "2FC005D9F5FA74B3"
 				type: "item"
-				title: "Solid Injector"
+				title: "固体注入器"
 				item: "bigreactors:fluidizersolidinjector"
 			}]
 			rewards: [{
@@ -998,7 +998,7 @@
 			tasks: [{
 				id: "58991B058F15853B"
 				type: "item"
-				title: "Fluid Injector"
+				title: "流体注入器"
 				item: "bigreactors:fluidizerfluidinjector"
 			}]
 			rewards: [{
@@ -1019,7 +1019,7 @@
 			tasks: [{
 				id: "48E554AD8D1CFF20"
 				type: "item"
-				title: "Power Port"
+				title: "能源接口"
 				item: "bigreactors:fluidizerpowerport"
 			}]
 			rewards: [{
@@ -1037,7 +1037,7 @@
 			tasks: [{
 				id: "31F006D109F0AB8E"
 				type: "item"
-				title: "Output Port"
+				title: "输出端口"
 				item: "bigreactors:fluidizeroutputport"
 			}]
 			rewards: [{
@@ -1077,7 +1077,7 @@
 			tasks: [{
 				id: "384373A2F3102DB1"
 				type: "item"
-				title: "&#50565FReinforced Computer Port&r"
+				title: "&#50565F涡轮机电脑端口（强化）&r"
 				item: "bigreactors:reinforced_turbinecomputerport"
 			}]
 			rewards: [{
@@ -1097,7 +1097,7 @@
 			tasks: [{
 				id: "59208E0E0C99DECC"
 				type: "item"
-				title: "&#50565FReinforced Turbine Controller&r"
+				title: "&#50565涡轮机控制器（强化）&r"
 				item: "bigreactors:reinforced_turbinecontroller"
 			}]
 			rewards: [{
@@ -1118,7 +1118,7 @@
 			tasks: [{
 				id: "0011BB5ED757D284"
 				type: "item"
-				title: "&#50565FReinforced Turbine Housing&r"
+				title: "&#50565F涡轮机外壳（强化）&r"
 				item: "bigreactors:reinforced_turbinecasing"
 			}]
 			rewards: [{
@@ -1140,7 +1140,7 @@
 			tasks: [{
 				id: "75F2D5B6CEB16DCB"
 				type: "item"
-				title: "&#50565FReinforced Rotor Bearing&r"
+				title: "&#50565F涡轮机转子轴承（强化）&r"
 				item: "bigreactors:reinforced_turbinerotorbearing"
 			}]
 			rewards: [{
@@ -1150,7 +1150,7 @@
 			}]
 		}
 		{
-			title: "&#50565FReinforced Rotor&r"
+			title: "&#50565F强化转子&r"
 			x: -6.75d
 			y: 13.5d
 			dependencies: ["1B40272EE7B1DD4F"]
@@ -1159,13 +1159,13 @@
 				{
 					id: "117457EE9F32A65F"
 					type: "item"
-					title: "&#50565FReinforced Rotor Shaft&r"
+					title: "&#50565涡轮机转子转轴（强化）&r"
 					item: "bigreactors:reinforced_turbinerotorshaft"
 				}
 				{
 					id: "370EFC4440D1DBF2"
 					type: "item"
-					title: "&#50565FReinforced Rotor Blade&r"
+					title: "&#50565F涡轮机转子叶片（强化）&r"
 					item: "bigreactors:reinforced_turbinerotorblade"
 				}
 			]
@@ -1183,7 +1183,7 @@
 			]
 		}
 		{
-			title: "&#50565FReinforced Fluid Port&r"
+			title: "&#50565F强化流体端口&r"
 			x: -5.75d
 			y: 14.0d
 			dependencies: [
@@ -1197,13 +1197,13 @@
 				{
 					id: "3815D8132BD8BD65"
 					type: "item"
-					title: "&#50565FReinforced Active Fluid Port&r"
+					title: "&#50565F流体端口（主动）&r"
 					item: "bigreactors:reinforced_turbinefluidport_forge_active"
 				}
 				{
 					id: "3EC486224E756C27"
 					type: "item"
-					title: "&#50565FReinforced Passive Fluid Port&r"
+					title: "&#50565F流体端口（被动）&r"
 					item: "bigreactors:reinforced_turbinefluidport_forge_passive"
 				}
 			]
@@ -1214,7 +1214,7 @@
 			}]
 		}
 		{
-			title: "&#50565FReinforced Energy Power Tap&r"
+			title: "&#50565F强化能源端口&r"
 			x: -4.75d
 			y: 14.25d
 			dependencies: ["1B40272EE7B1DD4F"]
@@ -1224,13 +1224,13 @@
 				{
 					id: "594576CF93F9C4DC"
 					type: "item"
-					title: "&#50565FReinforced Active Energy Power Tap&r"
+					title: "&#50565F涡轮机主动FE能源接口（强化）&r"
 					item: "bigreactors:reinforced_turbinepowertapfe_active"
 				}
 				{
 					id: "4D69057510FBC473"
 					type: "item"
-					title: "&#50565FReinforced Passive Energy Power Tap&r"
+					title: "&#50565F涡轮机被动FE能源接口（强化）&r"
 					item: "bigreactors:reinforced_turbinepowertapfe_passive"
 				}
 			]
@@ -1253,7 +1253,7 @@
 			tasks: [{
 				id: "38F5F78DBB79AB9C"
 				type: "item"
-				title: "&#50565FReinforced Energy Charging Port&r"
+				title: "&#50565F涡轮机FE充电端口（强化）&r"
 				item: "bigreactors:reinforced_turbinechargingportfe"
 			}]
 			rewards: [{
@@ -1271,7 +1271,7 @@
 			tasks: [{
 				id: "11FBCF39646861E0"
 				type: "item"
-				title: "&#50565FReinforced Redstone Port&r"
+				title: "&#50565F涡轮机红石端口（强化）&r"
 				item: "bigreactors:reinforced_turbineredstoneport"
 			}]
 			rewards: [{
@@ -1292,7 +1292,7 @@
 			tasks: [{
 				id: "4833C9410BAA2D0F"
 				type: "item"
-				title: "&#50565FReinforced Turbine Glass&r"
+				title: "&#50565F涡轮机玻璃（强化）&r"
 				item: "bigreactors:reinforced_turbineglass"
 			}]
 			rewards: [{
@@ -1317,7 +1317,7 @@
 			tasks: [{
 				id: "7A0D302089E026BF"
 				type: "item"
-				title: "&#929090Basic Turbine Controller&r"
+				title: "&#929090涡轮机控制器（基础）&r"
 				item: "bigreactors:basic_turbinecontroller"
 			}]
 			rewards: [{
@@ -1338,7 +1338,7 @@
 			tasks: [{
 				id: "57E416BFCC713B40"
 				type: "item"
-				title: "&#929090Basic Turbine Housing&r"
+				title: "&#929090涡轮机外壳（基础）&r"
 				item: "bigreactors:basic_turbinecasing"
 			}]
 			rewards: [{
@@ -1352,7 +1352,7 @@
 			x: -8.25d
 			y: -9.75d
 			shape: "square"
-			subtitle: "Your very first reactor!"
+			subtitle: "你的第一个反应堆！"
 			dependencies: [
 				"7A3F1BC3D6B98D77"
 				"6616388BDC1A0BDE"
@@ -1363,7 +1363,7 @@
 			tasks: [{
 				id: "081A91303F139F6C"
 				type: "item"
-				title: "&#4B4E53Basic Reactor Controller&r"
+				title: "&#4B4E53反应堆控制器（基础）&r"
 				item: "bigreactors:basic_reactorcontroller"
 			}]
 			rewards: [{
@@ -1381,7 +1381,7 @@
 			tasks: [{
 				id: "5F37968C49761122"
 				type: "item"
-				title: "&#4B4E53Basic Control Rod&r"
+				title: "&#4B4E53反应堆控制杆（基础）&r"
 				item: "bigreactors:basic_reactorcontrolrod"
 			}]
 			rewards: [{
@@ -1402,7 +1402,7 @@
 			tasks: [{
 				id: "2402979BD3FA1B60"
 				type: "item"
-				title: "&#4B4E53Basic Fuel Rod&r"
+				title: "&#4B4E53反应堆燃料棒（基础）&r"
 				item: "bigreactors:basic_reactorfuelrod"
 			}]
 			rewards: [{
@@ -1422,7 +1422,7 @@
 			tasks: [{
 				id: "48A5145F30F1AA63"
 				type: "item"
-				title: "&#4B4E53Basic Access Port&r"
+				title: "&#4B4E53反应堆固体访问端口（基础）&r"
 				item: "bigreactors:basic_reactorsolidaccessport"
 			}]
 			rewards: [{
@@ -1433,7 +1433,7 @@
 			}]
 		}
 		{
-			title: "&#4B4E53Basic Energy Power Tap&r"
+			title: "&#4B4E53能源端口（基础）&r"
 			x: -12.0d
 			y: -9.75d
 			dependencies: ["47D58FD227B99611"]
@@ -1443,13 +1443,13 @@
 				{
 					id: "479BB2A05EC2A2E6"
 					type: "item"
-					title: "&#4B4E53Basic Active Energy Power Tap&r"
+					title: "&#4B4E53反应堆主动FE能源接口（基础）&r"
 					item: "bigreactors:basic_reactorpowertapfe_active"
 				}
 				{
 					id: "4041F5D106233F10"
 					type: "item"
-					title: "&#4B4E53Basic Passive Energy Power Tap&r"
+					title: "&#4B4E53反应堆被动FE能源接口（基础）&r"
 					item: "bigreactors:basic_reactorpowertapfe_passive"
 				}
 			]
@@ -1474,7 +1474,7 @@
 			tasks: [{
 				id: "6D8EBE26EDB2A30F"
 				type: "item"
-				title: "&#4B4E53Basic Energy Charging Port&r"
+				title: "&#4B4E53反应堆FE充电端口（基础）&r"
 				item: "bigreactors:basic_reactorchargingportfe"
 			}]
 			rewards: [{
@@ -1496,7 +1496,7 @@
 			tasks: [{
 				id: "4DA40B987AA47C0C"
 				type: "item"
-				title: "&#4B4E53Basic Redstone Port&r"
+				title: "&#4B4E53反应堆红石端口（基础）&r"
 				item: "bigreactors:basic_reactorredstoneport"
 			}]
 			rewards: [{
@@ -1509,8 +1509,8 @@
 		{
 			x: -10.75d
 			y: -6.75d
-			subtitle: "What inside my reactor?"
-			description: ["&nThis block is optional and can be replaced by another Casing block.&r"]
+			subtitle: "我反应堆进了啥东西？"
+			description: ["&n该方块不是必需的，可以被另一种外壳方块替代。&r"]
 			dependencies: [
 				"47D58FD227B99611"
 				"7B9FBBCD2F962A0B"
@@ -1520,7 +1520,7 @@
 			tasks: [{
 				id: "6EDFA71B1B16A588"
 				type: "item"
-				title: "&#4B4E53Basic Reactor Glass&r"
+				title: "&#4B4E53反应堆玻璃（基础）&r"
 				item: "bigreactors:basic_reactorglass"
 			}]
 			rewards: [{
@@ -1541,7 +1541,7 @@
 			tasks: [{
 				id: "54686521D54396F0"
 				type: "item"
-				title: "&#929090Basic Rotor Bearing&r"
+				title: "&#929090涡轮机转子轴承（基础）&r"
 				item: "bigreactors:basic_turbinerotorbearing"
 			}]
 			rewards: [{
@@ -1551,7 +1551,7 @@
 			}]
 		}
 		{
-			title: "&#929090Basic Rotor&r"
+			title: "&#929090基础转子&r"
 			x: -11.0d
 			y: -1.5d
 			dependencies: ["6411797C17A84579"]
@@ -1560,13 +1560,13 @@
 				{
 					id: "3C3842022116642D"
 					type: "item"
-					title: "&#929090Basic Rotor Shaft&r"
+					title: "&#929090涡轮机转子转轴（基础）&r"
 					item: "bigreactors:basic_turbinerotorshaft"
 				}
 				{
 					id: "071A4CDFE819BDFD"
 					type: "item"
-					title: "&#929090Basic Rotor Blade&r"
+					title: "&#929090涡轮机转子叶片（基础）&r"
 					item: "bigreactors:basic_turbinerotorblade"
 				}
 			]
@@ -1584,7 +1584,7 @@
 			]
 		}
 		{
-			title: "&#929090Basic Fluid Port&r"
+			title: "&#929090流体端口（基础）&r"
 			x: -10.0d
 			y: -1.0d
 			dependencies: [
@@ -1598,13 +1598,13 @@
 				{
 					id: "457CF9BA4BA27EC9"
 					type: "item"
-					title: "&#929090Basic Active Fluid Port&r"
+					title: "&#929090涡轮机主动流体端口（基础）&r"
 					item: "bigreactors:basic_turbinefluidport_forge_active"
 				}
 				{
 					id: "70B63E2E31735CC3"
 					type: "item"
-					title: "&#929090Basic Passive Fluid Port&r"
+					title: "&#929090涡轮机被动流体端口（基础）&r"
 					item: "bigreactors:basic_turbinefluidport_forge_passive"
 				}
 			]
@@ -1615,7 +1615,7 @@
 			}]
 		}
 		{
-			title: "&#929090Basic Energy Power Tap&r"
+			title: "&#929090能源接口（基础）&r"
 			x: -9.0d
 			y: -0.75d
 			dependencies: ["6411797C17A84579"]
@@ -1625,13 +1625,13 @@
 				{
 					id: "08760A6A330528E8"
 					type: "item"
-					title: "&#929090Basic Active Energy Power Tap&r"
+					title: "&#929090涡轮机主动FE能源接口（基础）&r"
 					item: "bigreactors:basic_turbinepowertapfe_active"
 				}
 				{
 					id: "0658FBAAA94CDFF7"
 					type: "item"
-					title: "&#929090Basic Passive Energy Power Tap&r"
+					title: "&#929090涡轮机被动FE能源接口（基础）&r"
 					item: "bigreactors:basic_turbinepowertapfe_passive"
 				}
 			]
@@ -1654,7 +1654,7 @@
 			tasks: [{
 				id: "379B8095ACE04EBF"
 				type: "item"
-				title: "&#929090Basic Energy Charging Port&r"
+				title: "&#929090涡轮机FE充电端口（基础）&r"
 				item: "bigreactors:basic_turbinechargingportfe"
 			}]
 			rewards: [{
@@ -1672,7 +1672,7 @@
 			tasks: [{
 				id: "212E0089EE083BD5"
 				type: "item"
-				title: "&#929090Basic Redstone Port&r"
+				title: "&#929090涡轮机红石端口（基础）&r"
 				item: "bigreactors:basic_turbineredstoneport"
 			}]
 			rewards: [{
@@ -1693,7 +1693,7 @@
 			tasks: [{
 				id: "46541C80D220A2FC"
 				type: "item"
-				title: "&#929090Basic Turbine Glass"
+				title: "&#929090涡轮机玻璃（基础）"
 				item: "bigreactors:basic_turbineglass"
 			}]
 			rewards: [{

@@ -299,7 +299,7 @@
 		{
 			x: -10.25d
 			y: 12.25d
-			description: ["在下界遇到一只灵魂鹫"]
+			description: ["在下界遇到一只灵魂鹫。"]
 			id: "0D1F611A49AA590E"
 			tasks: [{
 				id: "1B228A8282C163FC"
@@ -359,7 +359,7 @@
 		{
 			x: -12.5d
 			y: 12.25d
-			description: ["在玄武岩三角洲遇见跨座兽"]
+			description: ["在玄武岩三角洲遇见跨座兽。"]
 			id: "538243F7BEE6CAC0"
 			tasks: [{
 				id: "20A5EB68BF9B8413"
@@ -425,7 +425,7 @@
 		{
 			x: -3.5d
 			y: 10.25d
-			description: ["在沙漠里遇见沙风怪，它只会在沙尘暴的沙漠中生成"]
+			description: ["在沙漠里遇见沙风怪，它只会在沙尘暴的沙漠中生成。"]
 			id: "384B2ACC511CD4D9"
 			tasks: [{
 				id: "3740A2B040A4F705"
@@ -443,7 +443,7 @@
 			x: -3.75d
 			y: 9.0d
 			subtitle: "沙沙！"
-			description: ["制作含沙射之袋"]
+			description: ["制作含沙射之袋。"]
 			dependencies: ["384B2ACC511CD4D9"]
 			id: "08023E3360BC08B3"
 			tasks: [
@@ -516,7 +516,7 @@
 		{
 			x: -9.75d
 			y: 2.25d
-			description: ["制作蜂鸟喂食器，它可以让蜂鸟们保持在一个小区域内活动"]
+			description: ["制作蜂鸟喂食器，它可以让蜂鸟们保持在一个小区域内活动。"]
 			dependencies: ["1FBFFB67133EB1F3"]
 			id: "0D67C96E83CA65B5"
 			tasks: [
@@ -611,7 +611,7 @@
 		{
 			x: -3.0d
 			y: 1.5d
-			description: ["制作一个回声定位器，它能现实附近的洞穴"]
+			description: ["制作一个回声定位器，它能显示附近的洞穴。"]
 			dependencies: ["2A8F3F136EB8485A"]
 			id: "502819258E065AD3"
 			tasks: [
@@ -642,7 +642,7 @@
 		{
 			x: -2.0d
 			y: 2.5d
-			description: ["制作一个末影定位器，它能帮你找到末影要塞。"]
+			description: ["制作一个末影定位器，它能帮你找到末地传送门框架。"]
 			dependencies: ["502819258E065AD3"]
 			id: "422A0957DC7FF997"
 			tasks: [
@@ -716,7 +716,7 @@
 			x: -11.75d
 			y: 5.75d
 			subtitle: "Just Dance!"
-			description: ["给蟑螂一把沙槌，欣赏表演吧..."]
+			description: ["给蟑螂一把沙槌，欣赏表演吧……"]
 			dependencies: ["0405F092BE2F54E6"]
 			id: "4FAE5FC80187F4FD"
 			tasks: [{
@@ -781,7 +781,7 @@
 		{
 			x: -10.75d
 			y: 13.5d
-			description: ["用蛆和绯红蚊子口器来合成绯红孑孓..."]
+			description: ["用蛆和绯红蚊子口器来合成绯红孑孓……"]
 			id: "3831E05A66F5DC96"
 			tasks: [
 				{
@@ -1149,7 +1149,7 @@
 		{
 			x: -9.0d
 			y: 16.0d
-			description: ["把绯红解决丢尽衣壳体，会发生什么呢？"]
+			description: ["把绯红孑孓放进衣壳体，会发生什么呢？"]
 			dependencies: ["72941F53A3897F41"]
 			id: "0EF3E38B205D5D3F"
 			tasks: [{
@@ -1185,7 +1185,7 @@
 		{
 			x: -7.25d
 			y: 17.25d
-			description: ["攻击虚空蠕虫的中段，将它一分为二！额...好像会有双倍的麻烦。"]
+			description: ["攻击虚空蠕虫的中段，将它一分为二！额……好像会有双倍的麻烦。"]
 			dependencies: ["32F80A35A1C5A42A"]
 			id: "445154DC9F481968"
 			tasks: [{

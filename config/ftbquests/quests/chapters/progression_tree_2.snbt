@@ -670,7 +670,7 @@
 			}]
 		}
 		{
-			title: "匠魂（冶炼炉，熔铸炉，......）"
+			title: "匠魂（冶炼炉，熔铸炉，……）"
 			icon: "tconstruct:smeltery_controller"
 			x: 1.25d
 			y: -0.25d

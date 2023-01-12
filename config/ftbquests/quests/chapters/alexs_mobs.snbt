@@ -642,7 +642,7 @@
 		{
 			x: -2.0d
 			y: 2.5d
-			description: ["制作一个末影定位器，它能帮你找到末影要塞。"]
+			description: ["制作一个末影定位器，它能帮你找到末地传送门框架。"]
 			dependencies: ["502819258E065AD3"]
 			id: "422A0957DC7FF997"
 			tasks: [

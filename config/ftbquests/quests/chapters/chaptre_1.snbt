@@ -790,7 +790,7 @@
 			}]
 		}
 		{
-			title: "&#806517木镐&r 配件"
+			title: "&#806517木镐&r部件"
 			icon: {
 				id: "tconstruct:pickaxe_head"
 				Count: 1b
@@ -975,11 +975,11 @@
 			}]
 		}
 		{
-			title: "Tetra 加工台"
+			title: "Tetra加工台"
 			x: -3.0d
 			y: 0.25d
 			shape: "square"
-			description: ["用锤子右键单击一个工作台以创建一个加工台"]
+			description: ["用锤子右键单击工作台来制作一个加工台。"]
 			dependencies: ["7A3D3399611B2809"]
 			size: 1.5d
 			id: "32DB90A8A43D1F3C"

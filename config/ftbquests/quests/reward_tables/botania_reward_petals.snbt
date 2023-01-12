@@ -1,7 +1,7 @@
 {
 	id: "446456CB3A2B8021"
 	order_index: 20
-	title: "Botania Reward Petals"
+	title: "随机“植物魔法”花瓣"
 	icon: "botania:fertilizer"
 	loot_size: 1
 	rewards: [

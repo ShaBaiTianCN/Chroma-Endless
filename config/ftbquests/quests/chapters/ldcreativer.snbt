@@ -3,7 +3,7 @@
 	group: "34085A64296DE6C7"
 	order_index: 0
 	filename: "ldcreativer"
-	title: "&l&dCreative&r"
+	title: "&l&d创造模式物品&r"
 	icon: {
 		id: "modularrouters:creative_module"
 		Count: 1b
@@ -333,7 +333,7 @@
 			x: -2.5d
 			y: -5.25d
 			shape: "hexagon"
-			description: ["You can fill it a Gauge !"]
+			description: ["你可以用滴管装满它！"]
 			dependencies: [
 				"16DE33CD6BB0DA52"
 				"78E53CD9BD1EDA95"

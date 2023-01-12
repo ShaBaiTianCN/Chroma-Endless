@@ -1,7 +1,7 @@
 {
 	id: "790440F86EDB3C86"
 	order_index: 11
-	title: "Mechanical Random"
+	title: "随机机械设备"
 	icon: {
 		id: "ironjetpacks:mechanical_jetpack"
 		Count: 1b

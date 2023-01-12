@@ -1,7 +1,7 @@
 {
 	id: "283F4CAFCE67B37D"
 	order_index: 27
-	title: "CreateRandomChocolate"
+	title: "随机“机械动力”的巧克力类物品"
 	icon: "create:bar_of_chocolate"
 	loot_size: 1
 	rewards: [

@@ -1,12 +1,12 @@
 {
   "controllerId": "autoinfuser",
-  "name": "Automatic Compound Infuser",
+  "name": "自动复合注入器",
   "textureOverride": "create:block/shadow_steel_casing",
   "ports": [
       {
         "type": "masterfulmachinery:items",
         "textureOverride": "occultism:block/otherstone",
-        "name": "Automatic Coumpond Infuser Item",
+        "name": "自动复合注入器物品",
         "id": "compound_item",
         "data": {
           "rows": 3,
@@ -16,7 +16,7 @@
       {
         "type": "masterfulmachinery:fluids",
         "textureOverride": "create:block/copper_casing",
-        "name": "Automatic Compound Infuser Fluid",
+        "name": "自动复合注入器流体",
         "id": "compound_fluid",
         "data": {
           "capacity": 150000

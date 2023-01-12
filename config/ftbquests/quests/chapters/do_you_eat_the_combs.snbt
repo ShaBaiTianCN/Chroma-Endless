@@ -3,7 +3,7 @@
 	group: "7DE7BB1CA4872D7D"
 	order_index: 1
 	filename: "do_you_eat_the_combs"
-	title: "Sweet Honey !"
+	title: "甜蜜蜜的蜂蜜！"
 	icon: "minecraft:honey_bottle"
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false

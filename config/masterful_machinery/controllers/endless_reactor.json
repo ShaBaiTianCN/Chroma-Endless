@@ -1,12 +1,12 @@
 {
     "controllerId": "endlessreactor",
-    "name": "Endless Reactor",
+    "name": "无尽反应堆",
     "textureOverride": "create:block/shadow_steel_casing",
     "ports": [
       {
         "type": "masterfulmachinery:items",
         "textureOverride": "pneumaticcraft:block/compressed_brick_tile",
-        "name": "Endless Reactor Item",
+        "name": "无尽反应堆物品",
         "id": "endless_item",
         "data": {
           "rows": 4,
@@ -16,7 +16,7 @@
       {
         "type": "masterfulmachinery:pncr_pressure",
         "textureOverride": "pneumaticcraft:block/compressed_brick_tile",
-        "name": "Endless Reactor Air Chamber",
+        "name": "无尽反应堆空气室",
         "id": "endless_air",
         "data": {
             "volume": 5000,
@@ -27,7 +27,7 @@
       {
         "type": "masterfulmachinery:energy",
         "textureOverride": "create:block/shadow_steel_casing",
-        "name": "Endless Reactor Energy",
+        "name": "无尽反应堆能量",
         "id": "endless_energy",
         "data": {
           "capacity": 1000000000
@@ -36,7 +36,7 @@
       {
         "type": "masterfulmachinery:fluids",
         "textureOverride": "pneumaticcraft:block/compressed_brick_tile",
-        "name": "Endless Reactor Fluid",
+        "name": "无尽反应堆流体",
         "id": "endless_fluid",
         "data": {
           "capacity": 150000
@@ -45,7 +45,7 @@
       {
         "type": "masterfulmachinery:create_rotation",
         "textureOverride": "pneumaticcraft:block/compressed_brick_tile",
-        "name": "Endless Reactor Speed",
+        "name": "无尽反应堆速度",
         "id": "endless_speed",
         "data": {
           "stress": 1000
@@ -54,7 +54,7 @@
       {
           "type": "masterfulmachinery:mekanism_gas",
           "textureOverride": "pneumaticcraft:block/compressed_brick_tile",
-          "name": "Endless Reactor Gas",
+          "name": "无尽反应堆气体",
           "id": "endless_gas",
           "data": {
               "capacity": 100000

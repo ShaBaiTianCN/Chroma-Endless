@@ -1,7 +1,7 @@
 {
 	id: "6B358A9A52111315"
 	order_index: 10
-	title: "ElementalCraft Random"
+	title: "随机“元素工艺”物品"
 	icon: "elementalcraft:focus"
 	loot_size: 1
 	hide_tooltip: true

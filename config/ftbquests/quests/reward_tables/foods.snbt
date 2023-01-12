@@ -1,7 +1,7 @@
 {
 	id: "2D4274519A1893D9"
 	order_index: 0
-	title: "Foods"
+	title: "食物"
 	icon: "quark:golden_apple_crate"
 	loot_size: 1
 	rewards: [

@@ -3,7 +3,7 @@
 	group: "248890104A858230"
 	order_index: 2
 	filename: "mob_farm"
-	title: "&bChapter 3&r &6-&r Mobs Farm"
+	title: "&b第三章&r&6-&r生物牧场"
 	icon: "mob_grinding_utils:saw"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -277,8 +277,8 @@
 			y: 5.5d
 			shape: "gear"
 			dependencies: [
-				"5CF10CD523A35115"
 				"549773FFAA0D69FA"
+				"507767B7232417F3"
 			]
 			size: 2.0d
 			id: "055C33DF21E33F50"
@@ -1363,7 +1363,7 @@
 			}]
 		}
 		{
-			title: "Improved Enchanting Table"
+			title: "改进的附魔台"
 			icon: "apotheosis:melonshelf"
 			x: 5.75d
 			y: 12.25d
@@ -1395,7 +1395,7 @@
 			}]
 		}
 		{
-			title: "My first Enchanting Setup"
+			title: "我的第一个附魔装置"
 			icon: "minecraft:bookshelf"
 			x: 7.25d
 			y: 8.25d
@@ -1404,7 +1404,7 @@
 				{
 					id: "2BBEBE1EF4B6F3D9"
 					type: "item"
-					title: "10x Bookshelves"
+					title: "10x书架"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1428,7 +1428,7 @@
 			}]
 		}
 		{
-			title: "Only The Best"
+			title: "最好的才是最好的"
 			icon: "apotheosis:rectifier_t3"
 			x: 7.25d
 			y: 10.0d

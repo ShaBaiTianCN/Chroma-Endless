@@ -3,20 +3,20 @@
 	group: "0889EAB460A6BD29"
 	order_index: 0
 	filename: "chaptre_1"
-	title: "&b第一章&r&6-&r入门"
+	title: "&b第一章&r&6-&r新的开始"
 	icon: "minecraft:grass_block"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "首先:&#806517木头&r"
+			title: "一切的起点：&#806517原木&r"
 			x: -6.5d
 			y: -11.75d
 			shape: "gear"
-			subtitle: "砍树时间"
+			subtitle: "砍树时间！"
 			description: [
-				"砍树收集&#806517木头&r（任何&#806517木头&r都可以）。"
-				"专业提示：不要忘记连锁"
+				"砍树收集&#806517原木&r（任何&#806517原木&r都可以）。"
+				"专业提示：不要忘记连锁！"
 			]
 			dependencies: ["1416718F40ED7569"]
 			size: 2.0d
@@ -50,7 +50,7 @@
 			]
 		}
 		{
-			title: "寻找: &#5F6366燧石&r"
+			title: "寻找：&#5F6366燧石&r"
 			x: -3.5d
 			y: -11.75d
 			shape: "gear"
@@ -81,7 +81,6 @@
 			]
 		}
 		{
-			title: "工作台"
 			x: -5.0d
 			y: -8.5d
 			shape: "square"
@@ -109,7 +108,7 @@
 			y: -6.5d
 			shape: "hexagon"
 			description: [
-				"为了3*3挖掘能力，必须应用为双头工具的第二个头"
+				"为了能3*3挖掘，一个双头工具需要装上地底提取器作为第二个头部配件"
 				""
 				"可以在寒冷或山区生物群落的地下深处的结构中找到。"
 			]
@@ -128,7 +127,6 @@
 			}]
 		}
 		{
-			title: "翻箱子"
 			icon: "tetra:forged_container"
 			x: 2.25d
 			y: -5.0d
@@ -232,7 +230,6 @@
 			}]
 		}
 		{
-			title: "燃烧室"
 			icon: "tetra:combustion_chamber"
 			x: 2.25d
 			y: -3.5d

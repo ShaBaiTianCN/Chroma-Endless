@@ -84,7 +84,7 @@
 			x: -5.0d
 			y: -8.5d
 			shape: "square"
-			subtitle: "几乎一切的开始"
+			subtitle: "万物之源"
 			dependencies: [
 				"5818D79835BC71DA"
 				"506463BEE4D51982"
@@ -192,7 +192,7 @@
 			y: -6.0d
 			shape: "diamond"
 			description: [
-				"凿地器可以赋予单头工具镐子的能力（即左键长按可破坏石质类方块），装配轻手柄后投掷可一次破坏直线5格的石质类方块（从起始方块向里挖掘，受到效率附魔、打磨与攻击速度加成）。"
+				"凿地器是一种多合一工具（镐子和锹）。"
 				""
 				"可以在寒冷或山区生物群落的地下深处的结构中找到。"
 			]
@@ -304,11 +304,11 @@
 			}]
 		}
 		{
-			title: "五级锤力"
+			title: "锤子 V（黑曜石）"
 			x: 4.0d
 			y: -1.75d
 			description: [
-				"使用升级的锻造台锤制作黑曜石锤，黑曜石锤提供第五级锤力"
+				"使用一台升级了的锻造锤制作一把双头黑曜石锤子，黑曜石锤子提供5级的锤击功能"
 				""
 				"关于锻造锤的信息可以在锻造锤任务中找到。"
 			]
@@ -321,7 +321,7 @@
 			tasks: [{
 				id: "1B9A1F1230633753"
 				type: "advancement"
-				title: "黑曜石锤"
+				title: "黑曜石锤子"
 				advancement: "tetra:upgrades/hammer_5"
 				criterion: ""
 			}]
@@ -333,18 +333,18 @@
 			}]
 		}
 		{
-			title: "六级锤力"
+			title: "锤子 VI（下界合金）"
 			x: 5.875d
 			y: -1.75d
 			shape: "pentagon"
-			description: ["使用完全升级的锻造台锤制作下界合金锤，下界合金锤提供第六层锤力。"]
+			description: ["使用一台完全升级的锻造锤制作一把双头下界合金锤子，下界合金锤子提供6级的锤击功能"]
 			dependencies: ["778D8A8CFBEAD668"]
 			size: 1.5d
 			id: "04B1E833C54711FF"
 			tasks: [{
 				id: "5EED575C460C31F4"
 				type: "advancement"
-				title: "下界合金锤"
+				title: "下界合金锤子"
 				advancement: "tetra:upgrades/hammer_6"
 				criterion: ""
 			}]
@@ -387,20 +387,20 @@
 			}]
 		}
 		{
-			title: "四级锤力"
+			title: "锤子 IV（黑石）"
 			x: 0.5d
 			y: -1.75d
 			description: [
-				"制作黑石锤，黑石锤提供四级锤力。"
+				"制作一把双头黑石锤子，黑石锤子提供4级的锤击功能"
 				""
-				"升级后的手柄或捆绑件将提供足够的完整性来支撑黑石锤。"
+				"一个升级的手柄或一个绑定能提供黑石锤子所需的完整度。"
 			]
 			dependencies: ["27065E76761830EC"]
 			id: "0291D01CF9820B1F"
 			tasks: [{
 				id: "647C29B1EB61BFDA"
 				type: "advancement"
-				title: "黑石锤"
+				title: "黑石锤子"
 				advancement: "tetra:upgrades/hammer_4"
 				criterion: ""
 			}]
@@ -461,7 +461,7 @@
 			tasks: [{
 				id: "468F2C8258AB9948"
 				type: "advancement"
-				title: "一级锤力"
+				title: "锤子 I（木）"
 				advancement: "tetra:upgrades/root"
 				criterion: ""
 			}]
@@ -499,16 +499,16 @@
 			}]
 		}
 		{
-			title: "二级锤力"
+			title: "锤子 II（石）"
 			x: -2.0d
 			y: -1.75d
-			description: ["将您的锤子升级为石锤（任何类型的石头），石锤提供第二级锤力。"]
+			description: ["将锤子升级到双头石锤（可用任意类型的石头），石锤子提供2级的锤击功能"]
 			dependencies: ["7A3D3399611B2809"]
 			id: "647694B5D937B505"
 			tasks: [{
 				id: "1FC0E87BEBAB1844"
 				type: "advancement"
-				title: "石头锤"
+				title: "石头锤子"
 				advancement: "tetra:upgrades/hammer_2"
 				criterion: ""
 			}]
@@ -567,7 +567,7 @@
 			}]
 		}
 		{
-			title: "匠魂工具或tetra"
+			title: "匠魂和Tetra"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -730,7 +730,6 @@
 			}]
 		}
 		{
-			title: "木镐"
 			x: -7.5d
 			y: 2.25d
 			subtitle: "这把更好"
@@ -1012,7 +1011,7 @@
 			y: 5.0d
 			shape: "diamond"
 			description: [
-				"以下任务向您展示了您在&2主世界&r。上可以找到的矿石"
+				"以下任务向您展示了在&2主世界&r可以找到的矿石。"
 				""
 				"有三类&7&c（这里的颜色与下面任务颜色的挖掘等级对应）："
 				""
@@ -1589,7 +1588,7 @@
 			x: -7.25d
 			y: 12.25d
 			shape: "square"
-			subtitle: "&#D52B1E就像McDonald's®（麦当劳）&r快餐一样"
+			subtitle: "就像&#D52B1EMcDonald's®（麦当劳）&r快餐一样"
 			description: ["烟熏炉工作起来像熔炉一样，但是是能做食物，速度是熔炉的一倍"]
 			dependencies: ["60E0E583C1CBCE56"]
 			id: "14083B579D63FAF8"
@@ -1634,7 +1633,7 @@
 			y: 10.75d
 			shape: "pentagon"
 			subtitle: "钴只在特定地点生成"
-			description: ["&6任何海洋生物群系, Y=5 - 45 层"]
+			description: ["&6任何海洋生物群系，Y=5-45层"]
 			dependencies: ["7FF11CD4F28B658F"]
 			id: "766AF7476B2AA9B6"
 			tasks: [{

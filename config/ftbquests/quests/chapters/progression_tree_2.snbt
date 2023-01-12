@@ -469,7 +469,7 @@
 			}]
 		}
 		{
-			title: "时间和空间的相对维度Tardis"
+			title: "时间和空间的相对维度"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b

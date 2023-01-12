@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 1
 	filename: "progression_tree_2"
-	title: "Progression Tree"
+	title: "章节树"
 	icon: "minecraft:oak_sapling"
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
@@ -217,7 +217,7 @@
 			}]
 		}
 		{
-			title: "Tinkers' Construct (First part)"
+			title: "匠魂（第一步）"
 			icon: "tconstruct:tinkers_anvil"
 			x: -1.75d
 			y: -0.25d
@@ -230,7 +230,7 @@
 			}]
 		}
 		{
-			title: "Create"
+			title: "机械动力"
 			icon: "create:wrench"
 			x: 2.75d
 			y: -0.25d
@@ -243,7 +243,7 @@
 			}]
 		}
 		{
-			title: "Vanilla"
+			title: "原版"
 			icon: "minecraft:grass_block"
 			x: -3.25d
 			y: -0.25d
@@ -252,7 +252,7 @@
 			tasks: [{
 				id: "1A5800623D263F9A"
 				type: "item"
-				title: "Logs"
+				title: "原木"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -263,7 +263,7 @@
 			}]
 		}
 		{
-			title: "Immersive Engineering"
+			title: "沉浸工程"
 			icon: {
 				id: "immersiveengineering:hammer"
 				Count: 1b
@@ -288,7 +288,7 @@
 			}]
 		}
 		{
-			title: "Occultism"
+			title: "神秘学"
 			icon: "occultism:spirit_fire"
 			x: 0.5d
 			y: 2.75d
@@ -301,7 +301,7 @@
 			}]
 		}
 		{
-			title: "Better End"
+			title: "更好的末地"
 			icon: "betterendforge:eternal_crystal"
 			x: 4.25d
 			y: -0.25d
@@ -314,7 +314,7 @@
 			}]
 		}
 		{
-			title: "Mobs Farm"
+			title: "生物农场"
 			icon: "mob_grinding_utils:saw"
 			x: 2.0d
 			y: 2.75d
@@ -327,7 +327,7 @@
 			}]
 		}
 		{
-			title: "Thermal"
+			title: "热力系列"
 			icon: "thermal:machine_frame"
 			x: -1.0d
 			y: 5.75d
@@ -340,7 +340,7 @@
 			}]
 		}
 		{
-			title: "Botania"
+			title: "植物魔法"
 			icon: {
 				id: "botania:lexicon"
 				Count: 1b
@@ -359,7 +359,7 @@
 			}]
 		}
 		{
-			title: "Mini Utilities"
+			title: "迷你实用设备"
 			icon: {
 				id: "miniutilities:unstable_ingot"
 				Count: 1b
@@ -378,7 +378,7 @@
 			}]
 		}
 		{
-			title: "Ars Nouveau"
+			title: "新生魔艺"
 			icon: "ars_nouveau:enchanting_apparatus"
 			x: -1.75d
 			y: 8.75d
@@ -391,7 +391,7 @@
 			}]
 		}
 		{
-			title: "Elemental Craft"
+			title: "元素工艺"
 			icon: "elementalcraft:pure_element_holder"
 			x: -0.25d
 			y: 8.75d
@@ -404,7 +404,7 @@
 			}]
 		}
 		{
-			title: "Pedestal"
+			title: "基座"
 			icon: "pedestals:coin/xpenchanter"
 			x: 1.25d
 			y: 8.75d
@@ -417,7 +417,7 @@
 			}]
 		}
 		{
-			title: "The Undergarden"
+			title: "深暗之园"
 			icon: "undergarden:catalyst"
 			x: 2.75d
 			y: 8.75d
@@ -430,7 +430,7 @@
 			}]
 		}
 		{
-			title: "PneumaticCraft"
+			title: "气动工艺"
 			icon: "pneumaticcraft:pressure_gauge"
 			x: -1.75d
 			y: 11.75d
@@ -456,7 +456,7 @@
 			}]
 		}
 		{
-			title: "Compact Machines"
+			title: "压缩空间"
 			icon: "compactmachines:personal_shrinking_device"
 			x: 1.25d
 			y: 11.75d
@@ -469,7 +469,7 @@
 			}]
 		}
 		{
-			title: "Tardis"
+			title: "时间和空间的相对维度"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -488,7 +488,7 @@
 			}]
 		}
 		{
-			title: "Industrial Foregoing"
+			title: "工业先锋"
 			icon: "industrialforegoing:machine_frame_advanced"
 			x: -2.5d
 			y: 14.75d
@@ -504,7 +504,7 @@
 			}]
 		}
 		{
-			title: "RFTools"
+			title: "RF工具箱"
 			icon: "rftoolsbuilder:builder"
 			x: -1.0d
 			y: 14.75d
@@ -520,7 +520,7 @@
 			}]
 		}
 		{
-			title: "Extreme Reactors"
+			title: "极限反应堆"
 			icon: "bigreactors:basic_reactorfuelrod"
 			x: 0.5d
 			y: 14.75d
@@ -533,7 +533,7 @@
 			}]
 		}
 		{
-			title: "EnderIO"
+			title: "末影接口"
 			icon: "enderioalloys:item_material_skull_zombie_controller"
 			x: 2.0d
 			y: 14.75d
@@ -552,7 +552,7 @@
 			}]
 		}
 		{
-			title: "Mekanism"
+			title: "通用机械"
 			icon: "mekanism:ultimate_control_circuit"
 			x: 3.5d
 			y: 14.75d
@@ -568,7 +568,7 @@
 			}]
 		}
 		{
-			title: "Extended Crafting"
+			title: "合成拓展"
 			icon: "extendedcrafting:elite_table"
 			x: -1.0d
 			y: 17.75d
@@ -584,7 +584,7 @@
 			}]
 		}
 		{
-			title: "Environmental Tech"
+			title: "环境科技"
 			icon: "envirotech:nanorite_void_miner_ccu"
 			x: 0.5d
 			y: 17.75d
@@ -597,7 +597,7 @@
 			}]
 		}
 		{
-			title: "Refined Storage"
+			title: "精致存储"
 			icon: "refinedstorage:creative_controller"
 			x: 2.0d
 			y: 17.75d
@@ -623,7 +623,7 @@
 			}]
 		}
 		{
-			title: "ProjectE"
+			title: "等价交换"
 			icon: {
 				id: "projecte:philosophers_stone"
 				Count: 1b
@@ -643,7 +643,7 @@
 			}]
 		}
 		{
-			title: "Draconic Evolution"
+			title: "龙之进化"
 			icon: "draconicevolution:awakened_core"
 			x: 0.5d
 			y: 20.75d
@@ -666,11 +666,11 @@
 			tasks: [{
 				id: "46DAD04B683FFF95"
 				type: "checkmark"
-				title: "Creative Chapter"
+				title: "创造物品章节"
 			}]
 		}
 		{
-			title: "Tinkers' Construct (Smeltery, Foundry, ..)"
+			title: "匠魂（冶炼炉，熔铸炉，……）"
 			icon: "tconstruct:smeltery_controller"
 			x: 1.25d
 			y: -0.25d

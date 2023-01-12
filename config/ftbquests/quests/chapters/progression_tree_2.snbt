@@ -327,7 +327,7 @@
 			}]
 		}
 		{
-			title: "热力膨胀"
+			title: "热力系列"
 			icon: "thermal:machine_frame"
 			x: -1.0d
 			y: 5.75d

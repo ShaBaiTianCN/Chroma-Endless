@@ -3,7 +3,7 @@
 	group: "44A22EED2BE11886"
 	order_index: 2
 	filename: "projecte"
-	title: "&b第三章&r&6-&r等价交换"
+	title: "&b第三章&r &6-&r 等价交换"
 	icon: "projecte:transmutation_table"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

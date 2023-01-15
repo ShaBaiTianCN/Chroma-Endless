@@ -3,20 +3,20 @@
 	group: "0889EAB460A6BD29"
 	order_index: 0
 	filename: "chaptre_1"
-	title: "&bChapter 1&r &6-&r Getting Started"
+	title: "&b第一章&r&6-&r新的开始"
 	icon: "minecraft:grass_block"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "First of all: &#806517Logs&r"
+			title: "一切的起点：&#806517原木&r"
 			x: -6.5d
 			y: -11.75d
 			shape: "gear"
-			subtitle: "Logging time!"
+			subtitle: "砍树时间！"
 			description: [
-				"Cut down a tree to collect &#806517logs&r (any &#806517logs&r work)."
-				"Pro tip: don't forget FTB Ultimine!"
+				"砍树收集&#806517原木&r（任何&#806517原木&r都可以）。"
+				"专业提示：不要忘记连锁！"
 			]
 			dependencies: ["1416718F40ED7569"]
 			size: 2.0d
@@ -24,7 +24,7 @@
 			tasks: [{
 				id: "56E33A3A0C9966C3"
 				type: "item"
-				title: "4x Logs"
+				title: "原木x4"
 				icon: "minecraft:oak_log"
 				item: {
 					id: "itemfilters:tag"
@@ -50,19 +50,19 @@
 			]
 		}
 		{
-			title: "Second of all: &#5F6366Flints&r"
+			title: "寻找：&#5F6366燧石&r"
 			x: -3.5d
 			y: -11.75d
 			shape: "gear"
-			subtitle: "Careful, you might burn everything."
-			description: ["Several ways to get flint, but which one to choose? Maybe JEI can tell you; although at the beginning we advise you to ultimine gravel or craft it with 3."]
+			subtitle: "小心点，你可能会烧掉所有东西。"
+			description: ["有几种获取燧石的方法，但要选择哪一种？也许JEI可以告诉你；尽管一开始我们建议您使用挖砂砾或者使用沙砾3合1。"]
 			dependencies: ["1416718F40ED7569"]
 			size: 2.0d
 			id: "506463BEE4D51982"
 			tasks: [{
 				id: "1F6AD2EF12A9D3E0"
 				type: "item"
-				title: "2x Flints"
+				title: "燧石x2"
 				item: "minecraft:flint"
 				count: 2L
 			}]
@@ -84,7 +84,7 @@
 			x: -5.0d
 			y: -8.5d
 			shape: "square"
-			subtitle: "The beginning of serious things."
+			subtitle: "万物之源"
 			dependencies: [
 				"5818D79835BC71DA"
 				"506463BEE4D51982"
@@ -94,7 +94,7 @@
 			tasks: [{
 				id: "59AD33D92E98AE40"
 				type: "item"
-				title: "&#806517Crafting Table&r"
+				title: "&#806517工作台&r"
 				item: "minecraft:crafting_table"
 			}]
 			rewards: [{
@@ -108,9 +108,9 @@
 			y: -6.5d
 			shape: "hexagon"
 			description: [
-				"To mine 3x3 area, The Chthonic Extractor must be applied as the second head by a tool."
+				"为了能3*3挖掘，一个双头工具需要装上地底提取器作为第二个头部配件"
 				""
-				"Can be found in structures deep underground in cold or montains biomes."
+				"可以在寒冷或山区生物群落的地下深处的结构中找到。"
 			]
 			dependencies: ["58BB878B4B44751B"]
 			optional: true
@@ -136,7 +136,7 @@
 			tasks: [{
 				id: "648A58F4EF053F1A"
 				type: "checkmark"
-				title: "Found Forged Container"
+				title: "找到锻造容器"
 			}]
 			rewards: [{
 				id: "52D6DF0AADFCCA34"
@@ -145,12 +145,12 @@
 			}]
 		}
 		{
-			title: "Useful Stuff"
+			title: "有用的东西"
 			icon: "tetra:forged_bolt"
 			x: 4.0d
 			y: -5.0d
 			shape: "diamond"
-			description: ["Can be found in structures deep underground in cold or montains biomes."]
+			description: ["可以在寒冷或山区生物群落的地下深处的结构中找到。"]
 			dependencies: ["58BB878B4B44751B"]
 			optional: true
 			id: "6DBE971A354DF307"
@@ -192,9 +192,9 @@
 			y: -6.0d
 			shape: "diamond"
 			description: [
-				"The Earthpiercer is a multi-purpose tool (Pickaxe \\& Shovel)."
+				"凿地器是一种多合一工具（镐子和锹）。"
 				""
-				"Can be found in structures deep underground in cold or montains biomes."
+				"可以在寒冷或山区生物群落的地下深处的结构中找到。"
 			]
 			dependencies: ["58BB878B4B44751B"]
 			optional: true
@@ -214,7 +214,7 @@
 			x: 4.0d
 			y: -3.75d
 			shape: "diamond"
-			description: ["Can be found in structures deep underground in cold or montains biomes."]
+			description: ["可以在寒冷或山区生物群落的地下深处的结构中找到。"]
 			dependencies: ["58BB878B4B44751B"]
 			optional: true
 			id: "417C0D4BEE933760"
@@ -234,20 +234,20 @@
 			x: 2.25d
 			y: -3.5d
 			description: [
-				"Can be found in structures deep underground in cold or mountains biomes."
+				"可以在寒冷或山区生物群落的地下深处的结构中找到。"
 				""
-				"Attach a combustion chamber to a forge hammer to increase the hammer tier by 1."
+				"燃烧室可以被连接到锻造锤上，可将锤子的等级提升1"
 				""
-				"Hammer upgrades like the combustion chamber can be found in crates and containers."
+				"类似燃烧室的锤子升级可以在板条箱和容器中找到。"
 				""
-				"&aPress the bound key to ponder to get more informations."
+				"&a按下绑定键以获取更多信息。"
 			]
 			dependencies: ["0291D01CF9820B1F"]
 			id: "5D0B6B773A9696D4"
 			tasks: [{
 				id: "7BD8828FC72D5E37"
 				type: "item"
-				title: "Hammer Upgrades"
+				title: "锤子升级组件"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -276,18 +276,18 @@
 			}]
 		}
 		{
-			title: "Find a Forge Hammer"
+			title: "寻找锻造锤"
 			icon: "tetra:hammer_base"
 			x: 2.25d
 			y: -1.75d
 			shape: "square"
 			description: [
-				"Can be found in structures deep underground in cold or mountains biomes."
+				"可以在寒冷或山区生物群落的地下深处的结构中找到。"
 				""
-				"&6Informations about Restored Machinery :&r"
+				"&6有关修复的信息：&r"
 				""
-				"- Fix up a forge hammer by attaching two charged thermal cells and two upgrades (Combustion Chamber and Planar Stabilizer)."
-				"- Use a claw to remove an upgrade from a forge hammer."
+				"-将两个热力单元和两个升级（燃烧室和平面稳定器）连接到一把锻造锤上来修复它。"
+				"-使用羊角头从锻造锤上拆下一个升级。"
 			]
 			dependencies: ["0291D01CF9820B1F"]
 			min_width: 350
@@ -295,7 +295,7 @@
 			tasks: [{
 				id: "4C3BFC406C125036"
 				type: "checkmark"
-				title: "Found forge hammer"
+				title: "寻找锻造锤"
 			}]
 			rewards: [{
 				id: "431818407142B1E4"
@@ -304,13 +304,13 @@
 			}]
 		}
 		{
-			title: "Tier 5"
+			title: "锤子 V（黑曜石）"
 			x: 4.0d
 			y: -1.75d
 			description: [
-				"Craft a double-sided obsidian hammer using an upgraded forge hammer, the obsidian hammer provides tier five hammering capabilities."
+				"使用一台升级了的锻造锤制作一把双头黑曜石锤子，黑曜石锤子提供5级的锤击功能"
 				""
-				"Information about the forge hammer can be found in the Forge Hammer quest."
+				"关于锻造锤的信息可以在锻造锤任务中找到。"
 			]
 			dependencies: [
 				"5D0B6B773A9696D4"
@@ -321,7 +321,7 @@
 			tasks: [{
 				id: "1B9A1F1230633753"
 				type: "advancement"
-				title: "Obsidian Hammer"
+				title: "黑曜石锤子"
 				advancement: "tetra:upgrades/hammer_5"
 				criterion: ""
 			}]
@@ -333,18 +333,18 @@
 			}]
 		}
 		{
-			title: "Tier 6"
+			title: "锤子 VI（下界合金）"
 			x: 5.875d
 			y: -1.75d
 			shape: "pentagon"
-			description: ["Craft a double-sided netherite hammer using a fully upgraded forge hammer, the netherite hammer provides tier six hammering capabilities."]
+			description: ["使用一台完全升级的锻造锤制作一把双头下界合金锤子，下界合金锤子提供6级的锤击功能"]
 			dependencies: ["778D8A8CFBEAD668"]
 			size: 1.5d
 			id: "04B1E833C54711FF"
 			tasks: [{
 				id: "5EED575C460C31F4"
 				type: "advancement"
-				title: "Netherite Hammer"
+				title: "下界合金锤子"
 				advancement: "tetra:upgrades/hammer_6"
 				criterion: ""
 			}]
@@ -356,15 +356,15 @@
 			}]
 		}
 		{
-			title: "Thermal Cells"
+			title: "热力单元"
 			x: 2.25d
 			y: 0.0d
 			description: [
-				"Can be found in structures deep underground in cold or mountains biomes."
+				"可以在寒冷或山区生物群落的地下深处的结构中找到。"
 				""
-				"Use a transfer unit or a core extractor to fully charge a thermal cell."
+				"可在完整的热能提取器处进行充能"
 				""
-				"Thermal Cells can be found in crates and containers."
+				"热电池可以在板条箱和容器中找到。"
 			]
 			dependencies: ["0291D01CF9820B1F"]
 			id: "11DF2D326A5E171F"
@@ -387,20 +387,20 @@
 			}]
 		}
 		{
-			title: "Tier 4"
+			title: "锤子 IV（黑石）"
 			x: 0.5d
 			y: -1.75d
 			description: [
-				"Craft a double-sided blackstone hammer, the blackstone hammer provides tier four hammering capabilities."
+				"制作一把双头黑石锤子，黑石锤子提供4级的锤击功能"
 				""
-				"An upgraded handle or a binding will provide enough integrity to support a blackstone hammer."
+				"一个升级的手柄或一个绑定能提供黑石锤子所需的完整度。"
 			]
 			dependencies: ["27065E76761830EC"]
 			id: "0291D01CF9820B1F"
 			tasks: [{
 				id: "647C29B1EB61BFDA"
 				type: "advancement"
-				title: "Blackstone Hammer"
+				title: "黑石锤子"
 				advancement: "tetra:upgrades/hammer_4"
 				criterion: ""
 			}]
@@ -412,20 +412,20 @@
 			}]
 		}
 		{
-			title: "Tier 3"
+			title: "三级锤力"
 			x: -0.75d
 			y: -1.75d
 			description: [
-				"Craft a double-sided iron hammer, the iron hammer provides tier three hammering capabilities."
+				"制作铁锤，铁锤提供三级锤力"
 				""
-				"Can only be crafted in a workbench, requires a secondary hammer in your inventory to craft."
+				"只能在加工台上制作，需要背包中有第二把锤子才能制作。"
 			]
 			dependencies: ["647694B5D937B505"]
 			id: "27065E76761830EC"
 			tasks: [{
 				id: "3CA2E4190C5F20EE"
 				type: "advancement"
-				title: "Iron Hammer"
+				title: "铁锤"
 				advancement: "tetra:upgrades/hammer_3"
 				criterion: ""
 			}]
@@ -437,19 +437,19 @@
 			}]
 		}
 		{
-			title: "Tetra's Hammer"
+			title: "Tetra的锤子"
 			x: -3.5d
 			y: -1.75d
 			description: [
-				"&6&lTetra&r revolves around modular items and attempting to blend it together with other concepts such as adventure and technology."
+				"围绕配件模块化，并尝试将其与其他概念（如冒险和技术）融合在一起。"
 				""
-				"&l&6Tetra&r allows you to replace parts of items with different parts of different types and materials, some parts can also be improved. Each parts you may use is limited by the item capacity, called integrity. Some parts increase an item integrity while some parts has an integrity cost. Some parts are requiring tools of different quality to craft."
+				"允许您用不同类型和材料的不同零件替换零件，某些零件也可以改进。您可以使用的每个部件都受项目容量的限制，称为完整性。有些零件增加了项目的完整性，而有些零件则具有完整性成本。有些零件需要不同质量的工具来制造。"
 				""
-				"Getting Started:"
-				"1) Craft a Wooden Hammer using two sticks and two planks."
-				"2) Craft and place a vanilla crafting table."
-				"3) Right click on the table with the hammer to upgrade it into a workbench"
-				"4) Craft a vanilla weapon, tool shield or a bow and place it in the workbench"
+				"入门："
+				"1）用两根棍子和两块木板制作一把木锤。"
+				"2）制作并放置原版工作台。"
+				"3）用锤子在桌子上单击鼠标右键，将其升级为加工台"
+				"4）制作一把原版武器、工具盾或弓，并将其放在加工台上"
 			]
 			dependencies: [
 				"5905919B35D651A5"
@@ -461,7 +461,7 @@
 			tasks: [{
 				id: "468F2C8258AB9948"
 				type: "advancement"
-				title: "Tier 1"
+				title: "锤子 I（木）"
 				advancement: "tetra:upgrades/root"
 				criterion: ""
 			}]
@@ -474,7 +474,7 @@
 		{
 			x: -2.25d
 			y: -3.75d
-			description: ["&5Eye of Ender&r combined with &6Holosphere&r in workbench will help you to find Forges easier."]
+			description: ["在加工台中将&5末影之眼&r加入&6全息球&r之中可以使你寻找地牢的旅途更为顺畅。"]
 			dependencies: ["7A3D3399611B2809"]
 			id: "38D63D2A59047069"
 			tasks: [{
@@ -499,16 +499,16 @@
 			}]
 		}
 		{
-			title: "Tier 2"
+			title: "锤子 II（石）"
 			x: -2.0d
 			y: -1.75d
-			description: ["Upgrade your hammer to a double-sided stone hammer (any type of stone), the stone hammer provides tier two hammering capabilities."]
+			description: ["将锤子升级到双头石锤（可用任意类型的石头），石锤子提供2级的锤击功能"]
 			dependencies: ["7A3D3399611B2809"]
 			id: "647694B5D937B505"
 			tasks: [{
 				id: "1FC0E87BEBAB1844"
 				type: "advancement"
-				title: "Stone Hammer"
+				title: "石头锤子"
 				advancement: "tetra:upgrades/hammer_2"
 				criterion: ""
 			}]
@@ -520,7 +520,7 @@
 			}]
 		}
 		{
-			title: "&#806517Wooden Tools&r"
+			title: "&#806517木头工具&r"
 			icon: {
 				id: "minecraft:wooden_pickaxe"
 				Count: 1b
@@ -530,14 +530,14 @@
 			}
 			x: -4.0d
 			y: -3.75d
-			subtitle: "Don't use this!"
+			subtitle: "不要用这个！"
 			dependencies: ["4F9CEE6539022521"]
 			id: "53D7FCF8BE62ACFC"
 			tasks: [
 				{
 					id: "25EE9037AE20F5DF"
 					type: "item"
-					title: "&#806517Wooden Pickaxe&r"
+					title: "&#806517木镐&r"
 					item: {
 						id: "minecraft:wooden_pickaxe"
 						Count: 1b
@@ -549,7 +549,7 @@
 				{
 					id: "2E70715A64E7B8A5"
 					type: "item"
-					title: "&#806517Wooden Axe&r"
+					title: "&#806517木斧&r"
 					item: {
 						id: "minecraft:wooden_axe"
 						Count: 1b
@@ -567,7 +567,7 @@
 			}]
 		}
 		{
-			title: "Tinkers' Construct / Tetra"
+			title: "匠魂和Tetra"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -578,13 +578,13 @@
 			x: -5.0d
 			y: -5.75d
 			shape: "diamond"
-			subtitle: "Which way?"
+			subtitle: "哪条路？"
 			description: [
-				"Vanilla tools only have &61 durability&r, so if you break a block with them, they will break."
+				"原版工具只有&61耐久&r，所以如果你用它们打破一个方块，它们就会坏掉"
 				""
-				"In the following quests, there are two paths: &2Tinkers' Construct&r and &2Tetra&r. You can do both, or just one, and maybe the other one later; but in no case will you be blocked for the rest."
+				"在以下任务中，有两条路径：&2匠魂工具&r和&2Tetra&r。你可以同时做两个，或者只做一个，或者稍后再做另一个；但是另外一条你会做吗？。"
 				""
-				"Tinkers' Construct is at the left, and Tetra at the right."
+				"匠魂工具在左边，Tetra在右面"
 			]
 			dependencies: ["1C7C41C2FA427B8F"]
 			min_width: 150
@@ -592,7 +592,7 @@
 			tasks: [{
 				id: "5905919B35D651A5"
 				type: "checkmark"
-				title: "&aValidate&r"
+				title: "&a点击确认&r"
 			}]
 			rewards: [{
 				id: "2D1856809FE10478"
@@ -601,7 +601,7 @@
 			}]
 		}
 		{
-			title: "Pattern"
+			title: "模具"
 			x: -6.0d
 			y: -3.75d
 			dependencies: ["4F9CEE6539022521"]
@@ -609,7 +609,7 @@
 			tasks: [{
 				id: "13F06C8D3E995E47"
 				type: "item"
-				title: "Pattern"
+				title: "模具"
 				item: "tconstruct:pattern"
 			}]
 			rewards: [{
@@ -621,12 +621,12 @@
 			}]
 		}
 		{
-			title: "Tinker's Stations"
+			title: "工匠站"
 			icon: "tconstruct:tinker_station"
 			x: -6.5d
 			y: -1.75d
 			shape: "square"
-			subtitle: "Useful Stations "
+			subtitle: "很有用的方块"
 			dependencies: ["4CA0051417A86918"]
 			size: 1.5d
 			id: "1E198C450382D37F"
@@ -650,7 +650,7 @@
 			}]
 		}
 		{
-			title: "Tinker's Chests"
+			title: "工匠箱子"
 			icon: "tconstruct:part_chest"
 			x: -8.5d
 			y: -1.25d
@@ -732,13 +732,13 @@
 		{
 			x: -7.5d
 			y: 2.25d
-			subtitle: "Oh, that's better."
+			subtitle: "这把更好"
 			dependencies: ["72B3CFA86B00A3F2"]
 			id: "311247214F1D95B3"
 			tasks: [{
 				id: "34E5E08365596A54"
 				type: "item"
-				title: "&#806517Wooden Pickaxe&r"
+				title: "&#806517木镐&r"
 				item: {
 					id: "tconstruct:pickaxe"
 					Count: 1b
@@ -790,7 +790,7 @@
 			}]
 		}
 		{
-			title: "&#806517Wooden Pickaxe&r Parts"
+			title: "&#806517木镐&r部件"
 			icon: {
 				id: "tconstruct:pickaxe_head"
 				Count: 1b
@@ -800,14 +800,14 @@
 			}
 			x: -7.0d
 			y: 0.25d
-			subtitle: "Wait...that pickaxe doesn't work!"
+			subtitle: "等等……那把镐子不能用！"
 			dependencies: ["1E198C450382D37F"]
 			id: "72B3CFA86B00A3F2"
 			tasks: [
 				{
 					id: "79D2944035185965"
 					type: "item"
-					title: "&#806517Wooden Pickaxe&r Head"
+					title: "&#806517木 镐&r头"
 					item: {
 						id: "tconstruct:pickaxe_head"
 						Count: 1b
@@ -819,7 +819,7 @@
 				{
 					id: "4E5AF00AE0836653"
 					type: "item"
-					title: "&#806517Wooden&r Tool Handle"
+					title: "&#806517木&r 工具手柄"
 					item: {
 						id: "tconstruct:tool_handle"
 						Count: 1b
@@ -831,7 +831,7 @@
 				{
 					id: "23E4F8FD05BEC76E"
 					type: "item"
-					title: "&#806517Wooden&r Tool Binding"
+					title: "&#806517木&r 绑定结"
 					item: {
 						id: "tconstruct:tool_binding"
 						Count: 1b
@@ -849,7 +849,7 @@
 			}]
 		}
 		{
-			title: "Cobblestone"
+			title: "圆石"
 			icon: "minecraft:cobblestone"
 			x: -5.0d
 			y: 3.0d
@@ -862,7 +862,7 @@
 			tasks: [{
 				id: "214B452BFC21411E"
 				type: "item"
-				title: "16x Cobblestones"
+				title: "圆石x16"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -881,18 +881,18 @@
 			}]
 		}
 		{
-			title: "&#806517Wooden Pickaxe&r"
+			title: "&#806517木镐&r"
 			x: -2.5d
 			y: 2.25d
-			subtitle: "Finally a working tool."
+			subtitle: "最后是一个工具。"
 			description: [
-				"Put your previously crafted vanilla &#806517Wooden Pickaxe&r into the Tetra Workbench."
+				"将你之前做好的原版&#806517木镐&r放入加工台"
 				""
-				"Then click &o\"Repair\"&r and place a &#806517Plank&r in the slot."
+				"再点击&o“修复”&r并在槽位栏放上一个木板。"
 				""
-				"If you have a &#806517Wooden Axe&r (or another level 1 axe) in your inventory, you will be able to click &o\"Craft\"&r."
+				"如果你有一把&#806517木斧&r（或其它1级斧）在你的物品栏里，你就可以点击&o“制作”&r。"
 				""
-				"Your Minecraft &#806517Wooden Pickaxe&r is now a Tetra &#806517Wooden Pickaxe&r and has a durability of 59."
+				"你的原版&#806517木镐&r现在已经是一把Tetra&#806517木镐&r了，并且有59点耐久度。"
 				""
 				"{image:chroma:textures/quests/tetra_wooden_pickaxe_repair.png width:256 height:196 align:1}"
 			]
@@ -926,7 +926,7 @@
 			x: 8.75d
 			y: -1.75d
 			shape: "diamond"
-			description: ["Can be found in structures deep underground in cold or mountains biomes."]
+			description: ["可以在寒冷或山区生物群落的地下深处的结构中找到。"]
 			dependencies: ["2F2ECEDC539DFFB7"]
 			id: "5C796409D3C28291"
 			tasks: [{
@@ -944,7 +944,7 @@
 			x: 8.25d
 			y: -2.5d
 			shape: "diamond"
-			description: ["Can be found in structures deep underground in cold or mountains biomes."]
+			description: ["可以在寒冷或山区生物群落的地下深处的结构中找到。"]
 			dependencies: ["2F2ECEDC539DFFB7"]
 			id: "780EFBC7BFC66E5A"
 			tasks: [{
@@ -962,7 +962,7 @@
 			x: 8.25d
 			y: -1.0d
 			shape: "diamond"
-			description: ["Can be found in structures deep underground in cold or mountains biomes."]
+			description: ["可以在寒冷或山区生物群落的地下深处的结构中找到。"]
 			dependencies: ["2F2ECEDC539DFFB7"]
 			id: "2E366ADF62A8DE98"
 			tasks: [{
@@ -977,18 +977,18 @@
 			}]
 		}
 		{
-			title: "Tetra Workbench"
+			title: "Tetra加工台"
 			x: -3.0d
 			y: 0.25d
 			shape: "square"
-			description: ["Right click a crafting table with a hammer to create a workbench."]
+			description: ["用锤子右键单击工作台来制作一个加工台。"]
 			dependencies: ["7A3D3399611B2809"]
 			size: 1.5d
 			id: "32DB90A8A43D1F3C"
 			tasks: [{
 				id: "31EBDD2B18A28C44"
 				type: "observation"
-				title: "Workbench"
+				title: "加工台"
 				icon: "tetra:basic_workbench"
 				timer: 0L
 				observe_type: 0
@@ -1001,7 +1001,7 @@
 			}]
 		}
 		{
-			title: "Mining"
+			title: "采矿"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -1013,15 +1013,15 @@
 			y: 5.0d
 			shape: "diamond"
 			description: [
-				"The following quests show you what ores you can find in &2Overworld&r."
+				"以下任务向您展示了在&2主世界&r可以找到的矿石。"
 				""
-				"There is three categories :"
+				"有以下三类："
 				""
-				"   - Ores that can be mined with a &6Wooden Pickaxe&r or another pickaxe with equivalent mining level."
+				"   -可使用&6木镐&r或其他具有同等采掘等级的镐开采的矿石。"
 				""
-				"   - Ores that can be mined with a &5Stone Pickaxe&r or another pickaxe with equivalent mining level."
+				"   -可使用&5石镐&r或其他具有同等采掘等级的镐开采的矿石。"
 				""
-				"   - Ores that can be mined with an &bIron Pickaxe&r or another pickaxe with equivalent mining level."
+				"   -可使用&b铁镐&r或其他具有同等采掘等级的镐开采的矿石。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1033,7 +1033,7 @@
 			tasks: [{
 				id: "6EF6ED995F8CBDAC"
 				type: "checkmark"
-				title: "&aValidate&r"
+				title: "&a点击确认&r"
 			}]
 			rewards: [{
 				id: "3FA5C0D8F64592AB"
@@ -1042,7 +1042,7 @@
 			}]
 		}
 		{
-			title: "&bGold&r"
+			title: "&b金&r"
 			x: -7.0d
 			y: 6.25d
 			shape: "pentagon"
@@ -1062,7 +1062,7 @@
 			}]
 		}
 		{
-			title: "&5Iron&r"
+			title: "&5铁&r"
 			x: -6.0d
 			y: 6.5d
 			shape: "pentagon"
@@ -1082,7 +1082,7 @@
 			}]
 		}
 		{
-			title: "&6Coal&r"
+			title: "&6煤炭&r"
 			x: -5.0d
 			y: 6.75d
 			shape: "pentagon"
@@ -1102,7 +1102,7 @@
 			}]
 		}
 		{
-			title: "&5Copper&r"
+			title: "&5铜&r"
 			x: -4.0d
 			y: 6.5d
 			shape: "pentagon"
@@ -1122,7 +1122,7 @@
 			}]
 		}
 		{
-			title: "&bUranium&r"
+			title: "&b铀&r"
 			x: -3.0d
 			y: 6.25d
 			shape: "pentagon"
@@ -1142,7 +1142,7 @@
 			}]
 		}
 		{
-			title: "&bEmerald&r"
+			title: "&b绿宝石&r"
 			x: -2.25d
 			y: 7.0d
 			shape: "pentagon"
@@ -1162,7 +1162,7 @@
 			}]
 		}
 		{
-			title: "&5Dimensional Shard&r"
+			title: "&5空间碎片&r"
 			x: -3.25d
 			y: 7.25d
 			shape: "pentagon"
@@ -1182,7 +1182,7 @@
 			}]
 		}
 		{
-			title: "&6Cinnabar&r"
+			title: "&6朱砂&r"
 			x: -4.25d
 			y: 7.5d
 			shape: "pentagon"
@@ -1202,7 +1202,7 @@
 			}]
 		}
 		{
-			title: "&6Uraninite&r"
+			title: "&6晶质铀&r"
 			icon: "powah:uraninite_raw_dense"
 			x: -5.75d
 			y: 7.5d
@@ -1214,7 +1214,7 @@
 			tasks: [{
 				id: "1472D590D74FCE1E"
 				type: "item"
-				title: "Raw Uraninite"
+				title: "天然晶质铀"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -1243,7 +1243,7 @@
 			}]
 		}
 		{
-			title: "&5Lapis Lazuli&r"
+			title: "&5青金石&r"
 			x: -6.75d
 			y: 7.25d
 			shape: "pentagon"
@@ -1263,7 +1263,7 @@
 			}]
 		}
 		{
-			title: "&bDiamond&r"
+			title: "&b钻石&r"
 			x: -7.75d
 			y: 7.0d
 			shape: "pentagon"
@@ -1283,7 +1283,7 @@
 			}]
 		}
 		{
-			title: "&bRedstone&r"
+			title: "&b红石&r"
 			x: -7.5d
 			y: 8.0d
 			shape: "pentagon"
@@ -1303,7 +1303,7 @@
 			}]
 		}
 		{
-			title: "&5Aluminum&r"
+			title: "&5铝&r"
 			x: -6.5d
 			y: 8.25d
 			shape: "pentagon"
@@ -1323,7 +1323,7 @@
 			}]
 		}
 		{
-			title: "&5Fluorite&r"
+			title: "&5氟石&r"
 			x: -5.75d
 			y: 9.0d
 			shape: "pentagon"
@@ -1343,7 +1343,7 @@
 			}]
 		}
 		{
-			title: "&6Bitumen&r"
+			title: "&6沥青&r"
 			x: -5.0d
 			y: 8.25d
 			shape: "pentagon"
@@ -1363,7 +1363,7 @@
 			}]
 		}
 		{
-			title: "&5Apatite&r"
+			title: "&5磷灰石&r"
 			x: -4.25d
 			y: 9.0d
 			shape: "pentagon"
@@ -1383,7 +1383,7 @@
 			}]
 		}
 		{
-			title: "&5Tin&r"
+			title: "&5锡&r"
 			x: -3.5d
 			y: 8.25d
 			shape: "pentagon"
@@ -1403,7 +1403,7 @@
 			}]
 		}
 		{
-			title: "&bDraconium&r"
+			title: "&b龙矿&r"
 			x: -2.5d
 			y: 8.0d
 			shape: "pentagon"
@@ -1423,7 +1423,7 @@
 			}]
 		}
 		{
-			title: "&bSilver&r"
+			title: "&b银&r"
 			x: -2.25d
 			y: 9.0d
 			shape: "pentagon"
@@ -1443,7 +1443,7 @@
 			}]
 		}
 		{
-			title: "&bZinc&r"
+			title: "&b锌&r"
 			x: -3.25d
 			y: 9.25d
 			shape: "pentagon"
@@ -1463,7 +1463,7 @@
 			}]
 		}
 		{
-			title: "&5Potassium Nitrate&r"
+			title: "&5硝酸钾&r"
 			x: -4.0d
 			y: 10.0d
 			shape: "pentagon"
@@ -1483,7 +1483,7 @@
 			}]
 		}
 		{
-			title: "&5Osmium&r"
+			title: "&5锇&r"
 			x: -5.0d
 			y: 9.75d
 			shape: "pentagon"
@@ -1503,7 +1503,7 @@
 			}]
 		}
 		{
-			title: "&5Source Gem&r"
+			title: "&5魔源宝石&r"
 			x: -6.0d
 			y: 10.0d
 			shape: "pentagon"
@@ -1523,7 +1523,7 @@
 			}]
 		}
 		{
-			title: "&bLead&r"
+			title: "&b铅&r"
 			x: -6.75d
 			y: 9.25d
 			shape: "pentagon"
@@ -1543,7 +1543,7 @@
 			}]
 		}
 		{
-			title: "&bNickel&r"
+			title: "&b镍&r"
 			x: -7.75d
 			y: 9.0d
 			shape: "pentagon"
@@ -1566,8 +1566,8 @@
 			x: -2.75d
 			y: 12.25d
 			shape: "square"
-			subtitle: "Fast Ore like...well...nothing I think"
-			description: ["A Blast Furnace works like a Furnace, but only smelts ores (and other specifics things) but run twice as fast."]
+			subtitle: "快速熔炼矿物就像……emmm……当我没说"
+			description: ["高炉的工作原理与熔炉相似，但只冶炼矿石（以及其他特别的东西），但运行速度是熔炉的两倍。"]
 			dependencies: [
 				"250B3DF7EF1694AE"
 				"60E0E583C1CBCE56"
@@ -1590,8 +1590,8 @@
 			x: -7.25d
 			y: 12.25d
 			shape: "square"
-			subtitle: "Fast Food like &#D52B1EMcDonald's®&r"
-			description: ["A Smoker works like a Furnace, but only cooks food but run twice as fast."]
+			subtitle: "就像&#D52B1EMcDonald's®（麦当劳）&r快餐一样"
+			description: ["烟熏炉工作起来像熔炉一样，但是是能烹饪食物，速度是熔炉的两倍"]
 			dependencies: ["60E0E583C1CBCE56"]
 			id: "14083B579D63FAF8"
 			tasks: [{
@@ -1634,8 +1634,8 @@
 			x: -5.0d
 			y: 10.75d
 			shape: "pentagon"
-			subtitle: "Cobalt Harvest Level required"
-			description: ["&6Any Ocean Biomes, Y 5 to 45"]
+			subtitle: "钴只在特定地点生成"
+			description: ["&6任何海洋生物群系，Y=5-45层"]
 			dependencies: ["7FF11CD4F28B658F"]
 			id: "766AF7476B2AA9B6"
 			tasks: [{
@@ -1653,16 +1653,16 @@
 			x: 7.25d
 			y: -1.75d
 			description: [
-				"Those 3 items can only be obtained with the latest hammer and only with an &bSilk Touch&r one."
+				"这三件物品只能用最新的锤子获得，并且只能使用&b精准采集&r"
 				""
-				"The advantage of geting this item, is to not always moving from your base to the ancient structure."
+				"好处是你不用在跑去遗迹做工具了"
 			]
 			dependencies: ["04B1E833C54711FF"]
 			id: "2F2ECEDC539DFFB7"
 			tasks: [{
 				id: "0CD0CABE04795FAD"
 				type: "checkmark"
-				title: "How to get it"
+				title: "如何得到它"
 			}]
 		}
 	]

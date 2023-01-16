@@ -756,7 +756,7 @@
 			y: 12.5d
 			shape: "diamond"
 			description: [
-				"这个任务将要求你为&6建造机&r制作全部&2塑形卡片&r[--This quest will adk you to craft all &2Shape Cards&r for the &6Builder&r--]"
+				"这个任务将要求你为&6建造机&r制作全部&2塑形卡片&r"
 				""
 				"我建议你看看&bRF工具&r指南……除非你想要个惊喜，这取决于你自己。"
 			]

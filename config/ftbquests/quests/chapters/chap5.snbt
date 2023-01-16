@@ -3,7 +3,7 @@
 	group: "248890104A858230"
 	order_index: 1
 	filename: "chap5"
-	title: "&bChapter 2&r &6-&r Sympathy For The Devil"
+	title: "&b第二章&r &6-&r 对魔鬼的同情"
 	icon: "occultism:spirit_fire"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -59,21 +59,21 @@
 	]
 	quests: [
 		{
-			title: "Seeds ! Why ?"
+			title: "种子！为什么？"
 			x: 5.75d
 			y: -10.0d
-			subtitle: "Who thought Demons were actually growing from seeds?"
+			subtitle: "谁认为魔鬼实际上是从种子中生长出来的？"
 			description: [
-				"Powerful power nature can be."
-				"Break &2grass&r, you shall."
-				"&5Seeds&r you will obtain."
-				"       &k&0&lDemons are watching you&r"
+				"大自然可以是强大的力量。"
+				"你应该破坏&2草&r。"
+				"你就会获得&5种子&r。"
+				"       &k&0&l魔鬼在看着你&r"
 			]
 			id: "4E84E8ADA1739E71"
 			tasks: [{
 				id: "13C6CDB51BA5FF8B"
 				type: "item"
-				title: "Demon Seeds"
+				title: "魔鬼之梦种子"
 				item: "occultism:datura_seeds"
 				count: 9L
 			}]
@@ -84,18 +84,18 @@
 			}]
 		}
 		{
-			title: "Let's start some weird magic"
+			title: "让我们开始一些奇怪的魔法"
 			x: 5.75d
 			y: -8.75d
-			subtitle: "&4&kDark&r&l&0Dark Magic&r&k&4Magic&r"
+			subtitle: "&4&k黑&r&l&0黑魔法&r&k&4魔法&r"
 			description: [
-				"&1The fate of Mankind&r has not always been very bright. Over the years people have tried to be what they could not."
-				"Many men thought they could tame the true power of &l&0Dark Magic&r, but they were too weak"
-				"Because of this weakness, they decided to forbid this magic."
-				"For centuries, some people tried to learn this magic, but none of them had the &6true potential&r. "
-				"One day, and old mage named &5KliKli&r found some old books about this magic and decided to use it for a good cause, but unfortunately he could not finish his works and before his death, he decided to give his knowledge to his heir: You! "
+				"&1人类的命运&r并不总是光明的。多年来，人们一直试图成为他们无法成为的人。"
+				"许多人认为他们可以驯服&l&0黑魔法&r的真正力量，但他们太弱小了"
+				"由于此种弱小，他们决定禁止这种魔法。"
+				"几个世纪以来，一些人试图学习这种魔法，但他们中没有一个人拥有&6真正的潜力&r。"
+				"一天，名叫&5克里克里&r的圣贤发现了一些关于这个魔法的旧书籍，并决定把它用于造福他人的事业。但不幸的是，他没有能完成他的事业。在他死之前，他决定把他的知识尽数授予他的继承人：你！"
 				""
-				"Thanks to the power of &4Nature&r and the old mage's works, you will be able to resurrect this power and thus carry the Dark Magic's Legacy"
+				"多亏了&4大自然&r的力量和圣贤的遗作，你将能够复活这种力量，从而承载黑魔法的遗产"
 			]
 			dependencies: ["4E84E8ADA1739E71"]
 			min_width: 400
@@ -112,7 +112,7 @@
 			}]
 		}
 		{
-			title: "Occultism Useful Items"
+			title: "神秘学实用物品"
 			icon: {
 				id: "occultism:butcher_knife"
 				Count: 1b
@@ -122,11 +122,11 @@
 			}
 			x: 7.25d
 			y: -9.25d
-			subtitle: "Really useful !"
+			subtitle: "真有用！"
 			description: [
-				"- The &n&lButcher Knife&r is needed to drop some &eTallow&r. You'll need to kill some passive mobs."
-				"- The &l&nChalk Brush&r is needed to erase chalks that you might misplace."
-				"- The &n&lSatchet&r is like a Backpack. To craft it you'll need to build the &eEziveus Spectral Compulsion&r."
+				"-需要&n&l屠刀&r来获取&e动物油脂&r。你需要杀死一些友好生物。"
+				"-需要&l&n粉笔擦&r来擦除可能写错位置的粉笔。"
+				"-&n&l意外结实的背包&r就像一个背包。要制作它，你需要搭建&e埃兹维斯灵体强迫&r。"
 			]
 			dependencies: ["3A5569B8FB3C4F7B"]
 			id: "43C5F40A67C61EF9"
@@ -168,8 +168,8 @@
 		{
 			x: 5.75d
 			y: -7.0d
-			subtitle: "Crafting Ingredient"
-			description: ["Throw an &2&lOtherworld Wood&r into the &5Spiritfire&r."]
+			subtitle: "合成材料"
+			description: ["将&2&l异界木&r扔进&5灵火&r。"]
 			dependencies: ["28C3F89057684CC6"]
 			id: "1C3E182744A46821"
 			tasks: [{
@@ -186,15 +186,15 @@
 		{
 			x: 5.75d
 			y: -5.75d
-			subtitle: "Calling demons !"
-			description: ["In order to create the &5SpiritFire&r, you will have to drop the &2Demon Dream Fruit&r on the floor and then right click with a &0Flint'N'Steel&r."]
+			subtitle: "召唤魔鬼！"
+			description: ["为了做出&5灵火&r，您必须将&2魔鬼之梦果&r放在地上，然后用&0打火石&r右键点燃。"]
 			hide_dependency_lines: true
 			dependencies: ["4E84E8ADA1739E71"]
 			id: "28C3F89057684CC6"
 			tasks: [{
 				id: "2B5AB3E75F1A0A7D"
 				type: "checkmark"
-				title: "Spiritfire !"
+				title: "灵火！"
 				icon: "occultism:spirit_fire"
 			}]
 			rewards: [{
@@ -210,8 +210,8 @@
 		{
 			x: 5.5d
 			y: -4.0d
-			subtitle: "Stoned"
-			description: ["The &0&lOtherworld Stone&r is obtainable when you drop andesite in the &5Spiritfire&r. "]
+			subtitle: "石头砌成的"
+			description: ["当你往&5灵火&r中扔安山岩时，你就可以获得&0&l异界石&r。"]
 			dependencies: ["28C3F89057684CC6"]
 			id: "281F853004D0032C"
 			tasks: [{
@@ -228,12 +228,12 @@
 			}]
 		}
 		{
-			title: "Otherstone Trader"
+			title: "异界石交易者"
 			icon: "occultism:ritual_dummy/summon_foliot_otherstone_trader"
 			x: 6.0d
 			y: -2.5d
-			subtitle: "A good deal"
-			description: ["The &5Otherstone Trader&r exchange 1x Stone for 4x Otherstone."]
+			subtitle: "划算的交易"
+			description: ["在&5异界石交易者&r可以用1个石头交易4个异界石。"]
 			dependencies: ["281F853004D0032C"]
 			id: "6A5EBC02B04CDB0D"
 			tasks: [
@@ -278,8 +278,8 @@
 		{
 			x: 7.25d
 			y: -6.5d
-			subtitle: "Spirit Ingredient"
-			description: ["Throw a &b&lDiamond&r into the &5Spiritfire&r."]
+			subtitle: "魔灵材料"
+			description: ["将&b&l钻石&r扔进&5灵火&r。"]
 			dependencies: ["28C3F89057684CC6"]
 			id: "414FB84D8E12D770"
 			tasks: [{
@@ -296,8 +296,8 @@
 		{
 			x: 9.0d
 			y: -6.5d
-			subtitle: "Iesnium Breaker"
-			description: ["The &5Iesnium Pickaxe&r is needed to mine &bIesnium Ore&r. "]
+			subtitle: "艾瑟破坏者"
+			description: ["&5艾瑟金属镐&r可以采掘&b艾瑟金属矿石&r。"]
 			dependencies: ["414FB84D8E12D770"]
 			id: "521BDBA45B181D70"
 			tasks: [{
@@ -330,8 +330,8 @@
 		{
 			x: 9.0d
 			y: -7.75d
-			subtitle: "Iesnium Finder"
-			description: ["The &5&lDivination Rod&r will find Iesnium Ore in the Nether. Simply right click on a &4Netherrack&r to set the &5Rod&r to find &bIesnium Ore&r."]
+			subtitle: "艾瑟探测器"
+			description: ["&5&l探测杖&r能够在下界寻找艾瑟金属矿。只需右键单击&4下界岩&r，设置&5探测杖&r以探测&b艾森金属矿&r。"]
 			dependencies: ["414FB84D8E12D770"]
 			id: "3BF844653D8EDF5B"
 			tasks: [{
@@ -352,8 +352,8 @@
 		{
 			x: 10.75d
 			y: -6.5d
-			subtitle: "A new Ore in the Nether"
-			description: ["As you may understand, the &bIesnium Ore&r is only in the &4Nether&r Dimension. "]
+			subtitle: "下界的新矿石"
+			description: ["正如你所理解的，&b艾森金属矿石&r仅在&4下界&r维度中生成。"]
 			dependencies: [
 				"521BDBA45B181D70"
 				"11EA6BD16C6054B4"
@@ -374,8 +374,8 @@
 		{
 			x: 9.0d
 			y: -5.25d
-			subtitle: "Iesnium Viewer"
-			description: ["The &5Otherworld Googles&r are needed to see the &bIesnium Ore&r. If you don't have them you'll have a simple Netherrack."]
+			subtitle: "艾瑟查看器"
+			description: ["需要&5异界眼镜&r才能看到&b艾森金属矿石&r。如果你没有它，你只能看得到下界岩。"]
 			dependencies: ["414FB84D8E12D770"]
 			id: "11EA6BD16C6054B4"
 			tasks: [{
@@ -403,10 +403,10 @@
 			icon: "occultism:otherworld_log"
 			x: 4.25d
 			y: -5.75d
-			subtitle: "The Third Eye"
+			subtitle: "第三只眼"
 			description: [
-				"In order to have those saplings, you will have to throw &2Oak Saplings&r in the &5&lSpiritfire&r. "
-				"To have the &7&lOtherworld Wood&r you will have to eat a &2Demon's Dream Fruit&r that will grant you the &eThird Eye Effect&r and then you will be able to have the wood. If the effect disappear, you will have normal &2Oak Wood&r."
+				"为了获得这些树苗，你必须将&2橡木树苗&r扔进&5&l灵火&r中。"
+				"要获得&7&l异界原木&r，你必须吃一个&2魔鬼之梦果&r，这将赋予你&e第三之眼的效果，然后你才能获得异界树苗。如果效果消失，你只会得到普通的&2橡树&r。"
 			]
 			dependencies: ["28C3F89057684CC6"]
 			id: "04CDB65B58341D53"
@@ -438,15 +438,15 @@
 			}]
 		}
 		{
-			title: "How to get stables ones?"
+			title: "怎么让它们稳定下来？"
 			icon: "occultism:ritual_dummy/craft_stable_wormhole"
 			x: 2.75d
 			y: -6.25d
-			subtitle: "Sapling Trader"
+			subtitle: "树苗交易者"
 			description: [
-				"With the &6Aviar's Circle&r ritual you will be able to summon the &5Otherworld Sapling Trader&r. This guy will trade : "
-				"> Vanilla Saplings for &2Unstable Otherworld Saplings&r. "
-				"> Unstable Otherwood Saplings for &5Stable Otherworld Saplings&r. "
+				"通过&6阿维亚之环&r仪式，您将能够召唤&5魔精伐木工&r。这家伙会交易："
+				">用原版的树苗交易到&2不稳定的异界树苗&r。"
+				">用不稳定的异界树苗交易到&5稳定的异界树苗&r。"
 			]
 			dependencies: ["04CDB65B58341D53"]
 			id: "7FFAB1924AA0EAD7"
@@ -490,11 +490,11 @@
 			}]
 		}
 		{
-			title: "Stable Otherworld Saplings"
+			title: "稳定的异界树苗"
 			x: 1.75d
 			y: -7.25d
-			subtitle: "Farming for life"
-			description: ["Now, as you now have &n&5Stable Saplings&r. You will now be able to farm them without the &eThird Eye&r effect."]
+			subtitle: "务农营生"
+			description: ["现在，因为你已经有了&n&5稳定的异界树苗&r，你可以在没有&e第三只眼&r效果的情况下培育它们。"]
 			dependencies: ["7FFAB1924AA0EAD7"]
 			id: "5F550AA4ADBABA8D"
 			tasks: [{
@@ -509,7 +509,7 @@
 			}]
 		}
 		{
-			title: "Deer Familiar"
+			title: "小鹿使魔"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -520,11 +520,11 @@
 			x: 1.75d
 			y: -3.5d
 			shape: "square"
-			subtitle: "Christmas is here!"
+			subtitle: "圣诞节到了！"
 			description: [
-				"In order to summon the &3Deer Familiar&r you'll need the &6Heydrin's Lure&r ritual."
-				"You will need to sacrifice a &3Cow&r for this ritual."
-				"More Information can be found in the &e&lDictionnary Of Spirits&r."
+				"为了召唤&3小鹿使魔&r，你需要&6海德林诱惑术&r仪式。"
+				"你需要为这个仪式牺牲一头&3牛&r。"
+				"更多信息可在&e&L魔灵全典&r中查找。"
 			]
 			dependencies: ["682300BC795A0E9C"]
 			optional: true
@@ -569,7 +569,7 @@
 			}]
 		}
 		{
-			title: "Bat Familiar"
+			title: "蝙蝠使魔"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -580,12 +580,12 @@
 			x: 1.75d
 			y: -2.5d
 			shape: "square"
-			subtitle: "Escaped from the Batcave"
+			subtitle: "逃离蝙蝠洞"
 			description: [
-				"The &5Bat&r familiar is summoned with the &6Ihagan's Enthrallment&r."
-				"To summon this familiar you'll need to sacrifice a &0&lBat&r."
-				"When the familiar is near, you'll gain the &bNight Vision&r effect. "
-				"If you upgrade the &5Bat&r familiar with a &eBlackSmith&r familiar, you will gain a &4Life-Steal&r effect."
+				"&5蝙蝠使魔&r通过&6伊哈根奴役术&r召唤"
+				"要召唤这个使魔，你需要牺牲一只&0&l蝙蝠&r。"
+				"当使魔靠近时，你会获得&b夜视&r效果。"
+				"如果你将&5蝙蝠使魔&r用铁匠使魔升级后，你将获得&4生命窃取&r效果。"
 			]
 			dependencies: ["682300BC795A0E9C"]
 			optional: true
@@ -643,7 +643,7 @@
 			}]
 		}
 		{
-			title: "Cthulhu Familiar"
+			title: "克苏鲁使魔"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -654,11 +654,11 @@
 			x: 2.75d
 			y: -2.5d
 			shape: "square"
-			subtitle: "No more drowning"
+			subtitle: "不再溺水"
 			description: [
-				"In order to summon the &3Cthulhu Familiar&r you'll need the &6Ihagan's Enthrallment&r ritual."
-				"To summon this familiar you'll need to sacrifice a &b&lSquid&r."
-				"More Information can be found in the &e&lDictionnary Of Spirits&r."
+				"为了召唤&3克苏鲁使魔&r，你需要&6伊哈根奴役术&r。"
+				"要召唤这个使魔，你需要牺牲一只&b&l鱿鱼&r。"
+				"更多信息可在&e&L魔灵全典&r中找到。"
 			]
 			dependencies: ["682300BC795A0E9C"]
 			optional: true
@@ -667,7 +667,7 @@
 				{
 					id: "41FF674A028B1D16"
 					type: "item"
-					title: "8x Fishes"
+					title: "8x鱼"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -769,7 +769,7 @@
 			}]
 		}
 		{
-			title: "Devil Familiar"
+			title: "恶魔使魔"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -780,11 +780,11 @@
 			x: 2.75d
 			y: -1.0d
 			shape: "square"
-			subtitle: "Satan as familiar"
+			subtitle: "撒旦，但是使魔"
 			description: [
-				"In order to summon the &4Devil Familiar&r you'll need the &6Ihagan's Enthrallment&r ritual."
-				"To summon this familiar you'll need to sacrifice a &c&lHorse&r."
-				"When the familiar is near, you'll gain the &4&lFire Resistance&r effect. "
+				"为了召唤&4恶魔使魔&r，你需要&6伊哈根奴役术&r。"
+				"要召唤这个使魔，你需要牺牲一匹&c&l马&r。"
+				"当使魔靠近时，你将获得&4&l防火&r效果。"
 			]
 			dependencies: ["682300BC795A0E9C"]
 			optional: true
@@ -829,7 +829,7 @@
 			}]
 		}
 		{
-			title: "Mummy Familiar"
+			title: "木乃伊使魔"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -840,11 +840,11 @@
 			x: 1.75d
 			y: -1.0d
 			shape: "square"
-			subtitle: "Sand Protector"
+			subtitle: "沙子保镖"
 			description: [
-				"In order to summon the &eMummy Familiar&r you'll need the &6Ihagan's Enthrallment&r ritual and a Llama has to be sacrified. "
-				"This familiar gives a protection to their master. Simple as that."
-				"When upgraded with the &eBlackmith Familiar&r it will deal more damage."
+				"为了召唤&e木乃伊使魔&r，你需要&6伊哈根奴役术&r，一个羊驼必须被神圣化。"
+				"这个使魔会保护他们的主人。就这么简单。"
+				"当使用&e铁匠使魔&r升级使魔时，它会造成更多的伤害。"
 			]
 			dependencies: ["682300BC795A0E9C"]
 			optional: true
@@ -853,7 +853,7 @@
 				{
 					id: "1CA1A0BF52EFE64A"
 					type: "item"
-					title: "4x Wools"
+					title: "4x任意羊毛"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -872,7 +872,7 @@
 				{
 					id: "63790B5A2C5F300A"
 					type: "item"
-					title: "2x Slimeballs"
+					title: "2x粘液球"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -909,7 +909,7 @@
 			}]
 		}
 		{
-			title: "Beholder Familiar"
+			title: "眼魔使魔"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -920,11 +920,11 @@
 			x: 1.75d
 			y: 0.0d
 			shape: "square"
-			subtitle: "Eye for an eye"
+			subtitle: "以眼还眼"
 			description: [
-				"In order to summon the &cBeholder Familiar&r you'll need the &6Ihagan's Enthrallment&r ritual."
-				"To summon this familiar you'll need to sacrifice a &0&lSpider&r."
-				"More Information can be found in the &e&lDictionnary Of Spirits&r."
+				"为了召唤&e眼魔使魔&r，你需要&6伊哈根奴役术&r。"
+				"要召唤这个使魔，你需要牺牲一只&0&l蜘蛛&r。"
+				"更多信息可在&e&L魔灵全典&r中找到。"
 			]
 			dependencies: ["682300BC795A0E9C"]
 			optional: true
@@ -969,7 +969,7 @@
 			}]
 		}
 		{
-			title: "Fairy Familiar"
+			title: "妖精使魔"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -980,11 +980,11 @@
 			x: 2.75d
 			y: 0.0d
 			shape: "square"
-			subtitle: "Life Saver"
+			subtitle: "救星"
 			description: [
-				"In order to summon the &cFairy Familiar&r you'll need the &6Ihagan's Enthrallment&r ritual."
-				"To summon this familiar you'll need to sacrifice a &1&lHorse&r."
-				"More Information can be found in the &e&lDictionnary Of Spirits&r."
+				"为了召唤&e妖精使魔&r，你需要&6伊哈根奴役术&r。"
+				"要召唤这个使魔，你需要牺牲一匹&1&l马&r。"
+				"更多信息可在&e&L魔灵全典&r中找到。"
 			]
 			dependencies: ["682300BC795A0E9C"]
 			optional: true
@@ -1039,7 +1039,7 @@
 			}]
 		}
 		{
-			title: "Familiars"
+			title: "使魔"
 			x: 0.75d
 			y: -1.75d
 			shape: "square"
@@ -1053,7 +1053,7 @@
 			}]
 		}
 		{
-			title: "Blacksmith Familiar"
+			title: "铁匠使魔"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -1064,13 +1064,13 @@
 			x: -0.25d
 			y: -2.5d
 			shape: "square"
-			subtitle: "Repairing at it's best"
+			subtitle: "焕然一新"
 			description: [
-				"In order to summon the &eBlacksmith Familiar&r you'll need the &6Heydrin's Lure&r ritual."
-				"You will need to sacrifice a &2&lZombie&r for this ritual."
-				"When summoned, the &eBlacksmith&r will be able to repair your items."
-				"The other cool thing is that he can upgrade other familiars."
-				"To do that , you'll need to give him &nIron Blocks&r or &nIngots&r. (&7&lYou'll need to right-click on him to do so and of course your Familiar that you want to be upgraded)&r."
+				"为了召唤&e铁匠使魔&r，你需要&6海德林诱惑术&r仪式。"
+				"要召唤这个使魔，你需要牺牲一只&2&l僵尸&r。"
+				"召唤时，&e铁匠使魔&r将能够修复您的物品。"
+				"另一个很酷的事情是，他可以升级其他使魔。"
+				"要做到这一点，你需要给他&n铁块&r或&n铁锭&r。（&7&L您需要右键单击他才能完成此操作，当然，您还需要升级使魔）&r。"
 			]
 			dependencies: ["682300BC795A0E9C"]
 			optional: true
@@ -1112,7 +1112,7 @@
 				{
 					id: "05DA38E2553B3B9F"
 					type: "item"
-					title: "4x Stones"
+					title: "4x石头"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1154,7 +1154,7 @@
 			}]
 		}
 		{
-			title: "Dragon Familiar"
+			title: "龙使魔"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -1165,11 +1165,11 @@
 			x: -0.25d
 			y: -3.5d
 			shape: "square"
-			subtitle: "You're Wizard... Harry"
+			subtitle: "你是一个巫师……哈利"
 			description: [
-				"In order to summon the &aDragon Familiar&r you'll need the &6Ihagan's Enthrallment&r ritual."
-				"To summon this familiar you'll need to sacrifice a &c&lHorse&r."
-				"More Information can be found in the &e&lDictionnary Of Spirits&r."
+				"为了召唤&a龙使魔&r，你需要&6伊哈根奴役术&r。"
+				"要召唤这个使魔，你需要牺牲一匹&c&l马&r。"
+				"更多信息可在&e&L魔灵全典&r中找到。"
 			]
 			dependencies: ["682300BC795A0E9C"]
 			optional: true
@@ -1178,7 +1178,7 @@
 				{
 					id: "2D70F3BB6C0CE022"
 					type: "item"
-					title: "Quartz Block"
+					title: "石英块"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1190,7 +1190,7 @@
 				{
 					id: "1FA52C885BAA7126"
 					type: "item"
-					title: "Coal Block"
+					title: "煤炭块"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1258,7 +1258,7 @@
 			}]
 		}
 		{
-			title: "Chimera Familiar"
+			title: "奇美拉使魔"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -1269,11 +1269,11 @@
 			x: -1.25d
 			y: -3.5d
 			shape: "square"
-			subtitle: "A bigger dog"
+			subtitle: "一只大号的狗"
 			description: [
-				"The &cChimera&r Familiar is like a giant dog. It can protect their master. If you give them meat they will start to grow and increase their &nspeed&r and &ndamage&r. You can also ride it ! Cool right?"
-				"To summon the familiar, you'll need the &6Ihagan's Enthrallment&r ritual. Don't forget to sacrifice a sheep to summon your familiar !"
-				"More Information can be found in the &e&lDictionnary Of Spirits&r."
+				"&c奇美拉使魔&r就像一只大号的狗。它可以保护他们的主人。如果你给它们吃肉，它们会开始生长并增加&n速度&r和&n伤害&r。你也可以骑它！很酷吧？"
+				"要召唤奇美拉使魔，你需要&6伊哈根奴役术&r。别忘了牺牲一只羊来召唤使魔！"
+				"更多信息可在&e&L魔灵全典&r中找到。"
 			]
 			dependencies: ["682300BC795A0E9C"]
 			optional: true
@@ -1282,7 +1282,7 @@
 				{
 					id: "0808595C1629B587"
 					type: "item"
-					title: "Wool"
+					title: "羊毛"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1358,7 +1358,7 @@
 			}]
 		}
 		{
-			title: "Headless Ratman Familiar"
+			title: "无头鼠骑士使魔"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -1369,10 +1369,10 @@
 			x: -1.25d
 			y: -2.5d
 			shape: "square"
-			subtitle: "The Headless Horseman"
+			subtitle: "无头骑士"
 			description: [
-				"The &c&lHeadless Ratman&r Familiar steals heads of mobs near the ratman when they are killed. It then provides a damage buff against that type of mob to their Master. Don't forget to sacrifice a SnowGolem to summon your familiar !"
-				"More Information can be found in the &e&lDictionnary Of Spirits&r."
+				"当&c&l无头鼠骑士使魔&r附近的生物被杀死时会偷走生物的头。然后，它会为它们的主人提供一个针对这类生物的伤害增益。别忘了牺牲一个雪傀儡来召唤你的使魔！"
+				"更多信息可在&e&L魔灵全典&r中找到。"
 			]
 			dependencies: ["682300BC795A0E9C"]
 			optional: true
@@ -1427,7 +1427,7 @@
 			}]
 		}
 		{
-			title: "Drikwing Familiar"
+			title: "具翼使魔"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -1438,14 +1438,14 @@
 			x: -0.25d
 			y: 0.0d
 			shape: "square"
-			subtitle: "Ultimate Parrot"
+			subtitle: "终极鹦鹉"
 			description: [
-				"In order to summon the &5Drikwing Familiar&r you'll need the &6Ihagan's Enthrallment&r ritual and a Parrot has to be sacrified."
-				"The familiar grants : "
-				"-> &aMulti-Jump&r"
-				"->&a Jump Boost&r"
-				"->&a Slow Falling."
-				"More Information can be found in the &e&lDictionnary Of Spirits&r."
+				"为了召唤&5具翼使魔&r，你需要&6伊哈根奴役术&r，一只鹦鹉必须被神圣化。"
+				"使魔提供："
+				"->&a多段跳&r"
+				"->&a跳跃提升&r"
+				"->&a缓降"
+				"更多信息可在&e&L魔灵全典&r中找到。"
 			]
 			dependencies: ["682300BC795A0E9C"]
 			optional: true
@@ -1465,7 +1465,7 @@
 				{
 					id: "373EBCA99575BDAB"
 					type: "item"
-					title: "1x Leaves"
+					title: "1x树叶"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1506,7 +1506,7 @@
 			}]
 		}
 		{
-			title: "Greedy Familiar"
+			title: "贪婪使魔"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -1517,11 +1517,11 @@
 			x: -1.25d
 			y: -1.0d
 			shape: "square"
-			subtitle: "Vacuuming Items"
+			subtitle: "通通扔进无底洞"
 			description: [
-				"In order to summon the &2Greedy Familiar&r you'll need the &6Heydrin's Lure&r ritual."
-				"You will need to sacrifice a &2&lZombie&r for this ritual."
-				"More Information can be found in the &e&lDictionnary Of Spirits&r."
+				"为了召唤&2贪婪使魔&r，你需要&6伊哈根奴役术&r。"
+				"要召唤这个使魔，你需要牺牲一个&2&l僵尸&r。"
+				"更多信息可在&e&L魔灵全典&r中找到。"
 			]
 			dependencies: ["682300BC795A0E9C"]
 			optional: true
@@ -1545,7 +1545,7 @@
 				{
 					id: "01B512950EE71D3B"
 					type: "item"
-					title: "Chest"
+					title: "箱子"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1581,7 +1581,7 @@
 			}]
 		}
 		{
-			title: "Guardian Familiar"
+			title: "守护者使魔"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -1592,12 +1592,12 @@
 			x: -0.25d
 			y: -1.0d
 			shape: "square"
-			subtitle: "Death can wait"
+			subtitle: "死亡也可以“稍等一会！”"
 			description: [
-				"The &b&lGuardian Familiar&r sacrifices a limb everytime it's master is about to die and thus prevents the death. Once the &bGuardian&r dies, the player is no longer protected. When summoned, the &bGuardian&r spawns with &lrandom amount of limbs&r, there is no garantee thata complete &bguardian&r is summoned."
-				"Limbs can be regained with the &eBlacksmith&r."
+				"每当主人濒死时，&b&l守卫者使魔&r都会牺牲一条肢体来防止死亡的到来。&b守卫者使魔&r死去时，玩家便不再被保护。被召唤时，&b守卫者使魔&r身上的&肢体数&是随机的，并不保证能召唤出&b完整的使魔&r。"
+				"被&e铁匠使魔&r升级后，它会重新获得一条肢体。"
 				""
-				"To summon the &b&lGuardian&r the &6Abra's Commanding Conjure&r ritual and a Villager sacrifice will be needed."
+				"为了召唤&b&l守卫者使魔&r，你需要&6阿巴拉斯强令召唤术&r，需要献祭一位村民。"
 			]
 			dependencies: ["682300BC795A0E9C"]
 			optional: true
@@ -1645,8 +1645,8 @@
 			x: 11.75d
 			y: -3.25d
 			shape: "square"
-			subtitle: "Farming these mobs can be a good idea"
-			description: ["Thanks to the &5&lOccultism&r Mod you will be able to summon mobs that will drop you some useful stuff. "]
+			subtitle: "养殖这些怪物也许是个好主意"
+			description: ["通过&5&l神秘学&r模组，你能够召唤怪物，它们会掉落一些有用的物品。"]
 			hide_dependency_lines: true
 			dependencies: ["3A5569B8FB3C4F7B"]
 			hide_text_until_complete: false
@@ -1655,20 +1655,20 @@
 			tasks: [{
 				id: "0EBF6F37781F263E"
 				type: "checkmark"
-				title: "Occultism Mob Summoning"
+				title: "神秘学怪物召唤"
 			}]
 		}
 		{
-			title: "Possessed Endermen"
+			title: "被附身的末影人"
 			icon: "minecraft:ender_pearl"
 			x: 9.75d
 			y: -1.75d
 			shape: "square"
-			subtitle: "Angry Enderman "
+			subtitle: "愤怒的末影人"
 			description: [
-				"In order to spawn &0&lPossessed Endermen&r you will have to use the &6Ihagan's Enthrallement&r ritual."
-				"In order to complete the &0Ritual&r you'll need to sacrifice a &cPig&r."
-				"These &0&lEndermen&r will drop at least 1x enderpearl !"
+				"想要生成&0&l被附身的末影人&r，你需要进行&6伊哈根奴役术&r仪式。"
+				"想要完成&0仪式&r，你需要献祭一头&c猪&r。"
+				"这些&0&l末影人&r可以掉落至少一个末影珍珠！"
 			]
 			dependencies: ["7260260F71172224"]
 			optional: true
@@ -1719,16 +1719,16 @@
 			}]
 		}
 		{
-			title: "Possessed Skeletons"
+			title: "被附身的骷髅"
 			icon: "minecraft:skeleton_skull"
 			x: 10.75d
 			y: -1.75d
 			shape: "square"
-			subtitle: "Skeletons V2"
+			subtitle: "骷髅V2"
 			description: [
-				"&l&7Possessed Skeletons&r can be summoned thanks to the &6Heydrin's Lure&r ritual."
-				"In order to complete the &0ritual&r, you will have to sacrifice a Chicken near the &6Golden Sacrifical Bowl&r."
-				"These &l&7Skeletons&r will drop you at least 1x Skeleton Skull."
+				"&l&7被附身的骷髅&r可以用&6海德林诱惑术&r仪式召唤。"
+				"想要完成&0仪式&r，你需要在&6黄金献祭之碗&r处献祭一只鸡。"
+				"这些&l&7骷髅&r会掉落至少一个骷髅头颅。"
 			]
 			dependencies: ["7260260F71172224"]
 			optional: true
@@ -1765,15 +1765,15 @@
 			}]
 		}
 		{
-			title: "Possessed Ghasts"
+			title: "被附身的恶魂"
 			icon: "minecraft:ghast_tear"
 			x: 11.75d
 			y: -1.75d
 			shape: "square"
 			description: [
-				"&l&0Possessed Ghasts&r can be summoned with the &6Ihagan's Enthrallement&r ritual."
-				"In order to complete the &0ritual&r, you will need to sacrifice a cow near the &6Golden Sacrificial Bowl&r."
-				"These &0&lGhasts&r will drop you at least 1x Ghast Tear."
+				"&l&0被附身的恶魂&r可以用&6伊哈根奴役术&r仪式召唤。"
+				"想要完成&0仪式&r，你需要在&6黄金献祭之碗&r处献祭一头牛。"
+				"这些&0&l恶魂&r会掉落至少一个恶魂之泪。"
 			]
 			dependencies: ["7260260F71172224"]
 			optional: true
@@ -1827,16 +1827,16 @@
 			}]
 		}
 		{
-			title: "Possessed Endermites"
+			title: "被附身的末影螨"
 			icon: "minecraft:end_stone"
 			x: 12.75d
 			y: -1.75d
 			shape: "square"
-			subtitle: "Help ! They're small ! "
+			subtitle: "救命！他们好小！"
 			description: [
-				"&5&lPossessed Endermites&r can be summoned thanks to the &6Heydrin's Lure&r &0ritual&r."
-				"In order to complete the &0Ritual&r you'll need to throw (with a right-click) the egg near the &6Golden Ritual Bowl&r."
-				"&5&lPossessed Endermites&r will at least drop 1x End Stone !"
+				"&5&l被附身的末影螨&r可以用&6海德林诱惑术&r仪式召唤。"
+				"想要完成&0仪式&r你需要在&6黄金献祭之碗&r处丢一颗鸡蛋（使用右键）。"
+				"&5&l被附身的末影螨&r会掉落至少一个末地石！"
 			]
 			dependencies: ["7260260F71172224"]
 			optional: true
@@ -1884,15 +1884,15 @@
 			}]
 		}
 		{
-			title: "The Wild Hunt"
+			title: "狂猎"
 			icon: "minecraft:wither_skeleton_skull"
 			x: 13.75d
 			y: -1.75d
 			shape: "square"
-			subtitle: "Enraged Wither Skeletons"
+			subtitle: "狂猎凋灵骷髅"
 			description: [
-				"&0&lThe Wild Hunt&r is a group of &0Wither Skeletons&r that will summon &7Skeletons&r minions. You will need to kill the minions first in order to kill the &0Wither Skeletons&r."
-				"After being killed, they will drop at least 1x Wither Skeleton Skull."
+				"&0&l狂猎凋灵骷髅&r是一群可以召唤&7骷髅小怪&r的&0凋灵骷髅&r。你需要先击杀那些小怪才能再击杀&0凋零骷髅&r。"
+				"在被击杀后，它们会掉落至少一个凋灵骷髅头颅。"
 			]
 			dependencies: ["7260260F71172224"]
 			optional: true
@@ -1953,10 +1953,10 @@
 		{
 			x: 11.0d
 			y: 0.5d
-			subtitle: "A new boss"
+			subtitle: "一个新Boss"
 			description: [
-				"Thanks to the &6Abra's Open Conjure&r you'll be able to spawn a new \"boss\" : &4&lThe Unbound Afrit&r. In order to hurt him you'll need to slay his minions first. "
-				"He will drop his &4&lEssence&r needed to craft the &c&lRed Chalk&r."
+				"多亏有&6阿巴拉斯开环召唤术&r，你可以生成一个新的“Boss”：&4&l未约束的火灵&r。在击杀它之前你要先击杀它生成的小怪。"
+				"它会掉落它的&4&l火灵灵髓&r，火灵灵髓可以制作&4&l红色粉笔&r。"
 			]
 			dependencies: ["40349C9C598C267B"]
 			id: "06010DF800031AA0"
@@ -1972,12 +1972,12 @@
 			}]
 		}
 		{
-			title: "Aviar's Circle"
+			title: "阿维亚之环"
 			icon: "occultism:ritual_dummy/craft_miner_djinni_ores"
 			x: 6.0d
 			y: -0.25d
-			subtitle: "Your first ritual"
-			description: ["So the first &8ritual&r is dedicated to the basic of &2Occultism&r. "]
+			subtitle: "你的第一个仪式"
+			description: ["第一个&8仪式&r是基于&2神秘学&r模组的。"]
 			hide_dependency_lines: true
 			dependencies: ["492116474A965E37"]
 			id: "3FF0CBC2AD6C6278"
@@ -2037,11 +2037,11 @@
 			}]
 		}
 		{
-			title: "Uphyxes Inverted Tower"
+			title: "休菲斯倒转之塔"
 			icon: "occultism:ritual_dummy/familiar_beaver"
 			x: 2.0d
 			y: 2.0d
-			subtitle: "Bind Marid"
+			subtitle: "绑定魔王"
 			hide_dependency_lines: true
 			dependencies: [
 				"492116474A965E37"
@@ -2097,11 +2097,11 @@
 			}]
 		}
 		{
-			title: "Abras' Conjure"
+			title: "阿巴拉斯召唤术"
 			icon: "occultism:ritual_dummy/summon_marid_crusher"
 			x: 0.25d
 			y: 2.0d
-			subtitle: "Summon Afrit"
+			subtitle: "召唤火灵"
 			hide_dependency_lines: true
 			dependencies: [
 				"492116474A965E37"
@@ -2172,11 +2172,11 @@
 			}]
 		}
 		{
-			title: "Abra's Commanding Conjure"
+			title: "阿巴拉斯强令召唤术"
 			icon: "occultism:ritual_dummy/craft_miner_djinni_ores"
 			x: 2.5d
 			y: 3.75d
-			subtitle: "Afrit Possession"
+			subtitle: "占有火灵"
 			hide_dependency_lines: true
 			dependencies: [
 				"492116474A965E37"
@@ -2221,11 +2221,11 @@
 			}]
 		}
 		{
-			title: "Ophyx' Calling"
+			title: "欧菲克斯的呼唤"
 			icon: "occultism:ritual_dummy/summon_foliot_transport_items"
 			x: 10.0d
 			y: 1.75d
-			subtitle: "Summon Djinni"
+			subtitle: "召唤巨灵"
 			hide_dependency_lines: true
 			dependencies: [
 				"492116474A965E37"
@@ -2264,11 +2264,11 @@
 			}]
 		}
 		{
-			title: "Abras' Open Conjure"
+			title: "阿巴拉斯开环召唤术"
 			icon: "occultism:ritual_dummy/familiar_deer"
 			x: 11.0d
 			y: 1.5d
-			subtitle: "Summon Unbound Afrit"
+			subtitle: "召唤未约束的火灵"
 			hide_dependency_lines: true
 			dependencies: [
 				"492116474A965E37"
@@ -2313,7 +2313,7 @@
 			}]
 		}
 		{
-			title: "Osorin's Unbound Calling"
+			title: "奥索林的无约束呼唤"
 			icon: "occultism:ritual_dummy/possess_enderman"
 			x: 12.0d
 			y: 1.75d
@@ -2373,11 +2373,11 @@
 			}]
 		}
 		{
-			title: "Strigeor's Higher Binding"
+			title: "斯特里格高等束缚"
 			icon: "occultism:ritual_dummy/craft_miner_foliot_unspecialized"
 			x: 12.5d
 			y: 3.25d
-			subtitle: "Bind Djinni"
+			subtitle: "绑定巨灵"
 			hide_dependency_lines: true
 			dependencies: [
 				"492116474A965E37"
@@ -2417,11 +2417,11 @@
 			}]
 		}
 		{
-			title: "Sevira's Permanent Confinement"
+			title: "赛维拉永囚咒"
 			icon: "occultism:ritual_dummy/familiar_greedy"
 			x: 11.0d
 			y: 4.5d
-			subtitle: "Bind Afrit"
+			subtitle: "绑定火灵"
 			hide_dependency_lines: true
 			dependencies: [
 				"492116474A965E37"
@@ -2466,11 +2466,11 @@
 			}]
 		}
 		{
-			title: "Ihagan's Enthrallement"
+			title: "伊哈根奴役术"
 			icon: "occultism:ritual_dummy/familiar_beaver"
 			x: 9.75d
 			y: 3.5d
-			subtitle: "Djinni Possession"
+			subtitle: "占有巨灵"
 			hide_dependency_lines: true
 			dependencies: [
 				"492116474A965E37"
@@ -2512,11 +2512,11 @@
 		{
 			x: 13.5d
 			y: 4.5d
-			subtitle: "Demons can mine ! "
+			subtitle: "魔鬼可以挖矿！"
 			description: [
-				"The &4Dimensional Mineshaft&r houses a &1Djinni&r which opens up a stable connection into a uninhabited dimension, perfectly suited for mining. While the portal is too small to transfer humans, other spirits can use it to enter the mining dimension and bring back resources."
+				"&4维度矿井&r里面住着一只&1巨灵&r，它打开了一个到无人维度的稳定连接，这非常适合挖矿。虽然这个传送门对于传送人类来说过小，但是其他的灵魂可以用它进入这个采矿维度来获取资源。"
 				""
-				"The &4Mineshaft&r will discard any items it cannot store, so it is important to regularly empty the mineshaft either manually or with hoppers or evn transporter spirit. Spirits in lamps can be inserted from the top all other sides can be used to extract items."
+				"&4矿井&r会丢掉它不能储存的东西，所以你需要定期的清空矿井或自动地用漏斗或搬运魔精进行清空。可以在顶部输入巨灵，其他的面用来提取物品。"
 			]
 			dependencies: ["3A99B2052AE4BAC9"]
 			min_width: 250
@@ -2536,7 +2536,7 @@
 		{
 			x: 12.0d
 			y: 5.0d
-			description: ["The &6Djinni Ore Miner&r harvests ores specifically. The greater power of the djinni it damages the magic lamp relatively quickly."]
+			description: ["&6掘矿者巨灵&r专门开采矿石。巨灵力量越强会使得神灯的耐久损耗越快。"]
 			dependencies: ["30025EBB21D3F798"]
 			id: "6FCB27EE54C1A75D"
 			tasks: [{
@@ -2560,7 +2560,7 @@
 		{
 			x: 15.0d
 			y: 5.0d
-			description: ["The &6Foliot Miner&r harvests block without much aim and returns anything it finds. The mining process is quite slow, due to this the foliot expends only minor amounts of energy, damaging the lamp it is housed in slowly over time."]
+			description: ["&6掘矿者巨灵&r不需要为它做太多指定操作就能采掘方块，并返回它找到的任何东西。采矿过程相当缓慢，由于这一点，它只消耗少量的能量，随着时间的推移，会缓慢损坏它入住的神灯。"]
 			dependencies: ["30025EBB21D3F798"]
 			id: "493DE1645D850D16"
 			tasks: [{
@@ -2585,19 +2585,19 @@
 			x: 13.5d
 			y: 5.75d
 			shape: "gear"
-			subtitle: "Powders on the ground"
+			subtitle: "地上的粉末"
 			description: [
-				"&5Crusher&r spirits are summoned to crush ores into dusts, effectively multiplying the metal output. They will pick up appropriate ores and drop the resulting dusts into the world."
-				"A purple particle effect and crushing sound will indicate the crusher is at work."
+				"&5碎矿者魔灵&r被召唤来将矿石破碎成粉，从而有效地增加金属产量。他们将捡起合适的矿石，并将碎矿产生的粉末丢到世界中。"
+				"紫色粒子效果和碎裂的声音表明碎矿者正在工作。"
 				""
-				"To ease automation, try summoning a &bTransporter Spirit&r to place items from chests in the crusher's inventory, and a &bJanitor Spirit&r to collect the processed items."
+				"为了简化自动化，请尝试召唤&b搬运魔精&r将物品从箱子中放入破碎机的物品栏，并召唤&b魔精清洁工&r收集处理过的物品。"
 			]
 			dependencies: ["30025EBB21D3F798"]
 			id: "24E3F1153AA2456D"
 			tasks: [{
 				id: "6CE46AC5D399C7DC"
 				type: "checkmark"
-				title: "Ore Crushers !"
+				title: "碎矿者！"
 			}]
 			rewards: [{
 				id: "2B58AD178837BEB0"
@@ -2606,16 +2606,16 @@
 			}]
 		}
 		{
-			title: "Marid Crusher"
+			title: "魔王碎矿者"
 			icon: "occultism:ritual_dummy/summon_marid_crusher"
 			x: 9.75d
 			y: 8.0d
 			shape: "octagon"
-			subtitle: "Fatma's Incentivized Attraction"
+			subtitle: "法特玛极效引诱"
 			description: [
-				"The &6Marid Crusher&r is both more resistant to essence decay and faster than the &bAfrit Crusher&r."
+				"&6魔王碎矿者&r比&b火灵碎矿者&r更耐灵髓衰退，并且工作速度更快。"
 				""
-				"This crusher can crush your ores into 6 dusts!"
+				"这只碎矿者可以将你的矿石粉碎成6个粉！"
 			]
 			dependencies: ["259480AC145386BF"]
 			id: "02866DDF5415AECF"
@@ -2628,7 +2628,7 @@
 				{
 					id: "4C4A3E85BDCA48CF"
 					type: "item"
-					title: "Any #forge:storage_blocks/emerald"
+					title: "任意#forge:storage_blocks/绿宝石"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -2666,16 +2666,16 @@
 			}]
 		}
 		{
-			title: "Afrit Crusher"
+			title: "火灵碎矿者"
 			icon: "occultism:ritual_dummy/summon_afrit_crusher"
 			x: 9.0d
 			y: 7.0d
 			shape: "octagon"
-			subtitle: "Abras' Conjure"
+			subtitle: "阿巴拉斯召唤术"
 			description: [
-				"The &6Afrit Crusher&r is both more resistant to essence decay and faster than the &bDjinni Crusher&r."
+				"&6火灵碎矿者&r比&b巨灵碎矿者&r更耐灵髓衰退，并且工作速度更快。"
 				""
-				"This crusher can quadruple your ores !"
+				"这只碎矿者可以四倍矿！"
 			]
 			dependencies: ["62DF3A8488AADD91"]
 			id: "259480AC145386BF"
@@ -2715,16 +2715,16 @@
 			}]
 		}
 		{
-			title: "Djinni Crusher"
+			title: "巨灵碎矿者"
 			icon: "occultism:ritual_dummy/summon_djinni_crusher"
 			x: 10.5d
 			y: 7.0d
 			shape: "octagon"
-			subtitle: "Ophyx' Calling"
+			subtitle: "奥菲克斯的呼唤"
 			description: [
-				"The &6Djinni Crusher&r is both more resistant to essance decay and faster than the &bFoliot Crusher&r."
+				"&6巨灵碎矿者&r比&b魔精碎矿者&r更耐灵髓衰退，并且工作速度更快。"
 				""
-				"This crusher can triple your ores !"
+				"这台破碎机可以三倍矿！"
 			]
 			dependencies: ["49E79360D99BE691"]
 			id: "62DF3A8488AADD91"
@@ -2768,16 +2768,16 @@
 			}]
 		}
 		{
-			title: "Slow Crusher"
+			title: "慢速碎矿者"
 			icon: "occultism:ritual_dummy/summon_foliot_crusher"
 			x: 9.75d
 			y: 6.0d
 			shape: "octagon"
-			subtitle: "Aviar's Circle "
+			subtitle: "阿维亚之环"
 			description: [
-				"The &6Foliot Crusher&r is the most basic crusher spirit."
+				"&6魔精碎矿者&r是最基础的碎矿者。"
 				""
-				"This crusher can double your ores !"
+				"这个碎矿者可以让你的矿石翻倍！"
 			]
 			hide_dependency_lines: true
 			dependencies: ["3A5569B8FB3C4F7B"]
@@ -2822,11 +2822,11 @@
 			}]
 		}
 		{
-			title: "Hedyrin's Lure"
+			title: "海德林诱惑术"
 			icon: "occultism:ritual_dummy/craft_miner_djinni_ores"
 			x: 7.25d
 			y: 5.75d
-			subtitle: "Foliot Possession"
+			subtitle: "占有魔精"
 			hide_dependency_lines: true
 			dependencies: [
 				"492116474A965E37"
@@ -2861,7 +2861,7 @@
 		{
 			x: 5.989285714285714d
 			y: 5.262500000000003d
-			subtitle: "Second Tier Chalk"
+			subtitle: "二级粉笔"
 			hide_dependency_lines: true
 			dependencies: ["28C3F89057684CC6"]
 			id: "1B0F10E649F86494"
@@ -2883,11 +2883,11 @@
 			}]
 		}
 		{
-			title: "Eziveus' Spectral Compulsion"
+			title: "埃兹维斯灵体强迫"
 			icon: "occultism:ritual_dummy/craft_miner_djinni_ores"
 			x: 4.75d
 			y: 5.75d
-			subtitle: "Bind Foliot"
+			subtitle: "绑定魔精"
 			hide_dependency_lines: true
 			dependencies: [
 				"492116474A965E37"
@@ -2926,13 +2926,13 @@
 			}]
 		}
 		{
-			title: "Clear Weather"
+			title: "晴朗的天气"
 			icon: "occultism:ritual_dummy/summon_afrit_rain_weather"
 			x: 1.25d
 			y: 6.75d
 			shape: "square"
-			subtitle: "I like the Sun"
-			description: ["To make &b&lThe Sun&r appear you'll need the &6Ophyx' Calling&r ritual."]
+			subtitle: "我喜欢太阳"
+			description: ["要使&b&l太阳&r出现，你需要&6奥菲克斯的呼唤&r仪式。"]
 			dependencies: ["500F618789FA9762"]
 			optional: true
 			id: "1750586C1E84A02E"
@@ -2976,13 +2976,13 @@
 			}]
 		}
 		{
-			title: "Rainy Weather"
+			title: "多雨的天气"
 			icon: "occultism:ritual_dummy/summon_afrit_rain_weather"
 			x: 0.25d
 			y: 6.75d
 			shape: "square"
-			subtitle: "I'm singin' in the rain !"
-			description: ["To make &b&lThe Rain&r appear you'll need the &6Abra's Conjure&r ritual and you'll need to sacrifice a &ncow&r."]
+			subtitle: "我在雨中唱歌！"
+			description: ["为了让&b&l雨&r出现，你需要&6阿巴拉斯召唤术&r仪式，你需要牺牲一头&n牛&r。"]
 			dependencies: ["500F618789FA9762"]
 			optional: true
 			id: "2CB9F897A60A376F"
@@ -2990,7 +2990,7 @@
 				{
 					id: "2764B1B7B9BAEA7C"
 					type: "item"
-					title: "Sand"
+					title: "沙子"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -3033,13 +3033,13 @@
 			}]
 		}
 		{
-			title: "Thunderstorm Ritual"
+			title: "雷暴仪式"
 			icon: "occultism:ritual_dummy/summon_afrit_thunder_weather"
 			x: -0.75d
 			y: 6.75d
 			shape: "square"
-			subtitle: "AC/DC will be proud!"
-			description: ["To make &e&lThunder&r appear you'll need the &6Abra's Conjure&r ritual and you'll need to sacrifice a &ncow&r."]
+			subtitle: "AC/DC将感到骄傲！"
+			description: ["要让&e&l雷暴&r出现，你需要&6阿巴拉斯召唤术&r仪式，你需要牺牲一头&n牛&r。"]
 			dependencies: ["500F618789FA9762"]
 			optional: true
 			id: "24E77AD49FCF6730"
@@ -3079,12 +3079,12 @@
 			}]
 		}
 		{
-			title: "Weather And Time Magic"
+			title: "天气和时间魔法"
 			x: 0.25d
 			y: 8.0d
 			shape: "square"
-			subtitle: "Please skip the rain ! "
-			description: ["The &5Occultism&r Mod allows you to control the time and weather ! "]
+			subtitle: "请跳过下雨！"
+			description: ["&5神秘学&r模式允许您控制时间和天气！"]
 			hide_dependency_lines: true
 			dependencies: ["3A5569B8FB3C4F7B"]
 			optional: true
@@ -3092,17 +3092,17 @@
 			tasks: [{
 				id: "24167C00658808C2"
 				type: "checkmark"
-				title: "Weather And Time"
+				title: "天气和时间"
 			}]
 		}
 		{
-			title: "Summoning of Dawn "
+			title: "黎明召唤"
 			icon: "ars_nouveau:ritual_sunrise"
 			x: -0.25d
 			y: 9.25d
 			shape: "square"
-			subtitle: "Let there be Light !"
-			description: ["In order to summon &eDawn&r you'll need the &6Ophyx' Calling&r ritual."]
+			subtitle: "让光存在！"
+			description: ["为了召唤&e黎明&r，你需要&6奥菲克斯的呼唤&r仪式。"]
 			dependencies: ["500F618789FA9762"]
 			optional: true
 			id: "31B14361DB4F095F"
@@ -3146,7 +3146,7 @@
 			}]
 		}
 		{
-			title: "Summoning of Dusk"
+			title: "黄昏召唤"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -3157,8 +3157,8 @@
 			x: 0.75d
 			y: 9.25d
 			shape: "square"
-			subtitle: "Darkness Comes"
-			description: ["In order to summon &0Dusk&r you'll need the &6Ophyx' Calling&r ritual."]
+			subtitle: "黑暗降临"
+			description: ["为了召唤&0黄昏&r，你需要&6奥菲克斯的呼唤&r仪式。"]
 			dependencies: ["500F618789FA9762"]
 			optional: true
 			id: "58A0B76EC5EAE974"
@@ -3181,7 +3181,7 @@
 				{
 					id: "26BA28433689F48C"
 					type: "item"
-					title: "Bed"
+					title: "床"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -3211,8 +3211,8 @@
 		{
 			x: 4.5d
 			y: 9.5d
-			subtitle: "Matrix"
-			description: ["The &6Dimensional Matrix&r is the entry point to a small dimension used for storing items. A &3Djinni&r bound to the matrix keeps the dimension stable, often supported by additionnal spirits in storage stabilizers, to increase the dimension size."]
+			subtitle: "矩阵"
+			description: ["&6维度矩阵&r是使用存储物品的小维度的入口点。绑定到矩阵的&3巨灵&r保持维度稳定，通常由存储稳定器中的额外魔灵支持，以增加维度大小。"]
 			hide_dependency_lines: true
 			dependencies: ["3A99B2052AE4BAC9"]
 			id: "7B5DF9B562DB7BA0"
@@ -3238,11 +3238,11 @@
 			x: 6.0d
 			y: 11.0d
 			shape: "rsquare"
-			subtitle: "Crafting and Storing"
+			subtitle: "合成和储存"
 			description: [
-				"The &5Dimensional Storage Actuator&r consists of a &6Dimensional Matrix&r inhabited by a &2Djinni&r that creates and manages a storage dimension and a &6Base&r, infused with a &2Foliot&r that moves items in and out the storage dimension."
+				"&5维度存储促动器器&r由&6维度矩阵&r组成，该矩阵由一个&2巨灵&r驻留，它创建并管理存储维度和一个&6基座&r，并注入一个&2魔精&r，搬运物品移入和移出存储维度。"
 				""
-				"By default, the &5Storage Actuator&r can only hold 128 types of different items or 2048 stacks approximatively. Of course that number can be upgraded with &6Dimensional Storage Upgrades&r."
+				"默认情况下，&5维度存储促动器&r只能存储128种不同物品或2048组物品。当然，该数字可以通过&6维度存储升级&r进行升级。"
 			]
 			dependencies: [
 				"7B5DF9B562DB7BA0"
@@ -3273,8 +3273,8 @@
 		{
 			x: 7.5d
 			y: 9.5d
-			subtitle: "The Base"
-			description: ["The &6Storage Actuator Base&r imprisons a &3Foliot&r responsible for interacting with items in a &5Dimensional Storage Matrix&r."]
+			subtitle: "基座"
+			description: ["&6存储促动器基座&r将负责与&5维度存储矩阵&r中的物品交互的&3魔精&r囚禁起来。"]
 			hide_dependency_lines: true
 			dependencies: ["7BF5F871992F55AE"]
 			id: "0C0C74A282D40D04"
@@ -3291,17 +3291,17 @@
 			}]
 		}
 		{
-			title: "Wireless Storage"
+			title: "无线存储"
 			x: 7.5d
 			y: 12.5d
 			shape: "hexagon"
-			subtitle: "Accessing Storage"
+			subtitle: "访问存储"
 			description: [
-				"The &3Storage Accessors&r are similar to the stable wormhole, but allow mobile access to the storage for players."
+				"&3存储访问器&r类似于稳定的虫洞，但允许玩家远程访问存储。"
 				""
-				"As you might ask yourself, the &3Accessor&r is cross dimensions !"
+				"正如你可能会问自己的，&3访问器&r是跨维度的！"
 				""
-				"In order to bind it to your &2Storage&r a simple shift right-click will be needed."
+				"为了将其绑定到你的&2存储&r，只需要简单的Shift右键单击。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -3325,15 +3325,15 @@
 			}]
 		}
 		{
-			title: "Wireless interactions"
+			title: "无线交互"
 			x: 6.0d
 			y: 13.0d
 			shape: "hexagon"
-			subtitle: "An enderchest but with crafting"
+			subtitle: "一个有合成栏的末影箱"
 			description: [
-				"The &5Stable Wormhole&r is a way to access your &6Storage Actuator&r."
-				"you will have to place it. Before doing so, you will have to link it to your &6Dimensional Storage Actuator&r with a right click with the &5Wormhole&r in hand."
-				"The main idea of this item is to output and input items from your &6Actuator&r."
+				"&5稳定虫洞&r是访问&6维度存储促动器&r的一种方式。"
+				"你必须把它放好。在这样做之前，你必须用手中的&5虫洞&r右键单击，将它链接到&6维度存储促动器&r。"
+				"此物品的主要作用是从&6促动器&r输出和输入物品。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -3357,22 +3357,22 @@
 			}]
 		}
 		{
-			title: "Dimensional Storage Stabilizers"
+			title: "维度存储稳定器"
 			x: 4.5d
 			y: 12.5d
 			shape: "hexagon"
-			subtitle: "Dimensional Upgrades"
+			subtitle: "维度升级"
 			description: [
-				"As we saw on the previous chapter, by default your &6Storage Actuator&r can contains 128 types of items."
-				"Here is the list of the possible upgrades and what they do : "
-				"- &cTier 1 Dimensional Storage Stabilizer&r:"
-				"   > Goes from 128 to 384 types of items."
-				"-&7 Tier 2 Dimensional Storage Stabilizer:"
-				"   > Goes from 384 to 640 types of items."
-				"-&e Tier 3 Dimensional Storage Stabilizer:"
-				"   > Goes from 640 to 1152 types of items."
-				"-&b Tier 4 Dimensional Storage Stabilizer:"
-				"   > Goes from 1152 to 2176 types of items."
+				"正如我们在前一章中看到的，默认情况下，你的&6维度存储促动器&r可以容纳128种类型的物品。"
+				"以下是可能的升级及其功能列表："
+				"-&c等级1维度存储稳定器&r："
+				">容量从128种物品扩充到384种。"
+				"-&7等级1维度存储稳定器："
+				">容量从384种物品扩充到640种。"
+				"-&e等级3维度存储稳定器："
+				">容量从640种物品扩充到1152种。"
+				"-&b等级4维度存储稳定器："
+				">容量从1152种物品扩充到2176种。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["794D8B87D0FA7DDE"]
@@ -3407,7 +3407,7 @@
 			}]
 		}
 		{
-			title: "Demons Can Autocraft?"
+			title: "魔鬼会自动驾驶吗？"
 			icon: {
 				id: "occultism:book_of_calling_djinni_manage_machine"
 				Count: 1b
@@ -3418,22 +3418,22 @@
 			x: 6.0d
 			y: 14.25d
 			shape: "hexagon"
-			subtitle: "Demonic crafting"
+			subtitle: "魔鬼般的合成"
 			description: [
-				"Trough your adventure in the &5&lOccultism Mod&r you are now aware that you can store items. "
-				"If you noticed well there are two tabs : "
-				"-> A &eCrafting Table&r used to craft with your stored items."
-				"-> A &eFurnace&r. This tab is linked to another thing that we did not got through."
+				"经过你在&5&l神秘学模组&r中的冒险，你现在意识到你可以储存物品。"
+				"如果您注意到有两个选项卡："
+				"->一个&e工作台&r用来制作你储存的物品。"
+				"->一个&e熔炉&r。这个选项卡链接到另一个我们没有兼容的东西。"
 				""
-				"The items asked are indeed useful to summon the &2Machine Operator&r. This dude will allow you to connect any type of \\\"machine\\\" (ex: Furnace)."
+				"所要求的物品对于召唤&2机器操作员&r确实很有用。这个家伙可以让你连接任何类型的“机器”（例如：熔炉）。"
 				""
-				"Before linking this &2Operator&r to a machine, please make sure to link him to your &6Storage Actuator&r."
+				"在将此&2操作员&r链接到机器之前，请确保将其链接到&6存储促动器&r。"
 				""
-				"Once it's done link him to your machine. Now it should appear in the &eFurnace Tab&r. If not it means that it's not correctly linked."
+				"完成后，将他连接到您的机器。现在它应该出现在&e熔炉选项卡&r中。如果没有，则表示它没有正确链接。"
 				""
-				"You will notice that in the top left corner there is another tab that we've not talked about. This is simply to \"place\" an order to your &2Operator&r. "
+				"你会注意到在左上角还有一个选项卡我们还没有谈到。这只是一个向&2操作员&r“下订单”的按钮。"
 				""
-				"Place your item that you want to be placed in your machine and trust the process ! "
+				"将您想要被放置的物品放在机器中，并信任该过程！"
 			]
 			hide_dependency_lines: true
 			dependencies: ["794D8B87D0FA7DDE"]
@@ -3443,7 +3443,7 @@
 				{
 					id: "5163849B906FD43A"
 					type: "item"
-					title: "Block of Coal"
+					title: "煤炭块"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -3486,17 +3486,17 @@
 			}]
 		}
 		{
-			title: "How to automate Thermal Machines Frames?"
+			title: "如何自动化热力机器框架？"
 			x: 15.0d
 			y: 2.625d
 			shape: "gear"
-			subtitle: "Xnet is your best friend"
+			subtitle: "Xnet是你最好的朋友"
 			description: [
-				"In order to automate the &6Machine Frames&r of &bThermal&r you will need &2Xnet&r and &5Entangled&r."
+				"为了自动化&b热力&r的&6机器框架&r，您将需要&2Xnet&r和&5纠缠方块&r。"
 				""
-				"The first thing to know is that xnet has to take the items from any storage, so the first thing to do is to create any storage capable of holding the needed items for the &aritual&r."
+				"首先要知道的是，Xnet必须从任何存储器中取出物品，所以首先要做的是制作任意一个能够保存&a仪式&r所需物品的存储器。"
 				""
-				"Next up you'll have to set up filters for each &0sacrificial bowls&r and insert the main item in a &eModular Router&r. Be sure to setup it correctly as you should add the &7&lActivator Module&r (configuration needed: &nRight-click&r and &credstone mode&r set to high). Also don't forget to setup your filter correctly on the &eRouter&r."
+				"下一步，你必须为每个&0献祭之碗&r设置过滤器，并将主要物品插入&e模块化路由器&r中。请确保正确设置它，因为您应该添加&7&l执行模块&r（所需配置：&n右键单击&r并将&c红石模式&r设置为高电平）。此外，不要忘记在&e路由器&r上正确设置过滤器。"
 				""
 				"Now with the &5Entangled Mod&r you will be able to bind your &6Golden Sacricial Bowl&r. Now that it's done setup a &4Logic Channel&r where you'll have to put the &nConnector&r in sensor mode on the entangled. For configuration, please be sure to look at the screenshots below."
 				"{image:chroma:textures/quests/auto_occultism_1.png width:100 height:150 align:1}"
@@ -3506,9 +3506,9 @@
 				"On the &eRouter&r Connector you should put &nOutput&r as this screenshot shows :"
 				"{image:chroma:textures/quests/auto_occultism_3.png width:100 height:100 align:1}"
 				""
-				"Finally, you should know that the &0ritual&r will make the output pop out. So you should prepare an &5Absorption Hopper&r to obtain the &6Output&r."
+				"最后，您应该知道&0仪式&r会自动弹出输出物品。因此，您应该准备一个&5吸收漏斗&r，以获得&6输出的物品&r。"
 				""
-				"Here are two screenshots that will help you to build your automation : "
+				"以下是两个屏幕截图，将帮助您建造自动化："
 				""
 				"{image:chroma:textures/quests/auto_occultism_4.png width:100 height:100 align:1}"
 				""
@@ -3521,7 +3521,7 @@
 			tasks: [{
 				id: "4E71887780ACE945"
 				type: "checkmark"
-				title: "Thermal Machine Frame automation"
+				title: "热力机器框架自动化"
 			}]
 			rewards: [{
 				id: "4EEC579B4DFABCF6"
@@ -3530,18 +3530,18 @@
 			}]
 		}
 		{
-			title: "Fusionner 2000"
+			title: "聚变堆2000"
 			icon: "masterfulmachinery:fusioner_controller"
 			x: 6.0d
 			y: 8.5d
 			shape: "gear"
-			subtitle: "&k&l&0F&rU&k&l&0S&rI&k&l&0O&rN&k&l&0N&rE&k&l&0R&r &k&l&02&r0&k&l&00&r0&r   "
+			subtitle: "&k&l&0聚&r变&k&l&0堆&r&k&l&02&r0&k&l&00&r0&r   "
 			description: [
-				"Build The Fusionner 2000 Machine Factory."
+				"建造聚变堆2000机器工厂。"
 				""
-				"&cIn order to make create schematics work properly, please do not rotate them while building them !"
+				"&c为了使建造示意图正常生效，请不要在建造时旋转它们！"
 				""
-				"&bYou can use the Entangled mod to entangle the inputs of your masterful machineries and have a better automation."
+				"&b您可以使用纠缠方块模组来纠缠您的Masterful Machiery的输入端口，并实现更好的自动化。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -3649,7 +3649,7 @@
 				{
 					id: "7D7DE0C0BFD5026B"
 					type: "item"
-					title: "Clear Glass"
+					title: "透明玻璃"
 					item: "connectedglass:clear_glass"
 					count: 17L
 				}

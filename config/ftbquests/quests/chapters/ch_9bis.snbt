@@ -3,7 +3,7 @@
 	group: "4B06503CAA5674FC"
 	order_index: 1
 	filename: "ch_9bis"
-	title: "&bChapter 2&r &6-&r Control The World"
+	title: "&b第二章&r&6-&r控制世界"
 	icon: "rftoolsbase:machine_frame"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -12,7 +12,7 @@
 			x: 0.0d
 			y: -5.75d
 			shape: "gear"
-			description: ["Every machine or device needs some frame, if you will. These do nothing on their own, but are a ubiquitous crafting ingredient."]
+			description: ["每台机器和设备都需要机器框架。它本身没有任何作用，但却是必不可少的制作材料。"]
 			dependencies: [
 				"12658BA7FA33E104"
 				"3B142D2ED1A34A2F"
@@ -34,7 +34,7 @@
 			x: 0.5d
 			y: -4.0d
 			shape: "rsquare"
-			description: ["The more powercell you put for the multiblock, the more energy will be stored."]
+			description: ["你放的能量单元越多，能储存的能量越多"]
 			dependencies: ["3B8FE588BB137295"]
 			id: "1C0DB5CDE08C77D0"
 			tasks: [{
@@ -193,16 +193,16 @@
 			x: -0.5d
 			y: 1.5d
 			shape: "diamond"
-			subtitle: "Wireless Energy"
+			subtitle: "无线能量"
 			description: [
-				"&4Powercells&r are used to create a wireless network for your energy"
+				"&4维度能量单元&r用于创建无线能量网络。"
 				""
-				"Depending on the cell it will be more or less effective."
+				"不同的维度能量单元有不同的效果。"
 				""
-				"How does it work? take a &cCell Card&r and put it in a &1Powercell&r's first slot and it will have a number on it."
-				"That number corresponds to your network. the second slot is to copy your network to another cell, take the newly created card and put it in another &1Powercell&r."
+				"它是怎么工作的？将&c维度标记卡&r放入&1维度能量单元&r的第一个插槽，它会出现一个号码。"
+				"这个号码对应你的网络。第二个插槽可以将你的网络复制到新的单元。把新卡放到另一个&1能量单元&r吧！"
 				""
-				"Beware, players can copy your network id and put it in their own &1Powercell&r."
+				"注意！玩家都可以复制你的网络id并将其放到自己的&1能量单元&r里。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -227,9 +227,9 @@
 			y: 3.5d
 			shape: "octagon"
 			description: [
-				"The &3Infuser&r can \"upgrade\" your &bRFtools&r machines"
+				"&3机器注能机&r可以“升级”&bRF工具&r中的机器。"
 				""
-				"They will be faster ! But be aware, it does consume a lot more energy and you have to upgrade with those &1Dimensional Shards&r"
+				"它们将更高效！但请注意，它会消耗更多的能量同时你只能用&1空间碎片&r升级。"
 			]
 			dependencies: ["3B8FE588BB137295"]
 			size: 1.3d
@@ -250,11 +250,11 @@
 			x: -1.25d
 			y: 2.75d
 			shape: "diamond"
-			subtitle: "Generates RF with &6Blazing Rods&r"
+			subtitle: "使用&6烈焰棒&r产生RF能量"
 			description: [
-				"So as we saw on the last quest"
+				"正如我们在上一个任务看到的"
 				""
-				"Just put your &bInfused&r &6Blazing Rods&r and generate some RF !"
+				"利用&b烈焰注能器&r制作&6充能烈焰棒&r并用它发更多的RF能量吧！"
 			]
 			dependencies: ["3B8FE588BB137295"]
 			id: "41874C23EF0F8113"
@@ -275,9 +275,9 @@
 			y: 1.75d
 			shape: "diamond"
 			description: [
-				"With some energy, you will be able to craft some &6Blazing Rods&r"
+				"当你有了些能量，你就可以制作&6充能烈焰棒&r了！"
 				""
-				"Just put 9 of them and thoses will be transformed"
+				"只要放上9个，它们就会转变"
 			]
 			dependencies: ["3B8FE588BB137295"]
 			id: "417F4B83BD968772"
@@ -298,11 +298,11 @@
 			y: 2.25d
 			shape: "diamond"
 			description: [
-				"Once you have crafted the &6Blazing Rods&r you can infuse them with some &bDimensional Shards&r"
+				"如果你制作了&6充能烈焰棒&r，你可以给它们注入一些&b维度碎片&r。"
 				""
-				"Put one rod and shards and let the recipe do it's job."
+				"放上充能烈焰棒和空间碎片，就能让配方发挥他该有的作用。"
 				""
-				"Once that is done this &bInfused&r &6Blazing Rod&r will generates more RF than a singular &6Blazing Rod&r"
+				"如果你给&6充能烈焰棒&r&b注能&r它将比普通的&6充能烈焰棒&r产生更多的RF能量。"
 			]
 			dependencies: ["3B8FE588BB137295"]
 			id: "759ACC878C3E50CB"
@@ -358,8 +358,8 @@
 			x: 2.25d
 			y: 1.75d
 			shape: "diamond"
-			subtitle: "Endergenic Power Generation"
-			description: ["Throw an Ender Pearl at an Endergenic Generator at just the right moment and energy will be produced."]
+			subtitle: "末影能发电"
+			description: ["在正确的时机向末影能发电机扔一颗末影珍珠就能产生能量。"]
 			dependencies: ["3B8FE588BB137295"]
 			id: "1E35D0500C2D5866"
 			tasks: [{
@@ -398,13 +398,13 @@
 			y: 11.0d
 			shape: "octagon"
 			description: [
-				"Here is the &3Builder !&r"
+				"这是一台&3建造机！&r"
 				""
-				"Build some cool stuff with it ? You can!"
+				"用它造些很酷的东西？你能做到！"
 				""
-				"Just put the wanted shape card in it."
+				"只需要放入对应的塑型卡片。"
 				""
-				"How does it work? shift Right Click with a shape card in the main hand and select two blocks that are opposed to each other, you do not want to select a radius of two blocks... unless that's what you really want of course."
+				"如何让建造机工作？主手手持塑型卡片shift右键以选择对角的两个方块。你不会想选择一直线的两个方块……除非你真的想这么做。"
 			]
 			dependencies: ["3B8FE588BB137295"]
 			size: 1.3d
@@ -424,9 +424,9 @@
 			x: -2.5d
 			y: -2.5d
 			description: [
-				"In order to create a &bShield&r you must use those &5Shield Projectors&r"
+				"为了建造&b护盾&r，你必须使用&5护盾投射仪&r"
 				""
-				"Each projector has a better protection depending on the tier you're using."
+				"更高等级的投射仪能有更好的防护效果。"
 			]
 			dependencies: [
 				"3B8FE588BB137295"
@@ -500,11 +500,11 @@
 			x: 2.5d
 			y: -2.5d
 			description: [
-				"Three different tiers of &bCrafters&r"
+				"三个不同等级的&b自动合成机&r"
 				""
-				"Each Crafter has twice the capacity for crafts of the previous tier."
+				"每升高一阶会比前者多一倍的合成表数量。"
 				""
-				"Tier 1 : Two Crafts"
+				"一阶：两个合成表"
 			]
 			dependencies: ["3B8FE588BB137295"]
 			id: "73522C1F2133E416"
@@ -522,7 +522,7 @@
 		{
 			x: 2.5d
 			y: -1.5d
-			description: ["Tier 2 : Four Crafts"]
+			description: ["二阶：四个合成表"]
 			dependencies: ["73522C1F2133E416"]
 			id: "5A2B5A127662EDF6"
 			tasks: [{
@@ -539,7 +539,7 @@
 		{
 			x: 2.5d
 			y: -0.5d
-			description: ["Tier 3 : Eight Crafts"]
+			description: ["三阶：八个合成表"]
 			dependencies: ["5A2B5A127662EDF6"]
 			id: "61C77F8185B1F2AF"
 			tasks: [{
@@ -576,13 +576,13 @@
 			x: 0.75d
 			y: 5.25d
 			shape: "hexagon"
-			subtitle: "Spawning mobs"
+			subtitle: "生成怪物"
 			description: [
-				"In Order to spawn mobs you will have to craft 3 beams."
+				"生成怪物前你需要先做3个物质投影仪。"
 				""
-				"The &cSyringue&r has to be entirely filled with mob essence (Note that Dragons are not spawnable)"
+				"&c注射器&r必须完全填满怪物的精华。（注意龙不能被生成）"
 				""
-				"Each beam has to be filled with one single item."
+				"每个物质投影仪只能放入一种物品。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["3B8FE588BB137295"]
@@ -756,9 +756,9 @@
 			y: 12.5d
 			shape: "diamond"
 			description: [
-				"This quest will adk you to craft all &2Shape Cards&r for the &6Builder&r"
+				"这个任务将要求你为&6建造机&r制作全部&2塑形卡片&r[--This quest will adk you to craft all &2Shape Cards&r for the &6Builder&r--]"
 				""
-				"I suggest you check on the &bRFtools&r guide to see what they do.... Unless you wanna have a surprise, it's up to you"
+				"我建议你看看&bRF工具&r指南……除非你想要个惊喜，这取决于你自己。"
 			]
 			dependencies: ["1FD4F995B3B12748"]
 			size: 1.5d
@@ -1745,11 +1745,11 @@
 			y: -7.25d
 			shape: "rsquare"
 			description: [
-				"This &3Wrench&r can interact with a lot of stuff in the mod &6RFtools&r"
+				"这把&3扳手&r可以和&6RF工具&r模组里的大量物品交互。"
 				""
-				"When you right click with it on a &6RFtools&r machine you can setup the &binput&r and obviously the &4output&r"
+				"当你用它右键一台&6RF工具&r的机器时，你可以设置它的&b输入&r和&4输出&r"
 				""
-				"But when you &nshift right click&r, you break the machine instantly, so you better use that unless you pickaxe is unbreakable or has a very large durability"
+				"但当你&nShift右键&r时，你会立即破坏机器，因此你最好多用用它除非你的镐子无法破坏或者耐久值非常高。"
 			]
 			dependencies: ["6AF898598004DEC3"]
 			id: "00A63DC5CACB32D7"

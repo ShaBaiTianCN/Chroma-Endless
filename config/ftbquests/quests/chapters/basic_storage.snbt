@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 3
 	filename: "basic_storage"
-	title: "Basic Storage"
+	title: "基础存储"
 	icon: "minecraft:chest"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -128,7 +128,7 @@
 		{
 			x: 5.0d
 			y: -11.5d
-			description: ["Increases the storage amount of the drawer it is applied to by 2."]
+			description: ["将其应用的抽屉的存储量x2。"]
 			dependencies: [
 				"6F7E038577E9E093"
 				"0F01F4CCB3915082"
@@ -148,7 +148,7 @@
 		{
 			x: 5.0d
 			y: -10.25d
-			description: ["Increases the storage amount of the drawer it is applied to by 4."]
+			description: ["将其应用的抽屉的存储量x4。"]
 			dependencies: [
 				"6F7E038577E9E093"
 				"4055881864FF87C5"
@@ -190,7 +190,7 @@
 		{
 			x: 5.0d
 			y: -7.75d
-			description: ["Increases the storage amount of the drawer it is applied to by 16."]
+			description: ["将其应用的抽屉的存储量乘x16。"]
 			dependencies: [
 				"6F7E038577E9E093"
 				"0976209956D1ADCD"
@@ -210,7 +210,7 @@
 		{
 			x: 5.0d
 			y: -9.0d
-			description: ["Increases the storage amount of the drawer it is applied to by 8."]
+			description: ["将其应用的抽屉的存储量x8。"]
 			dependencies: [
 				"6F7E038577E9E093"
 				"412DC2EA2FB47B68"
@@ -247,7 +247,7 @@
 		{
 			x: 5.0d
 			y: -6.5d
-			description: ["Increases the storage amount of the drawer it is applied to by 32."]
+			description: ["将其应用的抽屉的存储量x32。"]
 			dependencies: [
 				"6F7E038577E9E093"
 				"63B277F4C396E4F7"
@@ -287,7 +287,7 @@
 		{
 			x: 6.25d
 			y: -10.25d
-			description: ["This upgrade sends any items over the capacity of the drawer into the void to never be seen again."]
+			description: ["此升级会将超过抽屉容量的任何物品发送到虚空中（物品就没了），再也看不到了。"]
 			dependencies: [
 				"6F7E038577E9E093"
 				"0F01F4CCB3915082"
@@ -367,7 +367,7 @@
 		{
 			x: 6.25d
 			y: -7.75d
-			description: ["This upgrade illuminates the contained block/item, good for night time!"]
+			description: ["此升级将照亮包含的方块或物品，适合夜间使用！"]
 			dependencies: [
 				"6F7E038577E9E093"
 				"359039A14143712B"
@@ -410,7 +410,7 @@
 			tasks: [{
 				id: "3E06CE0F6EC564C8"
 				type: "item"
-				title: "Trim"
+				title: "桥接方块"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -502,7 +502,7 @@
 			tasks: [{
 				id: "5BA219BECD100899"
 				type: "item"
-				title: "Drawers"
+				title: "抽屉"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -527,7 +527,7 @@
 			tasks: [{
 				id: "64A0D1FF2C6605AB"
 				type: "item"
-				title: "Chest"
+				title: "箱子"
 				icon: "minecraft:chest"
 				item: {
 					id: "itemfilters:tag"
@@ -547,21 +547,21 @@
 			x: 2.5d
 			y: -2.0d
 			description: [
-				"Sneak (by default Left Shift) and Use (by default Right Click) for use it."
+				"潜行并右键单击以使用它。"
 				""
 				""
-				"→ In void for change mode :"
+				"→ 更改模式无效："
 				""
-				"   - Merge > Use on two adjacents chests will merge them. &4&l&nDON'T USE THIS ON DIFFERENTS CHESTS, IT COULD CRASH YOUR GAME OR SERVER!&r"
+				"   - 合并 > 使用在两个相邻的箱子将其合并。 &4&l&n不要在两个不同的箱子使用此功能，否则会导致你的游戏或服务器崩溃！&r"
 				""
-				"   - Split > The opposite of merge; use on a double chest to split it into two single chests."
+				"   - 拆分 > 合并的逆操作；用在大箱子上，将其分成两个单独的小箱子。"
 				""
-				"   - Rotate > Use to rotate a storage block."
+				"   - 旋转 > 用于旋转存储方块。"
 				""
-				"   - Swap theme > Use to change the style of a storage block."
+				"   - 更换主题> 用于更改存储方块的样式。"
 				""
 				""
-				"→ On a chest to apply the selected mode to it."
+				"→ 将所选模式应用于箱子上。"
 			]
 			dependencies: ["1195924B8477153E"]
 			min_width: 300
@@ -783,7 +783,7 @@
 			x: 15.0d
 			y: 3.5d
 			shape: "diamond"
-			description: ["On server don't forget to put a diamand to make your chest private."]
+			description: ["在服务器上，别忘了放一颗钻石，将其标记为你的私人箱子。"]
 			dependencies: ["679DF08FABBE8A87"]
 			size: 1.5d
 			id: "41321939C7659A8B"
@@ -802,7 +802,7 @@
 			x: 17.25d
 			y: 4.25d
 			shape: "diamond"
-			description: ["On server don't forget to put a diamand to make your tank private."]
+			description: ["在服务器中，别忘了放一颗钻石，将其标记为你的私人储罐。"]
 			dependencies: ["679DF08FABBE8A87"]
 			size: 1.5d
 			id: "600A8F12B279150A"
@@ -1185,7 +1185,7 @@
 		{
 			x: 26.25d
 			y: 3.25d
-			description: ["Pumps experience between Tank upgrade and player."]
+			description: ["与储罐升级搭配，可传输经验值。"]
 			dependencies: ["2FF19C93998D7B8A"]
 			optional: true
 			id: "1D570B4D982237F5"
@@ -1204,9 +1204,9 @@
 			x: 26.25d
 			y: 2.25d
 			description: [
-				"Pumps fluids between Tank upgrade and adjacent blocks."
-				"Works with fluid containers in hand and fluid blocks in world."
-				"Allow to filter which fluids are pumped."
+				"在储罐升级和相邻方块之间传输流体。"
+				"可以和手上的流体容器和世界中的流体方块进行交互。"
+				"允许过滤传输的流体。"
 			]
 			dependencies: ["47698AD606A9A21E"]
 			optional: true
@@ -1243,7 +1243,7 @@
 		{
 			x: 23.75d
 			y: 1.25d
-			description: ["Advanced one has more filtering options - match by item/mod/tags, match nbt, match damage and 16 slots that can be used to filter."]
+			description: ["高级取货升级有更多的过滤选项-按物品/模式/标签匹配、匹配nbt、匹配伤害和16个可用于过滤的插槽。"]
 			dependencies: ["30132A9E617EB032"]
 			optional: true
 			id: "11FDB31F0C75438A"
@@ -1261,7 +1261,7 @@
 		{
 			x: 23.0d
 			y: 0.5d
-			description: ["Advanced one has filters which allow to filter what gets swapped."]
+			description: ["自动将玩家手持物品替换为对应方块/实体的挖掘或攻击工具。具有过滤栏。"]
 			dependencies: ["762CCB05AA3AFE42"]
 			optional: true
 			id: "0FB58C6787C5561D"
@@ -1279,7 +1279,7 @@
 		{
 			x: 22.0d
 			y: -1.0d
-			description: ["Advanced one has 16 slots and can compact items using both 2x2 and 3x3 recipes."]
+			description: ["高级压缩升级有16个插槽，可以使用2x2和3x3配方压缩配方。（如果物品有对应的压缩变体，那么将压缩该物品。可适用于所有配方。）"]
 			dependencies: ["2FFCD09CBE6F9163"]
 			optional: true
 			id: "785827104D47D761"
@@ -1314,7 +1314,7 @@
 		{
 			x: 22.0d
 			y: -3.0d
-			description: ["Advanced one has bigger magnet range more filtering options - match by item/mod/tags, match nbt, match damage and 16 slots that can be used to filter."]
+			description: ["比起普通磁铁升级卡有了更多过滤槽位和选项并增加了范围为 11*11*11。其中槽位由9个增加至16个，且可以匹配物品、NBT、耐久。可以选择过滤为允许或者阻止。"]
 			dependencies: ["50D4F08C9A173BD5"]
 			optional: true
 			id: "6B97AA5D5C9BE323"
@@ -1332,7 +1332,7 @@
 		{
 			x: 22.0d
 			y: -4.0d
-			description: ["Advanced one has more filtering options - match by item/mod/tags, match nbt, match damage and 16 slots that can be used to filter."]
+			description: ["比起普通拾取升级卡，有了更多的过滤选项。过滤槽由9个升级为16个，且可以匹配物品、NBT、耐久。可以选择过滤为允许或者阻止。"]
 			dependencies: ["77BF7BEB7C7B5229"]
 			optional: true
 			id: "1F62DA38EA9904FE"
@@ -1350,7 +1350,7 @@
 		{
 			x: 31.5d
 			y: -4.0d
-			description: ["Advanced one has more filtering options - match by item/mod/tags, match nbt, match damage and 16 slots that can be used to filter."]
+			description: ["比起普通的过滤升级卡有了更多的槽位和过滤选项。槽位从9个增加至16个，且可以匹配物品、NBT、耐久。可以选择过滤为允许或者阻止。"]
 			dependencies: ["2CC66059833AF128"]
 			optional: true
 			id: "71A5D604E50E941E"
@@ -1369,8 +1369,8 @@
 			x: 31.5d
 			y: -3.0d
 			description: [
-				"Blasting ores and metal stuff in an upgrade tab."
-				"Automatically auto pulls/pushes items."
+				"装载后可自动将背包里可熔炼物品放入内部高炉熔炼并输出成品。"
+				"自动抽取/弹出物品"
 			]
 			dependencies: [
 				"7EA0C32C7CECD338"
@@ -1399,7 +1399,7 @@
 		{
 			x: 31.5d
 			y: -2.0d
-			description: ["Auto smelting one will automatically pull fuel, items to smelt and will automatically push smelted items back into backpack."]
+			description: ["自动熔炼一个将自动提取燃料、熔炼物品，并自动将熔炼物品推回背包。"]
 			dependencies: ["5E531159FD478B4A"]
 			optional: true
 			id: "67FFD62BFB4EEF3B"
@@ -1423,7 +1423,7 @@
 		{
 			x: 31.5d
 			y: -1.0d
-			description: ["Automatically pulls/pushes items."]
+			description: ["可以自动提取物品进行熔炼。"]
 			dependencies: [
 				"6515A975C833F307"
 				"67FFD62BFB4EEF3B"
@@ -1451,7 +1451,7 @@
 		{
 			x: 30.5d
 			y: 0.5d
-			description: ["Advanced one has more filtering options - match by item/mod/tags, match nbt, match damage and 16 slots that can be used to filter."]
+			description: ["高级虚空升级有更多过滤选项-按物品/模式/标签匹配、匹配nbt、匹配伤害和16个可用于过滤的插槽（可以按照过滤栏的设置将物品删除。可设置其工作方式，是否匹配耐久、NBT，有更多的过滤选项。）"]
 			dependencies: ["020C08865451A39F"]
 			optional: true
 			id: "345D4FB87B5D323D"
@@ -1469,7 +1469,7 @@
 		{
 			x: 29.75d
 			y: 1.25d
-			description: ["Advanced one has more filtering options - match by item/mod/tags, match nbt, match damage and 16 slots that can be used to filter."]
+			description: ["高级卸货升级有更多的过滤选项-按物品/模式/标签匹配、匹配nbt、匹配伤害和16个可用于过滤的插槽。（手持背包 Shift 右键容器卸载你在过滤栏中所选定物品。添加了更多过滤栏位。也可直接通过激活你所设置的热键实现其功能。）"]
 			dependencies: ["363080D6237592BA"]
 			optional: true
 			id: "50195DA20A4EA86A"
@@ -1587,7 +1587,7 @@
 		{
 			x: 25.25d
 			y: -6.25d
-			description: ["Up to 6 stacks can be defined in its filter to refill."]
+			description: ["添加6个补充过滤槽，不断补充进玩家物品栏所选物品数量。可以选择过滤为允许或者阻止。"]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
 			optional: true
@@ -1606,7 +1606,7 @@
 		{
 			x: 24.5d
 			y: -5.5d
-			description: ["Makes backpack indestructible."]
+			description: ["使背包坚不可摧（对爆炸免疫（作为物品和方块）。对仙人掌等任何刺的东西都免疫。对熔岩/火免疫。当它作为世界上的一个掉落物存在时，它不会消失。当它落在熔岩中时，会漂浮在它上面，呆在那里。当它落在无效位置时也会发生同样的情况，除非它停留在y0格之上。）"]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
 			optional: true
@@ -1626,11 +1626,11 @@
 			x: 23.75d
 			y: -4.75d
 			description: [
-				"Also remembers the last recipe used."
+				"还记得上次使用的配方。"
 				""
-				"If the same block is inserted it will preselect that recipe."
+				"如果放入相同的方块，它将预先选择该配方。"
 				""
-				"So stonecutting multiple stacks of the same block is much faster."
+				"因此，在同一块石头上切割多个堆叠要快得多。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
@@ -1650,7 +1650,7 @@
 		{
 			x: 23.0d
 			y: -4.0d
-			description: ["Regular upgrade can only filter by item and has 9 filter slots."]
+			description: ["此升级只能按项目进行筛选，并有9个筛选槽。（添加了9个拾取过滤槽，玩家捡取物品将存入物品栏中的背包而不是物品栏本身。可以选择过滤为允许或者阻止。也可以选择过滤模式为背包已有物品。但拾入背包时并不会和已有物品合并，也不会自动整理。）"]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
 			optional: true
@@ -1669,7 +1669,7 @@
 		{
 			x: 23.0d
 			y: -3.0d
-			description: ["Regular upgrade can only filter by item and has 9 filter slots."]
+			description: ["此升级只能按项目进行筛选，并有9个筛选槽。（穿着背包时将玩家周围的物品直接传送到背包中。背包放置在地面时以背包为中心将7*7*7的掉落物传送到背包中。可以选择过滤为允许或者阻止。）"]
 			dependencies: ["77BF7BEB7C7B5229"]
 			optional: true
 			id: "50D4F08C9A173BD5"
@@ -1687,7 +1687,7 @@
 		{
 			x: 23.0d
 			y: -2.0d
-			description: ["Has filters to allow limiting what food items should be fed to player (pretty useful in case you're picking up stuff like rotten flesh and similar with negative effects)."]
+			description: ["有过滤器，可以限制应该给玩家吃什么食物（如果你捡了腐烂的肉之类的东西，会有很好的效果）。（当玩家携带加装有该升级的背包时自动喂食。当放置在地上时，可喂食以背包为中心边长为七的立方体范围内的玩家。可以选择过滤为允许或者止。）"]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
 			optional: true
@@ -1706,7 +1706,7 @@
 		{
 			x: 23.0d
 			y: -1.0d
-			description: ["Regular upgrade only has 9 filter slots and can only compact items using 2x2 recipes."]
+			description: ["此升级只有9个过滤槽，只能使用2x2配方压缩配方。"]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
 			optional: true
@@ -1725,7 +1725,7 @@
 		{
 			x: 23.75d
 			y: -0.25d
-			description: ["Regular upgrade will automatically swap right tool into player's hand from backpack when block or entity is clicked ."]
+			description: ["自动将玩家手持物品替换为对应方块/实体的挖掘或攻击工具。"]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
 			optional: true
@@ -1744,7 +1744,7 @@
 		{
 			x: 24.5d
 			y: 0.5d
-			description: ["Regular upgrade can only filter by item and has 9 filter slots."]
+			description: ["此升级只能按项目进行筛选，并有9个筛选槽。（手持背包 Shift 右键容器提取你在过滤栏中所选定物品。）"]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
 			optional: true
@@ -1763,7 +1763,7 @@
 		{
 			x: 25.25d
 			y: 1.25d
-			description: ["Replaces part of backpack's inventory with fluid storage."]
+			description: ["用流体储存代替背包的部分库存。（加装后提供液体储存空间。）"]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
 			optional: true
@@ -1782,7 +1782,7 @@
 		{
 			x: 26.25d
 			y: 1.25d
-			description: ["Pumps fluids between Tank upgrade and adjacent blocks."]
+			description: ["在储罐升级和相邻区块之间泵送流体。"]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
 			optional: true
@@ -1802,7 +1802,7 @@
 			x: 27.25d
 			y: 1.25d
 			description: [
-				"Multiplies the max stack size limit by a value."
+				"物品堆叠数量x2。"
 				""
 				"Tier 1 - 2x."
 			]
@@ -1824,7 +1824,7 @@
 		{
 			x: 28.25d
 			y: 1.25d
-			description: ["Replaces part of backpack's inventory with energy storage."]
+			description: ["用能量存储代替背包的部分库存。（加装后提供能量储存空间。）"]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
 			optional: true
@@ -1843,7 +1843,7 @@
 		{
 			x: 29.0d
 			y: 0.5d
-			description: ["Regular upgrade can only filter by item and has 9 filter slots."]
+			description: ["此升级只能按项目进行筛选，并有9个筛选槽。（手持背包 Shift 右键容器卸载你在过滤栏中所选定物品。也可直接通过激活你所设置的热键实现其功能。）"]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
 			optional: true
@@ -1862,7 +1862,7 @@
 		{
 			x: 29.75d
 			y: -0.25d
-			description: ["Regular upgrade can only filter by item and has 9 filter slots."]
+			description: ["此升级只能按项目进行筛选，并有9个筛选槽。（可以按照过滤栏的设置将物品删除。可设置其工作方式。）"]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
 			optional: true
@@ -1881,7 +1881,7 @@
 		{
 			x: 30.5d
 			y: -1.0d
-			description: ["Smoking food in an upgrade tab."]
+			description: ["背包中的便携式烟熏炉。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"4DDE60CE13BDA795"
@@ -1910,7 +1910,7 @@
 		{
 			x: 30.5d
 			y: -2.0d
-			description: ["Regular upgrade works just as furnace would."]
+			description: ["背包中的便携式炉子。"]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
 			optional: true
@@ -1935,7 +1935,7 @@
 		{
 			x: 30.5d
 			y: -3.0d
-			description: ["Blasting ores and metal stuff in an upgrade tab."]
+			description: ["装载后可在背包里使用高炉。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"4DDE60CE13BDA795"
@@ -1964,7 +1964,7 @@
 		{
 			x: 30.5d
 			y: -4.0d
-			description: ["Regular upgrade can only filter by item and has 9 filter slots."]
+			description: ["添加了9个过滤槽。可以设置为：只输入、只输出、可以输入并且也可以输出三种模式。可以选择过滤为允许或者阻止。"]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
 			optional: true
@@ -1983,7 +1983,7 @@
 		{
 			x: 29.75d
 			y: -4.75d
-			description: ["Allows to play music discs in upgrade tab."]
+			description: ["插入背包升级槽后在背包物品栏右侧添加一个选项卡，点开之后可以放入唱片并选择播放。声音从背包传出，把包放在地上也会响。将唱片中的乐曲播放一遍之后就会停止。"]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
 			optional: true
@@ -2003,9 +2003,9 @@
 			x: 29.0d
 			y: -5.5d
 			description: [
-				"Integration with crafting tweaks and mouse tweaks."
+				"背包中的便携式工作台，也可当作9格的额外物品空间。"
 				""
-				"Also has performance enhancements that make it faster in crafting than vanilla workbench."
+				"还有性能增强，使其在制作过程中比普通工作台更快。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]
@@ -2032,15 +2032,15 @@
 			x: 28.25d
 			y: -6.25d
 			description: [
-				"Only allows this on one level so no backpack in backpack in backpack."
+				"允许将背包放入背包，但是不能背包里的背包放背包。"
 				""
-				"Upgrades in these backpacks will also work so you can have for example pickup upgrade in one of these picking up items directly into it."
+				"这些背包中的升级也会起作用，因此您可以在其中一个背包中进行取货升级，直接将物品放入其中。"
 				""
-				"Upgrades in the main backpack can access inventory of the subbackpacks and there's an option that defines whether they use inventory in subbackpacks first or the main one first."
+				"主背包中的升级可以访问子背包的库存，并且有一个选项可以定义他们是先使用子背包中的库存还是先使用主背包。"
 				""
-				"Filter upgrade in subbackpacks can be used to limit what items get inserted / pulled from them."
+				"子背包中的过滤升级可用于限制插入/从中提取的物品。（子背包中的过滤升级也有用。）"
 				""
-				"Backpacks in backpack can be open using open backpack keybind when cursor is over them."
+				"当光标放在背包上时，可以使用打开背包键绑定打开背包中的背包。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["4DDE60CE13BDA795"]

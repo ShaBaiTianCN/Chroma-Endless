@@ -128,7 +128,7 @@
 		{
 			x: 5.0d
 			y: -11.5d
-			description: ["将其应用的抽屉的存储量乘二。"]
+			description: ["将其应用的抽屉的存储量x2。"]
 			dependencies: [
 				"6F7E038577E9E093"
 				"0F01F4CCB3915082"
@@ -148,7 +148,7 @@
 		{
 			x: 5.0d
 			y: -10.25d
-			description: ["将其应用的抽屉的存储量乘四。"]
+			description: ["将其应用的抽屉的存储量x4。"]
 			dependencies: [
 				"6F7E038577E9E093"
 				"4055881864FF87C5"
@@ -190,7 +190,7 @@
 		{
 			x: 5.0d
 			y: -7.75d
-			description: ["将其应用的抽屉的存储量乘十六。"]
+			description: ["将其应用的抽屉的存储量乘x16。"]
 			dependencies: [
 				"6F7E038577E9E093"
 				"0976209956D1ADCD"
@@ -210,7 +210,7 @@
 		{
 			x: 5.0d
 			y: -9.0d
-			description: ["将其应用的抽屉的存储量乘八。"]
+			description: ["将其应用的抽屉的存储量x8。"]
 			dependencies: [
 				"6F7E038577E9E093"
 				"412DC2EA2FB47B68"
@@ -247,7 +247,7 @@
 		{
 			x: 5.0d
 			y: -6.5d
-			description: ["将其应用的抽屉的存储量乘三十二。"]
+			description: ["将其应用的抽屉的存储量x32。"]
 			dependencies: [
 				"6F7E038577E9E093"
 				"63B277F4C396E4F7"
@@ -1801,7 +1801,7 @@
 			x: 27.25d
 			y: 1.25d
 			description: [
-				"物品堆叠数量乘以二。"
+				"物品堆叠数量x2。"
 				""
 				"Tier 1 - 2x."
 			]

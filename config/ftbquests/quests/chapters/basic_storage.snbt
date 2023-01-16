@@ -802,7 +802,7 @@
 			x: 17.25d
 			y: 4.25d
 			shape: "diamond"
-			description: ["在服务器上，别忘了放一颗钻石，让你的箱子私密。"]
+			description: ["在服务器中，别忘了放一颗钻石，将其标记为你的私人储罐。"]
 			dependencies: ["679DF08FABBE8A87"]
 			size: 1.5d
 			id: "600A8F12B279150A"

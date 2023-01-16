@@ -3,7 +3,7 @@
 	group: "248890104A858230"
 	order_index: 1
 	filename: "chap5"
-	title: "&b第二章&r&6-&r对魔鬼的同情"
+	title: "&b第二章&r &6-&r 对魔鬼的同情"
 	icon: "occultism:spirit_fire"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

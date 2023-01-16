@@ -3,7 +3,7 @@
 	group: "4B06503CAA5674FC"
 	order_index: 3
 	filename: "bchapter_2r_6r_new_alloying"
-	title: "&bChapter 4&r &6-&r New alloying"
+	title: "&b第4章&r &6-&r 新型合金"
 	icon: "enderioalloys:item_material_skull_zombie_controller"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -44,15 +44,15 @@
 			x: 0.0d
 			y: 1.25d
 			shape: "octagon"
-			subtitle: "Slicing and Splicing"
+			subtitle: "切片和拼接"
 			description: [
-				"The &6Slice'N'Plice&r can be upgraded ! "
+				"&6Slice'N'Splice&r可以升级！"
 				""
-				"The first available upgrade is the &5Basic Capacitor&r, it reduces the cost of energy and the recipe duration by &n20%&r."
+				"第一个可用的升级是&5基础电容&r，它将能源成本和配方持续时间减少&n20%&r。"
 				""
-				"The second upgrade is the &5Double-Layered Capacitor&r, it reduces the cost of energy and the recipe duration by &n35%&r."
+				"第二个升级是&5双层电容&r，它将能量消耗和配方时间减少&n35%&r。"
 				""
-				"The third and final upgrade is the &5Octadic Capacitor&r, it reduces the cost of energy and the recipe duration by &n50%&r."
+				"第三个也是最后一个升级是&5八位电容&r，它将能量消耗和配方时间减少&n50%&r。"
 			]
 			dependencies: ["126F8199A5140A17"]
 			size: 1.5d
@@ -383,15 +383,15 @@
 			x: 0.0d
 			y: -5.0d
 			shape: "octagon"
-			subtitle: "Can't craft Tinker's Ingots"
+			subtitle: "无法制作匠魂的锭"
 			description: [
-				"The &6Alloy Smelter&r can be upgraded ! "
+				"&6合金冶炼炉&r可以升级！"
 				""
-				"The first available upgrade is the &5Basic Capacitor&r, it reduces the cost of energy and the recipe duration by &n20%&r."
+				"第一个可用的升级是&5基础电容&r，它将能量消耗和配方时间减少&n20%&r。"
 				""
-				"The second upgrade is the &5Double-Layered Capacitor&r, it reduces the cost of energy and the recipe duration by &n35%&r."
+				"第二个升级是&5双层电容&r，它将能量消耗和配方时间减少&n35%&r。"
 				""
-				"The third and final upgrade is the &5Octadic Capacitor&r, it reduces the cost of energy and the recipe duration by &n50%&r."
+				"第三个也是最后一个升级是&5八位电容&r，它将能量消耗和配方时间减少&n50%&r。"
 			]
 			dependencies: ["3B8FE588BB137295"]
 			size: 1.5d

@@ -3,7 +3,7 @@
 	group: "649CE452F2BBF13D"
 	order_index: 3
 	filename: "tardis_rename"
-	title: "&bChapter 4&r &6-&r Tardis"
+	title: "&b第四章&r &6-&r 时间和空间的相对维度"
 	icon: "tardis:telescope"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -121,7 +121,7 @@
 			x: -46.25d
 			y: -10.0d
 			shape: "gear"
-			description: ["Found in a village."]
+			description: ["在一个村庄发现。[--Found in a village.--]"]
 			hide_dependency_lines: true
 			dependencies: ["32B12D10660F4037"]
 			size: 4.0d
@@ -138,11 +138,11 @@
 			}]
 		}
 		{
-			title: "Tardis Key"
+			title: "Tardis钥匙[--Tardis Key--]"
 			icon: "tardis:tardis_key"
 			x: -46.25d
 			y: -13.75d
-			description: ["The Tardis Key is an item that is used to lock and unlock the Tardis."]
+			description: ["Tardis钥匙是一种物品，用来锁定和解锁Tardis。[--The Tardis Key is an item that is used to lock and unlock the Tardis.--]"]
 			dependencies: [
 				"2E012C406BEC6CD7"
 				"01247DAB4826AAF3"
@@ -181,7 +181,7 @@
 		{
 			x: -41.25d
 			y: -15.25d
-			description: ["Allows for crafting of other Upgrades."]
+			description: ["允许合成其他升级。[--Allows for crafting of other Upgrades.--]"]
 			dependencies: [
 				"54DC8317D4B7A510"
 				"7260BE309AD6DF62"
@@ -209,7 +209,7 @@
 		{
 			x: -42.5d
 			y: -14.0d
-			description: ["Allows the telepathic circuits to locate specific structures within 500 blocks of the exterior."]
+			description: ["允许心灵感应电路在500个方块距离内定位特定结构。[--Allows the telepathic circuits to locate specific structures within 500 blocks of the exterior.--]"]
 			dependencies: ["3036833D11AB9650"]
 			id: "0F8A02D5EB56D6CB"
 			tasks: [{
@@ -232,7 +232,7 @@
 		{
 			x: -42.5d
 			y: -13.0d
-			description: ["Allows a Tardis to tow another connected Tardis. To connect this upgrade to a Tardis, right click the upgrade on the console of the Timeship you wish to tow, then place this into the Upgrade Slot of the engine belonging to the Tardis that you are using to move the other one."]
+			description: ["允许Tardis拖曳另一个连接的Tardis。要将此升级连接到Tardis，请在您要拖曳的时空飞船控制台上右键升级，然后将其放置到属于您用来移动另一个Tardis的引擎的升级槽位中。[--Allows a Tardis to tow another connected Tardis. To connect this upgrade to a Tardis, right click the upgrade on the console of the Timeship you wish to tow, then place this into the Upgrade Slot of the engine belonging to the Tardis that you are using to move the other one.--]"]
 			dependencies: ["3036833D11AB9650"]
 			id: "7D677EE98177CDA2"
 			tasks: [{
@@ -255,7 +255,7 @@
 		{
 			x: -41.25d
 			y: -14.0d
-			description: ["Cures poison debuffs and heals all entities below their maximum health in the interior of a Tardis. Takes 1 damage for each heart healed. Currently unable to be repaired."]
+			description: ["治疗中毒在Tardis内部削弱并治愈全部实体低于其最大生命的生命值。每治愈一颗心脏，造成1点伤害。目前无法修复。[--Cures poison debuffs and heals all entities below their maximum health in the interior of a Tardis. Takes 1 damage for each heart healed. Currently unable to be repaired.--]"]
 			dependencies: ["3036833D11AB9650"]
 			id: "131F6571537A8D7E"
 			tasks: [{
@@ -278,7 +278,7 @@
 		{
 			x: -41.25d
 			y: -13.0d
-			description: ["Allows players with a Tardis key attuned to that Tardis to remotely lock/unlock the Timeship remotely. Works within a limited range of the exterior and an unlimited range within the interior."]
+			description: ["允许用来与该Tardis匹配的Tardis钥匙的玩家远程锁定/解锁时空飞船。在有限的外部范围和无限制的内部范围内工作。[--Allows players with a Tardis key attuned to that Tardis to remotely lock/unlock the 时空飞船 remotely. Works within a limited range of the exterior and an unlimited range within the interior.--]"]
 			dependencies: ["3036833D11AB9650"]
 			id: "7A13637117EF1A6A"
 			tasks: [{
@@ -301,7 +301,7 @@
 		{
 			x: -41.25d
 			y: -12.0d
-			description: ["If the exterior is submerged in water, will give nearby water submerged entities the Water Breathing effect."]
+			description: ["如果外部被淹没在水中，将给附近的水淹没的实体带来水下呼吸效果。[--If the exterior is submerged in water, will give nearby water submerged entities the Water Breathing effect.--]"]
 			dependencies: ["3036833D11AB9650"]
 			id: "2C40339B6D0E8C0E"
 			tasks: [{
@@ -451,11 +451,11 @@
 		{
 			x: -56.25d
 			y: -6.0d
-			subtitle: "An Alembic is a device that processes raw materials. It can be mined with a pickaxe."
+			subtitle: "蒸馏器是一种处理粗材料的设备。它可以用镐挖掘。[--An Alembic is a device that processes raw materials. It can be mined with a pickaxe.--]"
 			description: [
-				"It can be used to :"
-				"-Convert Cinnabar Dust to Mercury Bottles."
-				"-Create Circuit Paste."
+				"它可以用来：[--It can be used to :--]"
+				"-将朱砂粉尘转化为水银瓶。[---Convert Cinnabar Dust to Mercury Bottles.--]"
+				"-合成电路模板。[---Create Circuit Paste.--]"
 				"{image:chroma:textures/quests/alembic.png width:150 height:200 align:1}"
 			]
 			dependencies: [
@@ -574,7 +574,7 @@
 		{
 			x: -55.75d
 			y: -13.75d
-			description: ["The Waypoint Bank is a block that increases the Tardis' total waypoint capacity."]
+			description: ["航点库是一个增加Tardis总航点容量的方块。[--The Waypoint Bank is a block that increases the Tardis' total waypoint capacity.--]"]
 			dependencies: [
 				"7CD75FCA7BA0B415"
 				"1A39E5C4BB1B3FA3"
@@ -592,19 +592,19 @@
 			}]
 		}
 		{
-			title: "Quantiscope"
+			title: "量表[--Quantiscope--]"
 			icon: "tardis:quantiscope_brass"
 			x: -52.5d
 			y: -12.5d
-			subtitle: "The Quantiscope is a block that allows users to craft and modify various items."
+			subtitle: "量表是一个允许用户合成和修改各种物品的方块。[--The Quantiscope is a block that allows users to craft and modify various items.--]"
 			description: [
-				"It can be used to :"
-				"-Modify each casing part of a Sonic Screwdriver."
-				"Note : It does not require any energy to change Sonic casings."
-				"-Craft Tardis Mod Items."
-				"-Repair Tardis Sub-systems"
+				"它可以用来：[--It can be used to :--]"
+				"-修改音速起子的每个套管部分。[---Modify each casing part of a 音速 Screwdriver.--]"
+				"注：更换音速套管不需要任何能量。[--Note : It does not require any energy to change 音速 casings.--]"
+				"-合成Tardis模组物品。[---Craft Tardis Mod Items.--]"
+				"-维修Tardis子系统[---Repair Tardis Sub-systems--]"
 				"{image:chroma:textures/quests/quantiscope_fabricate.png width:150 height:150 align:1}"
-				"Sonic Customisation"
+				"音速自定义[--音速 Customisation--]"
 				"{image:chroma:textures/quests/quantiscope_reconfig.png width:150 height:150 align:1}"
 			]
 			hide_dependency_lines: true
@@ -639,7 +639,7 @@
 		{
 			x: -50.5d
 			y: -11.0d
-			description: ["The Diagnostic Tool is a multi-purpose device that allows a player to view dashboards and track their Tardis"]
+			description: ["诊断工具是一种多用途设备，允许玩家查看仪表板并跟踪其Tardis[--The Diagnostic Tool is a multi-purpose device that allows a player to view dashboards and track their Tardis--]"]
 			dependencies: ["6558A4451C4D3B9B"]
 			id: "53CB21797EB0D903"
 			tasks: [{
@@ -675,7 +675,7 @@
 		{
 			x: -54.25d
 			y: -12.5d
-			description: ["A Timeship Backdoor is a form of emergency access to a Tardis."]
+			description: ["时光飞船后门是一种紧急进入Tardis的方式。[--A 时空飞船 Backdoor is a form of emergency access to a Tardis.--]"]
 			dependencies: ["6558A4451C4D3B9B"]
 			id: "5BBC774C3A787868"
 			tasks: [{
@@ -692,7 +692,7 @@
 		{
 			x: -52.5d
 			y: -11.0d
-			description: ["The ARS Tablet is an item used to generate and delete rooms inside the Tardis"]
+			description: ["ARS平板电脑是用来生成和删除Tardis内房间的物品[--The ARS Tablet is an item used to generate and delete rooms inside the Tardis--]"]
 			dependencies: [
 				"1A39E5C4BB1B3FA3"
 				"6558A4451C4D3B9B"
@@ -717,7 +717,7 @@
 			x: -42.0d
 			y: -10.0d
 			description: [
-				"The Artifact Map is a scroll that holds a Treasure Map that leads to rumoured space-time anomalies."
+				"人工制品地图是一幅卷轴，上面有一幅藏宝地图，导致了谣传的时空异常。[--The Artifact Map is a scroll that holds a Treasure Map that leads to rumoured space-time anomalies.--]"
 				"{image:chroma:textures/quests/map.png width:300 height:150 align:1}"
 			]
 			dependencies: ["445EBC860C3ABE3C"]
@@ -737,7 +737,7 @@
 		{
 			x: -50.5d
 			y: -12.5d
-			description: ["The Pocket Watch is a device that allows a player to view the outside world's time whilst inside the Tardis."]
+			description: ["袖珍手表是一种设备，允许玩家在Tardis内部查看外部世界的时间。[--The Pocket Watch is a device that allows a player to view the outside world's time whilst inside the Tardis.--]"]
 			dependencies: ["6558A4451C4D3B9B"]
 			id: "1FF942CB25D5A8AD"
 			tasks: [{
@@ -755,7 +755,7 @@
 		{
 			x: -55.75d
 			y: -12.5d
-			description: ["The Waypoint Data Crystal is an item that allows players to transfer waypoints from one Tardis to another, or to restore old waypoints."]
+			description: ["航路点数据模式水晶是一个物品，允许玩家将航路点从一个Tardis转移到另一个Tardi，或恢复旧世界类型航路点。[--The Waypoint Data Crystal is an item that allows players to transfer waypoints from one Tardis to another, or to restore old waypoints.--]"]
 			dependencies: [
 				"6558A4451C4D3B9B"
 				"1A39E5C4BB1B3FA3"
@@ -776,7 +776,7 @@
 		{
 			x: -39.0d
 			y: -16.75d
-			description: ["The Vortex Manipulator is a portable means of transportation. It can teleport the player to any set of coordinates in the player’s current dimension."]
+			description: ["涡旋操控表带器是一种便携式交通运输工具。它可以将玩家传送到玩家当前维度的任何坐标。[--The Vortex Manipulator is a portable means of transportation. It can teleport the player to any set of coordinates in the player’s current dimension.--]"]
 			dependencies: ["3B98EA4C8E15AD17"]
 			id: "28A05F8218355507"
 			tasks: [{
@@ -861,14 +861,14 @@
 			x: -38.5d
 			y: -8.75d
 			description: [
-				"Uses"
-				"The Item Access Panel is like an Ender Chest that connects to a Tardis interior dimension's internal Item Buffer."
+				"使用[--Uses--]"
+				"物品访问面板就像一个末影箱，连接到Tardis内部维度的内部物品缓冲区。[--The Item Access Panel is like an Ender Chest that connects to a Tardis interior dimension's internal Item Buffer.--]"
 				""
-				"This buffer can store up to 9 stacks (9x64) of items which can be transferred around the Tardis."
+				"该缓冲区可以存储最多9组（9x64）物品，这些物品可以在Tardis周围传输。[--This buffer can store up to 9 stacks (9x64) of items which can be transferred around the Tardis.--]"
 				""
-				"-Transferring items wirelessly within Tardis interior dimension."
-				"-Transferring items from Tardis exterior to Tardis interior."
-				"-Transferring items from Tardis interior to Tardis exterior."
+				"-在Tardis内部维度内无线传输物品。[---Transferring items wirelessly within Tardis interior dimension.--]"
+				"-将物品从Tardis外部转移到Tardis内部。[---Transferring items from Tardis exterior to Tardis interior.--]"
+				"-将物品从Tardis内部转移到Tardis外部。[---Transferring items from Tardis interior to Tardis exterior.--]"
 			]
 			dependencies: ["1A39E5C4BB1B3FA3"]
 			id: "1F6EB3B5B3FA9115"
@@ -884,7 +884,7 @@
 			}]
 		}
 		{
-			title: "Rift"
+			title: "裂隙[--Rift--]"
 			icon: "tardis:artron_collector"
 			x: -51.75d
 			y: -17.0d
@@ -911,7 +911,7 @@
 		{
 			x: -50.5d
 			y: -14.25d
-			description: ["The Vortex Detector block is a block similar to the Daylight Sensor. It emits a Redstone signal when it detects if a Tardis is in flight, and can be inverted for the opposite."]
+			description: ["涡旋检测器模块是一个类似于阳光传感器的模块。当检测到Tardis是否在飞行时，它会发出红石信号，并可以反向。[--The Vortex Detector block is a block similar to the Daylight Sensor. It emits a Redstone signal when it detects if a Tardis is in flight, and can be inverted for the opposite.--]"]
 			dependencies: ["6558A4451C4D3B9B"]
 			id: "17EF84F760BE6F2C"
 			tasks: [{
@@ -929,7 +929,7 @@
 		{
 			x: -54.25d
 			y: -14.25d
-			description: ["The Transduction Barrier is a block that prevents nearby Tardises from landing within its defined radius if the Tardis' Landing Codes don't match that of the barrier."]
+			description: ["偏转屏障是一个阻止附近Tardis在其定义的半径内着陆的块，如果Tardis的着陆代码与屏障的着陆代码不匹配。[--The Transduction Barrier is a block that prevents nearby Tardises from landing within its defined radius if the Tardis' Landing Codes don't match that of the barrier.--]"]
 			dependencies: ["6558A4451C4D3B9B"]
 			id: "66758B3A8C008836"
 			tasks: [{
@@ -946,7 +946,7 @@
 		{
 			x: -54.25d
 			y: -11.0d
-			description: ["The Landing Pad is a block that allows nearby Tardises to land precisely on this block."]
+			description: ["着陆台是一个可以让附近的Tardis人准确地降落在这个方块上的方块。[--The Landing Pad is a block that allows nearby Tardises to land precisely on this block.--]"]
 			dependencies: ["6558A4451C4D3B9B"]
 			id: "234B3A5B1671EC36"
 			tasks: [{
@@ -964,7 +964,7 @@
 		{
 			x: -41.25d
 			y: -20.0d
-			description: ["The Roundel Tap block allows for the transferring of Forge Energy within the Tardis interior dimension, or piping energy between the Tardis exterior and interior."]
+			description: ["圆盘改锥方块允许在Tardis内部维度内传递FE能量，或在Tardis的外部和内部之间传递能量。[--The Roundel Tap block allows for the transferring of Forge Energy within the Tardis interior dimension, or piping energy between the Tardis exterior and interior.--]"]
 			dependencies: [
 				"7EFA7E873D6D662D"
 				"0D95BB72F3EF2EF7"
@@ -989,7 +989,7 @@
 			x: -52.5d
 			y: -14.25d
 			description: [
-				"The Architectural Reconfiguration System (ARS) Egg is a block that allows the player to obtain a variety of decoration blocks and other items in exchange for the depletion of the Tardis' Artron banks."
+				"建筑重新配置系统（ARS）蛋是一个方块，允许玩家获得各种装饰性方块和其他物品，消耗Tardis的Artron能量。[--The Architectural Reconfiguration System (ARS) Egg is a block that allows the player to obtain a variety of decoration blocks and other items in exchange for the depletion of the Tardis' Artron banks.--]"
 				"{image:chroma:textures/quests/ars.png width:100 height:100 align:1}"
 			]
 			dependencies: ["6558A4451C4D3B9B"]
@@ -1009,19 +1009,19 @@
 			x: -37.5d
 			y: -8.75d
 			description: [
-				"1. Place down an Item Access Panel inside the Tardis interior. This is our input site."
-				"2. Place down a second Item Access Panel elsewhere inside the Tardis interior. This is our output site."
-				"3. Place a hopper or similar item transfer capable block next to the input site."
-				"4. Insert items into the hopper/similar item transfer capable block."
-				"5. Place a hopper or similar block beneath the output site."
-				"6. See that items are being added to the hopper beneath the output site."
+				"1.在Tardis内部向下放置物品检修面板。这是我们的输入站点。[--1. Place down an Item Access Panel inside the Tardis interior. This is our input site.--]"
+				"2.在Tardis内部其他地方向下放置第二个物品检修面板。这是我们的输出站点。[--2. Place down a second Item Access Panel elsewhere inside the Tardis interior. This is our output site.--]"
+				"3.在输入位置旁边放置一个漏斗或类似的能够传输物品的方块。[--3. Place a hopper or similar item transfer capable block next to the input site.--]"
+				"4.将物品放入漏斗或类似的能够传输物品的方块。[--4. Insert items into the hopper/similar item transfer capable block.--]"
+				"5.在输出位置下方放置一个漏斗或类似方块。[--5. Place a hopper or similar block beneath the output site.--]"
+				"6.确保物品被添加到输出站点下方的漏斗中。[--6. See that items are being added to the hopper beneath the output site.--]"
 			]
 			dependencies: ["1F6EB3B5B3FA9115"]
 			id: "2FF3803EE2BDCD64"
 			tasks: [{
 				id: "54A42ED32295AF1A"
 				type: "checkmark"
-				title: "Transfer items within Tardis Interior"
+				title: "在Tardis内部传输物品[--Transfer items within Tardis Interior--]"
 			}]
 			rewards: [{
 				id: "23CCF74A5C56AF07"
@@ -1033,19 +1033,19 @@
 			x: -37.5d
 			y: -7.75d
 			description: [
-				"1. Place down an Item Access Panel inside the Tardis interior. This is our input site."
-				"2. Place an item piping block on the Tardis Exterior block. This is our output site."
-				"2.1 This can be a \"pipe\" or similar blocks from other mods."
-				"3. Place a hopper or similar item transfer capable block next to or above the Item Access Panel inside the Tardis."
-				"4. Insert items into the hopper/similar item transfer capable block."
-				"5. See that items are being added to the item piping block at the Tardis Exterior."
+				"1.在Tardis内部向下放置物品检修面板。这是我们的输入站点。[--1. Place down an Item Access Panel inside the Tardis interior. This is our input site.--]"
+				"2.在Tardis内部其他地方向下放置第二个物品检修面板。这是我们的输出站点。[--2. Place down a second Item Access Panel elsewhere inside the Tardis interior. This is our output site.--]"
+				"2.1可以是其他模块的“管道”或类似方块。[--2.1 This can be a \"pipe\" or similar blocks from other mods.--]"
+				"3.将一个漏斗或类似方块放在Tardis内物品检修面板旁边或上方。[--3. Place a hopper or similar item transfer capable block next to or above the Item Access Panel inside the Tardis.--]"
+				"4.将物品放入漏斗或类似的能够传输物品的方块。[--4. Insert items into the hopper/similar item transfer capable block.--]"
+				"5.确保将物品添加到Tardis外部的物品管道中。[--5. See that items are being added to the item piping block at the Tardis Exterior.--]"
 			]
 			dependencies: ["1F6EB3B5B3FA9115"]
 			id: "7036D5301FD904E8"
 			tasks: [{
 				id: "781282CB1F066ADD"
 				type: "checkmark"
-				title: "Transfer items from Tardis Interior to Tardis Exterior "
+				title: "将物品从Tardis内部转移到Tardis外部[--Transfer items from Tardis Interior to Tardis Exterior --]"
 			}]
 			rewards: [{
 				id: "7936F37FA8F89619"
@@ -1057,19 +1057,19 @@
 			x: -37.5d
 			y: -9.75d
 			description: [
-				"1. Place an item piping block on the Tardis Exterior block. This is our input site."
-				"2. Place down an Item Access Panel inside the Tardis interior. This is our output site."
-				"2.1 This can be a \"pipe\" or similar blocks from other mods."
-				"3. Place a hopper or similar item transfer capable block beneath the Item Access Panel inside the Tardis."
-				"4. Insert items into the hopper/similar item transfer capable block at the Tardis Exterior input site."
-				"5. See that items are being added to the item piping block below the Item Access Panel inside the Tardis."
+				"1.在Tardis外部块上放置一个物品管道块。这是我们的输入站点。[--1. Place an item piping block on the Tardis Exterior block. This is our input site.--]"
+				"2.在Tardis内部向下放置物品检修面板。这是我们的输出站点。[--2. Place down an Item Access Panel inside the Tardis interior. This is our output site.--]"
+				"2.1可以是其他模块的“管道”或类似方块。[--2.1 This can be a \"pipe\" or similar blocks from other mods.--]"
+				"3.在Tardis内的物品检修面板下方放置一个漏斗或类似方块。[--3. Place a hopper or similar item transfer capable block beneath the Item Access Panel inside the Tardis.--]"
+				"4.将物品放入漏斗或类似的能够传输物品的方块。[--4. Insert items into the hopper/similar item transfer capable block.--]"
+				"5.确保将物品添加到Tardis内物品检修面板下方的物品管道中。[--5. See that items are being added to the item piping block below the Item Access Panel inside the Tardis.--]"
 			]
 			dependencies: ["1F6EB3B5B3FA9115"]
 			id: "76ED3402D01F13B8"
 			tasks: [{
 				id: "617E184FAD256AAD"
 				type: "checkmark"
-				title: "Transfer items from Tardis Exterior to Tardis Interior"
+				title: "将物品从Tardis外部转移到Tardis内部[--Transfer items from Tardis Exterior to Tardis Interior--]"
 			}]
 			rewards: [{
 				id: "1B5EB7BA43D88D87"
@@ -1081,9 +1081,9 @@
 			x: -57.0d
 			y: -19.0d
 			description: [
-				"Subsystems must be enabled after they are installed in order to function."
+				"子系统必须在安装后启用才能运行。[--Subsystems must be enabled after they are installed in order to function.--]"
 				""
-				"They can be enabled by flicking a switch above or below the component in the engine. When the switch is activated, it will glow a bright red and an activated sound will play."
+				"可以通过在引擎组件上方或下方轻按开关来启用它们。当开关启动时，它将发光明亮的红色，并发出启动的声音。[--They can be enabled by flicking a switch above or below the component in the engine. When the switch is activated, it will glow a bright red and an activated sound will play.--]"
 				""
 				"{image:chroma:textures/quests/activate_2.png width:200 height:100 align:1}"
 			]
@@ -1092,7 +1092,7 @@
 			tasks: [{
 				id: "62B5CC70CE6B4C94"
 				type: "checkmark"
-				title: "Activation"
+				title: "激活[--Activation--]"
 			}]
 			rewards: [{
 				id: "0F2F8DE7D6961853"
@@ -1103,8 +1103,8 @@
 		{
 			x: -54.25d
 			y: -20.75d
-			subtitle: "Optional"
-			description: ["Sending and receiving messages. Receiving distress calls."]
+			subtitle: "可选[--Optional--]"
+			description: ["发送和接收信息。接收求救电话。[--Sending and receiving messages. Receiving distress calls.--]"]
 			dependencies: ["68C298CD58B3F481"]
 			id: "1D7AAAC8A0889D68"
 			tasks: [{
@@ -1127,8 +1127,8 @@
 		{
 			x: -55.25d
 			y: -20.75d
-			subtitle: "Optional"
-			description: ["Change the exterior shell of the Tardis."]
+			subtitle: "可选[--Optional--]"
+			description: ["更换Tardis的外壳。[--Change the exterior shell of the Tardis.--]"]
 			dependencies: ["68C298CD58B3F481"]
 			id: "588923D2B27C820B"
 			tasks: [{
@@ -1151,8 +1151,8 @@
 		{
 			x: -56.25d
 			y: -20.75d
-			subtitle: "Optional"
-			description: ["Cancels all damage inside the interior and allows for the Temporal Scoop feature to be used if this is activated."]
+			subtitle: "可选[--Optional--]"
+			description: ["取消内部的全部损坏，并允许在激活时用来临时铲地物。[--Cancels all damage inside the interior and allows for the Temporal Scoop feature to be used if this is activated.--]"]
 			dependencies: ["68C298CD58B3F481"]
 			id: "1E36296CD248F719"
 			tasks: [{
@@ -1175,8 +1175,8 @@
 		{
 			x: -57.25d
 			y: -20.75d
-			subtitle: "Optional"
-			description: ["Protect other subsystems when exterior is hit. Enabling forcefield."]
+			subtitle: "可选[--Optional--]"
+			description: ["当外部受到冲击时，保护其他子系统。启用力场。[--Protect other subsystems when exterior is hit. Enabling 力场.--]"]
 			dependencies: ["68C298CD58B3F481"]
 			id: "508574EC349748FF"
 			tasks: [{
@@ -1199,8 +1199,8 @@
 		{
 			x: -58.25d
 			y: -20.75d
-			subtitle: "Optional"
-			description: ["Allowing the activation of stabilised mode."]
+			subtitle: "可选[--Optional--]"
+			description: ["允许激活稳定模式。[--Allowing the activation of stabilised mode.--]"]
 			dependencies: ["68C298CD58B3F481"]
 			id: "0385BDAA60AC23B9"
 			tasks: [{
@@ -1223,8 +1223,8 @@
 		{
 			x: -59.25d
 			y: -20.75d
-			subtitle: "Optional"
-			description: ["Displaying current and destination co-ordinates. Setting non-randomised destination co-ordinates."]
+			subtitle: "可选[--Optional--]"
+			description: ["显示当前分辨率和目的地坐标。设置非随机目的地坐标。[--Displaying current and destination co-ordinates. Setting non-randomised destination co-ordinates.--]"]
 			dependencies: ["68C298CD58B3F481"]
 			id: "77927BEBA73A16C1"
 			tasks: [{
@@ -1247,8 +1247,8 @@
 		{
 			x: -60.25d
 			y: -20.75d
-			subtitle: "Essential"
-			description: ["Flight, if the Fluid Link is also installed. Exterior anti-gravity functionality."]
+			subtitle: "必需[--Essential--]"
+			description: ["飞行，如果还安装了流体连接。外部抗重力功能。[--Flight, if the Fluid Link is also installed. Exterior anti-gravity functionality.--]"]
 			dependencies: ["68C298CD58B3F481"]
 			id: "53E71DE552F4CDD7"
 			tasks: [{
@@ -1271,8 +1271,8 @@
 		{
 			x: -61.25d
 			y: -20.75d
-			subtitle: "Essential"
-			description: ["Flight, if Dematerialisation Circuit is also installed. Required to enable the refuel button."]
+			subtitle: "必需[--Essential--]"
+			description: ["飞行，如果还安装了去物质化电路。需要启用加油按钮。[--Flight, if Dematerialisation Circuit is also installed. Required to enable the refuel button.--]"]
 			dependencies: ["68C298CD58B3F481"]
 			id: "7FDB5B15B5F619CF"
 			tasks: [{
@@ -1295,13 +1295,13 @@
 		{
 			x: -52.5d
 			y: -18.75d
-			description: ["Essential subsystems are required to allow a Tardis to enter flight mode. The Tardis console will emit smoke when one or more of these is under 10% of their total durability and will spark when under 5% of total durability. These effects will stop when the component is removed from the engine. Currently, only the Dematerialisation Circuit and Fluid Link are considered essential."]
+			description: ["需要基本子系统来允许Tardis进入飞行模式。当其中一个或多个低于其总耐久性的10%时，Tardis控制台会发出烟雾，当低于其总持久性的5%时会产生火花。从发动机上拆下部件后，这些影响将停止。目前，只有去物质化电路和流体连接被认为是必要的。[--Essential subsystems are required to allow a Tardis to enter flight mode. The Tardis console will emit smoke when one or more of these is under 10% of their total durability and will spark when under 5% of total durability. These effects will stop when the component is removed from the engine. Currently, only the Dematerialisation Circuit and Fluid Link are considered essential.--]"]
 			dependencies: ["32B12D10660F4037"]
 			id: "060009E44354CAAA"
 			tasks: [{
 				id: "322F5C9F111604D2"
 				type: "checkmark"
-				title: "Essential"
+				title: "必需[--Essential--]"
 			}]
 			rewards: [{
 				id: "274555483B12D3E8"
@@ -1312,13 +1312,13 @@
 		{
 			x: -54.25d
 			y: -19.5d
-			description: ["Optional subsystems are not required for flight, however, certain other functions of the Tardis may require a specific optional subsystem. For example, the Chameleon Circuit is required for the Tardis to change its exterior. There are no special effects when one of these is low in durability, so ensure you check your engine or Diagnostic Tool regularly and perform appropriate repairs."]
+			description: ["飞行不需要可选的子系统，然而，Tardis的某些其他功能可能需要特定的可选子系统。例如，Tardis需要变色龙电路来改变其外观。当其中一种耐久性较低时，不会产生任何特殊影响，因此请确保定期检查发动机或诊断工具并进行适当的维修。[--Optional subsystems are not required for flight, however, certain other functions of the Tardis may require a specific optional subsystem. For example, the Chameleon Circuit is required for the Tardis to change its exterior. There are no special effects when one of these is low in durability, so ensure you check your engine or Diagnostic Tool regularly and perform appropriate repairs.--]"]
 			dependencies: ["060009E44354CAAA"]
 			id: "0C761DEAE05AF0E8"
 			tasks: [{
 				id: "17F40F32EAFF63F3"
 				type: "checkmark"
-				title: "Optional"
+				title: "可选[--Optional--]"
 			}]
 			rewards: [{
 				id: "3D6471736C5AEA6C"
@@ -1330,9 +1330,9 @@
 			x: -42.5d
 			y: -15.25d
 			description: [
-				"Upgrades must be enabled after they are installed in order to function. They can be enabled by flicking a switch above or below the component in the engine. When the switch is activated, it will glow a bright red and an activated sound will play."
+				"安装后必须启用升级才能正常运行。可以通过在引擎组件上方或下方轻按开关来启用它们。当开关启动时，它将发光明亮的红色，并发出启动的声音。[--Upgrades must be enabled after they are installed in order to function. They can be enabled by flicking a switch above or below the component in the engine. When the switch is activated, it will glow a bright red and an activated sound will play.--]"
 				""
-				"Upgrades can be removed from the engine or disabled at any time by toggling its switch."
+				"可以随时从引擎中删除升级或通过切换其开关禁用升级。[--Upgrades can be removed from the engine or disabled at any time by toggling its switch.--]"
 				"{image:chroma:textures/quests/activation.png width:200 height:100 align:1}"
 			]
 			dependencies: ["3036833D11AB9650"]
@@ -1340,7 +1340,7 @@
 			tasks: [{
 				id: "17FB6A2C1E831207"
 				type: "checkmark"
-				title: "Activation"
+				title: "激活[--Activation--]"
 			}]
 			rewards: [{
 				id: "600CB6A275B8A5AE"
@@ -1356,7 +1356,7 @@
 			tasks: [{
 				id: "01D0DC5A8C987844"
 				type: "checkmark"
-				title: "Rift Chunk"
+				title: "裂隙区块[--Rift Chunk--]"
 			}]
 			rewards: [{
 				id: "2DB904BF5BCEDD3A"
@@ -1368,16 +1368,16 @@
 			x: -49.75d
 			y: -15.75d
 			description: [
-				"Any chunk, at any time, will have a chance to become a rift. Rifts will have limited energy, and that will build overtime."
+				"任何区块在任何时候都有可能成为裂隙。裂隙的能量有限，并且会持续增长。[--Any chunk, at any time, will have a chance to become a rift. Rifts will have limited energy, and that will build overtime.--]"
 				""
-				"A fully drained rift will close and not gain any power again, but like every other chunk, it has a chance to become a rift again."
+				"一个能量完全干涸的裂隙将关闭，不再获得任何能量，但像其他所有区块一样，它有机会再次成为裂隙。[--A fully drained rift will close and not gain any power again, but like every other chunk, it has a chance to become a rift again.--]"
 			]
 			dependencies: ["7249BC3BF63A36B8"]
 			id: "1E1901611F025610"
 			tasks: [{
 				id: "03595FE5717FC321"
 				type: "checkmark"
-				title: "Generation"
+				title: "产生[--Generation--]"
 			}]
 			rewards: [{
 				id: "74207611520FC4EF"
@@ -1388,13 +1388,13 @@
 		{
 			x: -49.25d
 			y: -17.0d
-			description: ["When a Sonic Screwdriver on Passive Prove mode is in the inventory of a player which enters a Rift Chunk, a notification message and sound will be sent to the player."]
+			description: ["当被动验证模式下的音速起子位于进入裂隙区块的玩家的物品栏中时，将向玩家发送通知消息和声音。[--When a 音速 Screwdriver on Passive Prove mode is in the inventory of a player which enters a Rift Chunk, a notification message and sound will be sent to the player.--]"]
 			dependencies: ["1E1901611F025610"]
 			id: "42C1B84F1A72B43C"
 			tasks: [{
 				id: "0BF2E75E7B65A4A1"
 				type: "checkmark"
-				title: "Detection"
+				title: "侦测[--Detection--]"
 			}]
 			rewards: [{
 				id: "47D3944513154BEE"
@@ -1406,18 +1406,18 @@
 			x: -47.75d
 			y: -17.0d
 			description: [
-				"1. Detect a Rift Chunk"
-				"2. Place down an Artron Collector and Artron Pylon within the Rift Chunk."
+				"1.侦测裂隙区块[--1. Detect a Rift Chunk--]"
+				"2.在裂隙区块内放置一个Artron收集器和Artron塔。[--2. Place down an Artron Collector and Artron Pylon within the Rift Chunk.--]"
 				"{image:chroma:textures/quests/rift.png width:150 height:100 align:1}"
 				"{image:chroma:textures/quests/rift2.png width:150 height:100 align:1}"
-				"Take out the item from the Artron Collector. If the item has been charged, its stored Artron Units will have increased."
+				"从Artron收集器中取出物品。如果物品被充电，其储存的Artron单元将增加。[--Take out the item from the Artron Collector. If the item has been charged, its stored Artron Units will have increased.--]"
 			]
 			dependencies: ["42C1B84F1A72B43C"]
 			id: "360FBB77F43CA6C6"
 			tasks: [{
 				id: "374F0802DC7C9281"
 				type: "checkmark"
-				title: "Charging Artron compatible items"
+				title: "为Artron兼容的物品充电[--Charging Artron compatible items--]"
 			}]
 			rewards: [{
 				id: "0232CE102B0D0DAD"
@@ -1429,35 +1429,35 @@
 			x: -42.0d
 			y: -18.25d
 			description: [
-				"1. Place down a Roundel Tap inside the Tardis interior. This is the energy input site."
+				"1.在Tardis内部向下放置一个圆盘改锥。这是能量输入点。[--1. Place down a Roundel Tap inside the Tardis interior. This is the energy input site.--]"
 				""
-				"2. Place down a second Roundel Tap elsewhere inside the Tardis interior. This is the energy output site."
+				"2.将第二个圆盘改锥放在Tardis内部的其他地方。这是能量输出站点。[--2. Place down a second Roundel Tap elsewhere inside the Tardis interior. This is the energy output site.--]"
 				""
-				"3. Place a Forge Energy generator block near the input Roundel Tap."
+				"3.将FE发电机方块放置在输入圆盘改锥附近。[--3. Place a Forge Energy generator block near the input Roundel Tap.--]"
 				""
-				"4. Using wire blocks from other mods, connect the Forge Energy generator block to the input Roundel Tap."
+				"4.用来其他模块的电线方块，将FE发电机连接到输入圆盘改锥。[--4. Using wire blocks from other mods, connect the Forge Energy generator block to the input Roundel Tap.--]"
 				""
-				"5. Right click the input Roundel Tap so that its \"emit\" blockstate value is set to false."
-				"5.1 A message similar to \"Tap is now pushing energy to Tardis\" will be shown."
+				"5.右键输入圆盘改锥，使其“emit”blockstate值设置为false。[--5. Right click the input Roundel Tap so that its \"emit\" blockstate value is set to false.--]"
+				"5.1将显示类似于“Tap 现在正在将能量推向 Tardis”的消息。[--5.1 A message similar to \"Tap is now pushing energy to Tardis\" will be shown.--]"
 				""
-				"6. Place a Forge Energy storage block near the output Roundel Tap."
-				"6.1 E.g. Mekanism's Energy Cube."
+				"6.在输出圆盘改锥附近放置一个FE能量存储方块。[--6. Place a Forge Energy storage block near the output Roundel Tap.--]"
+				"6.1例如通用机械的能量立方。[--6.1 E.g. Mekanism's Energy Cube.--]"
 				""
-				"7. Using wire blocks from other mods, connect the Forge Energy storage block to the output Roundel Tap."
+				"7.用来其他模块的电线方块，将FE能量存储方块连接到输出圆盘改锥。[--7. Using wire blocks from other mods, connect the Forge Energy storage block to the output Roundel Tap.--]"
 				""
-				"8. Right click the output Roundel Tap so that its \"emit\" blockstate value is set to true."
-				"8.1 A message similar to \"Tap is now pushing energy to nearby blocks\" will be shown."
+				"8.右键输出圆盘改锥，使其“emit”blockstate值设置为true。[--8. Right click the output 圆盘改锥 so that its \"emit\" blockstate value is set to true.--]"
+				"8.1将显示类似于“Tap 现在正在将能量推向附近的方块”的消息。[--8.1 A message similar to \"Tap is now pushing energy to nearby blocks\" will be shown.--]"
 				""
-				"9. See that energy is being transferred around."
+				"9.注意能量正在转移。[--9. See that energy is being transferred around.--]"
 				""
-				"To see the current capacity of the Tardis' Forge Energy Buffer, use an attuned Tardis Diagnostic tool."
+				"要查看Tardis的FE能量缓冲器的当前容量，请使用调谐的Tardis诊断工具。[--To see the current capacity of the Tardis' Forge Energy Buffer, use an attuned Tardis Diagnostic tool.--]"
 			]
 			dependencies: ["32B12D10660F4037"]
 			id: "7EFA7E873D6D662D"
 			tasks: [{
 				id: "6F98234BF595F141"
 				type: "checkmark"
-				title: "Transfer energy within Tardis Interior"
+				title: "在Tardis内部传递能量[--Transfer energy within Tardis Interior--]"
 			}]
 			rewards: [{
 				id: "0DC6FB8EC0784C88"
@@ -1469,29 +1469,29 @@
 			x: -40.5d
 			y: -18.25d
 			description: [
-				"1. Place down a Roundel Tap inside the Tardis interior. This is the energy input site."
+				"1.在Tardis内部向下放置一个圆盘改锥。这是能量输入点。[--1. Place down a 圆盘改锥 inside the Tardis interior. This is the energy input site.--]"
 				""
-				"2. Place a Forge Energy generator block near the input Roundel Tap."
+				"2.将FE能量发电机方块放置在输入圆盘改锥附近。[--2. Place a Forge Energy generator block near the input 圆盘改锥.--]"
 				""
-				"3. Using wire blocks from other mods, connect the Forge Energy generator block to the input Roundel Tap."
+				"3.用来其他模块的电线方块，将FE能量发电机方块连接到输入圆盘改锥。[--3. Using wire blocks from other mods, connect the Forge Energy generator block to the input 圆盘改锥.--]"
 				""
-				"4. Right click the input Roundel Tap so that its \"emit\" blockstate value is set to false."
-				"4.1 A message similar to \"Tap is now pushing energy to Tardis\" will be shown."
+				"4.右键输入圆盘改锥，使其“emit”blockstate值设置为false。[--4. Right click the input 圆盘改锥 so that its \"emit\" blockstate value is set to false.--]"
+				"4.1将显示类似于“Tap 现在正在将能量推向 Tardis”的消息。[--4.1 A message similar to \"Tap is now pushing energy to Tardis\" will be shown.--]"
 				""
-				"5. At the Tardis Exterior, place a Forge Energy storage block near the exterior block."
-				"5.1 E.g. Mekanism's Energy Cube."
+				"5.在Tardis外墙，在外墙附近放置一个Forge储能块。[--5. At the Tardis Exterior, place a Forge Energy storage block near the exterior block.--]"
+				"5.1例如通用机械的能量立方。[--5.1 E.g. 通用机械's Energy Cube.--]"
 				""
-				"6. Using wire blocks from other mods, connect the Forge Energy storage block to the exterior block."
+				"6.用来其他模块的电线方块，将FE能量存储块连接到外部方块。[--6. Using wire blocks from other mods, connect the Forge Energy storage block to the exterior block.--]"
 				""
-				"7. See that energy is being piped from interior to exterior."
-				"7.1 If the transfer is not occurring, please ensure the Tardis interior dimension is chunkloaded."
+				"7.确保能源从内部输送到外部。[--7. See that energy is being piped from interior to exterior.--]"
+				"7.1如果未发生转移，请确保Tardis内部维度已加载区块。[--7.1 If the transfer is not occurring, please ensure the Tardis interior dimension is chunkloaded.--]"
 			]
 			dependencies: ["32B12D10660F4037"]
 			id: "0D95BB72F3EF2EF7"
 			tasks: [{
 				id: "61B5E26367A2FD9A"
 				type: "checkmark"
-				title: "Transfer items from Tardis Interior to Tardis Exterior "
+				title: "将物品从Tardis内部转移到Tardis外部[--Transfer items from Tardis Interior to Tardis Exterior --]"
 			}]
 			rewards: [{
 				id: "46508CDA1D43A9DC"
@@ -1503,29 +1503,29 @@
 			x: -44.0d
 			y: -22.25d
 			description: [
-				"1. At the Tardis Exterior, place a Forge Energy generator block near the exterior block. This is the energy input site."
+				"1.在Tardis外附近放置一个FE发电机。这是能量输入点。[--1. At the Tardis Exterior, place a Forge Energy generator block near the exterior block. This is the energy input site.--]"
 				""
-				"2. Using wire blocks from other mods, connect the Forge Energy generator block to the exterior block."
+				"2.用来其他模块的电线方块，将FE能量发电机方块连接到外部块。[--2. Using wire blocks from other mods, connect the Forge Energy generator block to the exterior block.--]"
 				""
-				"3. In the Tardis interior, place down a Roundel Tap. This is the energy output site."
+				"3.在Tardis内部，放置一个圆盘改锥。这是能量输出站点。[--3. In the Tardis interior, place down a 圆盘改锥. This is the energy output site.--]"
 				""
-				"4. Place a Forge Energy storage block near the output Roundel Tap."
-				"4.1 E.g. Mekanism's Energy Cube."
+				"4.在输出圆盘改锥附近放置一个FE能量存储方块。[--4. Place a Forge Energy storage block near the output 圆盘改锥.--]"
+				"4.1例如通用机械的能量立方。[--4.1 E.g. 通用机械's Energy Cube.--]"
 				""
-				"5. Using wire blocks from other mods, connect the Forge Energy storage block to the output Roundel Tap."
+				"5.用来其他模块的电线方块，将FE能量存储方块连接到输出圆盘改锥。[--5. Using wire blocks from other mods, connect the Forge Energy storage block to the output 圆盘改锥.--]"
 				""
-				"6. Right click the output Roundel Tap so that its \"emit\" blockstate value is set to true."
-				"6.1 A message similar to \"Tap is now pushing energy to nearby blocks\" will be shown."
+				"6.右键输出圆盘改锥，使其“emit”blockstate值设置为true。[--6. Right click the output 圆盘改锥 so that its \"emit\" blockstate value is set to true.--]"
+				"6.1将显示类似于“Tap 现在正在将能量推向附近的方块”（塔普正在将能量推送到附近的方块）的消息。[--6.1 A message similar to \"Tap is now pushing energy to nearby blocks\" will be shown.--]"
 				""
-				"7. See that energy is being piped from exterior to interior."
-				"7.1 If the transfer is not occurring, please ensure the Tardis exterior dimension is chunkloaded."
+				"7.确保能源从外部输送到内部。[--7. See that energy is being piped from exterior to interior.--]"
+				"7.1如果未发生转移，请确保Tardis外部维度已加载区块。[--7.1 If the transfer is not occurring, please ensure the Tardis exterior dimension is chunkloaded.--]"
 			]
 			dependencies: ["32B12D10660F4037"]
 			id: "453DC6175AA9267E"
 			tasks: [{
 				id: "015000B21CDB6594"
 				type: "checkmark"
-				title: "Transfer items from Tardis Exterior to Tardis Interior"
+				title: "将物品从Tardis外部转移到Tardis内部[--Transfer items from Tardis Exterior to Tardis Interior--]"
 			}]
 			rewards: [{
 				id: "1F34120026E612A7"
@@ -1542,7 +1542,7 @@
 			tasks: [{
 				id: "37FE534F0A6BD002"
 				type: "checkmark"
-				title: "Figure 1 - State when Roundel Tap is pushing energy to nearby blocks"
+				title: "图1-圆盘改锥向附近方块输送能量时的状态[--Figure 1 - State when 圆盘改锥 is pushing energy to nearby blocks--]"
 			}]
 			rewards: [{
 				id: "068A1A4930BD396E"
@@ -1559,7 +1559,7 @@
 			tasks: [{
 				id: "64F66CF0714CC922"
 				type: "checkmark"
-				title: "Figure 2 - State when Roundel Tap is pushing energy to the Tardis."
+				title: "图2-当圆盘改锥向Tardis输送能量时的状态。[--Figure 2 - State when 圆盘改锥 is pushing energy to the Tardis.--]"
 			}]
 			rewards: [{
 				id: "6CDAF011CB0F502A"
@@ -1571,7 +1571,7 @@
 			x: -46.5d
 			y: -20.25d
 			shape: "gear"
-			description: ["A Xion Crystal is an ore block that is used in many crafting recipes"]
+			description: ["Xion水晶是一种矿石方块，用在许多合成配方中[--A Xion Crystal is an ore block that is used in many crafting recipes--]"]
 			dependencies: ["7FF11CD4F28B658F"]
 			size: 1.5d
 			id: "32B12D10660F4037"
@@ -1588,7 +1588,7 @@
 			}]
 		}
 		{
-			title: "Space Armor"
+			title: "太空装甲[--Space Armor--]"
 			icon: "tardis:space_chest"
 			x: -61.25d
 			y: -15.25d
@@ -1626,16 +1626,16 @@
 			x: -35.5d
 			y: -17.5d
 			description: [
-				"Schematics are a \"blueprint\" that holds information such as Tardis Interiors, Exteriors or Consoles."
-				"It can be stored inside Sonic Screwdrivers."
-				"They are used to unlock various interiors, exteriors and consoles."
+				"示意图是一个“蓝图”，包含Tardis内饰、外部或控制台等信息。[--Schematics are a \"blueprint\" that holds information such as Tardis Interiors, Exteriors or Consoles.--]"
+				"它可以存放在音速起子内。[--It can be stored inside 音速 Screwdrivers.--]"
+				"它们被用来打开各种内部、外部和控制台。[--They are used to unlock various interiors, exteriors and consoles.--]"
 			]
 			dependencies: ["54A50CC1EF5FDF39"]
 			id: "520F210D4023A44F"
 			tasks: [{
 				id: "0847DEBED1F8EB1B"
 				type: "checkmark"
-				title: "Schematics"
+				title: "示意图[--Schematics--]"
 			}]
 			rewards: [{
 				id: "39400A045C7DBC03"
@@ -1647,15 +1647,15 @@
 			x: -35.5d
 			y: -16.5d
 			description: [
-				"Using a Neutronic Spectrometer with an item"
-				"Extracting data fragments from Ship Computers in particular structures."
+				"用来带有物品的中子光谱仪[--Using a Neutronic Spectrometer with an item--]"
+				"从特定结构的船用计算机中提取数据模式片段。[--Extracting data fragments from Ship Computers in particular structures.--]"
 			]
 			dependencies: ["54A50CC1EF5FDF39"]
 			id: "45F2ABC555330A9E"
 			tasks: [{
 				id: "2F1F5BD782BA693C"
 				type: "checkmark"
-				title: "Unlocking an Object"
+				title: "解锁一个对象[--Unlocking an Object--]"
 			}]
 			rewards: [{
 				id: "6B7F0D32459C3D9A"
@@ -1667,19 +1667,19 @@
 			x: -35.5d
 			y: -15.5d
 			description: [
-				"1. Place down a Neutronic Spectrometer"
-				"2. Open the GUI of the Spectrometer block"
-				"3. Add an item into the left slot of the GUI. If a valid item is added, the Spectromer will proceed to \"extract\" information from the item and a blue progress bar will slowly increase."
+				"1.放置一个中子光谱仪[--1. Place down a Neutronic Spectrometer--]"
+				"2.打开光谱仪块的GUI[--2. Open the GUI of the Spectrometer block--]"
+				"3.将物品添加到GUI的左边槽位中。如果添加了有效的物品，光谱仪将继续“提取”物品中的信息，蓝色进度条将缓慢增加。[--3. Add an item into the left slot of the GUI. If a valid item is added, the Spectromer will proceed to \"extract\" information from the item and a blue progress bar will slowly increase.--]"
 				"{image:chroma:textures/quests/shematic_input.png width:100 height:100 align:1}"
-				"4. Wait until the blue progress bar for the \"extraction\" process to be completed. A green lamp on the top left hand side will be lit."
+				"4.等待蓝色进度条显示“提取”过程完成。左手顶部的绿色灯将点亮。[--4. Wait until the blue progress bar for the \"extraction\" process to be completed. A green lamp on the top left hand side will be lit.--]"
 				"{image:chroma:textures/quests/shematic_extract.png width:100 height:100 align:1}"
-				"5. If you hover over the screen display on the top right, you can see view what Schematic was extracted."
+				"5.如果您将鼠标悬停在右手的屏幕显示上，则可以查看提取的原理图。[--5. If you hover over the screen display on the top right, you can see view what Schematic was extracted.--]"
 				"{image:chroma:textures/quests/shematic_display.png width:100 height:100 align:1}"
-				"6. Place a Sonic Screwdriver into the bottom right slot to download the Schematic into the screwdriver. This slot has an outline indicating this."
+				"6.将音速起子放入底部右边槽位中，将原理图下载到起子中。这个槽位的轮廓表明了这一点。[--6. Place a 音速 Screwdriver into the bottom right slot to download the Schematic into the screwdriver. This slot has an outline indicating this.--]"
 				"{image:chroma:textures/quests/progress_dowload.png width:100 height:100 align:1}"
-				"7. The Spectrometer will now proceed to download the Schematic into the Sonic Screwdriver. Two red lamps will be lit and a second progress bar will slowly increment. "
-				"8. Once the download process has completed, the red lamps will turn off, and only one of the lamps will be lit green."
-				"8.1 The Sonic Screwdriver now contains the Schematic"
+				"7.光谱仪现在继续将原理图下载到声波螺丝刀中。两个红色灯将点亮，第二个进度条将缓慢增加。[--7. The Spectrometer will now proceed to download the Schematic into the 音速 Screwdriver. Two red lamps will be lit and a second progress bar will slowly increment. --]"
+				"8.下载过程完成后，红色灯将熄灭，只有一个灯将点亮绿色。[--8. Once the download process has completed, the red lamps will turn off, and only one of the lamps will be lit green.--]"
+				"8.1音速起子现在包含示意图[--8.1 The 音速 Screwdriver now contains the Schematic--]"
 				"{image:chroma:textures/quests/shematic_finish.png width:100 height:100 align:1}"
 			]
 			dependencies: ["54A50CC1EF5FDF39"]
@@ -1688,7 +1688,7 @@
 			tasks: [{
 				id: "7D265585385CAFE4"
 				type: "checkmark"
-				title: "Obtaining Schematics"
+				title: "获取示意图[--Obtaining Schematics--]"
 			}]
 			rewards: [{
 				id: "4BD6B53837CC559F"
@@ -1700,20 +1700,20 @@
 			x: -34.5d
 			y: -15.5d
 			description: [
-				"1. Obtain a Sonic Screwdriver and set its mode to \"Block Interaction\" mode."
+				"1.获得一把音速起子，并将其模式设置为“阻止互动”模式。[--1. Obtain a 音速 Screwdriver and set its mode to \"Block Interaction\" mode.--]"
 				""
-				"2. Right click with a Sonic Screwdriver on a Ship Computer block inside a generated structure."
+				"2.用音速起子在结构内的船用计算机块上右键。[--2. Right click with a 音速 Screwdriver on a Ship Computer block inside a generated structure.--]"
 				""
-				"3. If a computer contains a Schematic, a message similar to \"Downloaded Data Fragments!\" will be shown above the hotbar. Otherwise, there is not a valid schematic stored in the Ship Computer."
+				"3.如果计算机包含原理图，则快捷栏上方显示类似于“下载数据片段！”的消息。否则，船舶计算机中没有存储有效的原理图。[--3. If a computer contains a Schematic, a message similar to \"Downloaded Data Fragments!\" will be shown above the hotbar. Otherwise, there is not a valid schematic stored in the Ship Computer.--]"
 				""
-				"4. You can view the downloaded Schematic in your Sonic Screwdriver by holding Left Control."
+				"4.按住左Ctrl键，可以在音速螺丝刀中查看下载的原理图。[--4. You can view the downloaded Schematic in your 音速 Screwdriver by holding Left Control.--]"
 			]
 			dependencies: ["54A50CC1EF5FDF39"]
 			id: "63F80F9BAA852EBA"
 			tasks: [{
 				id: "2CA54FE95925B7D9"
 				type: "checkmark"
-				title: "Ship Computer"
+				title: "飞船计算机[--Ship Computer--]"
 			}]
 			rewards: [{
 				id: "19145DB3F41FB0B0"
@@ -1725,12 +1725,12 @@
 			x: -34.5d
 			y: -16.5d
 			description: [
-				"1. Enter the Tardis you wish to install the Schematic for."
+				"1.进入要安装原理图的Tardis。[--1. Enter the Tardis you wish to install the Schematic for.--]"
 				""
-				"2. Right click with the Sonic Screwdriver into the Sonic Port Control of the Console."
+				"2.用音速起子右键进入控制台的音速 Port Control。[--2. Right click with the 音速 Screwdriver into the 音速 Port Control of the Console.--]"
 				""
-				"3. The Tardis will install any schematic stored inside the Sonic Screwdriver."
-				"3.1 It will not install the schematic if the Tardis already contains the interior/exterior/console."
+				"3.Tardis将安装存储在音速起子内的任何示意图。[--3. The Tardis will install any schematic stored inside the 音速 Screwdriver.--]"
+				"3.1如果Tardis已经包含内部/外部/控制台，则不会安装示意图。[--3.1 It will not install the schematic if the Tardis already contains the interior/exterior/console.--]"
 				"{image:chroma:textures/quests/schematic_unlocked.png width:200 height:100 align:1}"
 			]
 			dependencies: ["54A50CC1EF5FDF39"]
@@ -1738,7 +1738,7 @@
 			tasks: [{
 				id: "0F79E6687B75D986"
 				type: "checkmark"
-				title: "Installing Schematic into Tardis"
+				title: "将示意图安装到Tardis中[--Installing Schematic into Tardis--]"
 			}]
 			rewards: [{
 				id: "74104DFCA685CE34"
@@ -1751,19 +1751,19 @@
 			y: -14.75d
 			description: [
 				"{image:chroma:textures/quests/control.png width:130 height:110 align:1 fit:true}"
-				"Brachacki/1963 Console Unit Control Layout"
+				"Brachacki/1963控制台单元控制布局[--Brachacki/1963 Console Unit Control Layout--]"
 			]
 			dependencies: ["191867BFEBC6251A"]
 			id: "7232EEE913AC0F49"
 			tasks: [{
 				id: "0CD160B182A0B77B"
 				type: "checkmark"
-				title: "Tardis Console Controls"
+				title: "Tardis控制台控制[--Tardis Console Controls--]"
 			}]
 			rewards: [{
 				id: "5226C9B55ACE76C2"
 				type: "command"
-				title: "Informations"
+				title: "信息[--Informations--]"
 				icon: {
 					id: "botania:cosmetic_questgiver_mark"
 					Count: 1b
@@ -1777,17 +1777,17 @@
 			x: -46.25d
 			y: -12.75d
 			description: [
-				"One way the player can interact with the TARDIS is through giving it items it likes, especially items related to exploration/adventure."
+				"玩家与TARDIS互动的一种方式是给它提供它喜欢的物品，尤其是与探索/冒险模式相关的物品。[--One way the player can interact with the TARDIS is through giving it items it likes, especially items related to exploration/adventure.--]"
 				""
-				"This is done by right clicking with an item on the TARDIS exterior."
+				"这是通过右手单击TARDIS外部的物品完成的。[--This is done by right clicking with an item on the TARDIS exterior.--]"
 				""
-				"Some items a TARDIS may like include:"
-				"-Filled Map"
-				"-Ender Pearl"
-				"-Ender Eye"
-				"-Bells"
-				"-Clocks"
-				"-Compass"
+				"TARDIS可能喜欢的一些物品包括：[--Some items a TARDIS may like include:--]"
+				"-地图[---Filled Map--]"
+				"-末影珍珠[---Ender Pearl--]"
+				"-末影之眼[---Ender Eye--]"
+				"-铃铛[---Bells--]"
+				"-钟[---Clocks--]"
+				"-指南针[---Compass--]"
 			]
 			dependencies: ["445EBC860C3ABE3C"]
 			id: "191867BFEBC6251A"

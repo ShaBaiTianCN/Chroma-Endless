@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 8
 	filename: "useful_items"
-	title: "Useful Items"
+	title: "实用的物品"
 	icon: {
 		id: "tiab:timeinabottle"
 		Count: 1b
@@ -49,11 +49,11 @@
 			}]
 		}
 		{
-			title: "&#806517Handled Crafting Table&r"
+			title: "&#806517手持合成台&r"
 			x: 17.25d
 			y: -1.5d
 			shape: "square"
-			subtitle: "Store your crafting table in your pocket."
+			subtitle: "将工作台存在你的口袋里"
 			dependencies: ["1C7C41C2FA427B8F"]
 			id: "6F206C31ECDB6FCB"
 			tasks: [{
@@ -71,7 +71,7 @@
 			x: 17.5d
 			y: 3.5d
 			shape: "diamond"
-			description: ["Can place up to 9 blocks at once!"]
+			description: ["一次可以放置9个方块！"]
 			id: "638165806CD28566"
 			tasks: [{
 				id: "2422238994B5A2B6"
@@ -96,7 +96,7 @@
 			x: 18.0d
 			y: 4.0d
 			shape: "diamond"
-			description: ["Can place up to 27 blocks at once!"]
+			description: ["一次可以放置27个方块！"]
 			id: "63F28BD0AF216A10"
 			tasks: [{
 				id: "77D5E494E9766A32"
@@ -121,7 +121,7 @@
 			x: 18.5d
 			y: 4.5d
 			shape: "diamond"
-			description: ["Can place up to 128 blocks at once!"]
+			description: ["一次可以放置128个方块！"]
 			id: "6C2EDE1E42BE0A94"
 			tasks: [{
 				id: "04327FC5CC811648"
@@ -146,7 +146,7 @@
 			x: 19.0d
 			y: 5.0d
 			shape: "diamond"
-			description: ["Can place up to 1024 blocks at once!"]
+			description: ["一次可以放置1024个方块！"]
 			id: "048043A236E1665A"
 			tasks: [{
 				id: "7A6E4CFA7E826A3A"
@@ -270,7 +270,7 @@
 			tasks: [{
 				id: "3803CE27C418CDF3"
 				type: "item"
-				title: "Elevator"
+				title: "电梯"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -371,7 +371,7 @@
 			x: 13.75d
 			y: -1.5d
 			shape: "square"
-			subtitle: "Mooooooooooooooo !"
+			subtitle: "噢，噢，噢！"
 			dependencies: [
 				"54DC8317D4B7A510"
 				"677773349FE468C2"
@@ -685,7 +685,7 @@
 			]
 		}
 		{
-			title: "Sleeping Bag"
+			title: "睡袋"
 			icon: "comforts:sleeping_bag_light_blue"
 			x: 10.0d
 			y: 10.75d
@@ -694,7 +694,7 @@
 			tasks: [{
 				id: "0C6A1F0C9EC0F8BE"
 				type: "item"
-				title: "Sleeping Bag"
+				title: "睡袋"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -775,7 +775,7 @@
 			}]
 		}
 		{
-			title: "Hammock"
+			title: "吊床"
 			icon: "comforts:hammock_light_blue"
 			x: 10.0d
 			y: 11.75d
@@ -785,7 +785,7 @@
 				{
 					id: "01AA8FA7AA463E6F"
 					type: "item"
-					title: "Hammock Cloth"
+					title: "吊床布"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -876,20 +876,20 @@
 			x: 8.5d
 			y: 5.5d
 			shape: "hexagon"
-			subtitle: "The Schematicannon is required for building a loaded and positioned Schematic"
+			subtitle: "蓝图加农炮用来建造已加载并放置完成的蓝图"
 			description: [
-				"It will use materials from adjacent inventories unless a Schematicannon Creatifier Crate has been placed next to it."
+				"它会使用相邻容器的材料，除非它身边放置了一个创造板条箱。"
 				""
-				"Having prepared a Schematic for placement, you are now ready to consult the Schematicannon for the construction.For this Workflow you will need:"
-				"- A deployed Schematic x1"
-				"- Schematicannon x1"
-				"- Chests or other Inventories x1-4"
-				"- Gunpowder (x1 for every 400 Blocks in the Schematic)"
-				"- Book x1 (Optional)"
+				"有了建造的蓝图后，你可以咨询蓝图加农炮需要哪些施工材料。流程如下："
+				"- 部署好的蓝图 x1"
+				"- 蓝图加农炮 x1"
+				"- 箱子或其它容器 x1-4"
+				"- 火药（每400个方块需要1个）"
+				"- 书 x1 （可选）"
 				""
-				"Place the Schematicannon near but outside of the boundaries of your Schematic. It is important that the target area is loaded and not too far away from the cannon."
+				"将蓝图加农炮放在靠近但不在你的蓝图范围内的地方。重要的是，目标区块要保持加载，不要离蓝图加农炮太远。"
 				""
-				"As usual for more informations:"
+				"老样子，如需获得更多信息："
 				"&9&n&ohttps://github.com/Creators-of-Create/Create/wiki/Printing-a-Schematic"
 			]
 			min_width: 300
@@ -911,21 +911,21 @@
 			x: 10.5d
 			y: 5.5d
 			shape: "hexagon"
-			subtitle: "Using the Schematic module you can load Structures and bring them into the world"
+			subtitle: "使用蓝图系统，你可以载入结构并将其带入你的世界。"
 			description: [
-				"Craft yourself a Schematic Table and place it in your workshop. Open it up and place the Empty Schematic in the input slot on the left. The checkered area shows the schematic file to be loaded onto the item."
-				"You can change it to any of the files available in the &b&o/schematics&r folder:"
+				"自己制作一个蓝图桌，并把它放在你的工作间里。打开它，把空的蓝图放在左边的输入槽中。格纹背景区显示了要载入到该世界的蓝图文件。"
+				"你可以把它改为&b&o/schematics&r文件夹中的任何文件："
 				""
-				"● Scroll on the text to select the Schematic you would like to load."
+				"●在文本上滚动，选择你想加载的蓝图。"
 				""
-				"● Press the check-mark Button to confirm your choice. The Table will now start to write the schematic onto the item."
+				"●按复选标记按钮，确认您的选择。现在，蓝图桌会开始把蓝图覆写到该物品上。"
 				""
-				"The processing time of this table depends on the size of the schematic you chose.On the technical side - the schematic is being uploaded onto the server in order to be place-able by server side actors.If your structure is very large, you can leave the Table interface while the upload is happening, and come back later."
-				"Once it finished, take the Schematic from the output slot and hold it in your main hand. For initial positioning, you have two options: Using the Deploy Mode, or to input coordinates directly."
+				"蓝图桌的处理时间取决于你选择的蓝图的大小。在技术方面——蓝图正在被上传到服务器上，以便服务器端的玩家可以放置。如果你的结构非常大，你可以在上传时离开蓝图桌的界面，以后再回来。"
+				"一旦完成，从输出槽中取出蓝图，用你的主手拿着它。对于一开始的放置，你有两个选择。使用部署模式，或直接输入坐标。"
 				""
-				"- For positioning the Schematic without coordinates, Right-click with the Schematic when the bounding-box is near the desired location. (Can be moved later)"
+				"-对于没有坐标的蓝图如何定位，在蓝图的边界框靠近所需位置时，右键单击原理图（以后可以移动）。"
 				""
-				"-For positioning in the Air, Hold Ctrl to lock the selected position at a fixed distance.Modify the distance by Scrolling while Ctrl is being held. Right-click to confirm."
+				"-对于空中定位，按住Ctrl键将选定的位置锁定在一个固定的距离上。在按住Ctrl键的同时通过滚动来修改距离。右键点击确认。"
 			]
 			min_width: 300
 			id: "3CBBAC9AEDBDE316"
@@ -1351,9 +1351,9 @@
 			y: 14.0d
 			shape: "square"
 			description: [
-				"This module tries to pull the first eligible item from the adjacent inventory in its configured direction into the router's buffer."
+				"此模块尝试将第一个符合条件的物品从相邻物品栏中按其配置方向拉入路由器的缓存。"
 				""
-				"If the buffer is full or contains something that stacks with nothing in the inventory, nothing will be pulled."
+				"如果缓存已满或容器中拥有的物品都不是你的物品栏中拥有的物品，则不会提取任何内容。"
 			]
 			dependencies: ["2BE9A56F04E9A59C"]
 			id: "077F54E23DB98DAE"
@@ -1382,11 +1382,11 @@
 			y: 13.0d
 			shape: "square"
 			description: [
-				"This module extends and withdraws a row of blocks (from the router's buffer) in the module's configured direction."
+				"该模块在模块的配置方向上扩展并（从路由器的缓存中）提取一行方块。"
 				""
-				"By default, the module extends blocks when the router has a redstone signal, and withdraws them when the router has no signal, but a Redstone Enhancement can be added to the module to customise this behaviour."
+				"默认情况下，当路由器有红石信号时，模块会扩展方块，并在路由器没有信号时将其撤回，但可以向模块添加红石增强功能以自定义此行为。"
 				""
-				"Using this module, it's possible to build large extending bridges and doorways."
+				"使用此模块，可以建造大型延伸桥梁和门道。"
 			]
 			dependencies: ["2BE9A56F04E9A59C"]
 			id: "62E891A8B012DAD6"
@@ -1415,11 +1415,11 @@
 			y: 12.0d
 			shape: "square"
 			description: [
-				"This module tries to break a block, adjacent to the router in the module's configured direction."
+				"该模块会尝试破坏模块配置方向上与路由器相邻的方块。"
 				""
-				"Most blocks are breakable, although anything with an unbreakable hardness can not be broken, nor can any fluid blocks."
+				"大多数方块都是可破坏的，不过任何硬度为不可破坏的东西都不会被破坏，任何流体方块也不会被破坏。"
 				""
-				"If the block is broken, its primary drop(s) will be pulled into the item router's buffer."
+				"如果方块被破坏，它的主要掉落物将被拉入物品路由器的缓存。"
 			]
 			dependencies: ["2BE9A56F04E9A59C"]
 			id: "7D2B3E0BBA1F8066"
@@ -1447,7 +1447,7 @@
 			x: 13.5d
 			y: 13.0d
 			shape: "square"
-			description: ["This module behaves rather like the Extruder Module Mk1, but with some important differences."]
+			description: ["该模块的行为与造桥模块Mk1类似，但有一些重要的区别。"]
 			dependencies: ["2BE9A56F04E9A59C"]
 			id: "4679E31D0EAEF85C"
 			tasks: [{
@@ -1475,9 +1475,9 @@
 			y: 13.0d
 			shape: "square"
 			description: [
-				"This module behaves like the dropper module, except that it also imparts a configurable velocity to the dropped item, potentially throwing the item a considerable distance."
+				"该模块的行为与投掷器模块类似，只是它还为投掷的物品提供可配置的投掷初速度，可以将物品扔到相当远的距离。"
 				""
-				"You can adjust the item's speed, pitch and yaw via the module's GUI."
+				"您可以通过模块的GUI调整物品的速度、俯仰和偏航。"
 			]
 			dependencies: ["2BE9A56F04E9A59C"]
 			id: "3DE6B26FAF4BD237"
@@ -1509,11 +1509,11 @@
 			y: 12.0d
 			shape: "square"
 			description: [
-				"This module doesn't actually manipulate items, but instead detects specific items in the router's buffer."
+				"该模块实际上并不操作物品，而是检测路由器缓存中的特定物品。"
 				""
-				"If the buffer contents are matched by the module's filter, it will make the router emit a redstone signal in the configured direction, or all directions if the configured direction is None."
+				"如果缓存中的内容物与模块的过滤器匹配，它将使路由器在配置的方向上发出红石信号，如果配置的方向为无，则会发出全部方向的信号。"
 				""
-				"The signal level (default: 15) and signal type (default: weak) can be adjust via the module GUI."
+				"可以通过模块GUI调整红石信号强度（默认：15）和充能类型（默认：弱）。"
 			]
 			dependencies: ["2BE9A56F04E9A59C"]
 			id: "0243246953371F59"
@@ -1569,9 +1569,9 @@
 			y: 13.0d
 			shape: "square"
 			description: [
-				"While Item Routers can't handle fluids directly, they can manipulate fluids if there is a fluid container item in the buffer."
+				"虽然物品路由器不能直接处理流体，但如果缓存中有流体容器物品，则可以处理流体。"
 				""
-				"This includes buckets and any fluid containers added by other mods."
+				"这包括其他模组添加的桶和任何流体容器。"
 			]
 			dependencies: ["2BE9A56F04E9A59C"]
 			id: "042DDB1FDAA0645F"
@@ -1629,11 +1629,11 @@
 			y: 12.0d
 			shape: "square"
 			description: [
-				"This module tries to drop an item from the router's buffer as an item entity in the world. "
+				"此模块尝试将物品作为世界中的物品实体从路由器缓存中丢弃。"
 				""
-				"The drop will be adjacent to the router in the module's configured direction."
+				"掉落物会出现在模块配置方向靠近路由器的位置。"
 				""
-				"The item entity will be placed with a zero velocity, unlike the vanilla Dropper which adds an irritating random velocity to the item."
+				"物品实体将以零速度被放置，不像原版投掷器那样为物品增加了令人讨厌的随机速度。"
 			]
 			dependencies: ["2BE9A56F04E9A59C"]
 			id: "22EFAA1868522D03"
@@ -1687,7 +1687,7 @@
 			x: 17.5d
 			y: 13.0d
 			shape: "square"
-			description: ["This module tries to place an item from the router's buffer as a block, adjacent to the router in the module's configured direction."]
+			description: ["此模块尝试将路由器缓存中的物品作为方块放置，位置在沿模块配置的方向靠近路由器的地方。"]
 			dependencies: ["2BE9A56F04E9A59C"]
 			id: "6F5E77909AE14928"
 			tasks: [{
@@ -1715,9 +1715,9 @@
 			y: 13.0d
 			shape: "square"
 			description: [
-				"This module tries to transfer items between the router and a player's own inventory."
+				"此模块尝试在路由器和玩家自己的物品栏之间传输物品。"
 				""
-				"The player can be anywhere in any dimension, making this a rather powerful module."
+				"玩家可以在任何维度中的任何位置，这使得它成为一个相当强大的模块。"
 			]
 			dependencies: ["2BE9A56F04E9A59C"]
 			id: "47577A1D5FD3A9FA"
@@ -1771,9 +1771,9 @@
 			y: 14.0d
 			shape: "square"
 			description: [
-				"This dangerous module permanently destroys items in the router's buffer!"
+				"这个危险的模块会永久摧毁路由器缓冲区中的物品！"
 				""
-				"It is strongly recommended to configure this module with a Whitelist to prevent accidental deletion of valuable items..."
+				"强烈建议使用白名单配置此模块，以防止意外删除有价值的物品……"
 			]
 			dependencies: ["2BE9A56F04E9A59C"]
 			id: "29C10B36B7B5D130"
@@ -1800,7 +1800,7 @@
 			x: 17.5d
 			y: 14.0d
 			shape: "square"
-			description: ["This module scans for dropped items in a 13x13x13 cubic area around the router, and absorbs them into the router's buffer, if possible."]
+			description: ["该模块扫描路由器周围13x13x13立方体区域中的掉落物，如果可能，将其吸收到路由器的缓存中。"]
 			dependencies: ["2BE9A56F04E9A59C"]
 			id: "033B301D67E728B4"
 			tasks: [{
@@ -1828,9 +1828,9 @@
 			y: 14.0d
 			shape: "square"
 			description: [
-				"This top-end sender module operates very much like the Mk2 Sender, but can send to any inventory (in any dimension) with no restrictions!"
+				"这个高科技的发送模块的操作与发送模块Mk2非常相似，但可以无限制地发送到任何物品栏（任何维度）！"
 				""
-				"Note: the target inventory must be chunk-loaded; Modular Routers will not do this for you."
+				"注：目标物品栏的所在位置必须加载区块；模块化路由器不会为您提供此功能。"
 			]
 			dependencies: ["2BE9A56F04E9A59C"]
 			id: "1DC99012B697B393"
@@ -1857,7 +1857,7 @@
 			x: 15.5d
 			y: 14.0d
 			shape: "square"
-			description: ["This more powerful sender module tries to send an item from the router's buffer to a nearby inventory."]
+			description: ["这个功能更强大的发送模块尝试将物品从路由器的缓存发送到附近的物品栏。"]
 			dependencies: ["2BE9A56F04E9A59C"]
 			id: "495B6600182C5479"
 			tasks: [{
@@ -1927,9 +1927,9 @@
 			y: 8.043112244898033d
 			shape: "gear"
 			description: [
-				"The Modular Router is the centre of the system: it has a single buffer slot for items, nine module slots, and five upgrade slots."
+				"模块化路由器是系统的中心：它有一个物品缓存槽位、九个模块插槽和五个升级插槽。"
 				""
-				"The Modular Router has a single-slot buffer for items."
+				"模块化路由器有一个用于物品的单个缓存槽。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1954,7 +1954,7 @@
 			x: 14.5d
 			y: 14.0d
 			shape: "square"
-			description: ["This module tries to send an item from the router's buffer to an inventory in the module's configured direction."]
+			description: ["此模块尝试将物品从路由器缓存发送到模块配置方向的物品栏。"]
 			dependencies: ["2BE9A56F04E9A59C"]
 			id: "23728F9B42AE8BFB"
 			tasks: [{
@@ -2000,9 +2000,9 @@
 			y: 9.0d
 			shape: "square"
 			description: [
-				"By default, a router ticks every 20 server ticks, or once per second."
+				"默认配置下，路由器每20个服务器刻计时一次，或者说每秒一次。"
 				""
-				"On each tick, every installed module is executed in order, left to right."
+				"在每次计时中，每个已安装的模块都按从左到右的顺序执行。"
 			]
 			dependencies: ["037FB1EF30A6D443"]
 			id: "511599B20F7EAB7E"
@@ -2022,9 +2022,9 @@
 			y: 8.0d
 			shape: "square"
 			description: [
-				"This upgrade allows you to disguise the router as another block. Sneak+Right-click the module against a block to record that block on the camouflage upgrade."
+				"此升级允许您将路由器伪装为另一个块。潜行+右击一个方块上的模块，将该方块记录在伪装升级中。"
 				""
-				"When inserted into a router, that router will take on the appearance of the recorded block."
+				"当插入路由器时，该路由器将呈现记录方块的外观。"
 			]
 			dependencies: ["037FB1EF30A6D443"]
 			id: "441909867458B81A"
@@ -2043,7 +2043,7 @@
 			x: 11.5d
 			y: 7.0d
 			shape: "square"
-			description: ["This upgrade makes the router fully immune to explosion damage, and also to being destroyed by boss mobs."]
+			description: ["这次升级使路由器完全不受爆炸伤害，包括也不会受到Boss生物的爆炸伤害。"]
 			dependencies: ["037FB1EF30A6D443"]
 			id: "6AA09AFC6FAA63DA"
 			tasks: [{
@@ -2078,7 +2078,7 @@
 			x: 10.5d
 			y: 8.0d
 			shape: "square"
-			description: ["This upgrade can be used to suppress sounds and particle effects made by item routers, and can be useful if a noisy module is regularly running in a place where a player often is."]
+			description: ["这个升级可以用来抑制物品路由器发出的声音和粒子效果，如果玩家经常在某个地方运行有噪音的模块，这个升级会很有用。"]
 			dependencies: ["037FB1EF30A6D443"]
 			id: "3DCED36AC1A645B5"
 			tasks: [{
@@ -2092,11 +2092,11 @@
 			y: 9.0d
 			shape: "square"
 			description: [
-				"This upgrade is used to guarantee that two or more routers run at the same time."
+				"此升级用来确保两个或多个路由器同时运行。"
 				""
-				"The Sync Upgrade has a tuning value of 0 .. 19 (i.e. 1 less than the base router tick rate of 20)."
+				"同步升级的调整值为0-19（即，比默认路由器计时刻频率20要小1）。"
 				""
-				"This tuning value can be set by right-clicking the Sync Upgrade to open its GUI, or quickly set to a random value by sneak-right-clicking the upgrade."
+				"可以通过右键单击同步升级以打开其GUI来设置此调整值，也可以通过潜行右键单击升级来快速设置为随机值。"
 			]
 			dependencies: ["037FB1EF30A6D443"]
 			id: "122948B8A9B72C20"
@@ -2115,7 +2115,7 @@
 			x: 9.5d
 			y: 9.0d
 			shape: "square"
-			description: ["Modules in a router operate on a single item at a time: e.g. a Sender module will send a single item from the router's buffer, regardless of how many items are in the buffer."]
+			description: ["路由器中的模块一次操作单个物品：例如，无论缓冲区中有多少物品，发送模块都会从路由器的缓冲区发送单个物品。"]
 			dependencies: ["037FB1EF30A6D443"]
 			id: "4CEDC6946C79E792"
 			tasks: [{
@@ -2134,9 +2134,9 @@
 			y: 8.0d
 			shape: "square"
 			description: [
-				"This upgrade, when inserted, will restrict the players who can open the router's GUI."
+				"插入此升级后，将限制可以打开路由器GUI的玩家。"
 				""
-				"By default, it only allows the player who crafted the upgrade."
+				"默认设置下，它只允许合成该升级的玩家使用。"
 			]
 			dependencies: ["037FB1EF30A6D443"]
 			id: "789308C6D247F877"
@@ -2156,10 +2156,10 @@
 			y: 7.0d
 			shape: "square"
 			description: [
-				"This upgrade only affects the Fluid Module."
-				"It increases the overall fluid transfer rate of the Item Router from the base rate of 50mB/tick by 10mB/tick, up to a maximum of 400mB/tick."
+				"此升级仅影响流体模块。"
+				"它将物品路由器的整体流体传输速率从50mB/tick的基本速率增加了10mB/tick，最高可以达到最大400mB/tick。"
 				""
-				"Therefore the maximum useful number of Fluid Transfer Upgrades in a router is 35."
+				"因此，路由器中流体传输升级的最大有效数量为35。"
 			]
 			dependencies: ["037FB1EF30A6D443"]
 			id: "0FE9786F86D02B3D"
@@ -2197,9 +2197,9 @@
 			y: 9.0d
 			shape: "square"
 			description: [
-				"This augment can be added to any module. Normally, modules are run when the router runs, no questions asked."
+				"此模块拓展可以添加到任何模块。通常，模块在路由器工作时一起生效。"
 				""
-				"However, if this augment is added to a module, that module can define its own redstone behaviour; an extra button is added to the module's GUI to control this."
+				"然而，如果将此模块拓展添加到模块中，该模块可以定义自己的红石行为；模块的GUI中添加了一个额外的按钮来控制这一点。"
 			]
 			dependencies: ["6CFD6E1CE7405E59"]
 			id: "1CD0CBB8131F0E1C"
@@ -2219,11 +2219,11 @@
 			y: 8.0d
 			shape: "square"
 			description: [
-				"This augment can only be added to the Dropper and Flinger modules."
+				"此增强功能只能添加到投掷器和投掷模块中。"
 				""
-				"It can be stacked; each augment added will increase the pickup delay on dropped/flung items by 10 ticks (0.5 sec)."
+				"可堆叠；每增加一个模块拓展，投掷物品的拾取延迟就会增加10个刻（0.5秒）。"
 				""
-				"This can be useful if you don't want players accidentally picking up nearby dropped items, for example."
+				"例如，如果你不想让玩家意外捡起附近的掉落物，这可能很有用。"
 			]
 			dependencies: ["6CFD6E1CE7405E59"]
 			id: "45375A2F7E5360A6"
@@ -2243,9 +2243,9 @@
 			y: 7.0d
 			shape: "square"
 			description: [
-				"This augment can only be added to the Vacuum Module."
+				"该模块拓展只能添加到虚空模块中。"
 				""
-				"It allows the Vacuum Module to ignore the normal pickup delay on dropped items - 40 ticks for items dropped by players, and 10 ticks for items dropped by other means and pick up items as soon as it sees them."
+				"它允许虚空模块忽略掉落物的拾取延迟（对于玩家掉落物，为40个刻）；对于通过其他方式掉落的掉落物，为10个刻，并在看到时立即拾取物品。"
 			]
 			dependencies: ["6CFD6E1CE7405E59"]
 			id: "4E8024A60B451274"
@@ -2282,11 +2282,11 @@
 			y: 8.0d
 			shape: "square"
 			description: [
-				"This augment can be added to any module which has a range (Sender Mk1/Mk2, Puller Mk1/Mk2, Extruder Mk1/Mk2, Vacuum)."
+				"这种模块拓展可以添加到具有范围的任何模块（发送模块Mk1/Mk2、抽取模块Mk1/Mk2、造桥模块Mk1/Mk2、虚空模块）。"
 				""
-				"It can be stacked; each augment will reduce the range of the module by one block."
+				"可堆叠；每增加一次将模块的范围减少一个方块距离。"
 				""
-				"This is probably only useful in conjunction with the Vacuum Module, to control the range it scans for items."
+				"这可能只与虚空模块一起使用才有用，以控制其扫描物品的范围。"
 			]
 			dependencies: ["6CFD6E1CE7405E59"]
 			id: "41193073A44A79EA"
@@ -2306,11 +2306,11 @@
 			y: 9.0d
 			shape: "square"
 			description: [
-				"The Regulator Augment allows for precise control over how many items may be sent to or pulled from an inventory, or the router's buffer."
+				"调节拓展允许精确控制可以发送到或从物品栏或路由器缓冲区提取多少物品。"
 				""
-				"When a module has the Regulator Augment activated, you will see an extra numeric textfield in its GUI where you can configure a limit."
+				"当模块激活调节拓展时，您将在其GUI中看到一个额外的数字文本字段，您可以在其中配置限制。"
 				""
-				"The module's tooltip text will also show the limit."
+				"模块的工具提示文本也将显示数量限制。"
 			]
 			dependencies: ["6CFD6E1CE7405E59"]
 			id: "5CDD12B6597A77EE"
@@ -2330,9 +2330,9 @@
 			y: 9.0d
 			shape: "square"
 			description: [
-				"This module can be added to any module which handles items (as opposed to blocks or fluids)."
+				"此模块可以添加到任何处理物品的模块（与方块或流体相反）。"
 				""
-				"Adding Stack Augments to a module increases the number of items it can process per tick; each Stack Augment doubles the number of items, up to a maximum of the item's natural stack size (64 for most items)."
+				"向模块添加堆叠模块拓展会增加每刻可以处理的物品数；每个堆叠模块拓展使物品的数量加倍，最多可以达到物品自然堆栈大小的最大值（大多数物品为64）。"
 			]
 			dependencies: ["6CFD6E1CE7405E59"]
 			id: "5F7600CB80164892"
@@ -2352,9 +2352,9 @@
 			y: 8.0d
 			shape: "square"
 			description: [
-				"This augment can be added to any module which has a range (Sender Mk1/Mk2, Puller Mk1/Mk2, Extruder Mk1/Mk2, Vacuum)."
+				"这种模块拓展可以添加到具有范围的任何模块（发送模块Mk1/Mk2、抽取模块Mk1/Mk2、造桥模块Mk1/Mk2、虚空模块）。"
 				""
-				"It can be stacked; each augment will increase the range of the module by one block."
+				"可堆叠；每增加一个将使模块的范围增加一个方块距离。"
 			]
 			dependencies: ["6CFD6E1CE7405E59"]
 			id: "6C8777B6BAE55128"
@@ -2391,11 +2391,11 @@
 			y: 7.0d
 			shape: "square"
 			description: [
-				"This augment can only be added to a Vacuum Module."
+				"此模块拓展只能添加到虚空模块。"
 				""
-				"When this augment is added, the Vacuum Module will absorb experience orbs instead of items."
+				"当使用这个模块拓展时，虚空模块将吸收经验球而不是物品。"
 				""
-				"The orbs will be converted into Bottles o' Enchanting at the rate of 7XP per bottle"
+				"经验球将以每瓶7XP的速度转换为附魔瓶"
 			]
 			dependencies: ["6CFD6E1CE7405E59"]
 			id: "03E24A59CC0B87DF"
@@ -2431,8 +2431,8 @@
 			x: 11.149999999999999d
 			y: 16.5d
 			shape: "hexagon"
-			subtitle: "Basic stuff"
-			description: ["Unlocks Create's and Occultism's Jetpack. "]
+			subtitle: "基本材料"
+			description: ["解锁机械动力和神秘学的喷气背包。"]
 			dependencies: [
 				"137F5768445A7B2E"
 				"41C2A896B9CD146B"
@@ -2454,8 +2454,8 @@
 			x: 15.5d
 			y: 24.75d
 			shape: "hexagon"
-			subtitle: "I am speed"
-			description: ["Unlocks Botania's and Undergarden's Jetpack. "]
+			subtitle: "我就是速度"
+			description: ["解锁植物魔法和深暗之园的喷气背包。"]
 			dependencies: [
 				"7892883CB3B0A12C"
 				"2F31A00279CCC783"
@@ -2478,7 +2478,7 @@
 			y: 16.75d
 			shape: "hexagon"
 			subtitle: "Nyoooom"
-			description: ["Unlocks Extreme Reactor's and EnderIO Alloys's Jetpack. "]
+			description: ["解锁极限反应堆和末影接口合金的喷气背包。"]
 			dependencies: [
 				"19A27F02019AB288"
 				"6DC4C73055E5FE09"
@@ -2500,8 +2500,8 @@
 			x: 24.75d
 			y: 20.454251700680267d
 			shape: "hexagon"
-			subtitle: "Faster Than Light"
-			description: ["Unlocks Powah's Jetpack. "]
+			subtitle: "比光更快"
+			description: ["解锁Powah的喷气背包。"]
 			dependencies: [
 				"576932BEEA63B919"
 				"59B336127CA627CD"
@@ -2524,8 +2524,8 @@
 			x: 20.5d
 			y: 20.454251700680267d
 			shape: "rsquare"
-			subtitle: "The sun in a bottle"
-			description: ["Crafted in Custom Machinery's Alloy Smelter."]
+			subtitle: "瓶子里的太阳"
+			description: ["在自定义机械的合金冶炼厂制造。"]
 			dependencies: [
 				"3DA966C6436DB383"
 				"4E811B1DDCA7ACFE"
@@ -2547,8 +2547,8 @@
 			x: 21.75d
 			y: 18.0d
 			shape: "rsquare"
-			subtitle: "Uhh does anyone know how that works ?"
-			description: ["Crafted in Extended's Crafting Advanced Crafting Table."]
+			subtitle: "有人知道这是怎么回事吗？"
+			description: ["在无尽贪婪的高级工作台中制作。"]
 			dependencies: [
 				"4BD29526B90994E7"
 				"5AC34B619EB27C7F"
@@ -2571,8 +2571,8 @@
 			x: 20.5d
 			y: 19.204251700680267d
 			shape: "rsquare"
-			subtitle: "The sun is a deadly laser"
-			description: ["Crafted in Extended's Crafting Advanced Crafting Table."]
+			subtitle: "太阳是致命的激光"
+			description: ["在无尽贪婪的高级工作台中制作。"]
 			dependencies: [
 				"28F65AB06F632E4C"
 				"4BD29526B90994E7"
@@ -2595,8 +2595,8 @@
 			x: 20.5d
 			y: 17.954251700680267d
 			shape: "gear"
-			subtitle: "Stars stored on your back"
-			description: ["Crafted in Extended's Crafting Ultimate Crafting Table."]
+			subtitle: "存放于你后背上的星星"
+			description: ["在无尽贪婪的终极工作台中制作。"]
 			dependencies: [
 				"6271F71E47DA8F8B"
 				"5072216A8B07BC59"
@@ -2628,8 +2628,8 @@
 			x: 13.0d
 			y: 23.0d
 			shape: "rsquare"
-			subtitle: "Oooo magic"
-			description: ["Crafted in Botania's Runic Altar."]
+			subtitle: "哦，魔法"
+			description: ["在植物魔法的符文祭坛上制作。"]
 			dependencies: ["679DF08FABBE8A87"]
 			id: "018F1C35300E1792"
 			tasks: [{
@@ -2647,8 +2647,8 @@
 			x: 14.25d
 			y: 20.5d
 			shape: "rsquare"
-			subtitle: "Shiny"
-			description: ["Crafted using Botania's Terrastrial Agglomeration Plate."]
+			subtitle: "闪亮亮"
+			description: ["使用植物魔法的泰拉凝聚板制作。"]
 			dependencies: [
 				"0B086A4E1638EFBA"
 				"7D06301D09F5D628"
@@ -2669,8 +2669,8 @@
 			x: 14.25d
 			y: 21.75d
 			shape: "rsquare"
-			subtitle: "Uses mana for electricity"
-			description: ["Crafted in Botania's Runic Altar."]
+			subtitle: "使用魔力发电"
+			description: ["在植物魔法的符文祭坛上制作。"]
 			dependencies: [
 				"59F8023BEB99C34A"
 				"69E268DB0F8CB0A3"
@@ -2692,8 +2692,8 @@
 			x: 14.25d
 			y: 23.0d
 			shape: "gear"
-			subtitle: "Magic is in the air "
-			description: ["Crafted using Botania's Terrastrial Agglomeration Plate."]
+			subtitle: "魔法就在空气中"
+			description: ["使用植物魔法的泰拉凝聚板制作。"]
 			dependencies: [
 				"5FFFB9F1D06A332A"
 				"018F1C35300E1792"
@@ -2723,8 +2723,8 @@
 			x: 23.25d
 			y: 20.454251700680267d
 			shape: "rsquare"
-			subtitle: "Energy from the void"
-			description: ["Obtained from Environmental Tech's Void Miner Tier 3 or more with the custom \"Black Hole Harvester\" in the End Dimenstion. (Note that the \"Red Lens\" doubles the chances of obtaining it)."]
+			subtitle: "来自虚空的能量"
+			description: ["从环境科技的带有末地维度的自定义“黑洞采集器”的三级或更高级虚空资源采掘机获得。（请注意，“红色透镜”会加倍它的获取概率）。"]
 			dependencies: [
 				"28F65AB06F632E4C"
 				"3EAB4C4E47E658EA"
@@ -2747,8 +2747,8 @@
 			x: 23.25d
 			y: 19.454251700680267d
 			shape: "rsquare"
-			subtitle: "Litteral rocket"
-			description: ["Obtained from Environmental Tech's Void Miner Tier 3 or more with the custom \"Black Hole Harvester\" in the End Dimenstion. (Note that the \"Red Lens\" doubles the chances of obtaining it)."]
+			subtitle: "垃圾火箭"
+			description: ["从环境科技的带有末地维度的自定义“黑洞采集器”的三级或更高级虚空资源采掘机获得。（请注意，“红色透镜”会加倍它的获取概率）。"]
 			dependencies: [
 				"685F94719391D77F"
 				"3EAB4C4E47E658EA"
@@ -2771,8 +2771,8 @@
 			x: 23.25d
 			y: 21.454251700680267d
 			shape: "rsquare"
-			subtitle: "If this explodes we're screwed"
-			description: ["Crafted in Environmental Tech's Assembler."]
+			subtitle: "如果它爆炸，我们就完了"
+			description: ["用环境科技的装配杆制造。"]
 			dependencies: ["685F94719391D77F"]
 			id: "07C51EEE022BF8A1"
 			tasks: [{
@@ -2790,8 +2790,8 @@
 			x: 26.75d
 			y: 20.454251700680267d
 			shape: "gear"
-			subtitle: "I'm fast as f boiiii"
-			description: ["Crafted in Environmental Tech's Assembler."]
+			subtitle: "我快得跟海王换女朋友的速度一样"
+			description: ["用环境科技的装配杆制造。"]
 			dependencies: [
 				"0C4BB75A847B5143"
 				"07C51EEE022BF8A1"
@@ -2821,8 +2821,8 @@
 			x: 11.75d
 			y: 20.5d
 			shape: "rsquare"
-			subtitle: "How does that work ?"
-			description: ["Crafted by throwing the mechanical cell into the Spirit Fire from Occultism."]
+			subtitle: "这是怎么做到的？"
+			description: ["通过将机械电池扔到神秘学的灵火中来制造。"]
 			dependencies: [
 				"1273070937E58B44"
 				"28C3F89057684CC6"
@@ -2843,8 +2843,8 @@
 			x: 13.0d
 			y: 18.0d
 			shape: "rsquare"
-			subtitle: "You can hear demons screaming"
-			description: ["Crafted with Occultism's Ritual \"Eziveus' Spectral Compulsion\"."]
+			subtitle: "你可以听到恶魔的尖叫"
+			description: ["用神秘学的仪式“埃兹维斯灵体强迫”制作。"]
 			dependencies: ["7BF5F871992F55AE"]
 			id: "00B345F47553EA72"
 			tasks: [{
@@ -2862,8 +2862,8 @@
 			x: 11.75d
 			y: 19.25d
 			shape: "rsquare"
-			subtitle: "How do demons even have electricity ?"
-			description: ["Crafted with Occultism's Ritual \"Eziveus' Spectral Compulsion\"."]
+			subtitle: "恶魔怎么会有电？"
+			description: ["用神秘学的仪式“埃兹维斯灵体强迫”制作。"]
 			dependencies: [
 				"0B086A4E1638EFBA"
 				"7BF5F871992F55AE"
@@ -2884,8 +2884,8 @@
 			x: 11.75d
 			y: 18.0d
 			shape: "gear"
-			subtitle: "It radiates dark magic"
-			description: ["Crafted using Occultism's ritual \"Sevira's Permanent Confinment\"."]
+			subtitle: "它散发着黑暗的魔力"
+			description: ["使用神秘学的仪式“塞维拉永囚咒”制作。"]
 			dependencies: [
 				"0ACAD13C5F639666"
 				"00B345F47553EA72"
@@ -2916,7 +2916,7 @@
 			y: 20.5d
 			shape: "rsquare"
 			subtitle: "Un régal"
-			description: ["Crafted in Pneumaticraft's Assembly Line."]
+			description: ["在气动工艺的装配线上制造。"]
 			dependencies: [
 				"1FDDA157DFAF2A7F"
 				"59F8023BEB99C34A"
@@ -2937,8 +2937,8 @@
 			x: 18.0d
 			y: 23.0d
 			shape: "rsquare"
-			subtitle: "Whatever it uses to fly, it's good stuff"
-			description: ["Crafted using Pneumaticraft's Pressure Chamber."]
+			subtitle: "无论它是否用来飞行，都是好东西"
+			description: ["使用气动工艺的压力室制作。"]
 			dependencies: ["7B9FBBCD2F962A0B"]
 			id: "260F4399A442FB59"
 			tasks: [{
@@ -2956,8 +2956,8 @@
 			x: 16.75d
 			y: 21.75d
 			shape: "rsquare"
-			subtitle: "Stores the energy of the depth"
-			description: ["Crafted using Pneumaticraft's Pressure Chamber."]
+			subtitle: "存储深度的能量"
+			description: ["使用气动工艺的压力室制作。"]
 			dependencies: [
 				"4EC4ECA83ADD6135"
 				"7B9FBBCD2F962A0B"
@@ -2978,8 +2978,8 @@
 			x: 16.75d
 			y: 23.0d
 			shape: "gear"
-			subtitle: "Going to the bottom to reach new height "
-			description: ["Crafted using Pneumaticraft's Pressure Chamber."]
+			subtitle: "走向底部以达到新的高度"
+			description: ["使用气动工艺的压力室制作。"]
 			dependencies: [
 				"5C2E98450FB34A2C"
 				"260F4399A442FB59"
@@ -3010,8 +3010,8 @@
 			x: 10.5d
 			y: 20.5d
 			shape: "rsquare"
-			subtitle: "James Watt would be happy"
-			description: ["Crafted in a regular Crafting Table."]
+			subtitle: "詹姆斯·瓦特会很高兴的"
+			description: ["在原版工作台中制作。"]
 			min_required_dependencies: 2
 			dependencies: [
 				"41C2A896B9CD146B"
@@ -3035,8 +3035,8 @@
 			x: 9.25d
 			y: 18.0d
 			shape: "rsquare"
-			subtitle: "You sure you want to fly with this ?"
-			description: ["Crafted in Create's Compacter."]
+			subtitle: "你确定要用这个飞行吗？"
+			description: ["用机械动力的压块配方制作。"]
 			dependencies: ["761BAE3E76AB71A3"]
 			id: "164B6A3448808077"
 			tasks: [{
@@ -3055,8 +3055,8 @@
 			x: 10.5d
 			y: 19.25d
 			shape: "rsquare"
-			subtitle: "Is that a potato or a capacitor ?"
-			description: ["Crafted in Create's Compacter."]
+			subtitle: "那是马铃薯还是电容器？"
+			description: ["用机械动力的压块配方制作。"]
 			dependencies: ["1273070937E58B44"]
 			id: "525D184EC233D716"
 			tasks: [{
@@ -3074,8 +3074,8 @@
 			x: 10.5d
 			y: 18.0d
 			shape: "gear"
-			subtitle: "Click click click"
-			description: ["Crafted using Create's Mechanical Crafters."]
+			subtitle: "点点点"
+			description: ["使用机械动力的动力合成器制作。"]
 			dependencies: [
 				"164B6A3448808077"
 				"525D184EC233D716"
@@ -3103,8 +3103,8 @@
 			x: 19.25d
 			y: 20.454251700680267d
 			shape: "rsquare"
-			subtitle: "Pinky"
-			description: ["Crafted using Industiral Foregoing's Dissolution Chamber (With 0.5 Bucket of Rossinite)."]
+			subtitle: "平奇（Pinky）"
+			description: ["使用工业先锋的化学溶解室制作（需要0.5桶玫瑰红）。"]
 			dependencies: [
 				"4EC4ECA83ADD6135"
 				"73368EF2948452D9"
@@ -3125,8 +3125,8 @@
 			x: 18.0d
 			y: 18.0d
 			shape: "rsquare"
-			subtitle: "I'm not even sure what it shoots out anymore"
-			description: ["Crafted in a regular Crafting Table."]
+			subtitle: "我甚至都不知道它会射出什么来"
+			description: ["在原版工作台中制作。"]
 			dependencies: ["6B860E2F39D660BE"]
 			id: "7618457DC31F6DFB"
 			tasks: [{
@@ -3144,8 +3144,8 @@
 			x: 19.25d
 			y: 19.204251700680267d
 			shape: "rsquare"
-			subtitle: "Stores Radiation /!\\"
-			description: ["Crafted in a regular Crafting Table."]
+			subtitle: "存储辐射！"
+			description: ["在原版工作台中制作。"]
 			dependencies: ["3DA966C6436DB383"]
 			id: "4AF26F6881D26ED4"
 			tasks: [{
@@ -3163,8 +3163,8 @@
 			x: 19.25d
 			y: 17.954251700680267d
 			shape: "gear"
-			subtitle: "Beware of the radiations "
-			description: ["Crafted using Industiral Foregoing's Dissolution Chamber (With 8 Buckets of Ether Gas). "]
+			subtitle: "当心辐射"
+			description: ["使用工业先锋的化学溶解室制作（需要8桶乙醚气体）。"]
 			dependencies: [
 				"7618457DC31F6DFB"
 				"4AF26F6881D26ED4"
@@ -3195,32 +3195,32 @@
 			x: 7.5d
 			y: 20.5d
 			description: [
-				"Jetpacks are used throughout the game. They come in different tier, ranging from a very slow and with almost no energy jetpack, to one; if not the best way; to travel. "
+				"在整个游戏中使用喷气背包。它们有不同的等级，从速度很慢、几乎没有能量的喷气背包到那种几乎可以说是最适合用来旅行的喷气背包。"
 				""
-				"Each tier is represented by it's \"coil\". If some quests aren't unlocked check the dependencies !"
+				"每个等阶都由它的“线圈”表示。如果某些任务未解锁，请检查前置任务！"
 				""
-				"Note that each jetpack is made with a custom craft linked to the mod it represents (i.e mechanical for create)"
+				"请注意，每个喷气背包都是用一个链接到它所代表的模组的自定义合成制作的（例如机械动力的机械）"
 				""
-				"This is everything i've got to say, now fly little one !"
+				"这就是我要说的一切，现在飞吧，小家伙！"
 			]
 			id: "772D69D5F95A9009"
 			tasks: [{
 				id: "1B2E2D3FD5C1EEFD"
 				type: "checkmark"
-				title: "You will need this !"
+				title: "你会需要这个！"
 			}]
 		}
 		{
-			title: "&dInformation about Create Schematics !"
+			title: "&d关于建造示意图的信息！"
 			x: 9.5d
 			y: 5.5d
 			shape: "octagon"
 			description: [
-				"On Chroma Endless you will be able to find a lot of custom multiblocks, we advise you to use the create schematics that we have provided you to build the custom machines."
+				"在整合包内，您将能够找到许多自定义方块，我们建议您使用我们为您提供的建造示意图来构建自定义机器。"
 				""
-				"They are named MM_name_of_machine for Masterfull multiblock and CC_name_of_machine for mutiblock which are made with Compact Crafting !"
+				"被命名为MM_name_of_machine的方块用于Masterful Machine的多方块结构，而名字为CC_name_of_machine的方块都是通过压缩空间模组制造的！"
 				""
-				"You can find them in the Schematics Table !"
+				"你可以在蓝图桌内找到示意图"
 			]
 			dependencies: [
 				"3CBBAC9AEDBDE316"
@@ -3236,7 +3236,7 @@
 			x: 15.5d
 			y: -4.25d
 			shape: "octagon"
-			description: ["The Building Gadget allows you to build structures using a set of different Building Modes."]
+			description: ["建造小帮手允许您使用一组不同的建造模式建造结构。"]
 			id: "7927897C054A2F05"
 			tasks: [{
 				id: "63C08F9D4E5EA5A8"
@@ -3265,7 +3265,7 @@
 			x: 14.25d
 			y: -3.0d
 			shape: "octagon"
-			description: ["The Exchanging Gadget provides basic exchanging abilities using a set of different Exchanging Modes."]
+			description: ["更替小帮手使用一组不同的更替模式提供基本的更替功能。"]
 			id: "1ECD79FC519D7BEC"
 			tasks: [{
 				id: "26709FDD8DE6E0D9"
@@ -3294,7 +3294,7 @@
 			x: 16.75d
 			y: -3.0d
 			shape: "octagon"
-			description: ["The Copy Paste Gadget allows you to select a large radius to copy and paste in a different location."]
+			description: ["复制粘贴小帮手允许您选择一个较大半径的区域来复制并粘贴到不同的位置。"]
 			id: "35FD512BD7931A6B"
 			tasks: [{
 				id: "2EEB142A5677D2BF"
@@ -3323,7 +3323,7 @@
 			x: 15.5d
 			y: -1.75d
 			shape: "octagon"
-			description: ["The Destruction Gadget allows you to void a large area."]
+			description: ["破坏小帮手允许你清空一大片区域。"]
 			id: "1D56E78A72A293DC"
 			tasks: [{
 				id: "20396F4A3BA589B9"
@@ -3366,16 +3366,16 @@
 			y: -1.0d
 			shape: "rsquare"
 			description: [
-				"&lBinding an Entangled Block&r"
-				"1. Craft an Entangled Block and an Entangled Binder"
-				"2. Place down your Entangled Block"
-				"3. Right-Click on the block you want to bind with the Entangled Binder"
-				"4. Right-Click on your Entangled Block with the Entangled Binder"
+				"&l绑定纠缠方块&r"
+				"1.制作一个纠缠方块和一个纠缠绑定器"
+				"2.放下你的纠缠块"
+				"3.右键单击要用纠缠绑定器绑定的方块"
+				"4.用纠缠绑定器右键单击的要绑定的纠缠方块"
 				""
-				"&lUnbinding an Entangled Block&r"
-				"1. Select an empty slot on your hotbar"
-				"2. Start crouching"
-				"3. Right-Click on the Entangled Block"
+				"&l取消绑定纠缠方块&r"
+				"1.在快捷栏上选择一个空的槽位"
+				"2.开始蹲下"
+				"3.右键单击纠缠方块"
 			]
 			id: "5458B4B77C7D8370"
 			tasks: [{
@@ -3401,7 +3401,7 @@
 			x: 18.75d
 			y: 0.0d
 			shape: "rsquare"
-			description: ["Entangled Binder Allows you to control what blocks bind together!"]
+			description: ["纠缠绑定器允许您控制哪些方块绑定在一起！"]
 			id: "05E92D8B7478247F"
 			tasks: [{
 				id: "74297583706C3B04"
@@ -3421,7 +3421,7 @@
 		{
 			x: 15.5d
 			y: -0.5d
-			description: ["You can trash Items !"]
+			description: ["你可以丢弃物品！"]
 			id: "51C1BD39EFFC3779"
 			tasks: [{
 				id: "26B792CA2E0CC56A"
@@ -3437,7 +3437,7 @@
 		{
 			x: 14.25d
 			y: 0.0d
-			description: ["You can trash Fluids !"]
+			description: ["你可以丢弃液体！"]
 			id: "49E136B1520B2146"
 			tasks: [{
 				id: "63BC66BDAA5B7A27"
@@ -3453,7 +3453,7 @@
 		{
 			x: 16.75d
 			y: 0.0d
-			description: ["You can trash Energy !"]
+			description: ["你可以丢弃能量！"]
 			id: "025EE85BB25CB285"
 			tasks: [{
 				id: "79BA239AC69D75F4"
@@ -3469,7 +3469,7 @@
 		{
 			x: 15.5d
 			y: 0.75d
-			description: ["You can trash everything."]
+			description: ["你可以丢弃一切。"]
 			dependencies: [
 				"025EE85BB25CB285"
 				"49E136B1520B2146"
@@ -3491,8 +3491,8 @@
 			x: 8.75d
 			y: 15.25d
 			shape: "diamond"
-			subtitle: "Tier 2"
-			description: ["&bEnergy Capacity: 8,000,000 FE"]
+			subtitle: "等级2"
+			description: ["&b能量容量：8000000FE"]
 			dependencies: ["2D31986387CE4C65"]
 			id: "7598222D3C2DDB3B"
 			tasks: [{
@@ -3511,15 +3511,15 @@
 			x: 8.25d
 			y: 14.75d
 			shape: "diamond"
-			subtitle: "Used to Store Energy in the network"
+			subtitle: "用来在网络中存储能量"
 			description: [
-				"Flux Storage is used to store excess energy. It will only be filled once each Flux Point has received enough energy."
+				"通量存储器用来存储多余的能量。只有在每个能量网络输出点接收到足够的能量后，它才会被填充。"
 				""
-				"This energy can only be accessed by removing energy with a Flux Point."
+				"该能量只能通过使用能量网络输出点移除能量来获得。"
 				""
-				"&7&lThis energy can only be accessed by removing energy with a Flux Point."
+				"&7&l此能量只能通过使用能量网络输出点移除能量来获取。"
 				""
-				"&bEnergy Capacity: 1,000,000 FE"
+				"&b能量容量：1000000FE"
 			]
 			dependencies: ["1F71F911773ED178"]
 			min_width: 240
@@ -3540,8 +3540,8 @@
 			x: 9.25d
 			y: 14.75d
 			shape: "diamond"
-			subtitle: "Tier 3"
-			description: ["&bEnergy Capacity: 128,000,000 FE"]
+			subtitle: "等级3"
+			description: ["&b能量容量：128000000FE"]
 			dependencies: ["7598222D3C2DDB3B"]
 			id: "1EA3FA891CD9D86B"
 			tasks: [{
@@ -3560,7 +3560,7 @@
 			x: 7.75d
 			y: 14.25d
 			shape: "diamond"
-			subtitle: "Other key crafting ingredients of the mod !"
+			subtitle: "该模组的其他关键合成材料！"
 			dependencies: ["0346878606EED7AF"]
 			min_width: 240
 			id: "641BEA5DCB499C89"
@@ -3579,7 +3579,7 @@
 			x: 9.75d
 			y: 14.25d
 			shape: "diamond"
-			subtitle: "Other key crafting ingredients of the mod !"
+			subtitle: "该模组的其他关键合成材料！"
 			dependencies: ["0346878606EED7AF"]
 			min_width: 240
 			id: "1F71F911773ED178"
@@ -3598,7 +3598,7 @@
 			x: 8.75d
 			y: 13.0d
 			shape: "diamond"
-			subtitle: "The key crafting ingredient of the mod"
+			subtitle: "该模组的关键合成材料"
 			dependencies: ["5E2A78C08B7A29B1"]
 			size: 1.5d
 			id: "0346878606EED7AF"
@@ -3620,7 +3620,7 @@
 			x: 8.75d
 			y: 14.25d
 			shape: "diamond"
-			description: ["Required to activate &lCross-dimensional inventory charging&r"]
+			description: ["需要激活&l跨维度物品栏充能&r"]
 			dependencies: [
 				"1F71F911773ED178"
 				"0D3B58EA40DC53A8"
@@ -3643,8 +3643,8 @@
 			x: 9.25d
 			y: 15.75d
 			shape: "diamond"
-			subtitle: "Used to Remove Energy from the network"
-			description: ["You can remove energy from all sides simultaneously."]
+			subtitle: "用来从网络中移除能量"
+			description: ["你可以从每一个面同时移除能量。"]
 			dependencies: ["256631A4863B5967"]
 			min_width: 240
 			id: "3AC7B8BCFAEA298F"
@@ -3663,13 +3663,13 @@
 			x: 8.75d
 			y: 16.25d
 			shape: "diamond"
-			subtitle: "The Flux Configurator can also be connected to a network"
+			subtitle: "通量控制器也可以连接到网络"
 			description: [
-				"● It can be used to access, edit, delete networks on the go. And shares the same GUI as connectors."
+				"● 它可以使用随时随地访问、编辑和删除网络。并与连接器共享相同的GUI。"
 				""
-				"● It can also be used to copy / paste settings between connectors."
+				"● 它还可以用来在连接器之间复制/粘贴设置。"
 				""
-				"&lCopying Settings:&r Shift-Right Click on a connector to copy it's settings and then Right Click on a connector you wish to paste the settings to. If you right click something which isn't a connector you'll bring up the Network GUI and also you'll be able to edit the settings which the Configurator will paste. The configurator can also be renamed here, with the name field."
+				"&l复制设置：&rShift右键连接器以复制其设置，然后右键单击要将设置粘贴到的连接器。如果您右键单击不是连接器的东西，您将打开向上GUI，还可以编辑通量控制器将粘贴的设置。也可以在此处使用名称字段重命名通量控制器。"
 			]
 			dependencies: ["641BEA5DCB499C89"]
 			min_width: 240
@@ -3690,8 +3690,8 @@
 			x: 8.25d
 			y: 15.75d
 			shape: "diamond"
-			subtitle: "Used for Adding Energy to the network"
-			description: ["You can add energy from all sides simultaneously."]
+			subtitle: "用来为网络输入能量"
+			description: ["你可以从每个面同时输入能量。"]
 			dependencies: ["256631A4863B5967"]
 			min_width: 240
 			id: "4ECC7C1447375BC6"
@@ -4067,7 +4067,7 @@
 			rewards: [{
 				id: "09B8CABD7B488D83"
 				type: "command"
-				title: "Summon &6Small Cat"
+				title: "召唤&6小猫"
 				icon: "engineersdecor:sign_danger"
 				auto: "no_toast"
 				command: "/summon alexsmobs:tiger"
@@ -4088,7 +4088,7 @@
 			rewards: [{
 				id: "2F6F05D7F178F8E4"
 				type: "command"
-				title: "Summon &6Cow"
+				title: "召唤&6牛"
 				icon: "minecraft:cow_spawn_egg"
 				auto: "no_toast"
 				command: "/summon minecraft:cow"
@@ -4109,7 +4109,7 @@
 			rewards: [{
 				id: "319DB5B327C14C3B"
 				type: "command"
-				title: "Summon &6Skeleton"
+				title: "召唤&6骷髅"
 				icon: "minecraft:skeleton_spawn_egg"
 				auto: "no_toast"
 				command: "/summon minecraft:skeleton"
@@ -4321,11 +4321,11 @@
 			y: 18.5d
 			shape: "diamond"
 			description: [
-				"&eChipped&r expands on the variety of blocks you can use in-game."
+				"&eChipped&r扩展了游戏中可以使用的各种方块。"
 				""
-				"The mod offers over 2000 unique building blocks."
+				"该模组提供了2000多个独特的方块"
 				""
-				"Chipped works in the same way as the stone cutter."
+				"Chipped的工作台的工作方式与切石机相同。"
 			]
 			id: "559F61F3E7E1AA0F"
 			tasks: [{
@@ -4344,9 +4344,9 @@
 			y: 26.0d
 			shape: "square"
 			description: [
-				"A tugboat powered by Forge Energy, can be charged when docked with a Vessel Charger."
+				"使用FE供能的拖船，可在码头停泊时用船舶充能器充能。"
 				""
-				"The tug has an extra slot for a capacitor, this is useful if the tug ran out of energy mid-way and needs to be recharged."
+				"这类拖船有放置电容器的额外槽位，可有效防止航行中途能量不足的情况出现。"
 			]
 			dependencies: ["0AC2E1D9469B0B57"]
 			id: "17FA09C5EBA8FA12"
@@ -4389,9 +4389,9 @@
 			y: 25.0d
 			shape: "square"
 			description: [
-				"A basic tugboat that can operate on any furnace fuel."
+				"接受任何熔炉燃料的基础拖船。"
 				""
-				"Fuel can be loaded with hoppers placed on top of tug docks."
+				"可在码头上用漏斗输入燃料。"
 			]
 			dependencies: ["4F0254EAFC83FA04"]
 			id: "72147CB81D9DB69A"
@@ -4436,7 +4436,7 @@
 			x: 20.25d
 			y: 26.0d
 			shape: "square"
-			description: ["Place under a block of water, works similar to vanilla powered rail. Can be used to force the tug to take a specific route. Does not affect barges. Shift-right-click to rotate."]
+			description: ["在一格深的水下放置，和原版动力铁轨类似。可用于强制规定拖船的航线，驳船不受其影响。潜行时右击以改变其方向。"]
 			hide_dependency_lines: true
 			dependencies: ["572DE70FE0E80A42"]
 			id: "28C28E3705B41DB8"
@@ -4456,7 +4456,7 @@
 			x: 20.25d
 			y: 25.0d
 			shape: "square"
-			description: ["&bThe Tug Dock&r can only insert into the tug, place a hopper on top of the dock to extract. Shift right-click the tug dock to flip the dock direction."]
+			description: ["&b拖船码头&r仅能向拖船中输入物品（橙色/输出模式），在码头上方放置漏斗以输入。潜行时右击以翻转码头方向。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"572DE70FE0E80A42"
@@ -4479,12 +4479,12 @@
 			y: 24.0d
 			shape: "square"
 			description: [
-				"&bTug Route&r stores a route for the tug. When the item is placed in the tug's route slot, the tug will follow the route in order from node 0."
+				"&b拖船路线&r存储拖船的航行路线。当物品被放置在拖船路线槽位中时，拖船将按照节点0的顺序沿着路线航行。"
 				""
-				"Right click at any coordinate to add a node to the back of the tug route."
-				"Right click at the location of any existing node to remove it."
+				"在任意坐标处右键单击，将节点添加到拖船返回路线上。"
+				"右键单击任何现有节点的位置以将其删除。"
 				""
-				"The nodes will be indicated with beams when the item is held in the main hand."
+				"当物品放在主手上时，节点会用光束来标示。"
 			]
 			dependencies: [
 				"109D647ED52D215D"
@@ -4506,7 +4506,7 @@
 			x: 15.5d
 			y: 33.0d
 			shape: "square"
-			description: ["Emits a redstone signal when a vessel is within 3 blocks in a given direction. Needs a straight line of water."]
+			description: ["当船只在给定方向的3个方块距离内时，发出红石信号。需要一条直线的水方块。"]
 			dependencies: ["572DE70FE0E80A42"]
 			id: "4E18D14B8B6F3A34"
 			tasks: [{
@@ -4525,7 +4525,7 @@
 			x: 15.5d
 			y: 32.0d
 			shape: "square"
-			description: ["A charger for &bEnergy Rug&r, connect to any forge energy cable to add power to the charger. Place on top of a dock to charge the vessel when docking."]
+			description: ["&b船舶充能器&r，连接到任何forge兼容的能量线缆为充能器输入能量。停靠时，放置在码头顶部为船舶充电。"]
 			dependencies: [
 				"0AC2E1D9469B0B57"
 				"3AC2609EA33632B8"
@@ -4548,9 +4548,9 @@
 			y: 33.0d
 			shape: "square"
 			description: [
-				"A hopper but for fluids, can import from the top and export from the sides."
-				"Can be loaded by right-clicking with buckets."
-				"Can be used to load/unload vessels using Docks."
+				"漏斗用于流体，可从顶部输入，从侧面输出。"
+				"可以通过右键单击桶来装载。"
+				"可用来在码头给船舶装/卸货物。"
 			]
 			dependencies: ["7CCCE060E49A883E"]
 			id: "0160BCBD25F5A54B"
@@ -4570,11 +4570,11 @@
 			y: 33.0d
 			shape: "square"
 			description: [
-				"Assists vessels around sharp corners, should always be used on shard corners or near entrances to narrow waterways."
+				"协助船只绕过尖角，应始终在尖角或狭窄水道入口附近使用。"
 				""
-				"Affects both tugs and barges. Shift-right-click to flip direction."
+				"影响拖船和驳船。按住鼠标右键可翻转方向。"
 				""
-				"Must not have a full solid block directly on top."
+				"顶部必须不存在完整的固体方块。"
 			]
 			dependencies: ["572DE70FE0E80A42"]
 			id: "3C5F76E40FB21228"
@@ -4594,10 +4594,10 @@
 			y: 34.0d
 			shape: "square"
 			description: [
-				"Used to link &bVessels&r together."
+				"用来将&b容器&r连接在一起。"
 				""
-				"Right click vessels in order to create a \"Vesserl train\". A train can only have one tugboat and cannot have loops."
-				"Will break if vessels are more than 20 blocks apart."
+				"右键船只以建造“船舶列车”。一列“火车”只能有一艘拖船，不能头尾相接。"
+				"如果船只相隔20个方块以上，损坏。"
 			]
 			dependencies: ["3441111B8198CC9D"]
 			id: "572DE70FE0E80A42"
@@ -4625,7 +4625,7 @@
 			x: 10.75d
 			y: 26.0d
 			shape: "square"
-			description: ["&bThe Barge Docks&r can both output and input to/from the barges, shift-right click to switch the mode. Place a hopper underneath the barge's path to extract resources."]
+			description: ["&b驳船码头&r可对驳船输出（橙色模式）和从驳船提取（蓝色模式），潜行时右击以切换模式。在驳船航道下方放置漏斗以提取驳船内容物。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"572DE70FE0E80A42"
@@ -4647,7 +4647,7 @@
 			x: 10.75d
 			y: 25.0d
 			shape: "square"
-			description: ["Use this barge to transport fluids, can be loaded with a Fluid Hopper."]
+			description: ["使用该驳船运输液体，可使用流体漏斗装载。"]
 			dependencies: [
 				"0728FA0EBC3963BA"
 				"7CCCE060E49A883E"
@@ -4669,9 +4669,9 @@
 			y: 24.0d
 			shape: "square"
 			description: [
-				"A simple barge that holds items, similar to chest minecart."
+				"一种简单的驳船，可装载物品，类似于运输矿车。"
 				""
-				"The barge must be docked and part of a tug-train to interface with hoppers."
+				"驳船必须停靠在码头上，并且是拖船系的一部分，以便与料斗对接。"
 			]
 			dependencies: ["0728FA0EBC3963BA"]
 			id: "5ECD7092BD6D6CB8"
@@ -4690,7 +4690,7 @@
 			x: 11.75d
 			y: 26.0d
 			shape: "square"
-			description: ["Nees to be in open water for nets to be deployed. Use on long routes in open oceans to avoir \"Shallow water\" and \"overfishing\" penalties."]
+			description: ["应在开放水域中布设渔网。在打开海洋的长距离航线上使用，以避免“浅水”和“过度捕捞”惩罚。"]
 			dependencies: ["0728FA0EBC3963BA"]
 			id: "48541A9AAB05258E"
 			tasks: [{
@@ -4714,8 +4714,8 @@
 			x: 11.75d
 			y: 25.0d
 			shape: "square"
-			subtitle: "Welcome on board Captain !"
-			description: ["A simple barge that seats one player."]
+			subtitle: "欢迎登船，船长！"
+			description: ["可容纳一名玩家的简单驳船。"]
 			dependencies: ["0728FA0EBC3963BA"]
 			id: "1275849B6A9A4663"
 			tasks: [{
@@ -4961,7 +4961,7 @@
 			tasks: [{
 				id: "4B1F01F298FEA8FB"
 				type: "item"
-				title: "Botany Pots"
+				title: "盆栽盆"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -5056,7 +5056,7 @@
 			tasks: [{
 				id: "78A37160C0D75AC5"
 				type: "item"
-				title: "Hopper Botany Pots"
+				title: "漏斗盆栽盆"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b

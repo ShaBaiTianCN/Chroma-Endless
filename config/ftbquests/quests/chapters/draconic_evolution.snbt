@@ -3,7 +3,7 @@
 	group: "44A22EED2BE11886"
 	order_index: 1
 	filename: "draconic_evolution"
-	title: "&bChapter 2&r &6-&r Draconic Machinery"
+	title: "&b第二章&r &6-&r 龙之研究"
 	icon: {
 		id: "draconicevolution:chaotic_staff"
 		Count: 1b
@@ -50,7 +50,7 @@
 			x: -0.25d
 			y: -4.75d
 			shape: "diamond"
-			description: ["You can obtain &5Draconium Dust&r by breaking some &5Draconium Ore&r."]
+			description: ["挖掘&5龙矿&r获取&5龙尘&r。"]
 			dependencies: [
 				"4A523013734520E4"
 				"1FDDA157DFAF2A7F"
@@ -225,9 +225,9 @@
 			y: -2.7142857142857153d
 			shape: "gear"
 			description: [
-				"&dThe Draconium Fusion Crafting Injector&r is the first tier of Fusion Crafting Injectors used in the Fusion crafting process."
+				"基础聚合注入器是聚合装置中第一级的融合器"
 				""
-				"You must place them, at least, &ctwo blocks&r away from the Fusion Core and have a maximum of &c3x3&r on one side."
+				"放置距离聚合核心至少2格并且一边最多3X3"
 			]
 			dependencies: [
 				"4ADD9913716BA3E2"
@@ -253,7 +253,7 @@
 			x: 2.5d
 			y: -0.75d
 			shape: "gear"
-			description: ["&dThe Wyvern Fusion Crafting Injector&r is the second tier of Fusion Crafting Injectors used in the Fusion crafting process and is created using Fusion crafting."]
+			description: ["基础聚合注入器是聚合装置中第二级的融合器"]
 			dependencies: [
 				"1D20318F0E242E7B"
 				"550FE49DD86B02F4"
@@ -275,7 +275,7 @@
 			x: 2.5d
 			y: 1.25d
 			shape: "gear"
-			description: ["&dThe Draconic Fusion Crafting Injector&r is the third tier of Fusion Crafting Injectors used in the Fusion crafting process and is created using Fusion crafting."]
+			description: ["基础聚合注入器是聚合装置中第三级的融合器"]
 			dependencies: ["3225C3BC59E31296"]
 			size: 1.5d
 			id: "26A2AB430C384D80"
@@ -294,7 +294,7 @@
 			x: 2.5d
 			y: 3.25d
 			shape: "gear"
-			description: ["&dThe Chaotic Fusion Crafting Injector&r is the fourth and final tier of Fusion Crafting Injectors used in the Fusion crafting process and is created using Fusion crafting."]
+			description: ["基础聚合注入器是聚合装置中第四级的融合器"]
 			dependencies: ["26A2AB430C384D80"]
 			size: 1.5d
 			id: "0C33C381806BB2C1"
@@ -315,11 +315,11 @@
 			y: -2.75d
 			shape: "pentagon"
 			description: [
-				"&dThe Fusion Crafting Core&r is the center of the multi-block Fusion Crafting setup."
+				"聚合核心是聚合装置的中心"
 				""
-				"It is used to hold the central item of the craft."
+				"它是用来合成物品部件的"
 				""
-				"You must start the craft by pressing the button on the GUI or by a signal redstone."
+				"你必须通过GUI界面的按钮来启动装置"
 			]
 			dependencies: [
 				"180340AB4EC31ADC"
@@ -344,11 +344,11 @@
 			y: -0.75d
 			shape: "hexagon"
 			description: [
-				"&dThe Chest Piece&r is the new armor from Draconic Evolution."
+				"双足飞龙护胸是龙之研究的新护甲"
 				""
-				"You can cary it on your body slot or in your curio slot."
+				"你可以把它放在身体栏或者饰品栏"
 				""
-				"&dThe Wyvern Chest Piece&r has a grid of &56x5&r for modules."
+				"双足飞龙护胸有一个&56x5&r的网格模块。"
 			]
 			dependencies: ["550FE49DD86B02F4"]
 			id: "1E0127967BA7C0A3"
@@ -388,7 +388,7 @@
 			x: 4.0d
 			y: 1.25d
 			shape: "hexagon"
-			description: ["&dThe Draconic Chest Piece&r has a grid of &58x6&r for modules."]
+			description: ["神龙护胸有一个&58x6&r的网格模块。"]
 			dependencies: ["1E0127967BA7C0A3"]
 			id: "19CC49E9B38D94F9"
 			tasks: [{
@@ -427,7 +427,7 @@
 			x: 4.0d
 			y: 3.25d
 			shape: "hexagon"
-			description: ["&dThe Chaotic Chest Piece&r has a grid of &510x8&r for modules."]
+			description: ["混沌护胸有一个&510x8&r的网格模块。"]
 			dependencies: ["19CC49E9B38D94F9"]
 			id: "0BF9774E86E65D68"
 			tasks: [{
@@ -466,7 +466,7 @@
 			x: 5.25d
 			y: 3.25d
 			shape: "rsquare"
-			description: ["&dThe Chaotic Bow&r has a grid of &58x6&r for modules."]
+			description: ["混沌弓有一个&58x6&r的网格模块。"]
 			dependencies: ["049FF0282F49EB8C"]
 			id: "2CBC07F7CC0BF645"
 			tasks: [{
@@ -505,7 +505,7 @@
 			x: 6.25d
 			y: 3.25d
 			shape: "rsquare"
-			description: ["&dThe Chaotic Sword&r has a grid of &58x6&r for modules."]
+			description: ["混沌剑有一个&58x6&r的网格模块。"]
 			dependencies: ["28ECEFB9C9219712"]
 			id: "4EB961FF57546261"
 			tasks: [{
@@ -544,7 +544,7 @@
 			x: 7.25d
 			y: 3.25d
 			shape: "rsquare"
-			description: ["&dThe Chaotic Pickaxe&r has a grid of &58x6&r for modules."]
+			description: ["混沌镐有一个&58x6&r的网格模块。"]
 			dependencies: ["6DE9656C9FDF3E8C"]
 			id: "0E4D92E425579291"
 			tasks: [{
@@ -588,7 +588,7 @@
 			x: 9.5d
 			y: 3.25d
 			shape: "octagon"
-			description: ["&dThe Chaotic Staff of Power&r has a grid of &510x8&r for modules."]
+			description: ["混沌之力权杖有一个&510x8&r的网格模块。"]
 			dependencies: [
 				"4EB961FF57546261"
 				"0E4D92E425579291"
@@ -639,7 +639,7 @@
 			x: 8.25d
 			y: 3.25d
 			shape: "rsquare"
-			description: ["&dThe Chaotic Shovel&r has a grid of &58x6&r for modules."]
+			description: ["混沌锹有一个&58x6&r的网格模块。"]
 			dependencies: ["5287326691F7DC1C"]
 			id: "3DD4C0387A8861A5"
 			tasks: [{
@@ -682,7 +682,7 @@
 		{
 			x: 10.75d
 			y: 3.25d
-			description: ["&dThe Chaotic Capacitor&r has a grid of &58x6&r for modules."]
+			description: ["混沌电容有一个&58x6&r的网格模块。"]
 			dependencies: [
 				"2D2A5032AA1C01EA"
 				"5DF689E0F93130A9"
@@ -764,7 +764,7 @@
 			x: 5.25d
 			y: 1.25d
 			shape: "rsquare"
-			description: ["&dThe Draconic Bow&r has a grid of &56x5&r for modules."]
+			description: ["神龙弓有一个&56x5&r的网格模块。"]
 			dependencies: ["39DF1786EDB42821"]
 			id: "049FF0282F49EB8C"
 			tasks: [{
@@ -803,7 +803,7 @@
 			x: 6.25d
 			y: 1.25d
 			shape: "rsquare"
-			description: ["&dThe Draconic Sword&r has a grid of &56x5&r for modules."]
+			description: ["神龙剑有一个&56x5&r的网格模块。"]
 			dependencies: ["3C2B72E7109A1EAB"]
 			id: "28ECEFB9C9219712"
 			tasks: [{
@@ -842,7 +842,7 @@
 			x: 7.25d
 			y: 1.25d
 			shape: "rsquare"
-			description: ["&dThe Draconic Pickaxe&r has a grid of &56x5&r for modules."]
+			description: ["神龙弓镐有一个&56x5&r的网格模块。"]
 			dependencies: ["12422DE336F0CC60"]
 			id: "6DE9656C9FDF3E8C"
 			tasks: [{
@@ -886,7 +886,7 @@
 			x: 8.25d
 			y: 1.25d
 			shape: "rsquare"
-			description: ["&dThe Draconic Shovel&r has a grid of &56x5&r for modules."]
+			description: ["神龙锹有一个&56x5&r的网格模块。"]
 			dependencies: ["29D8A6712EEAA9F1"]
 			id: "5287326691F7DC1C"
 			tasks: [{
@@ -930,7 +930,7 @@
 			x: 9.5d
 			y: 1.25d
 			shape: "octagon"
-			description: ["&dThe Draconic Staff of Power&r has a grid of &58x6&r for modules."]
+			description: ["神龙之力权杖有一个&58x6&r的网格模块。"]
 			dependencies: [
 				"28ECEFB9C9219712"
 				"6DE9656C9FDF3E8C"
@@ -979,7 +979,7 @@
 			x: 5.25d
 			y: -0.75d
 			shape: "rsquare"
-			description: ["&dThe Wyvern Bow&r has a grid of &54x4&r for modules."]
+			description: ["双足飞龙弓有一个&54x4&r的网格模块。"]
 			dependencies: ["550FE49DD86B02F4"]
 			id: "39DF1786EDB42821"
 			tasks: [{
@@ -1018,7 +1018,7 @@
 			x: 6.25d
 			y: -0.75d
 			shape: "rsquare"
-			description: ["&dThe Wyvern Sword&r has a grid of &54x4&r for modules."]
+			description: ["双足飞龙剑有一个&54x4&r的网格模块。"]
 			dependencies: ["550FE49DD86B02F4"]
 			id: "3C2B72E7109A1EAB"
 			tasks: [{
@@ -1057,7 +1057,7 @@
 			x: 7.25d
 			y: -0.75d
 			shape: "rsquare"
-			description: ["&dThe Wyvern Pickaxe&r has a grid of &54x4&r for modules."]
+			description: ["双足飞龙镐有一个&54x4&r的网格模块。"]
 			dependencies: ["550FE49DD86B02F4"]
 			id: "12422DE336F0CC60"
 			tasks: [{
@@ -1101,7 +1101,7 @@
 			x: 8.25d
 			y: -0.75d
 			shape: "rsquare"
-			description: ["&dThe Wyvern Shovel&r has a grid of &54x4&r for modules."]
+			description: ["双足飞龙锹有一个&54x4&r的网格模块。"]
 			dependencies: ["550FE49DD86B02F4"]
 			id: "29D8A6712EEAA9F1"
 			tasks: [{
@@ -1168,7 +1168,7 @@
 		{
 			x: 10.75d
 			y: 1.25d
-			description: ["&dThe Draconic Capacitor&r has a grid of &56x5&r for modules."]
+			description: ["神龙电容有一个&56x5&r的网格模块。"]
 			dependencies: [
 				"59A15DA7104A2EB8"
 				"14546760EE1D4281"
@@ -1247,7 +1247,7 @@
 		{
 			x: 10.75d
 			y: -0.75d
-			description: ["&dThe Wyvern Capacitor&r has a grid of &54x4&r for modules."]
+			description: ["双足飞龙电容有一个&54x4&r的网格模块。"]
 			dependencies: ["0581F004215D7680"]
 			id: "59A15DA7104A2EB8"
 			tasks: [{
@@ -1301,7 +1301,7 @@
 		{
 			x: -6.5d
 			y: -2.75d
-			description: ["&dThe Item Dislocator&r is a magnet with a range of 8 blocks."]
+			description: ["物品传送符咒可以把8格内的掉落传送（吸）到自己身上"]
 			dependencies: ["6E050B72C6B8E358"]
 			id: "391AB68B6BC4A677"
 			tasks: [{
@@ -1319,7 +1319,7 @@
 		{
 			x: -6.5d
 			y: -4.0d
-			description: ["&dThe Awakened Item Dislocator&r is an upgrade of the item dislocator with a range of 32 blocks."]
+			description: ["高级物品传送符咒是物品传送符咒的升级版，范围为32个方块。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"391AB68B6BC4A677"
@@ -1342,9 +1342,9 @@
 			x: -6.5d
 			y: -1.0d
 			description: [
-				"&dThe dislocator pedestal&r allows to put a dislocator on it."
+				"传送符咒基座可用于放置传送魔咒或高级传送魔咒。"
 				""
-				"Then right click on the pedestal to teleport to the point saved by the dislocator."
+				"右键可传送，SHIFT+右键取下魔咒。放置传送魔咒时使用可不消耗传送魔咒耐久。"
 			]
 			dependencies: ["3A3CDBD5FF1985DB"]
 			id: "26DAD4D190AF4C24"
@@ -1362,11 +1362,11 @@
 		{
 			x: -7.5d
 			y: -1.75d
-			subtitle: "Whoosh !"
+			subtitle: "嗖~！"
 			description: [
-				"&dThe Dislocator&r is used to teleport you."
+				"传送符咒可以用来传送你。"
 				""
-				"&6Shift right-click&r to set the teleportation position, then you can just &6right-click&r it to teleport you to the location (work in any dimension)."
+				"手持时按下Shift+右键可以绑定当前所在路径点，之后再次右键可以传送到之前绑定的路径点(在任何维度都可以工作)。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["2FFF2B223BF2968D"]
@@ -1448,9 +1448,9 @@
 			x: 4.0d
 			y: -7.25d
 			description: [
-				"After defeating the Chaos Guardian, you can grab the &8Chaotic Shards&r inside the Chaotic Island."
+				"通过击杀混沌守卫在混沌之岛中央洞穴（在岛屿中央往下挖）获得。"
 				""
-				"Chaotic Island are located every 10000 blocks (i.e 10000 0 or 0 10000)."
+				"它在末地中的坐标为（x,z），其中x和z为10000的倍数，比如坐标（10000,y,0）（0,y,10000）"
 			]
 			dependencies: ["2BA269B9CA2B23C4"]
 			id: "13D4EFBF9D6020E0"
@@ -1486,17 +1486,17 @@
 			}]
 		}
 		{
-			title: "Draconic Energy Transportation"
+			title: "神龙能量传输"
 			icon: "draconicevolution:draconic_relay_crystal"
 			x: -4.25d
 			y: -5.75d
 			shape: "hexagon"
 			description: [
-				"&dThe Draconic Energy Relay Crystal&r is used to make a relay between I/O Crystal and Energy Crystal, it can store 64M RF and has 32 links, and it has a range of 128 blocks."
+				"神龙能量中继水晶连接距离127格,连接上限为32容量为64.0MRF"
 				""
-				"&dThe Draconic Energy I/O Crystal&r can store 64M RF and has 4 links, it has a range of 128 blocks."
+				"神龙能量端口水晶容量：64.0MRF，连接距离：127格，连接数：4。"
 				""
-				"&dThe Draconic Wireless Energy Crystal&r is used to powered machines wirelessly, it can store 64M RF and has 16 links, it can provide wireless RF to 64 machines, and it has a range of 128 blocks."
+				"神龙无线能量水晶容量：64.0MRF，有线连接数：16，无线连接数：64，有线连接距离：127格，无线连接距离：128格。"
 			]
 			dependencies: ["7A731C9A349BD3B5"]
 			id: "1A21829420B30EFB"
@@ -1530,11 +1530,11 @@
 			y: -8.25d
 			shape: "hexagon"
 			description: [
-				"&dThe Basic Energy Relay Crystal &ris used to make a relay between I/O Crystal and Energy Crystal, it can store 4M RF and has 8 links, and has a range of 32 blocks."
+				"基础能量中继水晶能量传导系统的中续器，连接上限为8，容量为4.0MRF。"
 				""
-				"&dThe Basic Energy I/O Crystal&r can store 4M RF and has 2 links, it has a range of 32 blocks."
+				"基础能量端口水晶容量：4.0MRF，连接距离：32格，连接数：2。"
 				""
-				"&dThe Basic Wireless Energy Crystal &ris used to powered machines wirelessly,  can store 4M RF and has 4 links, can provide wireless RF to 16 machines, and it has a range of 128 blocks."
+				"基础无线能量水晶拥有有线和无线两种连接方式。右键可打开其GUI，容量：4.0MRF，有线连接数：4，无线连接数：16，有线连接距离：32格，无线连接距离：128格。"
 			]
 			dependencies: ["269DDB274DB80BDF"]
 			id: "1AD1E4C908C25DE0"
@@ -1567,11 +1567,11 @@
 			y: -7.0d
 			shape: "hexagon"
 			description: [
-				"&dThe Wyvern Energy Relay Crystal&r is used to make a relay between I/O Crystal and Energy Crystal, It can store 16M RF and has 16 links, and it has a range of 64 blocks."
+				"飞龙能量中继水晶连接距离64格,连接上限为16容量为16.0MRF"
 				""
-				"&dThe Wyvern Energy I/O Crystal&r can store 16M RF and has 3 links, it has a range of 64 blocks."
+				"飞龙能量端口水晶容量：16.0MRF，连接距离：64格，连接数：3。"
 				""
-				"&dThe Wyvern Wireless Energy Crystal&r is used to powered machines wirelessly, it can store 16M RF and has 8 links, it can provide wireless RF to 32 machines, and it has a range of 128 blocks."
+				"飞龙无线能量水晶容量：16.0MRF，有线连接数：8，无线连接数：32，有线连接距离：64格，无线连接距离：128格。"
 			]
 			dependencies: ["1AD1E4C908C25DE0"]
 			id: "7A731C9A349BD3B5"
@@ -1603,9 +1603,9 @@
 			x: -2.25d
 			y: -2.75d
 			description: [
-				"&dThe Energy Transfuser&r is used to recharge your draconic stuff faster."
+				"能量注入器用来给各种RF工具充电"
 				""
-				"You can charge 4 items or blocks inside."
+				"你可以在里面放4个物品"
 			]
 			dependencies: ["180340AB4EC31ADC"]
 			id: "28DC1E2F17902AC5"
@@ -1625,7 +1625,7 @@
 			x: -2.0d
 			y: -7.0d
 			shape: "hexagon"
-			description: ["Generate energy from solid fuel."]
+			description: ["从固体燃料中产生能量。"]
 			hide_dependency_lines: true
 			dependencies: ["180340AB4EC31ADC"]
 			id: "7240C479C13D75DB"
@@ -1646,13 +1646,13 @@
 			shape: "rsquare"
 			subtitle: "KILLER 2000 !"
 			description: [
-				"&dThe Mob Grinder&r is used to kill mob with a powerful filter."
+				"怪物磨床可以杀死怪物和有着强大的过滤器。"
 				""
-				"You can define if it will collect items and/or xp."
-				"It can store xp."
-				"You can choose what you want to kill, Hostile, Adults, Tamed mob, etc..."
+				"你可以定义它是否会收集物品和/或xp。"
+				"它可以存储xp。"
+				"你可以选择你想杀死的，敌对的、成年的、驯服的怪物等等。"
 				""
-				"You can provide it with any sword (can be enchanted) it will uses it's durability."
+				"你可以为它提供任何剑(可以施魔法)，它将消耗它的耐久。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["180340AB4EC31ADC"]
@@ -1691,11 +1691,11 @@
 			x: -5.5d
 			y: -1.75d
 			description: [
-				"&bThe Advanced Dislocator&r is a device that stores a lot of teleportation points. "
+				"高级传送符咒是一种存储多个瞬移点的设备。"
 				""
-				"&6Shift right-click&r to register your teleportation point in it, you can rename it and lock."
+				"Shift+右键打开GUI进行设置"
 				""
-				"&bThe Advanced Dislocator&r uses ender pearl as fuel."
+				"每次传送消耗1燃料，GUI内可消耗1末影珍珠获得1燃料"
 			]
 			dependencies: ["6E050B72C6B8E358"]
 			id: "496DB47D9A1EB710"
@@ -1719,7 +1719,7 @@
 			x: 10.25d
 			y: -5.25d
 			shape: "diamond"
-			description: ["&dThe Module Core&r is the base of every Module for your Draconic Evolution Stuff."]
+			description: ["模块核心是每个模块的基础，为你的龙之装备进化的东西。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"180340AB4EC31ADC"
@@ -1746,7 +1746,7 @@
 			x: 9.25d
 			y: -4.75d
 			shape: "diamond"
-			description: ["&dThe Speed Module&r is used to increase your movement speed."]
+			description: ["速度模块用于增加你的移动速度。"]
 			dependencies: ["43D8A13A6332EED2"]
 			id: "5F5F179E3B253E4B"
 			tasks: [
@@ -1788,8 +1788,8 @@
 			x: 11.75d
 			y: -5.25d
 			shape: "diamond"
-			subtitle: "Bye bye Enderman !"
-			description: ["&dThe Projectile Immunity Cancellation Module&r is used to cancel the enderman's teleportation when you want to shoot them."]
+			subtitle: "再见，末影人!"
+			description: ["当你想射击末影人时，用于取消末影人的瞬移。 "]
 			dependencies: ["43D8A13A6332EED2"]
 			id: "02673388A5B16C07"
 			tasks: [{
@@ -1814,7 +1814,7 @@
 			x: 9.75d
 			y: -4.25d
 			shape: "diamond"
-			description: ["&dThe Hill Step Module&r gives you the ability to have a step assist."]
+			description: ["自动跳跃模块能让你拥有一个自动跳跃的模块。"]
 			dependencies: ["43D8A13A6332EED2"]
 			id: "48489F62AF3D1D0E"
 			tasks: [{
@@ -1834,7 +1834,7 @@
 			x: 11.25d
 			y: -4.75d
 			shape: "diamond"
-			description: ["&dThe AOE Module&r is used to increase the Arrea Of Effect on your tools and weapons."]
+			description: ["范围模块用于增强你的工具挖掘范围和武器上效果的衰减。"]
 			dependencies: ["43D8A13A6332EED2"]
 			id: "374D2AA283EF9F9C"
 			tasks: [
@@ -1867,12 +1867,12 @@
 			}]
 		}
 		{
-			title: "Projectil Gravity Compensation Module"
+			title: "弹射物重力补偿模块"
 			icon: "draconicevolution:draconic_proj_grav_comp_module"
 			x: 10.75d
 			y: -4.25d
 			shape: "diamond"
-			description: ["&dThe Projectile Gravity Compensation Module&r is used to make your bow shot straighter and therefore shoot farther."]
+			description: ["弹射物重力补偿模块用于使你的弓射得更直，因此射得更远。"]
 			dependencies: ["43D8A13A6332EED2"]
 			id: "4904155A22893924"
 			tasks: [
@@ -1903,8 +1903,8 @@
 			x: 9.25d
 			y: -5.75d
 			shape: "diamond"
-			subtitle: "SPAAAM !!"
-			description: ["&dThe Auto Fire Module&r, is used to add an auto fire to your bow."]
+			subtitle: "嗖！！"
+			description: ["自动射击模块，用于在你的弓上添加自动射击。"]
 			dependencies: ["43D8A13A6332EED2"]
 			id: "2AAC55788A050102"
 			tasks: [{
@@ -1920,16 +1920,16 @@
 			}]
 		}
 		{
-			title: "Flight Module"
+			title: "飞行模块"
 			icon: "draconicevolution:draconic_flight_module"
 			x: 11.25d
 			y: -5.75d
 			shape: "diamond"
-			subtitle: "Better than Elytra"
+			subtitle: "比鞘翅更好"
 			description: [
-				"&dThe Flight Module&r gives you an Elytra on your Chest Piece."
+				"飞行模块可以让你像鞘翅一样飞行。 "
 				""
-				"By unlocking &6The Draconic Flight Module &ryou will be able to have the &ecreative flight&r."
+				"通过解锁飞行模块，你能得到创造模式飞行。"
 			]
 			dependencies: ["43D8A13A6332EED2"]
 			id: "1557336B54F57A9A"
@@ -1967,7 +1967,7 @@
 			x: 9.75d
 			y: -6.25d
 			shape: "diamond"
-			description: ["&dThe Damage Module&r is used to increase the damage done by your weapons."]
+			description: ["伤害模块用于增加你的武器造成的伤害。"]
 			dependencies: ["43D8A13A6332EED2"]
 			id: "4A57962B8E57D1A7"
 			tasks: [
@@ -2006,13 +2006,13 @@
 			}]
 		}
 		{
-			title: "Undying Module"
+			title: "不死模块"
 			icon: "draconicevolution:draconic_undying_module"
 			x: 10.75d
 			y: -6.25d
 			shape: "diamond"
-			subtitle: "Invincible ?"
-			description: ["&dThe Undying Module&r is basically a totem of undying installable on your Chest Piece."]
+			subtitle: "不可战胜 ?"
+			description: ["不死模块基本上是一个可以安装在你的胸甲上的不死图腾。"]
 			dependencies: ["43D8A13A6332EED2"]
 			id: "58807F617712CD5E"
 			tasks: [
@@ -2044,7 +2044,7 @@
 			x: 8.75d
 			y: -6.25d
 			shape: "diamond"
-			description: ["&dThe Energy Module&r is used to increase the energy of your stuff."]
+			description: ["能量模块是用来增加你的物品的能量。 "]
 			dependencies: ["43D8A13A6332EED2"]
 			id: "73D9F3F5021CB3BE"
 			tasks: [
@@ -2082,7 +2082,7 @@
 			x: 8.25d
 			y: -5.75d
 			shape: "diamond"
-			description: ["&dThe Auto Feed Module&r is used to store food and auto feed you."]
+			description: ["自动进食模块用于存储食物和自动进食。"]
 			dependencies: ["43D8A13A6332EED2"]
 			id: "5A5CC92C8F717AF2"
 			tasks: [
@@ -2122,12 +2122,12 @@
 			]
 		}
 		{
-			title: "Projectile Velocity Module"
+			title: "弹射物伤害模块"
 			icon: "draconicevolution:draconic_proj_velocity_module"
 			x: 12.25d
 			y: -5.75d
 			shape: "diamond"
-			description: ["&dThe Projectile Velocity Module&r is used to increase the velocity of your arrow when you shoot thus giving more damage."]
+			description: ["弹射物伤害模块用于增加你箭的速度，让你的射击造成更多的伤害。"]
 			dependencies: ["43D8A13A6332EED2"]
 			id: "31B92C93D8A5AD0F"
 			tasks: [
@@ -2155,12 +2155,12 @@
 			}]
 		}
 		{
-			title: "Projectile Penetration Module"
+			title: "弹射物破防模块"
 			icon: "draconicevolution:draconic_proj_penetration_module"
 			x: 8.75d
 			y: -5.25d
 			shape: "diamond"
-			description: ["&dThe Projectile Penetration Module&r is used to penetrate armor when you shoot an arrow, sometimes you can even pass through a target and potentially hit additional targets."]
+			description: ["弹射物破防模块是用来穿透装甲，当你射出箭时有可能穿过一个目标，并有可能击中其他目标。"]
 			dependencies: ["43D8A13A6332EED2"]
 			id: "73B0758F988F5B1E"
 			tasks: [
@@ -2188,12 +2188,12 @@
 			}]
 		}
 		{
-			title: "Projectile Damage Module"
+			title: "射击伤害模块"
 			icon: "draconicevolution:draconic_proj_damage_module"
 			x: 10.25d
 			y: -6.75d
 			shape: "diamond"
-			description: ["&dThe Projectile Damage Module&r is used to increase the damage done by your arrows."]
+			description: ["射击伤害模块用于增加箭的伤害。"]
 			dependencies: ["43D8A13A6332EED2"]
 			id: "78772368DFA48594"
 			tasks: [
@@ -2221,12 +2221,12 @@
 			}]
 		}
 		{
-			title: "Shield Recovery Module"
+			title: "护盾恢复模块"
 			icon: "draconicevolution:draconic_shield_recovery_module"
 			x: 10.25d
 			y: -3.75d
 			shape: "diamond"
-			description: ["&dThe Shield Recovery Module&r allows you to improve your shield recharge of your Chest Piece."]
+			description: ["护盾恢复模块可以提高胸甲的护盾充能速度。"]
 			dependencies: ["43D8A13A6332EED2"]
 			id: "16A6F3780EB642DF"
 			tasks: [
@@ -2258,7 +2258,7 @@
 			x: 11.25d
 			y: -6.75d
 			shape: "diamond"
-			description: ["&dThe Jump Module&r is used to give you a Jump Boost effect."]
+			description: ["跳跃模块是用来给你一个跳跃增强效果的。"]
 			dependencies: ["43D8A13A6332EED2"]
 			id: "50672D76931111B7"
 			tasks: [
@@ -2297,11 +2297,11 @@
 			}]
 		}
 		{
-			title: "Projectile Accuracy Module"
+			title: "弹射物精准模块"
 			x: 11.75d
 			y: -6.25d
 			shape: "diamond"
-			description: ["&dThe Projectile Accuracy Module&r is used to improve your accuracy with the bow."]
+			description: ["弹射弹精度模块用于提高你使用弓的精度。"]
 			dependencies: ["43D8A13A6332EED2"]
 			id: "0D9836767D19AD29"
 			tasks: [
@@ -2329,12 +2329,12 @@
 			}]
 		}
 		{
-			title: "Shield Control Module"
+			title: "护盾控制模块"
 			icon: "draconicevolution:draconic_shield_control_module"
 			x: 9.25d
 			y: -6.75d
 			shape: "diamond"
-			description: ["&dThe Shield Control Module&r is used to decrease the Shield Cooldown."]
+			description: ["护盾控制模块用于降低护盾冷却时间。"]
 			dependencies: ["43D8A13A6332EED2"]
 			id: "58644BAC82442736"
 			tasks: [
@@ -2362,13 +2362,13 @@
 			}]
 		}
 		{
-			title: "Large Shield Capacity Module"
+			title: "大型护盾容量模块"
 			icon: "draconicevolution:draconic_large_shield_capacity_module"
 			x: 9.25d
 			y: -3.75d
 			shape: "diamond"
-			subtitle: "Better, stronger !"
-			description: ["&dThe Large Shield Capacity Module&r is used to increase your Energy Shield but take less place in your tool modules GUI."]
+			subtitle: "更好,更强！"
+			description: ["大护盾容量模块用于增加你的能量护盾，但在你的工具模块GUI中占较少的位置。"]
 			dependencies: ["43D8A13A6332EED2"]
 			id: "5682283F40F723BD"
 			tasks: [
@@ -2396,12 +2396,12 @@
 			}]
 		}
 		{
-			title: "Shield Capacity Module"
+			title: "护盾容量模块"
 			icon: "draconicevolution:draconic_shield_capacity_module"
 			x: 11.25d
 			y: -3.75d
 			shape: "diamond"
-			description: ["&dThe Shield Capacity Module&r is used to increase your Energy Shield."]
+			description: ["护盾容量模块用于增加你的能量护盾。"]
 			dependencies: ["43D8A13A6332EED2"]
 			id: "33169CEAB7D4C86D"
 			tasks: [
@@ -2429,56 +2429,56 @@
 			}]
 		}
 		{
-			title: "Draconic Energy Storage"
+			title: "能量核心的存储"
 			icon: "draconicevolution:energy_core_stabilizer"
 			x: -3.5d
 			y: -7.0d
 			shape: "hexagon"
 			description: [
-				"&dDraconic Energy Storage&r is used to store a lot of energy."
+				"能量核心是用来储存大量的能量。"
 				""
-				"&dThe Energy Core&r is in the center of draconic ball."
+				"能量核心是龙球的中心"
 				""
-				"&dThe Energy Pylons&r are used to insert or extract energy. To work you need to put a glass block on the top or below the Pylon to activate it."
+				"能量塔用于输入或输出能量。为了运行它，你需要把一个玻璃放在塔的顶部或下面来激活它。"
 				""
-				"&dThe Energy Core Stabilizers&r are here to stabilize your Draconic Ball&r."
-				"It needs to be 8 blocks max and 1 block min distance from your Draconic Ball."
+				"&d能量核心稳定器&r用来稳定你的龙球&r。"
+				"它最大离神龙反应堆8格，最小1格"
 				""
-				"&dTier 1&r (Can store 45.5M RF) : "
-				"• 4 Energy Stabilizer"
+				"&d1级&r（可以储存45.5MRF）："
+				"• 4个能量核心稳定器"
 				""
-				"&dTier 2&r (Can store 273M RF) :"
-				"• 6 Draconium Blocks"
-				"• 4 Energy Core Stabilizer"
+				"&d2级&r（可以存储273MRF）："
+				"• 6个龙块"
+				"• 4个能量核心稳定器"
 				""
-				"&dTier 3&r (Can store 1.6G RF) :"
-				"• 6 Draconium Blocks"
-				"• 4 Energy Core Stabilizer"
+				"&d3级&r（可以储存1.6GRF）："
+				"• 26个龙块"
+				"• 4个能量核心稳定器"
 				""
-				"&dTier 4&r (Can store 9.8G RF) :"
-				"• 54 Draconium Blocks"
-				"• 26 Redstone Blocks"
-				"• 4 Energy Core Stabilizer"
+				"&d4级&r（可以储存9.8GRF）："
+				"• 54个龙块"
+				"• 26 个红石块"
+				"• 4个能量核心稳定器"
 				""
-				"&dTier 5 &r(Can store 59.3G RF) :"
-				"• 150 Draconium Blocks"
-				"• 178 Redstone Blocks"
-				"• 36 Energy Core Stabilizer"
+				"&d5级&r(可以储存59.3GRF）："
+				"• 90个龙块"
+				"• 80个红石块"
+				"• 36个能量核心稳定器"
 				""
-				"&dTier 6&r (Can store 356G RF) :"
-				"• 150 Draconium Blocks"
-				"• 178 Redstone Blocks"
-				"• 36 Energy Core Stabilizer"
+				"&d6级&r（可以储存356GRF）："
+				"• 150个龙块"
+				"• 178个红石块"
+				"• 36个能量核心稳定器"
 				""
-				"&dTier 7&r (Can store 2.14T RF) :"
-				"• 210 Draconium Blocks"
-				"• 328 Redstone Blocks"
-				"• 36 Energy Core Stabilizer"
+				"&d7级&r（可以储存2.14TRF）："
+				"• 210个龙块"
+				"• 328个红石块"
+				"• 36个能量核心稳定器"
 				""
-				"&dTier 8&r (Can store Almost Infinite RF ► 9,223,372,036,854,775,807 RF)"
-				"• 378 Awakned Draconium Blocks"
-				"• 786 Draconium Blocks"
-				"• 36 Energy Core Stabilizer"
+				"&d8级&r（可以储存几乎无限RF►9,223,372,036,854,775,807RF)"
+				"• 378个觉醒龙块"
+				"• 786个龙块"
+				"• 36能量核心稳定器"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -2618,7 +2618,7 @@
 			}]
 		}
 		{
-			title: "Draconic Reactor"
+			title: "神龙反应堆"
 			icon: "draconicevolution:reactor_core"
 			x: -2.25d
 			y: -8.5d
@@ -2698,7 +2698,7 @@
 			x: -3.5d
 			y: -9.0d
 			shape: "hexagon"
-			description: ["&dThe Crystal Binder&r is used when linking Energy I/O Crystal."]
+			description: ["右击任意水晶，随后在限定范围内右击另一水晶，可将其连接。"]
 			hide_dependency_lines: true
 			dependencies: ["180340AB4EC31ADC"]
 			id: "269DDB274DB80BDF"
@@ -2734,7 +2734,7 @@
 			}]
 		}
 		{
-			title: "Endless Reactor Components - Part 1"
+			title: "无尽反应堆组件 - Part 1"
 			icon: "masterfulmachinery:endlessreactor_controller"
 			x: -2.25d
 			y: 6.25d
@@ -2838,7 +2838,7 @@
 			}]
 		}
 		{
-			title: "Endless Reactor Components - Part 2"
+			title: "无尽反应堆组件 - Part 2"
 			icon: "masterfulmachinery:endlessreactor_controller"
 			x: 0.25d
 			y: 6.25d
@@ -2957,7 +2957,7 @@
 			]
 		}
 		{
-			title: "Endless Reactor Components - Part 3"
+			title: "无尽反应堆组件 - Part 3"
 			icon: "masterfulmachinery:endlessreactor_controller"
 			x: 2.75d
 			y: 6.25d
@@ -3024,9 +3024,9 @@
 			x: 0.25d
 			y: 8.25d
 			description: [
-				"&cIn order to make create schematics work properly, please do not rotate them while building them !"
+				"为了使机械动力蓝图正常工作，请不要在建造时旋转它们"
 				""
-				"&bYou can use the Entangled mod to entangle the inputs of your masterful machineries and have a better automation."
+				"你可以使用纠缠方块模组来让你更好的自动化"
 			]
 			dependencies: [
 				"3D69A56B2F4BA228"

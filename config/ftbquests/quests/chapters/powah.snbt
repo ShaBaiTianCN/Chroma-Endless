@@ -3,7 +3,7 @@
 	group: "44A22EED2BE11886"
 	order_index: 0
 	filename: "powah"
-	title: "&bChapter 1&r &6-&r Fabrication Through Lasers"
+	title: "&b第一卷&r &6-&r 激光加工"
 	icon: {
 		id: "powah:battery_nitro"
 		Count: 1b
@@ -16,7 +16,7 @@
 			x: -21.0d
 			y: -1.75d
 			shape: "hexagon"
-			description: ["&bThe Energy Cell &fis a block used to &6store energy (FE)&f."]
+			description: ["&b能量单元&f是一个用来储存&6能量（FE）&f的方块。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"7F84739D2B32F4B2"
@@ -39,7 +39,7 @@
 			x: -14.25d
 			y: -1.75d
 			shape: "hexagon"
-			description: ["&bThe Energy Cell &fis a block used to &6store energy (FE)&f."]
+			description: ["&b能量单元&f是一个用来储存&6能量（FE）&f的方块。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"40129BA102A1B0B3"
@@ -61,7 +61,7 @@
 			x: -7.5d
 			y: -1.75d
 			shape: "hexagon"
-			description: ["&bThe Energy Cell &fis a block used to &6store energy (FE)&f."]
+			description: ["&b能量单元&f是一个用来储存&6能量（FE）&f的方块。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"09F8D23FB3250808"
@@ -83,7 +83,7 @@
 			x: -21.0d
 			y: 2.75d
 			shape: "hexagon"
-			description: ["&bThe Energy Cell &fis a block used to &6store energy (FE)&f."]
+			description: ["&b能量单元&f是一个用来储存&6能量（FE）&f的方块。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2532E79548B58213"
@@ -105,7 +105,7 @@
 			x: -14.25d
 			y: 2.75d
 			shape: "hexagon"
-			description: ["&bThe Energy Cell &fis a block used to &6store energy (FE)&f."]
+			description: ["&b能量单元&f是一个用来储存&6能量（FE）&f的方块。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"576932BEEA63B919"
@@ -127,7 +127,7 @@
 			x: -7.5d
 			y: 2.75d
 			shape: "hexagon"
-			description: ["&bThe Energy Cell &fis a block used to &6store energy (FE)&f."]
+			description: ["&b能量单元&f是一个用来储存&6能量（FE）&f的方块。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"59B336127CA627CD"
@@ -294,9 +294,9 @@
 			y: -5.25d
 			shape: "gear"
 			description: [
-				"&bThe Energizing Orb &fis a block used to energize items, it requires at least one &6Energizing Rod &fin range of 9X9 to work the energizing speed depends on amount of rods and the rod tier (I/O rate)."
+				"&b充能台&f是一个用来给物品充能的方块,它的9X9范围内至少需要一个&6充能棒&f来进行工作,充能速度取决于充能棒的数量和级别（I/O率）。"
 				""
-				"The orb does not require energy but the rods must be placed on cables or any &6Forge Energy (FE) &fblock to work."
+				"充能台不需要能量,但是充能棒必须要放在线缆或&6能量方块（FE）&f旁。"
 			]
 			dependencies: [
 				"445FDA407135DFE7"
@@ -333,9 +333,9 @@
 			y: -0.25d
 			shape: "hexagon"
 			description: [
-				"The &bEnder Gate &ftransfers energy between the &6adjacent block &fand the &6ender network&f."
+				"末影道门是一种无线传输电力的设备，传输速度由自身等级决定"
 				""
-				"Unlike the &6Ender cell &fyou can not Upgrade the network from it."
+				"末影道门无法升级频道容量"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -361,9 +361,9 @@
 			y: -0.25d
 			shape: "hexagon"
 			description: [
-				"The &bEnder Gate &ftransfers energy between the &6adjacent block &fand the &6ender network&f."
+				"末影道门是一种无线传输电力的设备，传输速度由自身等级决定"
 				""
-				"Unlike the &6Ender cell &fyou can not Upgrade the network from it."
+				"末影道门无法升级频道容量"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -389,9 +389,9 @@
 			y: -0.25d
 			shape: "hexagon"
 			description: [
-				"The &bEnder Gate &ftransfers energy between the &6adjacent block &fand the &6ender network&f."
+				"末影道门是一种无线传输电力的设备，传输速度由自身等级决定"
 				""
-				"Unlike the &6Ender cell &fyou can not Upgrade the network from it."
+				"末影道门无法升级频道容量"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -417,9 +417,9 @@
 			y: 4.25d
 			shape: "hexagon"
 			description: [
-				"The &bEnder Gate &ftransfers energy between the &6adjacent block &fand the &6ender network&f."
+				"末影道门是一种无线传输电力的设备，传输速度由自身等级决定"
 				""
-				"Unlike the &6Ender cell &fyou can not Upgrade the network from it."
+				"末影道门无法升级频道容量"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -445,9 +445,9 @@
 			y: 4.25d
 			shape: "hexagon"
 			description: [
-				"The &bEnder Gate &ftransfers energy between the &6adjacent block &fand the &6ender network&f."
+				"末影道门是一种无线传输电力的设备，传输速度由自身等级决定"
 				""
-				"Unlike the &6Ender cell &fyou can not Upgrade the network from it."
+				"末影道门无法升级频道容量"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -473,9 +473,9 @@
 			y: 4.25d
 			shape: "hexagon"
 			description: [
-				"The &bEnder Gate &ftransfers energy between the &6adjacent block &fand the &6ender network&f."
+				"末影道门是一种无线传输电力的设备，传输速度由自身等级决定"
 				""
-				"Unlike the &6Ender cell &fyou can not Upgrade the network from it."
+				"末影道门无法升级频道容量"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -501,9 +501,9 @@
 			y: 0.5d
 			shape: "hexagon"
 			description: [
-				"&bCables &fare used to &6transfer power &fbetween machines."
+				"用于在机器之间传输电力的线缆"
 				""
-				"You can change &6transfer mode &fof by &6right-clicking &fa cable using &bWrench &fwith Config mode selected."
+				""
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -528,7 +528,7 @@
 			x: -8.0d
 			y: 0.5d
 			shape: "hexagon"
-			description: ["&bCables &fare used to &6transfer power &fbetween machines."]
+			description: ["用于在机器之间传输电力的线缆"]
 			hide_dependency_lines: true
 			dependencies: [
 				"445FDA407135DFE7"
@@ -551,7 +551,7 @@
 			x: -14.75d
 			y: 0.5d
 			shape: "hexagon"
-			description: ["&bCables &fare used to &6transfer power &fbetween machines."]
+			description: ["用于在机器之间传输电力的线缆"]
 			hide_dependency_lines: true
 			dependencies: [
 				"445FDA407135DFE7"
@@ -574,7 +574,7 @@
 			x: -21.5d
 			y: 5.0d
 			shape: "hexagon"
-			description: ["&bCables &fare used to &6transfer power &fbetween machines."]
+			description: ["用于在机器之间传输电力的线缆"]
 			hide_dependency_lines: true
 			dependencies: [
 				"445FDA407135DFE7"
@@ -597,7 +597,7 @@
 			x: -14.75d
 			y: 5.0d
 			shape: "hexagon"
-			description: ["&bCables &fare used to &6transfer power &fbetween machines."]
+			description: ["用于在机器之间传输电力的线缆"]
 			hide_dependency_lines: true
 			dependencies: [
 				"445FDA407135DFE7"
@@ -620,7 +620,7 @@
 			x: -8.0d
 			y: 5.0d
 			shape: "hexagon"
-			description: ["&bCables &fare used to &6transfer power &fbetween machines."]
+			description: ["用于在机器之间传输电力的线缆"]
 			hide_dependency_lines: true
 			dependencies: [
 				"445FDA407135DFE7"
@@ -644,9 +644,9 @@
 			y: -1.75d
 			shape: "hexagon"
 			description: [
-				"&bThe Ender Cell &fis a block used to &6store energy (FE) &fto a specific channel of the &6ender network &fof the owner."
+				"末影单元是用于将能量存储到所有者的末影网络的特定通道。"
 				""
-				"You can access the energy stored of a selected channel from anywhere in the world if the &bEnder Cell &fthat you want to transfer power from/to have an active channel with a valid capacity."
+				"如果一个频道有有效的电容空间并存有能量，你便可以在任意位置的末影单元中访问该频道并提取其中的能量。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -671,9 +671,9 @@
 			y: -1.75d
 			shape: "hexagon"
 			description: [
-				"&bThe Ender Cell &fis a block used to &6store energy (FE) &fto a specific channel of the &6ender network &fof the owner."
+				"末影单元是用于将能量存储到所有者的末影网络的特定通道。"
 				""
-				"You can access the energy stored of a selected channel from anywhere in the world if the &bEnder Cell &fthat you want to transfer power from/to have an active channel with a valid capacity."
+				"如果一个频道有有效的电容空间并存有能量，你便可以在任意位置的末影单元中访问该频道并提取其中的能量。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -698,9 +698,9 @@
 			y: -1.75d
 			shape: "hexagon"
 			description: [
-				"&bThe Ender Cell &fis a block used to &6store energy (FE) &fto a specific channel of the &6ender network &fof the owner."
+				"末影单元是用于将能量存储到所有者的末影网络的特定通道。"
 				""
-				"You can access the energy stored of a selected channel from anywhere in the world if the &bEnder Cell &fthat you want to transfer power from/to have an active channel with a valid capacity."
+				"如果一个频道有有效的电容空间并存有能量，你便可以在任意位置的末影单元中访问该频道并提取其中的能量。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -725,9 +725,9 @@
 			y: 2.75d
 			shape: "hexagon"
 			description: [
-				"&bThe Ender Cell &fis a block used to &6store energy (FE) &fto a specific channel of the &6ender network &fof the owner."
+				"末影单元是用于将能量存储到所有者的末影网络的特定通道。"
 				""
-				"You can access the energy stored of a selected channel from anywhere in the world if the &bEnder Cell &fthat you want to transfer power from/to have an active channel with a valid capacity."
+				"如果一个频道有有效的电容空间并存有能量，你便可以在任意位置的末影单元中访问该频道并提取其中的能量。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -752,9 +752,9 @@
 			y: 2.75d
 			shape: "hexagon"
 			description: [
-				"&bThe Ender Cell &fis a block used to &6store energy (FE) &fto a specific channel of the &6ender network &fof the owner."
+				"末影单元是用于将能量存储到所有者的末影网络的特定通道。"
 				""
-				"You can access the energy stored of a selected channel from anywhere in the world if the &bEnder Cell &fthat you want to transfer power from/to have an active channel with a valid capacity."
+				"如果一个频道有有效的电容空间并存有能量，你便可以在任意位置的末影单元中访问该频道并提取其中的能量。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -779,9 +779,9 @@
 			y: 2.75d
 			shape: "hexagon"
 			description: [
-				"&bThe Ender Cell &fis a block used to &6store energy (FE) &fto a specific channel of the &6ender network &fof the owner."
+				"末影单元是用于将能量存储到所有者的末影网络的特定通道。"
 				""
-				"You can access the energy stored of a selected channel from anywhere in the world if the &bEnder Cell &fthat you want to transfer power from/to have an active channel with a valid capacity."
+				"如果一个频道有有效的电容空间并存有能量，你便可以在任意位置的末影单元中访问该频道并提取其中的能量。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -805,7 +805,7 @@
 			x: -19.5d
 			y: -1.0d
 			shape: "hexagon"
-			description: ["&bThe Furnator&f is a &6FE generator &fthat generates energy from &6solid Furnace fuel &f like coal, wood..."]
+			description: ["一般来说能在熔炉里烧的燃料都能放里面，发电效率取决于等级并非燃料，燃料只是提供更长的燃烧时间。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"40BF3EE3318C55B4"
@@ -830,7 +830,7 @@
 			x: -12.75d
 			y: -1.0d
 			shape: "hexagon"
-			description: ["&bThe Furnator&f is a &6FE generator &fthat generates energy from &6solid Furnace fuel &f like coal, wood..."]
+			description: ["一般来说能在熔炉里烧的燃料都能放里面，发电效率取决于等级并非燃料，燃料只是提供更长的燃烧时间。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"40BF3EE3318C55B4"
@@ -855,7 +855,7 @@
 			x: -6.0d
 			y: -1.0d
 			shape: "hexagon"
-			description: ["&bThe Furnator&f is a &6FE generator &fthat generates energy from &6solid Furnace fuel &f like coal, wood..."]
+			description: ["一般来说能在熔炉里烧的燃料都能放里面，发电效率取决于等级并非燃料，燃料只是提供更长的燃烧时间。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"40BF3EE3318C55B4"
@@ -880,7 +880,7 @@
 			x: -19.5d
 			y: 3.5d
 			shape: "hexagon"
-			description: ["&bThe Furnator&f is a &6FE generator &fthat generates energy from &6solid Furnace fuel &f like coal, wood..."]
+			description: ["一般来说能在熔炉里烧的燃料都能放里面，发电效率取决于等级并非燃料，燃料只是提供更长的燃烧时间。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"40BF3EE3318C55B4"
@@ -905,7 +905,7 @@
 			x: -12.75d
 			y: 3.5d
 			shape: "hexagon"
-			description: ["&bThe Furnator&f is a &6FE generator &fthat generates energy from &6solid Furnace fuel &f like coal, wood..."]
+			description: ["一般来说能在熔炉里烧的燃料都能放里面，发电效率取决于等级并非燃料，燃料只是提供更长的燃烧时间。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"40BF3EE3318C55B4"
@@ -930,7 +930,7 @@
 			x: -6.0d
 			y: 3.5d
 			shape: "hexagon"
-			description: ["&bThe Furnator&f is a &6FE generator &fthat generates energy from &6solid Furnace fuel &f like coal, wood..."]
+			description: ["一般来说能在熔炉里烧的燃料都能放里面，发电效率取决于等级并非燃料，燃料只是提供更长的燃烧时间。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"40BF3EE3318C55B4"
@@ -955,7 +955,7 @@
 			x: -21.5d
 			y: -1.0d
 			shape: "hexagon"
-			description: ["&bThe Magmator &fis a &6FE generator &fthat generates energy from &6high temp fluid &flike Lava."]
+			description: ["岩浆发电机通过通入并消耗岩浆等高温流体产生能量。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"40BF3EE3318C55B4"
@@ -981,7 +981,7 @@
 			x: -14.75d
 			y: -1.0d
 			shape: "hexagon"
-			description: ["&bThe Magmator &fis a &6FE generator &fthat generates energy from &6high temp fluid &flike Lava."]
+			description: ["岩浆发电机通过通入并消耗岩浆等高温流体产生能量。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"40BF3EE3318C55B4"
@@ -1007,7 +1007,7 @@
 			x: -8.0d
 			y: -1.0d
 			shape: "hexagon"
-			description: ["&bThe Magmator &fis a &6FE generator &fthat generates energy from &6high temp fluid &flike Lava."]
+			description: ["岩浆发电机通过通入并消耗岩浆等高温流体产生能量。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"40BF3EE3318C55B4"
@@ -1033,7 +1033,7 @@
 			x: -21.5d
 			y: 3.5d
 			shape: "hexagon"
-			description: ["&bThe Magmator &fis a &6FE generator &fthat generates energy from &6high temp fluid &flike Lava."]
+			description: ["岩浆发电机通过通入并消耗岩浆等高温流体产生能量。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"40BF3EE3318C55B4"
@@ -1059,7 +1059,7 @@
 			x: -14.75d
 			y: 3.5d
 			shape: "hexagon"
-			description: ["&bThe Magmator &fis a &6FE generator &fthat generates energy from &6high temp fluid &flike Lava."]
+			description: ["岩浆发电机通过通入并消耗岩浆等高温流体产生能量。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"40BF3EE3318C55B4"
@@ -1085,7 +1085,7 @@
 			x: -8.0d
 			y: 3.5d
 			shape: "hexagon"
-			description: ["&bThe Magmator &fis a &6FE generator &fthat generates energy from &6high temp fluid &flike Lava."]
+			description: ["岩浆发电机通过通入并消耗岩浆等高温流体产生能量。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"40BF3EE3318C55B4"
@@ -1111,7 +1111,7 @@
 			x: -18.5d
 			y: -1.0d
 			shape: "hexagon"
-			description: ["&bThe Thermo Generator &fis a &6FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			description: ["热力发电机需要放在岩浆块和岩浆之类的高温块上才能发电，需要消耗水作为冷却剂。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"40BF3EE3318C55B4"
@@ -1136,7 +1136,7 @@
 			x: -11.75d
 			y: -1.0d
 			shape: "hexagon"
-			description: ["&bThe Thermo Generator &fis a &6FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			description: ["热力发电机需要放在岩浆块和岩浆之类的高温块上才能发电，需要消耗水作为冷却剂。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"40BF3EE3318C55B4"
@@ -1161,7 +1161,7 @@
 			x: -5.0d
 			y: -1.0d
 			shape: "hexagon"
-			description: ["&bThe Thermo Generator &fis a &6FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			description: ["热力发电机需要放在岩浆块和岩浆之类的高温块上才能发电，需要消耗水作为冷却剂。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"40BF3EE3318C55B4"
@@ -1186,7 +1186,7 @@
 			x: -18.5d
 			y: 3.5d
 			shape: "hexagon"
-			description: ["&bThe Thermo Generator &fis a &6FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			description: ["热力发电机需要放在岩浆块和岩浆之类的高温块上才能发电，需要消耗水作为冷却剂。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"40BF3EE3318C55B4"
@@ -1211,7 +1211,7 @@
 			x: -11.75d
 			y: 3.5d
 			shape: "hexagon"
-			description: ["&bThe Thermo Generator &fis a &6FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			description: ["热力发电机需要放在岩浆块和岩浆之类的高温块上才能发电，需要消耗水作为冷却剂。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"40BF3EE3318C55B4"
@@ -1236,7 +1236,7 @@
 			x: -5.0d
 			y: 3.5d
 			shape: "hexagon"
-			description: ["&bThe Thermo Generator &fis a &6FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run."]
+			description: ["热力发电机需要放在岩浆块和岩浆之类的高温块上才能发电，需要消耗水作为冷却剂。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"40BF3EE3318C55B4"
@@ -1261,7 +1261,7 @@
 			x: -19.0d
 			y: -0.25d
 			shape: "hexagon"
-			description: ["&bThe Solar Panel &fis a &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
+			description: ["吸收太阳能转化为FE能量，在阳光消失时停止工作，如黄昏，如果太阳能板上方有任何方块太阳能板将停止工作。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"40BF3EE3318C55B4"
@@ -1285,7 +1285,7 @@
 			x: -12.25d
 			y: -0.25d
 			shape: "hexagon"
-			description: ["&bThe Solar Panel &fis a &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
+			description: ["吸收太阳能转化为FE能量，在阳光消失时停止工作，如黄昏，如果太阳能板上方有任何方块太阳能板将停止工作。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"47CB001EBAA0BB0E"
@@ -1308,7 +1308,7 @@
 			x: -5.5d
 			y: -0.25d
 			shape: "hexagon"
-			description: ["&bThe Solar Panel &fis a &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
+			description: ["吸收太阳能转化为FE能量，在阳光消失时停止工作，如黄昏，如果太阳能板上方有任何方块太阳能板将停止工作。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"47CB001EBAA0BB0E"
@@ -1331,7 +1331,7 @@
 			x: -19.0d
 			y: 4.25d
 			shape: "hexagon"
-			description: ["&bThe Solar Panel &fis an &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
+			description: ["吸收太阳能转化为FE能量，在阳光消失时停止工作，如黄昏，如果太阳能板上方有任何方块太阳能板将停止工作。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"5896C9C33F79614E"
@@ -1354,7 +1354,7 @@
 			x: -12.25d
 			y: 4.25d
 			shape: "hexagon"
-			description: ["&bThe Solar Panel &fis a &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
+			description: ["吸收太阳能转化为FE能量，在阳光消失时停止工作，如黄昏，如果太阳能板上方有任何方块太阳能板将停止工作。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"47CB001EBAA0BB0E"
@@ -1377,7 +1377,7 @@
 			x: -5.5d
 			y: 4.25d
 			shape: "hexagon"
-			description: ["&bThe Solar Panel &fis a &6FE generator &fthat generates energy when &6exposed to sunlight&f."]
+			description: ["吸收太阳能转化为FE能量，在阳光消失时停止工作，如黄昏，如果太阳能板上方有任何方块太阳能板将停止工作。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"47CB001EBAA0BB0E"
@@ -1400,7 +1400,7 @@
 			x: -22.5d
 			y: -1.0d
 			shape: "hexagon"
-			description: ["&bThe Reactor &fis a multi-block &6FE generator &fthat use &6Uraninite &fas main fuel."]
+			description: ["反应堆是一种以晶质铀为燃料的多方块FE产能器的基础方块。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"0BC66BB4F4B5D047"
@@ -1425,7 +1425,7 @@
 			x: -15.75d
 			y: -1.0d
 			shape: "hexagon"
-			description: ["&bThe Reactor &fis a multi-block &6FE generator &fthat use &6Uraninite &fas main fuel."]
+			description: ["反应堆是一种以晶质铀为燃料的多方块FE产能器的基础方块。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"0BC66BB4F4B5D047"
@@ -1450,7 +1450,7 @@
 			x: -9.0d
 			y: -1.0d
 			shape: "hexagon"
-			description: ["&bThe Reactor &fis a multi-block &6FE generator &fthat use &6Uraninite &fas main fuel."]
+			description: ["反应堆是一种以晶质铀为燃料的多方块FE产能器的基础方块。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"0BC66BB4F4B5D047"
@@ -1475,7 +1475,7 @@
 			x: -22.5d
 			y: 3.5d
 			shape: "hexagon"
-			description: ["&bThe Reactor &fis a multi-block &6FE generator &fthat use &6Uraninite &fas main fuel."]
+			description: ["反应堆是一种以晶质铀为燃料的多方块FE产能器的基础方块。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"0BC66BB4F4B5D047"
@@ -1500,7 +1500,7 @@
 			x: -15.75d
 			y: 3.5d
 			shape: "hexagon"
-			description: ["&bThe Reactor &fis a multi-block &6FE generator &fthat use &6Uraninite &fas main fuel."]
+			description: ["反应堆是一种以晶质铀为燃料的多方块FE产能器的基础方块。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"0BC66BB4F4B5D047"
@@ -1525,7 +1525,7 @@
 			x: -9.0d
 			y: 3.5d
 			shape: "hexagon"
-			description: ["&bThe Reactor &fis a multi-block &6FE generator &fthat use &6Uraninite &fas main fuel."]
+			description: ["反应堆是一种以晶质铀为燃料的多方块FE产能器的基础方块。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"0BC66BB4F4B5D047"
@@ -1550,7 +1550,7 @@
 			x: -21.0d
 			y: -0.25d
 			shape: "hexagon"
-			description: ["&bThe Player Transmitter &fis a block used to &6charge items wirelessly &fin a &6linked player inventory &fincluding armor slots and off-hand anywhere in the &6same dimension &fwhen you use a normal &6binding card &fand &6across dimensions &fwhen you use a &6dimensional binding card&f."]
+			description: ["供电仪通电并放入已绑定玩家的绑定卡后可以给玩家物品栏内的所有物品充电，如果放入的是绑定卡（跨维度）则只要供电仪所在的区块加载便可以跨维度为玩家物品栏内的物品充电。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"11F5BC9ED455C37F"
@@ -1573,7 +1573,7 @@
 			x: -14.25d
 			y: -0.25d
 			shape: "hexagon"
-			description: ["&bThe Player Transmitter &fis a block used to &6charge items wirelessly &fin a &6linked player inventory &fincluding armor slots and off-hand anywhere in the &6same dimension &fwhen you use a normal &6binding card &fand &6across dimensions &fwhen you use a &6dimensional binding card&f."]
+			description: ["供电仪通电并放入已绑定玩家的绑定卡后可以给玩家物品栏内的所有物品充电，如果放入的是绑定卡（跨维度）则只要供电仪所在的区块加载便可以跨维度为玩家物品栏内的物品充电。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"0F59312901AF148D"
@@ -1596,7 +1596,7 @@
 			x: -7.5d
 			y: -0.25d
 			shape: "hexagon"
-			description: ["&bThe Player Transmitter &fis a block used to &6charge items wirelessly &fin a &6linked player inventory &fincluding armor slots and off-hand anywhere in the &6same dimension &fwhen you use a normal &6binding card &fand &6across dimensions &fwhen you use a &6dimensional binding card&f."]
+			description: ["供电仪通电并放入已绑定玩家的绑定卡后可以给玩家物品栏内的所有物品充电，如果放入的是绑定卡（跨维度）则只要供电仪所在的区块加载便可以跨维度为玩家物品栏内的物品充电。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"0F59312901AF148D"
@@ -1619,7 +1619,7 @@
 			x: -21.0d
 			y: 4.25d
 			shape: "hexagon"
-			description: ["&bThe Player Transmitter &fis a block used to &6charge items wirelessly &fin a &6linked player inventory &fincluding armor slots and off-hand anywhere in the &6same dimension &fwhen you use a normal &6binding card &fand &6across dimensions &fwhen you use a &6dimensional binding card&f."]
+			description: ["供电仪通电并放入已绑定玩家的绑定卡后可以给玩家物品栏内的所有物品充电，如果放入的是绑定卡（跨维度）则只要供电仪所在的区块加载便可以跨维度为玩家物品栏内的物品充电。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"0F59312901AF148D"
@@ -1642,7 +1642,7 @@
 			x: -14.25d
 			y: 4.25d
 			shape: "hexagon"
-			description: ["&bThe Player Transmitter &fis a block used to &6charge items wirelessly &fin a &6linked player inventory &fincluding armor slots and off-hand anywhere in the &6same dimension &fwhen you use a normal &6binding card &fand &6across dimensions &fwhen you use a &6dimensional binding card&f."]
+			description: ["供电仪通电并放入已绑定玩家的绑定卡后可以给玩家物品栏内的所有物品充电，如果放入的是绑定卡（跨维度）则只要供电仪所在的区块加载便可以跨维度为玩家物品栏内的物品充电。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"0F59312901AF148D"
@@ -1665,7 +1665,7 @@
 			x: -7.5d
 			y: 4.25d
 			shape: "hexagon"
-			description: ["&bThe Player Transmitter &fis a block used to &6charge items wirelessly &fin a &6linked player inventory &fincluding armor slots and off-hand anywhere in the &6same dimension &fwhen you use a normal &6binding card &fand &6across dimensions &fwhen you use a &6dimensional binding card&f."]
+			description: ["供电仪通电并放入已绑定玩家的绑定卡后可以给玩家物品栏内的所有物品充电，如果放入的是绑定卡（跨维度）则只要供电仪所在的区块加载便可以跨维度为玩家物品栏内的物品充电。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"0F59312901AF148D"
@@ -1688,7 +1688,7 @@
 			x: -22.0d
 			y: -1.75d
 			shape: "hexagon"
-			description: ["&bThe Energy Hopper &fis a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
+			description: ["&b能量漏斗&f可以充能面向端的&6可交互物品栏（如箱子）&f内的需要&6能量的物品&f。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"3AC2609EA33632B8"
@@ -1713,7 +1713,7 @@
 			x: -15.25d
 			y: -1.75d
 			shape: "hexagon"
-			description: ["&bThe Energy Hopper &fis a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
+			description: ["&b能量漏斗&f可以充能面向端的&6可交互物品栏（如箱子）&f内的需要&6能量的物品&f。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"3AC2609EA33632B8"
@@ -1737,7 +1737,7 @@
 			x: -8.5d
 			y: -1.75d
 			shape: "hexagon"
-			description: ["&bThe Energy Hopper &fis a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
+			description: ["&b能量漏斗&f可以充能面向端的&6可交互物品栏（如箱子）&f内的需要&6能量的物品&f。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"3AC2609EA33632B8"
@@ -1761,7 +1761,7 @@
 			x: -22.0d
 			y: 2.75d
 			shape: "hexagon"
-			description: ["&bThe Energy Hopper &fis a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
+			description: ["&b能量漏斗&f可以充能面向端的&6可交互物品栏（如箱子）&f内的需要&6能量的物品&f。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"3AC2609EA33632B8"
@@ -1785,7 +1785,7 @@
 			x: -15.25d
 			y: 2.75d
 			shape: "hexagon"
-			description: ["&bThe Energy Hopper &fis a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
+			description: ["&b能量漏斗&f可以充能面向端的&6可交互物品栏（如箱子）&f内的需要&6能量的物品&f。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"3AC2609EA33632B8"
@@ -1809,7 +1809,7 @@
 			x: -8.5d
 			y: 2.75d
 			shape: "hexagon"
-			description: ["&bThe Energy Hopper &fis a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy."]
+			description: ["&b能量漏斗&f可以充能面向端的&6可交互物品栏（如箱子）&f内的需要&6能量的物品&f。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"3AC2609EA33632B8"
@@ -1833,7 +1833,7 @@
 			x: -19.0d
 			y: -1.75d
 			shape: "hexagon"
-			description: ["&bThe energy Discharger &fis a block used to &6drain energy &fout of &6charged items &fand then store it to an internal buffer if then connected via cables to extract that stored power and re-using it again."]
+			description: ["能量提取器能将物品内存有的能量提取到内部的缓存中，接入电缆能将内部能量转移出并再次使用，作用类似于回收站，将物品中的多余能量再次使用。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"618E76E66210CFC0"
@@ -1858,7 +1858,7 @@
 			x: -12.25d
 			y: -1.75d
 			shape: "hexagon"
-			description: ["&bThe energy Discharger &fis a block used to &6drain energy &fout of &6charged items &fand then store it to an internal buffer if then connected via cables to extract that stored power and re-using it again."]
+			description: ["能量提取器能将物品内存有的能量提取到内部的缓存中，接入电缆能将内部能量转移出并再次使用，作用类似于回收站，将物品中的多余能量再次使用。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"763A0C0A6F308E5D"
@@ -1881,7 +1881,7 @@
 			x: -19.0d
 			y: 2.75d
 			shape: "hexagon"
-			description: ["&bThe energy Discharger &fis a block used to &6drain energy &fout of &6charged items &fand then store it to an internal buffer if then connected via cables to extract that stored power and re-using it again."]
+			description: ["能量提取器能将物品内存有的能量提取到内部的缓存中，接入电缆能将内部能量转移出并再次使用，作用类似于回收站，将物品中的多余能量再次使用。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2911A1ABA35B09A4"
@@ -1904,7 +1904,7 @@
 			x: -5.5d
 			y: -1.75d
 			shape: "hexagon"
-			description: ["&bThe energy Discharger &fis a block used to &6drain energy &fout of &6charged items &fand then store it to an internal buffer if then connected via cables to extract that stored power and re-using it again."]
+			description: ["能量提取器能将物品内存有的能量提取到内部的缓存中，接入电缆能将内部能量转移出并再次使用，作用类似于回收站，将物品中的多余能量再次使用。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2911A1ABA35B09A4"
@@ -1927,7 +1927,7 @@
 			x: -12.25d
 			y: 2.75d
 			shape: "hexagon"
-			description: ["&bThe energy Discharger &fis a block used to &6drain energy &fout of &6charged items &fand then store it to an internal buffer if then connected via cables to extract that stored power and re-using it again."]
+			description: ["能量提取器能将物品内存有的能量提取到内部的缓存中，接入电缆能将内部能量转移出并再次使用，作用类似于回收站，将物品中的多余能量再次使用。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2911A1ABA35B09A4"
@@ -1950,7 +1950,7 @@
 			x: -5.5d
 			y: 2.75d
 			shape: "hexagon"
-			description: ["&bThe energy Discharger &fis a block used to &6drain energy &fout of &6charged items &fand then store it to an internal buffer if then connected via cables to extract that stored power and re-using it again."]
+			description: ["能量提取器能将物品内存有的能量提取到内部的缓存中，接入电缆能将内部能量转移出并再次使用，作用类似于回收站，将物品中的多余能量再次使用。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2911A1ABA35B09A4"
@@ -1973,7 +1973,7 @@
 			x: -14.25d
 			y: -3.25d
 			shape: "diamond"
-			description: ["Dry Ice used mainly to cool down reactors, it can be found underground at levels 1 - 64, you can also obtain it by energizing twi pieces of blue ice."]
+			description: ["干冰主要用于冷却反应堆，它可以在地下1 - 64层找到，你也可以通过两块蓝冰来获得它。"]
 			dependencies: ["1D23D686D1A72DC6"]
 			id: "485B8E77AFCC1B9B"
 			tasks: [{
@@ -1993,13 +1993,13 @@
 			x: -12.5d
 			y: -9.25d
 			description: [
-				"&bThe Wrench &fas 3 modes :"
+				"&b扳手&f有3种模式："
 				""
-				"&6Config Mode&f: used to change cables I/O configuration."
+				"&6配置模式&f：修改线缆的I/O配置。"
 				""
-				"&6Link Mode&f: used to link linkable blocks like energizing orb and rods."
+				"&6链接模式&f：用于链接可链接的方块,比如充能台和充能棒。"
 				""
-				"&6Rotate Mode&f: used to rotate blocks horizontally."
+				"&6旋转模式&f：用于调整方块的方向。"
 			]
 			dependencies: [
 				"46FBC0E73EDEE865"
@@ -2185,7 +2185,7 @@
 			x: -22.0d
 			y: -0.25d
 			shape: "hexagon"
-			description: ["&bBattery &fcharges items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
+			description: ["当在玩家背包中时，电池可以为物品充能，也可以右键打开末影单元的GUI然后shift+左键点击电池来升级末影单元的能量上限。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2911A1ABA35B09A4"
@@ -2214,7 +2214,7 @@
 			x: -15.25d
 			y: -0.25d
 			shape: "hexagon"
-			description: ["&bBattery &fcharges items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
+			description: ["当在玩家背包中时，电池可以为物品充能，也可以右键打开末影单元的GUI然后shift+左键点击电池来升级末影单元的能量上限。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"1C96DA971E267F45"
@@ -2243,7 +2243,7 @@
 			x: -8.5d
 			y: -0.25d
 			shape: "hexagon"
-			description: ["&bBattery &fcharges items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
+			description: ["当在玩家背包中时，电池可以为物品充能，也可以右键打开末影单元的GUI然后shift+左键点击电池来升级末影单元的能量上限。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"1C96DA971E267F45"
@@ -2272,7 +2272,7 @@
 			x: -22.0d
 			y: 4.25d
 			shape: "hexagon"
-			description: ["&bBattery &fcharges items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
+			description: ["当在玩家背包中时，电池可以为物品充能，也可以右键打开末影单元的GUI然后shift+左键点击电池来升级末影单元的能量上限。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"1C96DA971E267F45"
@@ -2301,7 +2301,7 @@
 			x: -15.25d
 			y: 4.25d
 			shape: "hexagon"
-			description: ["&bBattery &fcharges items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
+			description: ["当在玩家背包中时，电池可以为物品充能，也可以右键打开末影单元的GUI然后shift+左键点击电池来升级末影单元的能量上限。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"1C96DA971E267F45"
@@ -2330,7 +2330,7 @@
 			x: -8.5d
 			y: 4.25d
 			shape: "hexagon"
-			description: ["&bBattery &fcharges items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel."]
+			description: ["当在玩家背包中时，电池可以为物品充能，也可以右键打开末影单元的GUI然后shift+左键点击电池来升级末影单元的能量上限。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"1C96DA971E267F45"
@@ -2376,9 +2376,9 @@
 			x: -20.0d
 			y: -4.25d
 			description: [
-				"&bPlayer Aerial Pearl &fis used to craft the &6player transmitter&f."
+				"&b玩家天线珍珠&f用于合成&6玩家供电仪&f。"
 				""
-				"You can get it by &6using &fan &bAerial Pearl &fon a &6Zombie &for &6Husk&f."
+				"你可以通过对&6僵尸&f或&6尸壳&f&6使用&f&b天线珍珠&f获得。"
 			]
 			dependencies: ["11F5BC9ED455C37F"]
 			id: "46161447319C0795"
@@ -2544,9 +2544,9 @@
 			x: -20.5d
 			y: -5.25d
 			description: [
-				"The &bBinding Card &f is used to &6link a player &fwith a &6Player Transmitter &fin the &6same dimension&f."
+				"&b绑定卡&f用于将&6玩家&f绑定到&6同一维度&f的&6玩家供电仪&f上。"
 				""
-				"You need to link it with you before addind it to the player transmitter. &6Right-click &fit to bind."
+				"你需要将它放到玩家供电仪之前绑定它。&6右键单击&f绑定它。"
 			]
 			dependencies: ["2EF228B32D5B76D4"]
 			id: "71BC6D8DCFC92E64"
@@ -2565,9 +2565,9 @@
 			x: -19.5d
 			y: -5.25d
 			description: [
-				"The &bDimensional Bind Card &f is used to link a &6player &fwith a &6Player Transmitter across dimensions&f."
+				"&b绑定卡(跨纬度)&f用于&6跨纬度&f将&6玩家与玩家供电仪&f绑定在一起。"
 				""
-				"You need to link it with you before addind it to the player transmitter. &6Right-click &fit to bind."
+				"你需要将它放到玩家供电仪之前绑定它。&6右键单击&f绑定它。"
 			]
 			dependencies: ["71BC6D8DCFC92E64"]
 			id: "45781D5DAAF07721"
@@ -2712,7 +2712,7 @@
 		{
 			x: -6.75d
 			y: -5.25d
-			description: ["When Applying a &2Lens Of Ender&r to a Solar Panel will make it see through blocks."]
+			description: ["当把&2末影透镜&r放到太阳能板上时,能够看透方块。"]
 			dependencies: ["6CB95C8CABA5E2B4"]
 			id: "4CE6CFDF8581D135"
 			tasks: [{
@@ -2769,7 +2769,7 @@
 			x: -13.75d
 			y: -8.5d
 			shape: "diamond"
-			description: ["To obtain &8Dielectric Paste&r you must process &7Silicon Grease&r in a Metallurgic Infuser. "]
+			description: ["要获得&8绝缘覆层&r,你必须在冶金灌注机中处理&7硅脂&r。"]
 			dependencies: [
 				"7C5F37BC2F4601FD"
 				"6F350477334C0544"
@@ -2991,7 +2991,7 @@
 			x: -13.25d
 			y: -3.25d
 			shape: "diamond"
-			description: ["Throwing a &bCharged Snowball &fwill cause a &6bolt of lightning &fto spawn when hitting the ground or when it hits the mod, obtained by energizing a snowball."]
+			description: ["在充能台上充能获得，可以像原版雪球一样被扔出，落地时或命中生物时会召唤闪电。"]
 			dependencies: ["1D23D686D1A72DC6"]
 			id: "5049E0E345147121"
 			tasks: [{
@@ -3052,9 +3052,9 @@
 			y: -10.0d
 			shape: "pentagon"
 			description: [
-				"&7Silicon Grease&r is obtained by treating &8TAR&r with &7Silicon Oil&r in a Thermopneumatic Processor."
+				"&7硅脂&r是在热气动加工机中用&7硅油&r处理&7焦油&r得到的。"
 				""
-				"You can generate Silicon Oil with a fluid laser drill."
+				"你可以用镭射钻获得硅油。"
 			]
 			dependencies: [
 				"3EAFE946D0476552"

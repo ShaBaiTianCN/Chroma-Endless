@@ -3,7 +3,7 @@
 	group: "4B06503CAA5674FC"
 	order_index: 4
 	filename: "t"
-	title: "&bChapter 5&r &6-&r New Technology Mechanics"
+	title: "&b第五章&r &6-&r 新型技术设备"
 	icon: "mekanism:steel_casing"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -12,7 +12,7 @@
 			x: -22.5d
 			y: 4.5d
 			shape: "diamond"
-			description: ["&bBins&r are a storage block that can only store a single item, however it can store a lot of the item. The number of items it can store is based on its tier. It will retain its inventory when broken."]
+			description: ["&b箱柜&r是一种只能存储一种物品的存储方块，不过它能存储大量物品。他所存储物品的数量与它的级别相关。箱柜破坏时，其库存将被保留。"]
 			dependencies: [
 				"3C9263A8B9322A17"
 				"109D647ED52D215D"
@@ -34,7 +34,7 @@
 			x: -27.25d
 			y: 11.25d
 			shape: "diamond"
-			description: ["&bBins&f are a storage block that can only store a single item, however many it can store is based on its tier. It will retain its inventory when broken."]
+			description: ["&b箱柜&f是一种只能存储一种物品的存储方块，不过它能存储物品的数量取决于他的级别。箱柜破坏时，其库存将被保留。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"3CE25095E2661776"
@@ -57,7 +57,7 @@
 			x: -20.75d
 			y: 11.25d
 			shape: "diamond"
-			description: ["&bBins&f are a storage block that can only store a single item, however many it can store is based on its tier. It will retain its inventory when broken."]
+			description: ["&b箱柜&f是一种只能存储一种物品的存储方块，不过它能存储物品的数量取决于他的级别。箱柜破坏时，其库存将被保留。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"1BF981F84C1738BC"
@@ -80,7 +80,7 @@
 			x: -24.0d
 			y: 15.0d
 			shape: "diamond"
-			description: ["&bBins&f are a storage block that can only store a single item, however many it can store is based on its tier. It will retain its inventory when broken."]
+			description: ["&b箱柜&f是一种只能存储一种物品的存储方块，不过它能存储物品的数量取决于他的级别。箱柜破坏时，其库存将被保留。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"0E4A27067D64FFCE"
@@ -103,7 +103,7 @@
 			x: -22.5d
 			y: 6.0d
 			shape: "diamond"
-			description: ["The &aBasic Tier&r improves the number of &2slots to 3&r."]
+			description: ["&a基础工厂级别&r将工厂处理&2槽位提升至3格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2B471E4CC0E02DED"
@@ -128,7 +128,7 @@
 			x: -25.5d
 			y: 6.0d
 			shape: "diamond"
-			description: ["The &aBasic Tier&r improves the number of &2slots to 3&r."]
+			description: ["&a基础工厂级别&r将工厂处理&2槽位提升至3格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2B471E4CC0E02DED"
@@ -153,7 +153,7 @@
 			x: -25.5d
 			y: 4.5d
 			shape: "diamond"
-			description: ["The &aBasic Tier&r improves the number of &2slots to 3&r."]
+			description: ["&a基础工厂级别&r将工厂处理&2槽位提升至3格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2B471E4CC0E02DED"
@@ -178,7 +178,7 @@
 			x: -24.0d
 			y: 6.75d
 			shape: "diamond"
-			description: ["The &aBasic Tier&r improves the number of &2slots to 3&r."]
+			description: ["&a基础工厂级别&r将工厂处理&2槽位提升至3格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2B471E4CC0E02DED"
@@ -203,7 +203,7 @@
 			x: -23.0d
 			y: 5.25d
 			shape: "diamond"
-			description: ["The &aBasic Tier&r improves the number of &2slots to 3&r."]
+			description: ["&a基础工厂级别&r将工厂处理&2槽位提升至3格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2B471E4CC0E02DED"
@@ -228,7 +228,7 @@
 			x: -25.0d
 			y: 5.25d
 			shape: "diamond"
-			description: ["The &aBasic Tier&r improves the number of &2slots to 3&r."]
+			description: ["&a基础工厂级别&r将工厂处理&2槽位提升至3格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2B471E4CC0E02DED"
@@ -253,7 +253,7 @@
 			x: -24.0d
 			y: 3.75d
 			shape: "diamond"
-			description: ["The &aBasic Tier&r improves the number of &2slots to 3&r."]
+			description: ["&a基础工厂级别&r将工厂处理&2槽位提升至3格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2B471E4CC0E02DED"
@@ -278,7 +278,7 @@
 			x: -23.5d
 			y: 4.5d
 			shape: "diamond"
-			description: ["The &aBasic Tier&r improves the number of &2slots to 3&r."]
+			description: ["&a基础工厂级别&r将工厂处理&2槽位提升至3格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2B471E4CC0E02DED"
@@ -303,7 +303,7 @@
 			x: -24.5d
 			y: 4.5d
 			shape: "diamond"
-			description: ["The &aBasic Tier&r improves the number of &2slots to 3&r."]
+			description: ["&a基础工厂级别&r将工厂处理&2槽位提升至3格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2B471E4CC0E02DED"
@@ -328,7 +328,7 @@
 			x: -25.75d
 			y: 9.0d
 			shape: "diamond"
-			description: ["The &4Advanced Tier&r improves the number of &cslots to 5&r."]
+			description: ["&a高级工厂级别&r将工厂处理&2槽位提升至5格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"5A250FD54B5D5215"
@@ -353,7 +353,7 @@
 			x: -26.75d
 			y: 10.5d
 			shape: "diamond"
-			description: ["The &4Advanced Tier&r improves the number of &cslots to 5&r."]
+			description: ["&a高级工厂级别&r将工厂处理&2槽位提升至5格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"5A250FD54B5D5215"
@@ -378,7 +378,7 @@
 			x: -26.25d
 			y: 9.75d
 			shape: "diamond"
-			description: ["The &4Advanced Tier&r improves the number of &cslots to 5&r."]
+			description: ["&a高级工厂级别&r将工厂处理&2槽位提升至5格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"5A250FD54B5D5215"
@@ -403,7 +403,7 @@
 			x: -26.75d
 			y: 9.0d
 			shape: "diamond"
-			description: ["The &4Advanced Tier&r improves the number of &cslots to 5&r."]
+			description: ["&a高级工厂级别&r将工厂处理&2槽位提升至5格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"5A250FD54B5D5215"
@@ -428,7 +428,7 @@
 			x: -27.75d
 			y: 9.0d
 			shape: "diamond"
-			description: ["The &4Advanced Tier&r improves the number of &cslots to 5&r."]
+			description: ["&a高级工厂级别&r将工厂处理&2槽位提升至5格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"5A250FD54B5D5215"
@@ -453,7 +453,7 @@
 			x: -28.25d
 			y: 9.75d
 			shape: "diamond"
-			description: ["The &4Advanced Tier&r improves the number of &cslots to 5&r."]
+			description: ["&a高级工厂级别&r将工厂处理&2槽位提升至5格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"5A250FD54B5D5215"
@@ -478,7 +478,7 @@
 			x: -27.75d
 			y: 10.5d
 			shape: "diamond"
-			description: ["The &4Advanced Tier&r improves the number of &cslots to 5&r."]
+			description: ["&a高级工厂级别&r将工厂处理&2槽位提升至5格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"5A250FD54B5D5215"
@@ -503,7 +503,7 @@
 			x: -27.25d
 			y: 8.25d
 			shape: "diamond"
-			description: ["The &4Advanced Tier&r improves the number of &cslots to 5&r."]
+			description: ["&a高级工厂级别&r将工厂处理&2槽位提升至5格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"5A250FD54B5D5215"
@@ -528,7 +528,7 @@
 			x: -28.75d
 			y: 9.0d
 			shape: "diamond"
-			description: ["The &4Advanced Tier&r improves the number of &cslots to 5&r."]
+			description: ["&a高级工厂级别&r将工厂处理&2槽位提升至5格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"5A250FD54B5D5215"
@@ -553,7 +553,7 @@
 			x: -19.75d
 			y: 9.75d
 			shape: "diamond"
-			description: ["The &bElite Tier&r improves the number of &3slots to 7&r."]
+			description: ["&a精英工厂级别&r将工厂处理&2槽位提升至7格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"73368EF2948452D9"
@@ -579,7 +579,7 @@
 			x: -20.25d
 			y: 9.0d
 			shape: "diamond"
-			description: ["The &bElite Tier&r improves the number of &3slots to 7&r."]
+			description: ["&a精英工厂级别&r将工厂处理&2槽位提升至7格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"73368EF2948452D9"
@@ -605,7 +605,7 @@
 			x: -21.25d
 			y: 9.0d
 			shape: "diamond"
-			description: ["The &bElite Tier&r improves the number of &3slots to 7&r."]
+			description: ["&a精英工厂级别&r将工厂处理&2槽位提升至7格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"73368EF2948452D9"
@@ -631,7 +631,7 @@
 			x: -20.75d
 			y: 8.25d
 			shape: "diamond"
-			description: ["The &belite tier&r improves the number of &3slots to 7&r."]
+			description: ["&a精英工厂级别&r将工厂处理&2槽位提升至7格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"73368EF2948452D9"
@@ -657,7 +657,7 @@
 			x: -22.25d
 			y: 9.0d
 			shape: "diamond"
-			description: ["The &bElite Tier&r improves the number of &3slots to 7&r."]
+			description: ["&a精英工厂级别&r将工厂处理&2槽位提升至7格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"73368EF2948452D9"
@@ -683,7 +683,7 @@
 			x: -19.25d
 			y: 9.0d
 			shape: "diamond"
-			description: ["The &bElite Tier&r improves the number of &3slots to 7&r."]
+			description: ["&a精英工厂级别&r将工厂处理&2槽位提升至7格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"73368EF2948452D9"
@@ -709,7 +709,7 @@
 			x: -21.75d
 			y: 9.75d
 			shape: "diamond"
-			description: ["The &bElite Tier&r improves the number of &3slots to 7&r."]
+			description: ["&a精英工厂级别&r将工厂处理&2槽位提升至7格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"73368EF2948452D9"
@@ -735,7 +735,7 @@
 			x: -21.25d
 			y: 10.5d
 			shape: "diamond"
-			description: ["The &bElite Tier&r improves the number of &3slots to 7&r."]
+			description: ["&a精英工厂级别&r将工厂处理&2槽位提升至7格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"73368EF2948452D9"
@@ -760,7 +760,7 @@
 			x: -20.25d
 			y: 10.5d
 			shape: "diamond"
-			description: ["The &bElite Tier&r improves the number of &3slots to 7&r."]
+			description: ["&a精英工厂级别&r将工厂处理&2槽位提升至7格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"73368EF2948452D9"
@@ -785,7 +785,7 @@
 			x: -24.0d
 			y: 12.0d
 			shape: "diamond"
-			description: ["The &dUltimate Tier&r improves the number of &5slots to 9&r."]
+			description: ["&a终极工厂级别&r将工厂处理&2槽位提升至9格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"1D23D686D1A72DC6"
@@ -810,7 +810,7 @@
 			x: -22.5d
 			y: 12.75d
 			shape: "diamond"
-			description: ["The &dUltimate Tier&r improves the number of &5slots to 9&r."]
+			description: ["&a终极工厂级别&r将工厂处理&2槽位提升至9格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"1D23D686D1A72DC6"
@@ -835,7 +835,7 @@
 			x: -23.5d
 			y: 12.75d
 			shape: "diamond"
-			description: ["The &dUltimate Tier&r improves the number of &5slots to 9&r."]
+			description: ["&a终极工厂级别&r将工厂处理&2槽位提升至9格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"1D23D686D1A72DC6"
@@ -860,7 +860,7 @@
 			x: -24.5d
 			y: 12.75d
 			shape: "diamond"
-			description: ["The &dUltimate Tier&r improves the number of &5slots to 9&r."]
+			description: ["&a终极工厂级别&r将工厂处理&2槽位提升至9格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"1D23D686D1A72DC6"
@@ -885,7 +885,7 @@
 			x: -25.5d
 			y: 12.75d
 			shape: "diamond"
-			description: ["The &dUltimate Tier&r improves the number of &5slots to 9&r."]
+			description: ["&a终极工厂级别&r将工厂处理&2槽位提升至9格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"1D23D686D1A72DC6"
@@ -910,7 +910,7 @@
 			x: -23.0d
 			y: 13.5d
 			shape: "diamond"
-			description: ["The &dUltimate Tier&r improves the number of &5slots to 9&r."]
+			description: ["&a终极工厂级别&r将工厂处理&2槽位提升至9格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"1D23D686D1A72DC6"
@@ -935,7 +935,7 @@
 			x: -25.0d
 			y: 13.5d
 			shape: "diamond"
-			description: ["The &dUltimate Tier&r improves the number of &5slots to 9&r."]
+			description: ["&a终极工厂级别&r将工厂处理&2槽位提升至9格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"1D23D686D1A72DC6"
@@ -960,7 +960,7 @@
 			x: -23.5d
 			y: 14.25d
 			shape: "diamond"
-			description: ["The &dUltimate Tier&r improves the number of &5slots to 9&r."]
+			description: ["&a终极工厂级别&r将工厂处理&2槽位提升至9格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"1D23D686D1A72DC6"
@@ -985,7 +985,7 @@
 			x: -24.5d
 			y: 14.25d
 			shape: "diamond"
-			description: ["The &dUltimate Tier&r improves the number of &5slots to 9&r."]
+			description: ["&a终极工厂级别&r将工厂处理&2槽位提升至9格&r。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"1D23D686D1A72DC6"
@@ -1030,7 +1030,7 @@
 			x: -20.75d
 			y: 12.25d
 			shape: "diamond"
-			description: ["Turns your machine into a &3Elite Tier&r. "]
+			description: ["将你的机器升级为&3精英工厂级别&r。"]
 			dependencies: ["3668993E41FBDDE2"]
 			id: "395D58879056EBCD"
 			tasks: [{
@@ -1083,7 +1083,7 @@
 			x: -24.0d
 			y: 1.25d
 			shape: "octagon"
-			description: ["The &bMetallurgic Infuser&f is the first step in the Mekanism tech tree. The &bMetallurgic Infuser&f is a machine used in the production of &aSteel Ingots&f, &aBronze Ingot&f, &aEnriched Alloy&f, and &aObsidian Ingots&f."]
+			description: ["&b冶金灌注机&f是你在通用机械发展中的第一步。 &b冶金灌注机&f是用以制作&a钢锭&f、&a青铜锭&f、&a富集合金&f和&a强化黑曜石锭&f的机器。"]
 			dependencies: ["1F22F5BF3BD21A03"]
 			id: "6F350477334C0544"
 			tasks: [{
@@ -1119,7 +1119,7 @@
 			x: -22.75d
 			y: 7.0d
 			shape: "diamond"
-			description: ["&bFluid Tanks&f are storage blocks to store &efluids&f."]
+			description: ["&b流体储罐&f是用于存储&e流体&f的储存方块。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"4B85D83C46CDB7E5"
@@ -1139,7 +1139,7 @@
 			}]
 		}
 		{
-			title: "Steel Casing"
+			title: "钢制机壳"
 			icon: "mekanism:steel_casing"
 			x: -24.0d
 			y: -1.5d
@@ -1185,7 +1185,7 @@
 			x: -25.25d
 			y: 7.0d
 			shape: "diamond"
-			description: ["&bChemical Tanks&f are storage blocks to store &egases&f."]
+			description: ["&b化学品储罐&f是用于存储&e气体&f的存储方块。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"4E53F7ACC383103C"
@@ -1208,7 +1208,7 @@
 			x: -28.0d
 			y: 11.5d
 			shape: "diamond"
-			description: ["&bChemical Tanks&f are storage blocks to store &egases&f."]
+			description: ["&b化学品储罐&f是用于存储&e气体&f的存储方块。"]
 			dependencies: [
 				"033D2475938C8178"
 				"2C88F2B60CE55542"
@@ -1230,7 +1230,7 @@
 			x: -26.5d
 			y: 11.5d
 			shape: "diamond"
-			description: ["&bFluid Tanks&f are storage blocks to store &efluids&f."]
+			description: ["&b流体储罐&f是用于存储&e流体&f的储存方块。"]
 			dependencies: [
 				"033D2475938C8178"
 				"03265861436733A7"
@@ -1307,7 +1307,7 @@
 			x: -24.0d
 			y: 8.0d
 			shape: "diamond"
-			description: ["Turns your machine into a &2Basic Tier&r. "]
+			description: ["将你的机器升级为&2基础工厂级别&r。"]
 			dependencies: [
 				"3C9263A8B9322A17"
 				"56D83790E33B0765"
@@ -1330,7 +1330,7 @@
 			x: -21.5d
 			y: 11.5d
 			shape: "diamond"
-			description: ["&bChemical Tanks&f are storage blocks to store &egases&f."]
+			description: ["&b化学品储罐&f是用于存储&e气体&f的存储方块。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"114B2878B5B32D2E"
@@ -1353,7 +1353,7 @@
 			x: -27.25d
 			y: 12.25d
 			shape: "diamond"
-			description: ["Turns your machine into a &4Advanced Tier&r. "]
+			description: ["将你的机器升级为&4高级工厂级别&r。"]
 			dependencies: [
 				"114B2878B5B32D2E"
 				"4B0253447D712CBC"
@@ -1375,7 +1375,7 @@
 			x: -20.0d
 			y: 11.5d
 			shape: "diamond"
-			description: ["&bFluid Tanks&f are storage blocks to store &efluids&f."]
+			description: ["&b流体储罐&f是用于存储&e流体&f的储存方块。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"114B2878B5B32D2E"
@@ -1433,7 +1433,7 @@
 			x: -22.5d
 			y: -10.0d
 			shape: "octagon"
-			description: ["The &bEnergy Tablet&f is a portable, rechargeable battery pack that can be charged with up to 1,000kJ of energy and can then be used to power other devices. It is also an ingredient in many recipes."]
+			description: ["&b能量板&f 是一种便携式的可充电电池组，可以存储高达1000kJ能量，然后可以用来为其他设备供电。它也是许多合成中的一个要素。"]
 			dependencies: [
 				"08672636B514D519"
 				"6F0F3A66173096A7"
@@ -1490,7 +1490,7 @@
 			x: -24.75d
 			y: 15.25d
 			shape: "diamond"
-			description: ["&bChemical Tanks&f are storage blocks to store &egases&f."]
+			description: ["&b化学品储罐&f是用于存储&e气体&f的存储方块。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"39973947CA6FE895"
@@ -1512,7 +1512,7 @@
 			x: -23.25d
 			y: 15.25d
 			shape: "diamond"
-			description: ["&bFluid Tanks&f are storage blocks to store &efluids&f."]
+			description: ["&b流体储罐&f是用于存储&e流体&f的储存方块。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"223F7BFBBAB30209"
@@ -1534,7 +1534,7 @@
 			x: -24.0d
 			y: 16.0d
 			shape: "diamond"
-			description: ["Turns your machine into a &5Ultimate Tier&r. "]
+			description: ["将你的机器升级为&5终极工厂级别&r。"]
 			dependencies: ["1E64E0E2FA479666"]
 			id: "446C8269FC6018F3"
 			tasks: [{
@@ -1586,7 +1586,7 @@
 			x: -26.25d
 			y: -3.75d
 			shape: "octagon"
-			description: ["The &benergized smelter&f is your basic &5electric furnace&f that uses energy instead of fuel to &6smelt items&f."]
+			description: ["&电力熔炼炉&f是你最基础的&5电炉&f，它将使用电力而非燃料来&6s熔炼物品&f。"]
 			dependencies: [
 				"3B142D2ED1A34A2F"
 				"121DF7B31DB4BEF8"
@@ -1612,9 +1612,9 @@
 			y: -3.75d
 			shape: "octagon"
 			description: [
-				"This machine uses energy to extract &6dusts &rout of certain blocks and ores, making it essential to producing different kinds of tools. Not to be mistaken with the &6Crusher&f, this machine is the pulverizer equivalent in other mods."
+				"这台机器利用能量从某些方块和矿石中提取&6粉尘&，使其成为生产不同种类工具的关键。不要误认为是&6粉碎机&f，这种机器在其他模组中相当于磨粉机。"
 				""
-				"Can also be used to turn Coal or Charcoal into &2Compressed Carbon&r, Redstone into &2Compressed Redstone&r, Diamond into &2Compressed Diamond&r and Refined Obsidian Dust into &2Compressed Obsidian&r, all of which are used in the &6Metallurgic Infuser&f."
+				"这台机器也可以用于将煤炭或木炭富集成&2压缩碳&r，红石锭富集成&2压缩红石&r，魔力钻石富集成&2压缩钻石&r，强化黑曜石粉富集成&2压缩黑曜石&r，这些都可以用于&6冶金灌注机&f内。"
 			]
 			dependencies: [
 				"121DF7B31DB4BEF8"
@@ -1640,7 +1640,7 @@
 			x: -21.75d
 			y: 0.75d
 			shape: "octagon"
-			description: ["The &bCrusher&f crushes, among other things, clumps into &eDirty Dusts&f, Ingots into &edusts&f and Biomatter into &eBio Fuel&f."]
+			description: ["除了上述机器外，还有&b粉碎机&f能将矿物粉碎成&e污浊的粉&f，锭粉碎成&e粉&f，生物质破碎成&e生物燃料&f。"]
 			dependencies: [
 				"17D77DD53982E986"
 				"121DF7B31DB4BEF8"
@@ -1666,7 +1666,7 @@
 			x: -24.0d
 			y: -4.25d
 			shape: "octagon"
-			description: ["The &bOsmium Compressor&f is used to create &aRefined Obsidian Ingots &ffrom Refined Obsidian Dust and &aGlowstone Ingots&f from Glowstone Dust."]
+			description: ["&b锇压缩机&f用于将强化黑曜石粉制作成&a强化黑曜石锭&f，将荧石粉制作成&a强化荧石锭&f。"]
 			dependencies: [
 				"121DF7B31DB4BEF8"
 				"2C88F2B60CE55542"
@@ -1691,7 +1691,7 @@
 			x: -21.0d
 			y: -1.0d
 			shape: "octagon"
-			description: ["The &bCombiner&f allows the player to create an &aore block&f from &28 dusts&f."]
+			description: ["&b融合机&f允许玩家用&28个金属粉&f合成&a矿石&f。"]
 			dependencies: [
 				"6A4A1C5F2959DCD1"
 				"121DF7B31DB4BEF8"
@@ -1717,7 +1717,7 @@
 			x: -21.0d
 			y: -2.0d
 			shape: "octagon"
-			description: ["The &bPurification Chamber&f uses &7oxygen&f to refine Ores and shards into &eclumps&f. Each ore makes 3 clumps, whereas each shard only gives one clump."]
+			description: ["&b提纯仓&f使用&7氧气&f将矿石和碎片提纯为&e碎块&f。每个矿石可以提纯为3个碎块，然而每个碎片只能提纯为1个碎块。"]
 			dependencies: [
 				"3C04F89B893C3AD4"
 				"6A4A1C5F2959DCD1"
@@ -1741,7 +1741,7 @@
 			x: -26.25d
 			y: 0.75d
 			shape: "octagon"
-			description: ["The &bChemical Injection Chamber&f uses Hydrogen Chloride gas to turn ores into 4 Shards."]
+			description: ["&b化学压射器&f使用氯化氢将矿物转变为4个碎片。"]
 			dependencies: [
 				"3C04F89B893C3AD4"
 				"7807095075D27ABD"
@@ -1766,7 +1766,7 @@
 			x: -26.75d
 			y: -1.5d
 			shape: "octagon"
-			description: ["The &bPrecision Sawmill &fis used for reclaiming wood from wooden items and turn logs into planks with a 50% better yield (6 instead of 4). "]
+			description: ["&b精密锯木机&f用于回收木制品中的木材，也能使原木变为木板的过程增产50%。"]
 			dependencies: [
 				"3B142D2ED1A34A2F"
 				"6A4A1C5F2959DCD1"
@@ -1792,7 +1792,7 @@
 			x: -35.5d
 			y: 2.75d
 			shape: "diamond"
-			description: ["A &bWind Turbine's&f giant blades harness the force of the wind to generate &6power&f. Each Wind Turbine requires a fairly large 1x1x5 area. The machine will generate power day and night, in sun or rain, but the turbine must have a clear view of the sky."]
+			description: ["&b风力发电机&f的巨大扇叶可以利用风力产生&6能量&f。每台风力发电机需要1x1x5的空间。这台机器可以日夜不停、风雨无阻地产生能量，但其必须露天放置。"]
 			dependencies: ["7B9FBBCD2F962A0B"]
 			id: "57692119B3F25CD2"
 			tasks: [{
@@ -1810,7 +1810,7 @@
 			x: -35.5d
 			y: 1.25d
 			shape: "diamond"
-			description: ["The &bSolar Generator&f harnesses sunlight to create &6power&f. The generator is particularly useful for generating passive energy for above-ground machines instead of draining your main storages."]
+			description: ["&b太阳能发电机&f利用日光产生&6能量&f。这款发电机特别适用于给地面以上的机器被动功能，这样就能避免消耗主能量网络中的能量。"]
 			dependencies: ["7B9FBBCD2F962A0B"]
 			id: "4A6ED34F6D6B12E3"
 			tasks: [{
@@ -1829,7 +1829,7 @@
 			x: -35.0d
 			y: 0.5d
 			shape: "diamond"
-			description: ["The &bAdvanced Solar Generator&f is a highly upgraded version of the basic Solar Generator."]
+			description: ["&b高级太阳能发电机&f是基础太阳能发电机的升级版。"]
 			dependencies: ["4A6ED34F6D6B12E3"]
 			id: "21F421C391628AD1"
 			tasks: [{
@@ -1848,7 +1848,7 @@
 			x: -35.0d
 			y: 2.0d
 			shape: "diamond"
-			description: ["A &bHeat Generator&f converts &4heat energy&f into &6power&f. This is often the first generator to craft because, although it provides only a small amount of power, it is enough to start the mod."]
+			description: ["&b热力发电机&f将&4热量&f转变为&6能量&f。这通常是做的第一台发电机，尽管发电量很少但是这足以让你入门此模组。"]
 			dependencies: [
 				"2F7EB9DBC6CE7522"
 				"20C428EA1F5489F6"
@@ -1869,7 +1869,7 @@
 			x: -34.5d
 			y: 2.75d
 			shape: "diamond"
-			description: ["A &bGas-Burning Generator&f creates power by consuming any burnable gas for example the Hydrogen produced by an Electrolytic Separator or Ethylene."]
+			description: ["&b燃气发电机&f通过消耗任何可燃气体来产生能量，例如电解分离器或乙烯产生的氢气。"]
 			dependencies: ["1D23D686D1A72DC6"]
 			id: "657B1E3384051C37"
 			tasks: [{
@@ -1888,7 +1888,7 @@
 			x: -34.5d
 			y: 1.25d
 			shape: "diamond"
-			description: ["&bBio-Generators&f produce electricity from &aBio Fuel&f."]
+			description: ["&b生物能发电机&f使用&a生物燃料&f发电。"]
 			dependencies: [
 				"73368EF2948452D9"
 				"6B05686E098DE2C9"
@@ -1907,19 +1907,19 @@
 			}]
 		}
 		{
-			title: "Fusion Reactor"
+			title: "聚变反应堆"
 			icon: "mekanismgenerators:fusion_reactor_controller"
 			x: -34.5d
 			y: -4.75d
 			shape: "diamond"
 			description: [
-				"The &bFusion Reactor&r is a multiblock structure that allows for variable input rates of 3 types of fuel: Deuterium, Tritium and D-T Fuel. By water cooling the structure, steam can be produced alongside power, which is useful for powering an Industrial Turbine."
+				"&b聚变反应堆&r可以输入3种燃料：氘、氚和氘氚燃料。当使用水冷却聚变堆时会产生蒸汽，蒸汽可以用于工业涡轮机。"
 				""
-				"• 75x Reactor Frame (Build + other reactor parts)"
-				"• 2x Reactor Port"
-				"• 1x Reactor Controller"
-				"• 8x Reactor Glass"
-				"• 1x Laser Focus Matrix"
+				"•聚变堆框架x75（建造+制作其它部件）"
+				"•聚变反应堆端口x2"
+				"•聚变堆控制器x1"
+				"•强化玻璃x8"
+				"•激光聚焦矩阵x1"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -2053,20 +2053,20 @@
 			}]
 		}
 		{
-			title: "SPS Reactor"
+			title: "超临界移相器"
 			icon: "mekanism:sps_port"
 			x: -33.25d
 			y: -7.5d
 			shape: "diamond"
 			description: [
-				"A &dSupercritical Phase Shifter&r is a multiblock structure that consumes large amount of energy and polonium gas to create antimatter gas, which can be crystallized into antimatter pellets. Antimatter pellets are used in a number of endgame recipes."
+				"&d超临界移相器&r会消耗巨量能量和钋气体用于制作反物质气体，反物质气体可以进一步转化为反物质靶丸。反物质靶丸可以用于制作一些最终物品。"
 				""
-				"The structure is expensive to build, as each SPS Casing block requires 50,000 mB of processed nuclear waste (4 polonium pellets, 1 plutonium pellet) to craft. As such, the cheapest structure will maximize the amount of reactor glass used and minimize the amount of SPS Casing used. The optimal minimal build consists of"
+				"搭建这个结构十分昂贵，因为每制作一个超临界移相器外壳都要消耗50,000mB核废料（4个钋靶丸和1个钚靶丸）。因此，最便宜的做法是最大化强化玻璃的使用从而减少超临界移相器外壳的使用。最优搭法需要如下材料："
 				""
-				"• 60 SPS Casings (+12 crafting material for 3 SPS Ports)"
-				"• 123 Reactor Glass or Structural Glass"
-				"• 3 SPS Ports"
-				"• 1 Supercharged Coil"
+				"•超临界移相器外壳x60（外加12个用于制作3个超临界移相器端口）"
+				"•强化玻璃或结构玻璃x123"
+				"•超临界移相器端口x3"
+				"•增压线圈x1"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -2156,7 +2156,7 @@
 			x: -33.0d
 			y: 7.25d
 			shape: "diamond"
-			description: ["The &bChemical Crystallizer&f turns Clean Slurry into Crystals and Lithium into Lithium Dust."]
+			description: ["&b化学结晶器&f将纯净浆液转化为晶体，将锂转化为锂粉。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"0E4A27067D64FFCE"
@@ -2181,7 +2181,7 @@
 			x: -33.5d
 			y: 8.0d
 			shape: "diamond"
-			description: ["The &bChemical Washer&f turns Slurry into Clean Slurry using Water."]
+			description: ["&b化学清洗机&f使用水将浆液处理为纯净浆液。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"0E4A27067D64FFCE"
@@ -2207,7 +2207,7 @@
 			x: -32.5d
 			y: 8.0d
 			shape: "diamond"
-			description: ["The &bChemical Dissolution Chamber&f is the first machine in the &cx5 ore processing setup&f. It turns &6raw ores&f into &6slurry&f using Sulfuric Acid."]
+			description: ["&b化学溶解室&f是&c5倍矿流程&f中的第一台机器。它使用硫酸将&6粗矿&f转化为&6浆液&f。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"0E4A27067D64FFCE"
@@ -2232,7 +2232,7 @@
 			x: -34.5d
 			y: 8.0d
 			shape: "diamond"
-			description: ["The &bChemical Oxidizer&f is used for making gases from materials."]
+			description: ["&b化学氧化机&f用来从物质中产生气体。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"3CE25095E2661776"
@@ -2257,7 +2257,7 @@
 			x: -33.5d
 			y: 6.5d
 			shape: "diamond"
-			description: ["The &bChemical Infuser&f combines or reacts two gases to create another gas."]
+			description: ["&b化学灌注器&f将两种气体结合或反应生成另一种气体。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"3CE25095E2661776"
@@ -2448,13 +2448,13 @@
 			}]
 		}
 		{
-			title: "It's beautiful"
+			title: "真漂亮"
 			icon: "mekanism:robit"
 			x: -19.75d
 			y: 3.5d
 			shape: "diamond"
-			subtitle: "Easter egg"
-			description: ["&bRobit&f is Mekanism's mechanical companion. He can act as a crafting grid, a furnace, an anvil, a chest, or simply a cute little buddy."]
+			subtitle: "复活节彩蛋"
+			description: ["&b机器人&f是通用机械模组里的机械伴侣。他可以充当工作台、熔炉、铁砧、箱子或仅是一个可爱的小家伙。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"64B5118FFAFD98CB"
@@ -2500,7 +2500,7 @@
 			x: -16.75d
 			y: 2.75d
 			shape: "diamond"
-			description: ["The &bAtomic Disassembler&f is Mekanism's all-in-one tool, essentially the ultimate, electronic version of the paxel."]
+			description: ["&b原子分解机&f是通用机械的万能工具，本质上是终极电动版镐尖斧。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"4ADD9913716BA3E2"
@@ -2531,7 +2531,7 @@
 			x: -17.5d
 			y: -4.25d
 			shape: "diamond"
-			description: ["The &bSpeed upgrade&f is made to &eprocess items faster&f, you can install 8 of these in each Mekanism machine."]
+			description: ["&b速度升级&f可&e更快地处理物品，你可以在每台通用机械机器中安装8个。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"6556C41B660B08F6"
@@ -2555,7 +2555,7 @@
 			x: -17.0d
 			y: -5.0d
 			shape: "diamond"
-			description: ["The &bEnergy Upgrade&f upgrade allows you to increase the &epower storage capacity&f of a Mekanism machine which has an upgrade slot, as well as &ereduce its power consumption&f."]
+			description: ["&b能量升级&f允许你增加具有升级槽位的通用机械机器的&e能量存储容量&f，以及&e降低其能量消耗&f。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"73368EF2948452D9"
@@ -2578,7 +2578,7 @@
 			x: -18.0d
 			y: -3.5d
 			shape: "diamond"
-			description: ["The &bFilter Upgrade&f is an upgrade that, when used in the &eElectric Pump&f, allows the Electric Pump to produce &9Heavy Water&f."]
+			description: ["&b过滤升级&f是一种升级，当用于&e电动泵&f时，可使电动泵产生&9重水&f。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"73368EF2948452D9"
@@ -2601,7 +2601,7 @@
 			x: -16.5d
 			y: -4.25d
 			shape: "diamond"
-			description: ["The &bMuffling Upgrade&r reduces noise from Mekanism machinery. This upgrade works well with the Precision Sawmill, as it produces a lot of noise when active."]
+			description: ["&b降噪升级&r降低了通用机械机器的噪音。这种升级与精密锯木机配合得很好，因为它在工作时会产生大量噪音。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"73368EF2948452D9"
@@ -2624,7 +2624,7 @@
 			x: -17.0d
 			y: -3.5d
 			shape: "diamond"
-			description: ["The &bGas Upgrade&f allows you to &eincrease the gas usage efficiency&f of a Mekanism machine which allows it."]
+			description: ["&b天然气升级&f允许你&e提高允许的通用机械机器的天然气使用效率&f。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"73368EF2948452D9"
@@ -2647,7 +2647,7 @@
 			x: -16.0d
 			y: -3.5d
 			shape: "diamond"
-			description: ["Added a Stone Generator Upgrade. When installed in a Digital Miner, this upgrade is capable of fulfilling “replace stack” requests of both Stone and Cobblestone"]
+			description: ["增加了一个造石机升级。当安装在数字型采矿机中时，此升级能够满足石头和圆石的“替换堆栈”的请求"]
 			hide_dependency_lines: true
 			dependencies: [
 				"73368EF2948452D9"
@@ -2667,14 +2667,14 @@
 			}]
 		}
 		{
-			title: "Thermal Evaporation Plant"
+			title: "热力蒸馏塔"
 			x: -32.75d
 			y: -2.0d
 			shape: "diamond"
 			description: [
-				"The &bThermal Evaporation Plant&f is a multiblock structure with the purpose of converting Water to &eBrine&f, which can be further converted to &eLithium&f by the use of a second Thermal Evaporation Plant."
+				"&b热力蒸馏塔&f将水转变成&e盐水&f的多方块结构，盐水可以在第二台热力蒸馏塔里进一步转变成&e锂&f"
 				""
-				"The minimum height of the structure is 3 blocks. To increase the internal storage and rate of evaporation, the structure can be raised up to 18 blocks high."
+				"此结构的最低高度为3格，最高可以到18格高，随着高度的升高其内部存储空间和蒸馏效率都会提高。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["5A250FD54B5D5215"]
@@ -2763,12 +2763,12 @@
 			}]
 		}
 		{
-			title: "Induction Matrix"
+			title: "能量输导矩阵"
 			icon: "mekanism:induction_port"
 			x: -19.5d
 			y: -7.0d
 			shape: "octagon"
-			description: ["&bInduction Casing&f makes up the multi-block that is the &eInduction Matrix&f, an &6energy storage&f structure that can hold a large amount of energy."]
+			description: ["&b输导外壳&f是&e能量输导矩阵&f的多方块结构的组成方块，该多方块&6储能&f结构可以容纳大量能量。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"38C929808BBB9FFF"
@@ -2804,7 +2804,7 @@
 			x: -21.25d
 			y: -9.75d
 			shape: "diamond"
-			description: ["&bInduction Cells&f are components in the &eInduction Matrix&f. Each cell &dincreases the total energy storage&f of a Matrix."]
+			description: ["&b输导元件&f是&e能量输导矩阵&f中的组成部分。每个单元&d增加矩阵的总能量存储&f。"]
 			dependencies: ["2B37E2E818D39D16"]
 			id: "7C67C9F3ED5CB20E"
 			tasks: [{
@@ -2823,7 +2823,7 @@
 			x: -20.75d
 			y: -9.25d
 			shape: "diamond"
-			description: ["&bInduction Cells&f are components in the &eInduction Matrix&f. Each cell &dincreases the total energy storage&f of a Matrix."]
+			description: ["&b输导元件&f是&e能量输导矩阵&f中的组成部分。每个单元&d增加矩阵的总能量存储&f。"]
 			dependencies: [
 				"7C67C9F3ED5CB20E"
 				"59F9F23B352D3B25"
@@ -2845,7 +2845,7 @@
 			x: -20.25d
 			y: -8.75d
 			shape: "diamond"
-			description: ["&bInduction Cells&f are components in the &eInduction Matrix&f. Each cell &dincreases the total energy storage&f of a Matrix."]
+			description: ["&b输导元件&f是&e能量输导矩阵&f中的组成部分。每个单元&d增加矩阵的总能量存储&f。"]
 			dependencies: [
 				"1D3E1806E4550AE1"
 				"530661120D8CAB3A"
@@ -2867,7 +2867,7 @@
 			x: -19.75d
 			y: -8.25d
 			shape: "diamond"
-			description: ["&bInduction Cells&f are components in the &eInduction Matrix&f. Each cell &dincreases the total energy storage&f of a Matrix."]
+			description: ["&b输导元件&f是&e能量输导矩阵&f中的组成部分。每个单元&d增加矩阵的总能量存储&f。"]
 			dependencies: [
 				"124C3EB4C7D5F6BE"
 				"5BEA13AE24262604"
@@ -2926,7 +2926,7 @@
 			x: -22.25d
 			y: -8.75d
 			shape: "diamond"
-			description: ["The &bInduction Providers&f are used in the &eInduction Matrix&f to determine &dhow much energy it is able to output per trick&f through the Induction Port."]
+			description: ["&b输导供电器&f在&e能量输导矩阵&f中使用，以决定&d通过输导端口&f每刻可以输出多少能量。"]
 			dependencies: ["2B37E2E818D39D16"]
 			id: "14AA0415ED6EB1A2"
 			tasks: [{
@@ -2945,7 +2945,7 @@
 			x: -21.75d
 			y: -8.25d
 			shape: "diamond"
-			description: ["The &bInduction Providers&f are used in the &eInduction Matrix&f to determine &dhow fast it is able to output energy&f through the Induction Port."]
+			description: ["&b输导供电器&f在&e能量输导矩阵&f中使用，以决定&d通过输导端口&f每刻可以输出多少能量。"]
 			dependencies: [
 				"14AA0415ED6EB1A2"
 				"59F9F23B352D3B25"
@@ -2967,7 +2967,7 @@
 			x: -21.25d
 			y: -7.75d
 			shape: "diamond"
-			description: ["The &bInduction Providers&f are used in the &eInduction Matrix&f to determine &dhow fast it is able to output energy&f through the Induction Port."]
+			description: ["&b输导供电器&f在&e能量输导矩阵&f中使用，以决定&d通过输导端口&f每刻可以输出多少能量。"]
 			dependencies: [
 				"6376FD08BB91A901"
 				"530661120D8CAB3A"
@@ -2989,7 +2989,7 @@
 			x: -20.75d
 			y: -7.25d
 			shape: "diamond"
-			description: ["The &bInduction Providers&f are used in the &eInduction Matrix&f to determine &dhow fast it is able to output energy&f through the Induction Port."]
+			description: ["&b输导供电器&f在&e能量输导矩阵&f中使用，以决定&d通过输导端口&f每刻可以输出多少能量。"]
 			dependencies: [
 				"2D9824FA730B4158"
 				"5BEA13AE24262604"
@@ -3011,7 +3011,7 @@
 			x: -26.5d
 			y: -10.25d
 			shape: "diamond"
-			description: ["&bUniversal Cables&f are Mekanism's way to transfer power."]
+			description: ["&b通用线缆&f是通用机械传输能量的方式。"]
 			dependencies: ["3380D85F28C8B5EB"]
 			id: "60FC831769A993EB"
 			tasks: [{
@@ -3030,7 +3030,7 @@
 			x: -27.0d
 			y: -9.75d
 			shape: "diamond"
-			description: ["&bMechanical Pipe&f is the fluid pipe for Mekanism logistics. It can be used to connect to any blocks with Fluid Handlers in them."]
+			description: ["&b机械管道&f是通用机械物流的流体管道。它可以用来连接到任何带有流体处理器的方块。"]
 			dependencies: ["3380D85F28C8B5EB"]
 			id: "7E6B171CC6C9F590"
 			tasks: [{
@@ -3049,7 +3049,7 @@
 			x: -27.5d
 			y: -9.25d
 			shape: "diamond"
-			description: ["&bPressurized Tubes&f are used to transport Gases."]
+			description: ["&b加压管道&f用来输送气体。"]
 			dependencies: ["3380D85F28C8B5EB"]
 			id: "55A15F5BB992B919"
 			tasks: [{
@@ -3068,7 +3068,7 @@
 			x: -28.5d
 			y: -8.25d
 			shape: "diamond"
-			description: ["Similar to the Universal Cable, the &bThermodynamic Conductor&f is Mekanism's way of transferring power in the form of heat."]
+			description: ["与通用线缆类似，&b热导线缆&f是通用机械以热的形式传递能量的方式。"]
 			dependencies: ["3380D85F28C8B5EB"]
 			id: "0567A77FE38BAAFB"
 			tasks: [{
@@ -3087,7 +3087,7 @@
 			x: -28.0d
 			y: -8.75d
 			shape: "diamond"
-			description: ["&bLogistical Transporter&r are used for transport item"]
+			description: ["&b物流管道&r用于传输物品"]
 			dependencies: [
 				"3380D85F28C8B5EB"
 				"3C9263A8B9322A17"
@@ -3109,7 +3109,7 @@
 			x: -26.0d
 			y: -9.75d
 			shape: "diamond"
-			description: ["&bUniversal Cables&f are Mekanism's way to transfer power."]
+			description: ["&b通用线缆&f是通用机械传输能量的方式。"]
 			dependencies: [
 				"60FC831769A993EB"
 				"3C04F89B893C3AD4"
@@ -3130,7 +3130,7 @@
 			x: -26.5d
 			y: -9.25d
 			shape: "diamond"
-			description: ["&bMechanical Pipe&f is the fluid pipe for Mekanism logistics. It can be used to connect to any blocks with Fluid Handlers in them."]
+			description: ["&b机械管道&f是通用机械物流的流体管道。它可以用来连接到任何带有流体处理器的方块。"]
 			dependencies: [
 				"7E6B171CC6C9F590"
 				"3C04F89B893C3AD4"
@@ -3151,7 +3151,7 @@
 			x: -27.0d
 			y: -8.75d
 			shape: "diamond"
-			description: ["&bPressurized Tubes&f are used to transport Gases."]
+			description: ["&b加压管道&f用来输送气体。"]
 			dependencies: [
 				"55A15F5BB992B919"
 				"3C04F89B893C3AD4"
@@ -3172,7 +3172,7 @@
 			x: -27.5d
 			y: -8.25d
 			shape: "diamond"
-			description: ["&bLogistical Transporter&r are used for transport item"]
+			description: ["&b物流管道&r用于传输物品"]
 			dependencies: [
 				"7BB85D104C59947E"
 				"3C04F89B893C3AD4"
@@ -3193,7 +3193,7 @@
 			x: -28.0d
 			y: -7.75d
 			shape: "diamond"
-			description: ["Similar to the Universal Cable, the &bThermodynamic Conductor&f is Mekanism's way of transferring power in the form of heat."]
+			description: ["与通用线缆类似，&b热导线缆&f是通用机械以热的形式传递能量的方式。"]
 			dependencies: [
 				"0567A77FE38BAAFB"
 				"3C04F89B893C3AD4"
@@ -3214,7 +3214,7 @@
 			x: -25.5d
 			y: -9.25d
 			shape: "diamond"
-			description: ["&bUniversal Cables&f are Mekanism's way to transfer power."]
+			description: ["&b通用线缆&f是通用机械传输能量的方式。"]
 			dependencies: [
 				"1376047747763E2B"
 				"2BD0E14195CE79EA"
@@ -3235,7 +3235,7 @@
 			x: -26.0d
 			y: -8.75d
 			shape: "diamond"
-			description: ["&bMechanical Pipe&f is the fluid pipe for Mekanism logistics. It can be used to connect to any blocks with Fluid Handlers in them."]
+			description: ["&b机械管道&f是通用机械物流的流体管道。它可以用来连接到任何带有流体处理器的方块。"]
 			dependencies: [
 				"3D1FF785B5A3BE93"
 				"2BD0E14195CE79EA"
@@ -3256,7 +3256,7 @@
 			x: -26.5d
 			y: -8.25d
 			shape: "diamond"
-			description: ["&bPressurized Tubes&f are used to transport Gases."]
+			description: ["&b加压管道&f用来输送气体。"]
 			dependencies: [
 				"4A3F8A61E0C96284"
 				"2BD0E14195CE79EA"
@@ -3277,7 +3277,7 @@
 			x: -27.0d
 			y: -7.75d
 			shape: "diamond"
-			description: ["&bLogistical Transporter&r are used for transport item"]
+			description: ["&b物流管道&r用于传输物品"]
 			dependencies: [
 				"65731420BC8A57BA"
 				"2BD0E14195CE79EA"
@@ -3298,7 +3298,7 @@
 			x: -27.5d
 			y: -7.25d
 			shape: "diamond"
-			description: ["Similar to the Universal Cable, the &bThermodynamic Conductor&f is Mekanism's way of transferring power in the form of heat."]
+			description: ["与通用线缆类似，&b热导线缆&f是通用机械以热的形式传递能量的方式。"]
 			dependencies: [
 				"7707378FBA216DE5"
 				"2BD0E14195CE79EA"
@@ -3319,7 +3319,7 @@
 			x: -25.0d
 			y: -8.75d
 			shape: "diamond"
-			description: ["&bUniversal Cables&f are Mekanism's way to transfer power."]
+			description: ["&b通用线缆&f是通用机械传输能量的方式。"]
 			dependencies: [
 				"4084EB56091CB118"
 				"3C9F03BD5AAD64B4"
@@ -3340,7 +3340,7 @@
 			x: -25.5d
 			y: -8.25d
 			shape: "diamond"
-			description: ["&bMechanical Pipe&f is the fluid pipe for Mekanism logistics. It can be used to connect to any blocks with Fluid Handlers in them."]
+			description: ["&b机械管道&f是通用机械物流的流体管道。它可以用来连接到任何带有流体处理器的方块。"]
 			dependencies: [
 				"2530BAC444F49758"
 				"3C9F03BD5AAD64B4"
@@ -3361,7 +3361,7 @@
 			x: -26.0d
 			y: -7.75d
 			shape: "diamond"
-			description: ["&bPressurized Tubes&f are used to transport Gases."]
+			description: ["&b加压管道&f用来输送气体。"]
 			dependencies: [
 				"0F4A80345372DFDA"
 				"3C9F03BD5AAD64B4"
@@ -3382,7 +3382,7 @@
 			x: -26.5d
 			y: -7.25d
 			shape: "diamond"
-			description: ["&bLogistical Transporter&r are used for transport item"]
+			description: ["&b物流管道&r用于传输物品"]
 			dependencies: [
 				"6FA2FB491BA35E31"
 				"3C9F03BD5AAD64B4"
@@ -3403,7 +3403,7 @@
 			x: -27.0d
 			y: -6.75d
 			shape: "diamond"
-			description: ["Similar to the Universal Cable, the &bThermodynamic Conductor&f is Mekanism's way of transferring power in the form of heat."]
+			description: ["与通用线缆类似，&b热导线缆&f是通用机械以热的形式传递能量的方式。"]
 			dependencies: [
 				"5C49C666C7FC1CEE"
 				"3C9F03BD5AAD64B4"
@@ -3424,7 +3424,7 @@
 			x: -33.5d
 			y: 9.5d
 			shape: "diamond"
-			description: ["The &bPressurized Reaction Chamber (PRC)&f is used primarily to create &1Substrate&f (to create HDPE Pellets), &1HDPE Pellets&f (to create HDPE Sheets), and &1Ethylene&f (an efficient source of fuel used in the Gas-Burning Generator)."]
+			description: ["&b加压反应室&f主要用于制作&1基片&f（用来合成高密度聚乙烯丸）、&1高密度聚乙烯丸&f（用来合成高密度聚乙烯片）和&1乙烯&f（燃气发电机中使用的有效燃料来源）。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2B471E4CC0E02DED"
@@ -3471,7 +3471,7 @@
 			x: -34.0d
 			y: 7.25d
 			shape: "diamond"
-			description: ["The &bElectrolytic Separator&f sends controlled amounts of direct current into a fluid, causing the atoms in the fluid to break their bonds. This process of electrolysis is used to &ecreate some very useful gases&f from some rather ordinary fluids."]
+			description: ["&b电解分离器&r向流体中通入定额的直流电，使流体中的原子之间的键被破坏。这种电解过程用来从一些相当普通的流体中产生一些非常有用的气体。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"109D647ED52D215D"
@@ -3495,7 +3495,7 @@
 			x: -21.75d
 			y: -9.25d
 			shape: "diamond"
-			description: ["An &bEnergy Cube&f is an advanced type of battery that is compatible with multiple energy systems. Energy can be input from 5 sides, and output on 1 side."]
+			description: ["&b能量立方&f是一种与多种能量系统兼容的高级电池。能量可以从五个面输入，在一个面输出。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"4ADD9913716BA3E2"
@@ -3520,7 +3520,7 @@
 			x: -21.25d
 			y: -8.75d
 			shape: "diamond"
-			description: ["An &bEnergy Cube&f is an advanced type of battery that is compatible with multiple energy systems. Energy can be input from 5 sides, and output on 1 side."]
+			description: ["&b能量立方&f是一种与多种能量系统兼容的高级电池。能量可以从五个面输入，在一个面输出。"]
 			dependencies: ["2B37E2E818D39D16"]
 			id: "59F9F23B352D3B25"
 			tasks: [{
@@ -3539,7 +3539,7 @@
 			x: -20.75d
 			y: -8.25d
 			shape: "diamond"
-			description: ["An &bEnergy Cube&f is an advanced type of battery that is compatible with multiple energy systems. Energy can be input from 5 sides, and output on 1 side."]
+			description: ["&b能量立方&f是一种与多种能量系统兼容的高级电池。能量可以从五个面输入，在一个面输出。"]
 			dependencies: ["59F9F23B352D3B25"]
 			id: "530661120D8CAB3A"
 			tasks: [{
@@ -3558,7 +3558,7 @@
 			x: -20.25d
 			y: -7.75d
 			shape: "diamond"
-			description: ["An &bEnergy Cube&f is an advanced type of battery that is compatible with multiple energy systems. Energy can be input from 5 sides, and output on 1 side."]
+			description: ["&b能量立方&f是一种与多种能量系统兼容的高级电池。能量可以从五个面输入，在一个面输出。"]
 			dependencies: ["530661120D8CAB3A"]
 			id: "5BEA13AE24262604"
 			tasks: [{
@@ -3577,7 +3577,7 @@
 			x: -16.75d
 			y: 5.25d
 			shape: "diamond"
-			description: ["The &bPersonal Chest&f used to be called, \"Electric Chest\" that could be locked with the use of electricity."]
+			description: ["&b私人箱子&f，以前叫“电动箱子”，可以用电上锁。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2B471E4CC0E02DED"
@@ -3597,15 +3597,15 @@
 			}]
 		}
 		{
-			title: "Dynamic Tank"
+			title: "动态储罐"
 			x: -32.75d
 			y: -5.5d
 			shape: "diamond"
 			description: [
-				"&bDynamic Tank&f makes up the multi-block that is the Dynamic Tank, a &efluid storage&f structure that can hold a large amount of a single type of fluid."
+				"&b动态储罐&f可组建多方块结构，即动态储罐，一种&e流体存储&f结构，可以容纳大量单一类型的流体。"
 				""
-				"Minimum Size=3x3x3"
-				"Maximum Size=18x18x18"
+				"最小尺寸=3x3x3"
+				"最大尺寸=18x18x18"
 			]
 			hide_dependency_lines: true
 			dependencies: ["2B471E4CC0E02DED"]
@@ -3653,7 +3653,7 @@
 			x: -14.25d
 			y: 7.0d
 			shape: "diamond"
-			description: ["&bEnergy Units&r are modules that will double the current energy capacity of the selected MekaSuit armor piece."]
+			description: ["&b能量单元&r是将选定MekaSuit装甲的当前能量容量加倍的模块。"]
 			dependencies: ["71936154C575DC28"]
 			optional: true
 			id: "5F2BB6D7A05DED25"
@@ -3690,7 +3690,7 @@
 			x: -12.25d
 			y: 10.0d
 			shape: "diamond"
-			description: ["&bRadiation Shielding Units&r are modules that allows your MekaSuit armor piece to act like the respective Hazmat Suit pieces and provide protection from radiation."]
+			description: ["&b辐射防护装置&r是允许你的MekaSuit装甲具有与相应的Hazmat装甲部件相似的提供保护免受辐射功能的模块。"]
 			dependencies: ["71936154C575DC28"]
 			optional: true
 			id: "3FACBFB5A392CEF4"
@@ -3709,7 +3709,7 @@
 			x: -13.75d
 			y: 8.5d
 			shape: "diamond"
-			description: ["&bThe Excavation Escalation Unit&r is a module that when added to a Meka-Tool Increases the Mining speed of all blocks."]
+			description: ["&b挖掘升级单元&r是一个模块，当添加到Meka工具时，可以提高全部方块的采矿速度。"]
 			dependencies: ["71936154C575DC28"]
 			optional: true
 			id: "60F577BA03A2F760"
@@ -3729,9 +3729,9 @@
 			y: 8.0d
 			shape: "diamond"
 			description: [
-				"&bThe Attack Amplification Unit&r Is a Module that Amplifies Melee attacks to both players and mobs."
+				"&b攻击增强单元&r是一个模块，用于增强对玩家和生物的近战攻击。"
 				""
-				"It can only be applied to the Meka-Tool."
+				"它只能应用于Meka工具。"
 			]
 			dependencies: ["71936154C575DC28"]
 			optional: true
@@ -3752,12 +3752,12 @@
 			y: 9.0d
 			shape: "diamond"
 			description: [
-				"&bThe Farming unit&r is a Module that is applied to the Meka-Tool. It Gives the tool several agriculture-based functions, Up to 4 can be stacked on one tool."
+				"&b耕种单元&r是应用于Meka工具的模块。它为该工具提供了多种用于农业的功能，一个工具上最多可以堆叠4个模块。"
 				""
-				"The Farming unit unlocks the following abilities in the Meka-tool :"
-				"• Soil tilling"
-				"• Log stripping"
-				"• Soil flattening"
+				"耕种单元在Meka工具中解锁以下能力："
+				"•土壤耕作"
+				"•原木去皮"
+				"•土壤平整"
 			]
 			dependencies: ["71936154C575DC28"]
 			optional: true
@@ -3801,7 +3801,7 @@
 			x: -13.25d
 			y: 8.0d
 			shape: "diamond"
-			description: ["&bThe Silk Touch Unit&r is a Module in Mekanism that is installed onto the Meka-Tool, which gives the tool the property of the Silk-Touch Enchantment."]
+			description: ["&b精准采集单元&r是通用机械中的一个模块，安装在Meka工具上，使该工具具有精准采集的属性。"]
 			dependencies: ["71936154C575DC28"]
 			optional: true
 			id: "363D324AC7E60B33"
@@ -3829,7 +3829,7 @@
 			x: -11.75d
 			y: 9.5d
 			shape: "diamond"
-			description: ["&bVein Mining Unit&r allows for quick mining of ore deposits and rapid felling of trees."]
+			description: ["&b矿脉挖掘单元&r允许快速开采矿石矿脉和快速砍伐树木。"]
 			dependencies: ["71936154C575DC28"]
 			optional: true
 			id: "6AF0BEB7849940AA"
@@ -3848,7 +3848,7 @@
 			x: -11.75d
 			y: 7.5d
 			shape: "diamond"
-			description: ["&bTeleportation Unit &rprovides for quick travel to nearby blocks."]
+			description: ["&b传送单元&r提供附近方块的快速旅行的能力。"]
 			dependencies: ["71936154C575DC28"]
 			optional: true
 			id: "094352C23D2BDFF1"
@@ -3868,9 +3868,9 @@
 			y: 7.0d
 			shape: "diamond"
 			description: [
-				"&bElectrolytic Breathing Units&r are modules that allows you to breathe underwater."
+				"&b电解呼吸装置&r是允许你在水下呼吸的模块。"
 				""
-				"In addition, if the Jetpack Unit is installed onto the MekaSuit Bodyarmor, it will automatically begin to refuel its hydrogen supply while underwater or out in the rain."
+				"此外，如果喷气背包单元安装在MekaSuit装甲上，它将在水下或在雨中自动开始为其补充氢气。"
 			]
 			dependencies: ["71936154C575DC28"]
 			optional: true
@@ -3890,7 +3890,7 @@
 			x: -13.75d
 			y: 9.5d
 			shape: "diamond"
-			description: ["&bInhalation Purification Units&r are modules that can protect the player from selected potion effects including beneficial, neutral, and harmful ones."]
+			description: ["&b吸入净化单元&r是可以保护玩家免受选定药水影响的模块，包括有益、中性和有害的影响。"]
 			dependencies: ["71936154C575DC28"]
 			optional: true
 			id: "244705C0E3B22D12"
@@ -3909,7 +3909,7 @@
 			x: -14.25d
 			y: 8.0d
 			shape: "diamond"
-			description: ["&bVision Enhancement Units&r are modules that can be installed on a MekaSuit Helmet to improve night vision."]
+			description: ["&b视觉增强单元&r是可以安装在MekaSuit头盔上以提高夜视能力的模块。"]
 			dependencies: ["71936154C575DC28"]
 			optional: true
 			id: "5EBAA0E089F5DE0F"
@@ -3928,7 +3928,7 @@
 			x: -12.75d
 			y: 8.5d
 			shape: "diamond"
-			description: ["&bSolar Recharging Units&r are modules that charge your MekaSuit during direct exposure to sunlight."]
+			description: ["&b太阳能充电单元&r是在阳光直接照射下为MekaSuit充电的模块。"]
 			dependencies: ["71936154C575DC28"]
 			optional: true
 			id: "66037DCA002A83D2"
@@ -3948,9 +3948,9 @@
 			y: 8.5d
 			shape: "diamond"
 			description: [
-				"&bNutritional Injection Units&r are modules that can be installed on a MekaSuit Helmet to remove the need to manually eat."
+				"&b营养注射装置&r是可以安装在MekaSuit头盔上的模块，无需手动进食。"
 				""
-				"When installed, the MekaSuit helmet will have an internal storage for Nutritional Paste (128,000mb)."
+				"安装后，MekaSuit头盔将有一个内部存储营养糊剂（128000mB）。"
 			]
 			dependencies: ["71936154C575DC28"]
 			optional: true
@@ -3970,7 +3970,7 @@
 			x: -12.25d
 			y: 8.0d
 			shape: "diamond"
-			description: ["&bDosimeter Units&r are modules that will display your radiation dose in the HUD on the bottom right corner."]
+			description: ["&b放射量测定器单元&r是在右下角的HUD中显示你的受辐射剂量的模块。"]
 			dependencies: ["71936154C575DC28"]
 			optional: true
 			id: "25349626A5F99342"
@@ -4008,11 +4008,11 @@
 			y: 9.0d
 			shape: "diamond"
 			description: [
-				"&bJetpack Units&r are modules that allows your MekaSuit Bodyarmor to have the functions of a Jetpack."
+				"&b喷气背包单元&r是允许MekaSuit护甲具有喷气背包功能的模块。"
 				""
-				"Once applied, the MekaSuit Bodyarmor will have an internal storage for hydrogen (48,000mb)."
+				"一旦应用，MekaSuit护甲将具有内部氢气储存（48000mB）。"
 				""
-				"The Jetpack Unit is best paired with the Electrolytic Breathing Unit. Doing so allows the accumulation of hydrogen when underwater or in the rain. "
+				"喷气背包单元最好与电解呼吸装置搭配使用。这样做可以在水下或雨中补充氢气。"
 			]
 			dependencies: ["71936154C575DC28"]
 			optional: true
@@ -4032,7 +4032,7 @@
 			x: -10.75d
 			y: 7.5d
 			shape: "diamond"
-			description: ["&bCharge Distribution Units&r are modules that distributes gained energy evenly to all MekaSuit armor pieces. Normally if you have installed Solar Recharging Units onto your MekaSuit Helmet, only the helmet will gain all the energy it's producing. With the Charge Distribution Unit installed, the produced energy will be evenly distributed throughout all MekaSuit armor pieces."]
+			description: ["&b充能分配单元&r是将获得的能量均匀分配给全部MekaSuit装甲部件的模块。通常，如果你在MekaSuit头盔上安装了太阳能充电单元，只有头盔才能获得它产生的全部能量。安装充能分配单元后，产生的能量将均匀分布在全部MekaSuit装甲部件上。"]
 			dependencies: ["71936154C575DC28"]
 			optional: true
 			id: "0BDC1970236509B2"
@@ -4052,9 +4052,9 @@
 			y: 9.0d
 			shape: "diamond"
 			description: [
-				"&bGravitational Modulating Units&r are modules that allows the user to utilize creative flight."
+				"&b重力调节装置&r是允许使用者实现创造飞行的模块。"
 				""
-				"If the MekaSuit bodyarmor also has a Jetpack Unit installed, the Jetpack Unit will be automatically disabled if the Gravitational Modulating Unit is enabled, and vice versa."
+				"如果MekaSuit护甲也安装了喷气背包单元，则如果启用重力调节单元，喷气背包将自动禁用，反之亦然。"
 			]
 			dependencies: ["71936154C575DC28"]
 			optional: true
@@ -4093,9 +4093,9 @@
 			y: 8.5d
 			shape: "diamond"
 			description: [
-				"&bLocomotive Boosting Units&r are modules that will allow you to boost your sprinting speed and jumping distance."
+				"&b动力助推单元&r是一个可以帮助你提升疾跑速度和跳跃高度的模块。"
 				""
-				"It can be configured from 0.0 sprint boost, to a 0.5 sprint boost. Note that your hunger consumption would also increase."
+				"它可以从0.0疾跑加速配置为0.5疾跑加速。注意，你的饥饿值消耗量也会增加。"
 			]
 			dependencies: ["71936154C575DC28"]
 			optional: true
@@ -4115,7 +4115,7 @@
 			x: -10.25d
 			y: 8.0d
 			shape: "diamond"
-			description: ["&bHydraulic Propulsion Units&r are modules that allows you to climb over a maximum of 2 blocks. It also allows you to jump higher when you hold Left Control and jump (LCrtl+Spacebar)."]
+			description: ["&b液压推进单元&r是允许你爬上最高2个方块的模块。它还允许你在按住左Ctrl和跳跃（LCrtl+空格键）时跳跃得更高。"]
 			dependencies: ["71936154C575DC28"]
 			optional: true
 			id: "0D02219A8A154E07"
@@ -4135,9 +4135,9 @@
 			y: 8.0d
 			shape: "diamond"
 			description: [
-				"&bMagnetic Attraction Unit&r is a Module that is applied to the Mekasuit Boots."
+				"&b磁力吸引单元&r是应用于Mekasuit靴子的模块。"
 				""
-				"As the item Flavor text states \"[The unit] Uses Powerful Magnets to draw distant items towards the player\", you can install up to 4 on one pair of boots."
+				"正如物品文本所述，“（这个模块单元）使用强大的磁铁将远处的物品吸引到玩家身上”，你最多可以在一双靴子上安装4个该单元。"
 			]
 			dependencies: ["71936154C575DC28"]
 			optional: true
@@ -4198,7 +4198,7 @@
 			x: -30.25d
 			y: 5.0d
 			shape: "diamond"
-			description: ["The &dModification Station&r is used to apply modular upgrades to the Meka-Suit in exchange for energy."]
+			description: ["&d改造站&r用来对Meka-Suit进行模块化升级，以更多的能量消耗为代价。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"53F8FF29F8F02DC0"
@@ -4221,7 +4221,7 @@
 			x: -30.75d
 			y: -0.5d
 			shape: "diamond"
-			description: ["A sturdy machine capable of mixing two pigments together to produce a new pigment."]
+			description: ["一台可以将两种颜料混合制成新颜料的稳固机器。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"1F22F5BF3BD21A03"
@@ -4245,7 +4245,7 @@
 			x: -30.25d
 			y: -1.0d
 			shape: "diamond"
-			description: ["A machine used to extract pigments from blocks and items."]
+			description: ["一台用于从方块和物品中提取颜料的机器。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"1F22F5BF3BD21A03"
@@ -4268,7 +4268,7 @@
 			x: -29.75d
 			y: -0.5d
 			shape: "diamond"
-			description: ["A machine used to color blocks and items via a careful application of a stored pigment."]
+			description: ["一台使用存储的颜料给方块和物品精心上色的机器。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"1F22F5BF3BD21A03"
@@ -4312,16 +4312,16 @@
 			}]
 		}
 		{
-			title: "Teleporter"
+			title: "传送机"
 			x: -16.25d
 			y: 3.5d
 			shape: "diamond"
 			description: [
-				"The &bTeleporter&f is used with the Teleporter Frame to build a Teleporter Portal."
+				"&b传送机&f与传送框架一起用来建造传送门。"
 				""
-				"With the &bTeleporter Frames&r and the &bTeleporter&r block, you are able to create a &bTeleporter Portal&r, if you right click the &bTeleporter Block&r you open an interface where you can link the Teleporters one to another with the \"set\" button."
+				"使用&b传送框架&r和&b传送机&r方块，你可以建造&b传送门&r，如果你右键&b传送机方块&r，你将打开一个界面，你可以用“设置”按钮将传送机彼此链接起来。"
 				""
-				"This portal can be walked directly into for instant teleportation."
+				"这个传送门可以直接进入进行瞬间传送。"
 			]
 			dependencies: [
 				"73368EF2948452D9"
@@ -4352,7 +4352,7 @@
 			x: -19.75d
 			y: 4.5d
 			shape: "diamond"
-			description: ["The &bDigital Miner&f is the large scale &9mining machine&f of Mekanism. However, this machine is like no other as it \"magically-teleports\" mined blocks to its inventory."]
+			description: ["&b数字型采矿机&f是通用机械的大型&9矿机&f。然而，这台机器与其他机器不同，它可以“神奇地传送”方块到它的物品栏中。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"7499C5F6FE7EA7C5"
@@ -4377,7 +4377,7 @@
 			x: -18.0d
 			y: 2.5d
 			shape: "diamond"
-			description: ["The &bChargepad&f is a wireless electric charging station. Any rechargeable items you have in your inventory will be charged while standing on it."]
+			description: ["&b充电台&f是一个无线充电站。你物品栏中的任何可充电物品都将在其上充电。"]
 			dependencies: [
 				"68DB7AE14FE8B8EE"
 				"38C929808BBB9FFF"
@@ -4399,8 +4399,8 @@
 			x: -17.0d
 			y: 4.0d
 			shape: "diamond"
-			subtitle: "FIRE !!!!"
-			description: ["The &bFlamethrower&f is a ranged weapon which uses Hydrogen gas as its fuel."]
+			subtitle: "火！！！！"
+			description: ["&b火焰喷射器&f是一种远程武器，使用氢气作为燃料。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"40C970572379006E"
@@ -4456,7 +4456,7 @@
 			x: -18.5d
 			y: 4.75d
 			shape: "diamond"
-			description: ["The &bScuba Mask&f is an utility head armor piece, used in conjunction with the Scuba Tank to breathe underwater."]
+			description: ["潜水面罩是一种实用的头盔护甲，与潜水罐一起使用以在水下呼吸。"]
 			hide_dependency_lines: true
 			dependencies: ["2B471E4CC0E02DED"]
 			id: "25DDB958BB3EF85E"
@@ -4482,7 +4482,7 @@
 			x: -17.5d
 			y: 4.75d
 			shape: "diamond"
-			description: ["The &bScuba Tank&f is a piece of equipment worn as a chestplate that provides underwater respiration when a Gas Mask is worn"]
+			description: ["&b潜水罐&r是一个作为胸甲的装备，当佩戴潜水面罩时，它可以提供水下水下呼吸"]
 			hide_dependency_lines: true
 			dependencies: [
 				"40C970572379006E"
@@ -4512,7 +4512,7 @@
 			x: -18.5d
 			y: 3.25d
 			shape: "diamond"
-			description: ["The &bJetpack&f is an item that allows the player to fly, equippable in the chestplate slot. It uses Hydrogen gas as a fuel."]
+			description: ["喷气背包&f是一个可以让玩家飞行的物品，装备在胸甲槽位中。它使用氢气作为燃料。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"40C970572379006E"
@@ -4541,7 +4541,7 @@
 			x: -17.5d
 			y: 3.25d
 			shape: "diamond"
-			description: ["The &bArmored Jetpack&f is an upgraded version of the Jetpack. It provides &e12 armor points&f, offering slightly better protection than a &9diamond chestplate&f with &5Protection IV&f."]
+			description: ["&b装甲喷气背包&f是喷气背包的升级版本。它提供&e12盔甲值&f，提供比&9钻石胸甲&f和&5保护IV&f更好的保护。"]
 			dependencies: ["2B6FB57F68D86470"]
 			id: "5BDED8B4C8B90A60"
 			tasks: [{
@@ -4559,7 +4559,7 @@
 			x: -18.0d
 			y: 4.0d
 			shape: "diamond"
-			description: ["&bFree Runners&f are an item that allows players to ascend 1-block inclines automatically, as well as preventing fall damage as long as they are charged. Falling will reduce the item's charge, depending on how high you've fallen from."]
+			description: ["&b自由助跑器&f是一个可以让玩家自动走上一个方块的物品，并且只要充电就可以防止摔落伤害。摔落会减少物品的电量，这取决于你从多高的地方摔落。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"2B471E4CC0E02DED"
@@ -4602,9 +4602,9 @@
 			y: -1.75d
 			shape: "diamond"
 			description: [
-				"&bQIO Drives&r are inserted into a Drive Array, allowing it to store more items. Each drive has a number of items and item types it can contain."
+				"&bQIO驱动器&r用来插入驱动器阵列，允许它存储更多物品。每个驱动器都可以容纳许多物品和物品类型。"
 				""
-				"A basic QIO drive can contain 16000 items and 128 item types."
+				"一个基本的QIO驱动器可以容纳16000个物品和128个物品类型。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -4687,9 +4687,9 @@
 			y: -0.75d
 			shape: "diamond"
 			description: [
-				"&bQIO Drive Array&r is a blocks that contains QIO Drives and wirelessly transmits their contents to other QIO devices."
+				"&bQIO驱动器阵列&r是一个包含QIO驱动器并将其内容无线传输到其他QIO设备的方块。"
 				""
-				"In order to work, the drive array must be set to a frequency."
+				"为了让它工作，必须给驱动器阵列设置一个频率。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -4715,7 +4715,7 @@
 			x: -12.75d
 			y: -0.25d
 			shape: "diamond"
-			description: ["&dQIO Dashboards&r allow users to interface with the contents of a QIO Drive Array. It looks similar to a chest inventory, but you can search, sort and scroll through. It shows all items of one type as a single stack, even if there are thousands of them. In order to access a drive array, the dashboard must be set to the same frequency as the drive array."]
+			description: ["&dQIO仪表板&r允许使用者与QIO驱动器阵列的内容交互。它看起来像一个箱子物品栏，但你可以搜索，排序和滚动。它将一种类型的全部物品显示为一个堆栈，即使有数千个物品。为了访问驱动器阵列，必须将仪表板设置为与驱动器阵列相同的频率。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"625F7139C06E41C8"
@@ -4738,7 +4738,7 @@
 			x: -15.25d
 			y: -1.25d
 			shape: "diamond"
-			description: ["A QIO-linked item import unit. Place on a block and import its contents to your QIO system."]
+			description: ["与QIO相关的物品导入单元。放置在方块上并将其内容导入到QIO系统。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"625F7139C06E41C8"
@@ -4761,7 +4761,7 @@
 			x: -15.25d
 			y: -0.25d
 			shape: "diamond"
-			description: ["A QIO-linked item export unit. Place on a block and export contents from your QIO systeme to the block."]
+			description: ["与QIO相关的物品导出单元。放置在方块上并从你的QIO系统将其内容导出到方块。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"625F7139C06E41C8"
@@ -4784,7 +4784,7 @@
 			x: -12.75d
 			y: -1.25d
 			shape: "diamond"
-			description: ["A QIO-linked redstone adapter. Use to monitor your QIO system's contents."]
+			description: ["一种与QIO关联的红石适配器。用于监视QIO系统的内容。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"625F7139C06E41C8"
@@ -4807,7 +4807,7 @@
 			x: -34.0d
 			y: 8.75d
 			shape: "diamond"
-			description: ["&bThe Electric Pump&r is used to pump fluids out of a reservoir in the world or a storage."]
+			description: ["&b电动泵&r用来将液体从世界上的储液罐或存储液体的方块中抽出。"]
 			dependencies: [
 				"1FC021A3877901BF"
 				"7CCCE060E49A883E"
@@ -4830,13 +4830,13 @@
 			y: 8.75d
 			shape: "diamond"
 			description: [
-				"The &bRotary Condensentrator&f is used for converting substances between liquid and gaseous forms at a rate of 1:1."
+				"&b回旋式气液转换机&f用来以1:1的速度在液体和气体形式之间转换物质。"
 				""
-				"It has two modes:"
+				"它有两种模式："
 				""
-				"&6Decondensentrating&f, which turns Liquids into Gases"
+				"&6液体蒸发&f，将流体转化为气体"
 				""
-				"&6Condensentrating&f, which turns Gases into Liquids"
+				"&6气体冷凝&f，将气体转化为流体"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -4858,15 +4858,15 @@
 			}]
 		}
 		{
-			title: "Turbine"
+			title: "涡轮"
 			icon: "mekanismgenerators:rotational_complex"
 			x: -32.75d
 			y: -6.75d
 			shape: "diamond"
 			description: [
-				"The &bTurbine Casing&f is a pressure-resistant casing that is used in the creation of the &cIndustrial Turbine&f multi block structure."
+				"&b涡轮机外壳&f是一种耐压外壳，用来建造&c工业涡轮机&f多方块结构。"
 				""
-				"The &bElectromagnetic Coil&f is a block used in creating several multi-block structures, including the Thermoelectric Boiler."
+				"&b电磁线圈&f用来建造多方块结构，包括热力锅炉。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -4996,21 +4996,21 @@
 			}]
 		}
 		{
-			title: "Fission Reactor"
+			title: "裂变反应堆"
 			icon: "mekanismgenerators:fission_fuel_assembly"
 			x: -31.0d
 			y: -4.75d
 			shape: "diamond"
 			description: [
-				"A &bFission Reactor&r is a multiblock structure that generates massive amounts of heat but does not produce power on its own. How much heat is generated depends on the rate at which it burns Fissile Fuel."
+				"裂变反应堆是一种多方块结构，可以产生大量热量，但本身不产生能量。产生的热量取决于燃烧裂变燃料的速率。"
 				""
-				"The structure must be a cuboid of minimum outside size 3x4x3 (along X, Y and Z), up to 18x18x18"
+				"结构必须是最小外形尺寸为3x4x3（沿X、Y和Z）的长方体，最大为18x18x18"
 				""
-				"A fission reactor requires at least 4 Fission Reactor Ports:"
-				"• One coolant input"
-				"• One coolant output"
-				"• One Fissile Fuel input"
-				"• One waste output"
+				"裂变反应堆至少需要4个裂变反应堆端口："
+				"•一个冷却剂输入"
+				"•一个冷却剂输出"
+				"•一个裂变燃料输入"
+				"•一个废料输出"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -5158,13 +5158,13 @@
 			y: 0.75d
 			shape: "diamond"
 			description: [
-				"Radioactive Waste Barrels are used to store (or as buffer for) radioactive materials. They delete their contents at a rate of 1 mB per minute."
+				"放射性废料桶用来储存放射性材料（或作为缓存）。他们以每分钟1mB的速度删除内容物。"
 				""
 				""
-				"The player can check the storage status of Radioactive Waste Barrels by crouching and right-clicking it with an empty hand. Green radiation particles start to appear as a barrel fills up (these are just a rough visual indicator of a barrel's fill ratio, not actual radiations)."
+				"玩家可以通过蹲下并用空手右击来检查放射性废料桶的储存状态。绿色辐射粒子效果开始出现在废料桶装满时（这些只是木桶填满率的粗略视觉指标，而不是实际的辐射）。"
 				""
 				""
-				"Radioactive Waste barrels cannot be moved by any means (pistons, cardboard box, etc.). Also because barrels containing any radioactive waste cannot be broken safely, the only way to safely move a non empty barrel is to transfer its contents to another barrel before breaking it. This can be done by connecting a Pressurized Tube to its top or bottom side in pull mode."
+				"放射性废料桶不能以任何方式移动（活塞、纸箱等）。此外，由于含有放射性废料的桶不能安全地被破坏，安全移动非空废料桶的唯一方法是在挖掘之前将其内容物转移到另一个桶。这可以通过在抽入模式下将加压管道连接到其顶部或底部来实现。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["3CE25095E2661776"]
@@ -5182,7 +5182,7 @@
 			}]
 		}
 		{
-			title: "Nuclear Waste Plant Part 1"
+			title: "核废料处理厂第一部分"
 			icon: "create:shadow_steel_casing"
 			x: -33.56d
 			y: -9.0d
@@ -5264,7 +5264,7 @@
 			}]
 		}
 		{
-			title: "Nuclear Waste Plant Part 2"
+			title: "核废料处理厂第二部分"
 			icon: "create:shadow_steel_casing"
 			x: -31.875d
 			y: -9.0d
@@ -5371,7 +5371,7 @@
 			}]
 		}
 		{
-			title: "Nuclear Waste Plant Part 4"
+			title: "核废料处理厂第四部分"
 			icon: "create:shadow_steel_casing"
 			x: -31.875d
 			y: -10.875d
@@ -5478,12 +5478,12 @@
 			}]
 		}
 		{
-			title: "Nuclear Waste Plant Part 3"
+			title: "核废料处理厂第三部分"
 			icon: "create:shadow_steel_casing"
 			x: -33.75d
 			y: -10.875d
 			shape: "diamond"
-			description: ["You will need : &l 11776 White Concrete&r or &l184 stacks&r."]
+			description: ["你需要：&l11776个白色混凝土&r，或者说&1184组&r。"]
 			dependencies: ["71D840BE9E318538"]
 			size: 1.5d
 			id: "5DBD87ED30D6F935"
@@ -5520,7 +5520,7 @@
 				{
 					id: "1BBC3DDD79C51290"
 					type: "checkmark"
-					title: "&fWhite Concrete"
+					title: "&f白色混凝土"
 				}
 				{
 					id: "6FABA45A0A01EB7A"
@@ -5553,9 +5553,9 @@
 			y: -10.0d
 			shape: "diamond"
 			description: [
-				"&cIn order to make create schematics work properly, please do not rotate them while building them !"
+				"&c为了使机械动力蓝图工作，请不要在建造时旋转它们！"
 				""
-				"&bYou can use the Entangled mod to entangle the inputs of your masterful machineries and have a better automation."
+				"&b你可以用纠缠方块模组来纠缠你的Masterful Machineries的输入，并实现更好的自动化。"
 			]
 			dependencies: ["16BD9AB1243FBA18"]
 			size: 2.0d
@@ -5611,11 +5611,11 @@
 			y: -8.5d
 			shape: "hexagon"
 			description: [
-				"This Multiblock is used to make Custom Gas !"
+				"此多方块结构用来生产自定义气体！"
 				""
-				"&cIn order to make create schematics work properly, please do not rotate them while building them !"
+				"&c为了使机械动力蓝图工作，请不要在建造时旋转它们！"
 				""
-				"&bYou can use the Entangled mod to entangle the inputs of your masterful machineries and have a better automation."
+				"&b你可以用纠缠方块模组来纠缠你的Masterful Machineries的输入，并实现更好的自动化。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["678264A742DDA038"]

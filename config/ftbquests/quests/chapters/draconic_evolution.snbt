@@ -50,7 +50,7 @@
 			x: -0.25d
 			y: -4.75d
 			shape: "diamond"
-			description: ["挖掘&5龙矿&r得到&5龙尘&r。"]
+			description: ["挖掘&5龙矿&r以获取&5龙尘&r。"]
 			dependencies: [
 				"4A523013734520E4"
 				"1FDDA157DFAF2A7F"

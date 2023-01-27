@@ -3,7 +3,7 @@
 	group: "56CE41B21EC10C89"
 	order_index: 0
 	filename: "ch_7_rename"
-	title: "&bChapter 1&r &6-&r The Culmination"
+	title: "&b第一章&r&6-&r顶点"
 	icon: "extendedcrafting:the_ultimate_ingot"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -12,7 +12,7 @@
 			x: 1.0d
 			y: -1.0d
 			shape: "gear"
-			subtitle: "The first Ingot"
+			subtitle: "基础锭"
 			dependencies: [
 				"121DF7B31DB4BEF8"
 				"04C0C78A3BB1B89A"
@@ -35,7 +35,7 @@
 		{
 			x: -1.25d
 			y: -1.0d
-			subtitle: "Everything you need to know"
+			subtitle: "你需要知道的一切"
 			dependencies: ["067E4E1175D3BBFA"]
 			id: "7ECEB3A83898CA46"
 			tasks: [{
@@ -59,7 +59,7 @@
 			x: 1.0d
 			y: 0.75d
 			shape: "octagon"
-			subtitle: "Important ! "
+			subtitle: "很重要！"
 			dependencies: [
 				"067E4E1175D3BBFA"
 				"761BAE3E76AB71A3"
@@ -79,7 +79,7 @@
 		{
 			x: 3.75d
 			y: 0.25d
-			subtitle: "Crafting Component"
+			subtitle: "合成组件"
 			dependencies: ["6D4CE7DB9226C36C"]
 			id: "0717E9C87971D20A"
 			tasks: [{
@@ -98,7 +98,7 @@
 			x: -3.25d
 			y: 2.0d
 			shape: "square"
-			subtitle: "The First Component"
+			subtitle: "基础组件"
 			dependencies: [
 				"6D4CE7DB9226C36C"
 				"19398704702EA1E4"
@@ -117,20 +117,20 @@
 			}]
 		}
 		{
-			title: "Combination Crafting"
+			title: "合成核心"
 			x: 5.25d
 			y: 0.25d
-			subtitle: "The Combination begins"
+			subtitle: "合成开始了！"
 			description: [
-				"&6Combination Crafting&r is an in-world multi-block crafting setup where items are combined together to create something.... &especial&r."
+				"&6组合合成&r是架设在世界上的多方块结构，用来使得物品组合在一起成为……&e特殊&r物品。"
 				""
-				"This setup consists of a &6Crafting Core&r in the center and pedestals placed around it. Pedestals can be placed anywhere around the &6Crafting Core&r in a 3 block radius, and must be on the same Y-level."
+				"此结构需在中央摆放一个&6合成核心&r并在其周围摆放基座。基座可放在&6合成核心&r半径三格范围内任意位置，但必须和其保持同一高度。"
 				""
-				"Power must be provided to the &6Crafting Core&r for this structure to fonction."
+				"向&6合成核心&r供应能量保持结构运作。"
 				""
-				"Recipes have a center item which goes on the &6Crafting Core&r, and pedestals items which go on the pedestals around it."
+				"配方中央位置的物品放在&6合成核心&r上，周围的物品则放在其附近的基座。"
 				""
-				"Right clicking on the side of the &6Crafting Core&r will show you information about the current crafting operation, such as progress or power cost, as well as how much power is stored in it."
+				"右击&6合成核心&r的侧边会显示当前配置的信息，例如进度和能量消耗，以及其内部能量储量。"
 			]
 			dependencies: ["0717E9C87971D20A"]
 			min_width: 300
@@ -155,24 +155,24 @@
 			}]
 		}
 		{
-			title: "Compression Crafting"
+			title: "量子压缩机"
 			x: 5.25d
 			y: -1.5d
-			subtitle: "Quantum Processing "
+			subtitle: "量子处理"
 			description: [
-				"&3Quantum Compression&r is the process of compressing items a little too much. This is done using the &6Quantum Compressor&r."
+				"&3量子压缩&r&6量子压缩机&r。能将物品稍微进行压缩。使用量子压缩机即可进行压缩。"
 				""
-				"This block is a powered machine that can hold and compress extremly large amount of materials. It can be done thanks to the large internal buffer that is represented with a &1Blue bar&r."
+				"量子压缩机需要能量，它能容纳极大数量的材料进行压缩。这要归功于用&1蓝色进度条&r显示的大型内部缓存槽。"
 				""
-				"Each singularity needs a &bCatalyst&r, that needs to be placed in the left slot and does not get used up."
+				"每个配方都需要&b催化剂&r。其需要被放置在最左边的槽位中，它不会被消耗。"
 				""
-				"Once there are enough items in the buffer, the machine will begin to craft the item with power."
+				"当缓存槽存有足够的物品，机器就开始用电制造物品。"
 				""
-				"The eject button is really useful if you put other items or too much of the item and you want to get the extra back."
+				"如果你放了错误的物品或太多的物品，那你会喜欢弹出按钮的。假如你将物品错误放入压缩机，你只需点击在输入槽上方的弹出按钮即可拿回物品。缓存槽中的物品会被储存在无尽的虚空中，你只能通过弹出重新拿回物品。"
 				""
-				"Be careful, if you break the machine while operating, you will loose the items inside ! "
+				"小心，如果你在操作时破坏了机器，缓存槽里的东西将消失不见！"
 				""
-				"Finally the item input buffer of the machine is capable of holding &5Billions&r of items, by default it will only hold as many as the recipe requires. You can disable this limit by clicking on the lock button next to the input buffer."
+				"最后，量子压缩机的物品输入缓存足以容纳&5数十亿&r物品，但其默认仅可容纳配方所需数量的物品。你可以通过点击输入缓存条旁的锁定按钮来禁用这一限制。"
 			]
 			dependencies: ["0717E9C87971D20A"]
 			min_width: 350
@@ -231,7 +231,7 @@
 			x: 0.0d
 			y: 4.0d
 			shape: "square"
-			subtitle: "Better Component"
+			subtitle: "更好的组件"
 			dependencies: [
 				"6D4CE7DB9226C36C"
 				"19398704702EA1E4"
@@ -253,7 +253,7 @@
 			x: 2.0d
 			y: 4.0d
 			shape: "square"
-			subtitle: "The best...not yet ! "
+			subtitle: "最好的...还没有！"
 			dependencies: [
 				"6D4CE7DB9226C36C"
 				"19398704702EA1E4"
@@ -275,7 +275,7 @@
 			x: 5.25d
 			y: 2.0d
 			shape: "square"
-			subtitle: "The Best Component"
+			subtitle: "最终组件"
 			dependencies: [
 				"6D4CE7DB9226C36C"
 				"19398704702EA1E4"
@@ -411,13 +411,13 @@
 			x: -4.25d
 			y: 4.75d
 			description: [
-				"&6Auto Crafting Tables&r are an upgraded version of &2Extended's Crafting Tables&r that can automatically insert items and be piped out of."
+				"&6自动工作台&r是&2Extended模组的工作台&r的升级版，可以自动输入物品并被管道提取。"
 				""
-				"Item insertion is done by simply placing a &nchest above&r the table, and inserting items into saif chest. Item insertion uses power."
+				"在自动工作台上放置一个箱子，箱子内部的物品将自动输入到自动工作台中，这个过程需要能量。"
 				""
-				"For item insertion to work, you must lay out a recipes in the grid ans save the recipe. This is done by &1shift+left clicking&r on one of the 3 recipe slots in the top right. You can then select the recipe by clicking on it. You can delete the recipe by &1shift + left clicking it&r."
+				"要使物品可以自动输入，你必须在工作台界面布置并保存配方。通过&1shift+左键点击&r右上角三个配方槽之中的一个就可以将配方保存，在那之后，你就可以通过点击选择配方。同样的你也可以通过&1shift+左键点击&r以删除该配方。"
 				""
-				"Items can be extracted from the table by a hopper or any other compatible item extraction mechanism. You can disable auto-crafting by clicking on the down arrow under the output slot."
+				"产物可以通过漏斗或其他兼容的物品从自动工作台中提取出来。你可以通过点击输出槽下方向下的箭头来禁用自动合成。"
 			]
 			dependencies: ["50C431C512BBBD59"]
 			min_width: 300
@@ -438,13 +438,13 @@
 			x: -1.0d
 			y: 6.75d
 			description: [
-				"&6Auto Crafting Tables&r are an upgraded version of &2Extended's Crafting Tables&r that can automatically insert items and be piped out of."
+				"&6自动工作台&r是&2Extended模组的工作台&r的升级版，可以自动输入物品并被管道提取。"
 				""
-				"Item insertion is done by simply placing a &nchest above&r the table, and inserting items into saif chest. Item insertion uses power."
+				"在自动工作台上放置一个箱子，箱子内部的物品将自动输入到自动工作台中，这个过程需要能量。"
 				""
-				"For item insertion to work, you must lay out a recipes in the grid ans save the recipe. This is done by &1shift+left clicking&r on one of the 3 recipe slots in the top right. You can then select the recipe by clicking on it. You can delete the recipe by &1shift + left clicking it&r."
+				"要使物品可以自动输入，你必须在工作台界面布置并保存配方。通过&1shift+左键点击&r右上角三个配方槽之中的一个就可以将配方保存，在那之后，你就可以通过点击选择配方。同样的你也可以通过&1shift+左键点击&r以删除该配方。"
 				""
-				"Items can be extracted from the table by a hopper or any other compatible item extraction mechanism. You can disable auto-crafting by clicking on the down arrow under the output slot."
+				"产物可以通过漏斗或其他兼容的物品从自动工作台中提取出来。你可以通过点击输出槽下方向下的箭头来禁用自动合成。"
 			]
 			dependencies: ["4BD29526B90994E7"]
 			min_width: 300
@@ -465,13 +465,13 @@
 			x: 3.0d
 			y: 6.75d
 			description: [
-				"&6Auto Crafting Tables&r are an upgraded version of &2Extended's Crafting Tables&r that can automatically insert items and be piped out of."
+			       "&6自动工作台&r是&2Extended模组的工作台&r的升级版，可以自动输入物品并被管道提取。"
 				""
-				"Item insertion is done by simply placing a &nchest above&r the table, and inserting items into saif chest. Item insertion uses power."
+				"在自动工作台上放置一个箱子，箱子内部的物品将自动输入到自动工作台中，这个过程需要能量。"
 				""
-				"For item insertion to work, you must lay out a recipes in the grid ans save the recipe. This is done by &1shift+left clicking&r on one of the 3 recipe slots in the top right. You can then select the recipe by clicking on it. You can delete the recipe by &1shift + left clicking it&r."
+				"要使物品可以自动输入，你必须在工作台界面布置并保存配方。通过&1shift+左键点击&r右上角三个配方槽之中的一个就可以将配方保存，在那之后，你就可以通过点击选择配方。同样的你也可以通过&1shift+左键点击&r以删除该配方。"
 				""
-				"Items can be extracted from the table by a hopper or any other compatible item extraction mechanism. You can disable auto-crafting by clicking on the down arrow under the output slot."
+				"产物可以通过漏斗或其他兼容的物品从自动工作台中提取出来。你可以通过点击输出槽下方向下的箭头来禁用自动合成。"
 			]
 			dependencies: ["05ACC19A1694AD16"]
 			min_width: 300
@@ -492,13 +492,13 @@
 			x: 6.25d
 			y: 4.75d
 			description: [
-				"&6Auto Crafting Tables&r are an upgraded version of &2Extended's Crafting Tables&r that can automatically insert items and be piped out of."
+			       "&6自动工作台&r是&2Extended模组的工作台&r的升级版，可以自动输入物品并被管道提取。"
 				""
-				"Item insertion is done by simply placing a &nchest above&r the table, and inserting items into saif chest. Item insertion uses power."
+				"在自动工作台上放置一个箱子，箱子内部的物品将自动输入到自动工作台中，这个过程需要能量。"
 				""
-				"For item insertion to work, you must lay out a recipes in the grid ans save the recipe. This is done by &1shift+left clicking&r on one of the 3 recipe slots in the top right. You can then select the recipe by clicking on it. You can delete the recipe by &1shift + left clicking it&r.q"
+				"要使物品可以自动输入，你必须在工作台界面布置并保存配方。通过&1shift+左键点击&r右上角三个配方槽之中的一个就可以将配方保存，在那之后，你就可以通过点击选择配方。同样的你也可以通过&1shift+左键点击&r以删除该配方。"
 				""
-				"Items can be extracted from the table by a hopper or any other compatible item extraction mechanism. You can disable auto-crafting by clicking on the down arrow under the output slot."
+				"产物可以通过漏斗或其他兼容的物品从自动工作台中提取出来。你可以通过点击输出槽下方向下的箭头来禁用自动合成。"
 			]
 			dependencies: ["68CE8FF470DB60ED"]
 			min_width: 300
@@ -516,15 +516,15 @@
 			}]
 		}
 		{
-			title: "Ender Crafting"
+			title: "末影工作台"
 			icon: "extendedcrafting:ender_crafter"
 			x: 1.0d
 			y: 7.25d
-			subtitle: "Power of the End"
+			subtitle: "末地的力量"
 			description: [
-				"The &2Ender Crafter&r is the crafting method using the power of waiting."
+				"&2末影工作台&r是利用等待的力量的一种制作方法。"
 				""
-				"An &2Ender Crafting&r setup consists of an &6Ender Crafter&r and &6Ender Alternators&r. The Crafter will take energy from the void via the alternators. The more alternators you have, the faster it will craft ! "
+				"一个&2末影工作台系统&r由&6末影工作台&r和&6末影发电机&r组成。末影工作台将通过末影发电机从虚空中汲取能量。末影发电机数量越多制作速度就越快！"
 			]
 			dependencies: [
 				"74538A4A28AEE1D5"
@@ -574,26 +574,26 @@
 		{
 			x: 1.0d
 			y: 5.5d
-			subtitle: "A ingot made for the Gods"
+			subtitle: "为众神而造的锭"
 			description: [
-				"To craft the &bCrystaltine Ingot&r you need to go through two important steps ! "
-				"The first is to create the &1Mesophase&r liquid in a &7&lTinker Alloying Furnace&r heated with &c&lBlazing Blood&r. To create this liquid you'll need :"
-				"- Molten &6Nether Star&r"
-				"- Molten &7Steel&r"
-				"- Molten &eBrass&r"
-				"- Molten &5Mana Diamond&r"
-				"- &aXion Honey&r"
-				"- Molten &dIionite&r"
-				"- Molten &1Lapis Lazuli&r."
+				"要制作&b晶素锭&r你需要经过两个重要的步骤！"
+				"第一步是在被&c&l烈焰血&r加热的&7&l匠魂的合金炉中&r制造&1中间产物&r，要制造这种中间产物你需要："
+				"-熔融&6下界之星&r"
+				"-熔融&7钢&r"
+				"-熔融&e黄铜&r"
+				"-熔融&5魔力钻石&r"
+				"-&aXion蜂蜜&r"
+				"-熔融&d艾恩尼水晶&r"
+				"-熔融&1青金石&r"
 				""
-				"The second step is to create the &6&lRefined Radiance Ingot&r."
+				"第二步是制造&6&l光辉石&r。"
 				""
-				"To create this ingot you have two options : "
-				"- Throw a &6Chromatic Compound&r on the ground and let the &e&lSun&r charge the ingot."
+				"要制造光辉石，你有两个选择"
+				"-将&6异彩化合物&r扔在地上，并让周围的&e&l光源&r为其充能。"
 				""
-				"- Craft the ingot with the &l&n&6Automatic Compound Infuser&r."
+				"-使用&l&n&6自动复合注入器&r制造。"
 				""
-				"Then when both ingredients are created simply pour the &6&lRefined Radiance Ingot&r with the &1&lMesophase Fluid&r with a &c&lSpout&r !"
+				"然后，当两种成分都被制造出来之后，只需要简单地将&1&l中间产物&r放入&c&l注液器&r中，并使其注入&6&l光辉石&r中即可。"
 			]
 			dependencies: [
 				"5174E5B7DC17EF63"
@@ -653,12 +653,12 @@
 			x: 7.5d
 			y: -1.5d
 			shape: "gear"
-			subtitle: "Rule The Universe ! "
+			subtitle: "统治宇宙！"
 			description: [
-				"As you can imagine, all &l&n&5Singularities&r are going to be useful."
-				"By claiming this quest, you will see two groups of usefulness : "
-				"- &6Creative&r Group "
-				"- &6Ultimate Singularity&r Crafting Recipe."
+				"像你想的那样所有的&l&n&5奇点&r都将是有用的。"
+				"完成该任务后，你将看到两组有用的物品："
+				"-&6创造物品&r"
+				"-&6终极奇点&r配方"
 			]
 			dependencies: ["724E91718108731D"]
 			size: 1.5d
@@ -666,11 +666,11 @@
 			tasks: [{
 				id: "5E24CA8240BD7DF8"
 				type: "checkmark"
-				title: "Singularities !"
+				title: "奇点！"
 			}]
 		}
 		{
-			title: "Creative Crafting"
+			title: "创造合成"
 			icon: "pneumaticcraft:creative_upgrade"
 			x: 7.5d
 			y: -5.25d
@@ -680,7 +680,7 @@
 			tasks: [{
 				id: "32C8E8E0AB8B5974"
 				type: "checkmark"
-				title: "Creative C"
+				title: "创造完成"
 			}]
 		}
 		{
@@ -1106,7 +1106,7 @@
 		{
 			x: 5.5d
 			y: -6.25d
-			subtitle: "It's Wonka Time"
+			subtitle: "现在是旺卡时间"
 			dependencies: ["1C0C1073F5EE3BE7"]
 			id: "5DD06746CA55DC13"
 			tasks: [{
@@ -1971,7 +1971,7 @@
 			x: 13.5d
 			y: 5.0d
 			shape: "rsquare"
-			subtitle: "The End is... Quite near !"
+			subtitle: "离结束...很近了！"
 			hide_dependency_lines: true
 			dependencies: [
 				"3903B806B92C76BA"

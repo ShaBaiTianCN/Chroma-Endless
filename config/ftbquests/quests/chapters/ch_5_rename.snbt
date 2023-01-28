@@ -3,20 +3,20 @@
 	group: "649CE452F2BBF13D"
 	order_index: 0
 	filename: "ch_5_rename"
-	title: "&bChapter 1&r &6-&r New technologies"
+	title: "&b第1章&r &6-&r 新技术[--&bChapter 1&r &6-&r New technologies--]"
 	icon: "pneumaticcraft:pressure_gauge"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Reinforced Stone"
+			title: "强化石头[--Reinforced Stone--]"
 			x: -8.25d
 			y: -17.25d
 			shape: "rsquare"
 			description: [
-				"After making &7Compressed Iron Ingot&r, you will have to melt it to obtain &7Molten Compressed Iron&r."
+				"制作&7压缩铁锭&r后，您必须将其熔化以获得&7熔融压缩铁&r。[--After making &7Compressed Iron Ingot&r, you will have to melt it to obtain &7Molten Compressed Iron&r.--]"
 				""
-				"This &7Molten Compressed Iron&r will have to be cast on stone in order to obtain &6Reinforced Stone&r."
+				"这种&7熔融压缩铁&r必须铸造在石头上，才能获得&6强化石头&r。[--This &7Molten Compressed Iron&r will have to be cast on stone in order to obtain &6Reinforced Stone&r.--]"
 			]
 			dependencies: [
 				"121DF7B31DB4BEF8"
@@ -38,7 +38,7 @@
 			}]
 		}
 		{
-			title: "&6The Pressure Chamber"
+			title: "&6压力室[--&6The Pressure Chamber--]"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -50,17 +50,17 @@
 			y: -13.839285714285715d
 			shape: "rsquare"
 			description: [
-				"The Pressure Chamber is a multi-block structure mainly used to compress various materials into others."
+				"压力室是一种多块结构，主要用于将各种材料压缩成其他材料。[--The Pressure Chamber is a multi-block structure mainly used to compress various materials into others.--]"
 				""
-				"It is made by creating a hollow cube out of Pressure Chamber Walls/Windows."
+				"它是通过在压力室墙壁/窗户上创建一个中空立方体来制作的。[--It is made by creating a hollow cube out of Pressure Chamber Walls/Windows.--]"
 				""
-				"The size of the cube can vary from 3x3x3 to 5x5x5, and windows are not needed to create the Pressure Chamber."
+				"立方体的大小可以从3x3x3到5x5x5不等，创建压力室不需要窗口。[--The size of the cube can vary from 3x3x3 to 5x5x5, and windows are not needed to create the Pressure Chamber.--]"
 				""
-				"The Pressure Chamber also requires a Valve, which has to be connected to the air blocks in the Pressure Chamber."
+				"压力室还需要一个阀门，该阀门必须连接到压力室中的空气方块。[--The Pressure Chamber also requires a Valve, which has to be connected to the air blocks in the Pressure Chamber.--]"
 				""
-				"At least one Valve is required, but more can be added. When the Pressure Chamber construction is completed, the GUI can be opened with a right-click of any of its constituent blocks."
+				"至少需要一个阀门，但可以添加更多阀门。当压力室施工完成后，可以通过右键单击其任何组成方块来打开GUI。[--At least one Valve is required, but more can be added. When the Pressure Chamber construction is completed, the GUI can be opened with a right-click of any of its constituent blocks.--]"
 				""
-				"The Pressure Chamber Interface can also be added into the structure to allow the insertion and removal of items to and from the Pressure Chamber making it possible to automate the Input/Output with pipes."
+				"压力室接口也可以添加到结构中，以允许在压力室中插入和移除物品，从而实现管道输入/输出的自动化。[--The Pressure Chamber Interface can also be added into the structure to allow the insertion and removal of items to and from the Pressure Chamber making it possible to automate the Input/Output with pipes.--]"
 			]
 			dependencies: [
 				"3D156DB23470F2D5"
@@ -101,14 +101,14 @@
 			}]
 		}
 		{
-			title: "Compressed Iron Ingot"
+			title: "压缩铁锭[--Compressed Iron Ingot--]"
 			x: -8.25d
 			y: -19.0d
 			shape: "gear"
 			description: [
-				"To obtain this item to begin with, drop &6Cloggrum Ingots&r and activate TNT next to the dropped item(s). 90% of the ingots will be converted into &7Compressed Iron Ingots&r."
+				"要获得此物品，首先将&6扼塞锭&r丢在地上并在旁边激活TNT。90%的锭将被转换为&7压缩铁锭&r。[--To obtain this item to begin with, drop &6扼塞 Ingots&r and activate TNT next to the dropped item(s). 90% of the ingots will be converted into &7Compressed Iron Ingots&r.--]"
 				""
-				"But don't worry there is a way to get a 100% compressed iron, by creating the &ePressure Chamber&r, any &6Cloggrum Ingots&r you place into it with at least 2.0 bar of pressure will be converted into &7Compressed Iron Ingots&r."
+				"但不用担心，有一种方法可以获得100%的压缩铁，通过创建&e压力室&r，您用至少2.0bar的压力放入的任何&6扼塞锭&r都会转换为&7压缩铁锭&r。[--But don't worry there is a way to get a 100% compressed iron, by creating the &ePressure Chamber&r, any &6扼塞 Ingots&r you place into it with at least 2.0 bar of pressure will be converted into &7Compressed Iron Ingots&r.--]"
 			]
 			dependencies: ["7D351CB50EFE608B"]
 			size: 1.5d
@@ -154,7 +154,7 @@
 			x: -8.25d
 			y: -15.75d
 			shape: "octagon"
-			description: ["Now you can make &6Reinforced Bricks&r that will allow you to unlock other &5Pneumaticcraft recipes&r."]
+			description: ["现在，您可以制作&6强化砖块&r，这将允许您解锁其他&5气动飞行器配方&r。[--Now you can make &6Reinforced Bricks&r that will allow you to unlock other &5Pneumaticcraft recipes&r.--]"]
 			dependencies: ["7607D13B4DE67B94"]
 			min_width: 240
 			id: "1F9249795027D6AD"
@@ -174,7 +174,7 @@
 			x: -11.0d
 			y: 11.0d
 			shape: "square"
-			description: ["The &5Smart Chest&r is a 72-slot chest which has obsidian-level blast resistance, and keeps its inventory when broken."]
+			description: ["&5智能箱子&r是一个72槽的箱子，具有黑曜石级爆炸抗性，在被破坏的时保持其物品栏。[--The &5Smart Chest&r is a 72-slot chest which has obsidian-level blast resistance, and keeps its inventory when broken.--]"]
 			hide_dependency_lines: true
 			dependencies: [
 				"1F0FC143ED336A13"
@@ -255,7 +255,7 @@
 		{
 			x: -10.5d
 			y: -8.75d
-			description: ["The &5Upgrade Matrix&r can be used in place of Lapis Lazuli for the crafting of any upgrade."]
+			description: ["&5升级矩阵&r可以用来代替青金石，用于合成任何升级。[--The &5Upgrade Matrix&r can be used in place of Lapis Lazuli for the crafting of any upgrade.--]"]
 			dependencies: ["75B03878AA52F00E"]
 			id: "1E6277225CA889FC"
 			tasks: [{
@@ -274,9 +274,9 @@
 			y: -15.75d
 			shape: "octagon"
 			description: [
-				"&6Pressure Tubes&r are used to transport compressed air."
+				"&6压力管&r用来输送压缩空气。[--&6Pressure Tubes&r are used to transport compressed air.--]"
 				""
-				"They can contain up to 5 bar of pressure, and have a capacity of 1000mL of Air."
+				"它们可以容纳高达5bar的压强，容量为1000mb空气。[--They can contain up to 5 bar of pressure, and have a capacity of 1000mL of Air.--]"
 			]
 			dependencies: ["121DF7B31DB4BEF8"]
 			min_width: 240
@@ -297,9 +297,9 @@
 			x: -6.5d
 			y: -17.25d
 			description: [
-				"Spawner Agitator will prevent the spawned entity from despawning when the player leaves the area."
+				"当玩家离开区域时，刷怪笼激活器将阻止生成的实体刷新消失。[--Spawner Agitator will prevent the spawned entity from despawning when the player leaves the area.--]"
 				""
-				"Additionally, the spawner will keep spawning while the player is not in the area."
+				"此外，当玩家不在该区域时，刷怪笼将继续生成生物。[--Additionally, the spawner will keep spawning while the player is not in the area.--]"
 			]
 			dependencies: ["121DF7B31DB4BEF8"]
 			id: "3C91A579E0AB0FE3"
@@ -318,10 +318,10 @@
 			x: -11.0d
 			y: -17.5d
 			description: [
-				"Omnidirection Hopper is an upgraded version of the Minecraft Hopper that has the following improved properties:"
+				"全方位漏斗是原版漏斗的升级版，具有以下改进特性：[--Omnidirection Hopper is an upgraded version of the Minecraft Hopper that has the following improved properties:--]"
 				""
-				"- It can be oriented in different directions"
-				"- It accepts PneumaticCraft upgrades to speed up the hopper"
+				"-它可以指向不同的方向[--- It can be oriented in different directions--]"
+				"-它接受气动工艺升级以加速漏斗[--- It accepts PneumaticCraft upgrades to speed up the hopper--]"
 			]
 			dependencies: ["121DF7B31DB4BEF8"]
 			id: "1F0FC143ED336A13"
@@ -341,11 +341,11 @@
 			x: -5.5d
 			y: -17.5d
 			description: [
-				"This block is used together with a Pneumatic Door Base to form a working door contraption."
+				"该模块与气动门基座一起使用，形成一个可工作的门装置。[--This block is used together with a Pneumatic Door Base to form a working door contraption.--]"
 				""
-				"When you place the Pneumatic Door Base next to the top half on a Pneumatic Door, the door will automatically when there are players nearby."
+				"当你把气动门基座放在气动门的上半部旁边时，当附近有玩家时，门会自动打开。[--When you place the Pneumatic Door Base next to the top half on a Pneumatic Door, the door will automatically when there are players nearby.--]"
 				""
-				"When the Pneumatic Door Base is within range of a Security Station, the Pneumatic Door Base will only react to players allowed by the Security Station."
+				"当气动门基地在安全站的范围内时，气动门基地将只对安全站允许的玩家作出反应。[--When the Pneumatic Door Base is within range of a Security Station, the Pneumatic Door Base will only react to players allowed by the Security Station.--]"
 			]
 			dependencies: ["121DF7B31DB4BEF8"]
 			optional: true
@@ -412,7 +412,7 @@
 			x: -9.5d
 			y: -12.5d
 			shape: "diamond"
-			description: ["The Air Compressor is used to create compressed air from items that burn in a Furnace."]
+			description: ["空气压缩机使用从熔炉中燃烧的物品中产生压缩空气。[--The Air Compressor is used to create compressed air from items that burn in a Furnace.--]"]
 			hide_dependency_lines: true
 			dependencies: [
 				"1490D32522F73F20"
@@ -437,8 +437,8 @@
 		{
 			x: -10.0d
 			y: -17.25d
-			subtitle: "32,000 mb capacity"
-			description: ["Can be connected with tanks above and below with a wrench."]
+			subtitle: "32000mb容量[--32,000 mb capacity--]"
+			description: ["可使用扳手连接上下储罐。[--Can be connected with tanks above and below with a wrench.--]"]
 			dependencies: ["121DF7B31DB4BEF8"]
 			id: "625D10DD8943384A"
 			tasks: [{
@@ -456,7 +456,7 @@
 			x: -7.0d
 			y: -12.5d
 			shape: "diamond"
-			description: ["The liquid compressor creates compressed air by using liquid fuels (like Refined Fuel or Kerosene)."]
+			description: ["液体压缩机通过使用液体燃料（如精炼燃料或煤油）产生压缩空气。[--The liquid compressor creates compressed air by using liquid fuels (like Refined Fuel or Kerosene).--]"]
 			hide_dependency_lines: true
 			dependencies: [
 				"387646F8C259D92F"
@@ -481,11 +481,11 @@
 			x: -12.0d
 			y: -17.75d
 			description: [
-				"The &bLiquid Hopper&r is a device which you can use to transfer fluids."
+				"气动门基座漏斗是一种设备，可用于输送气动门基座。[--The &bLiquid Hopper&r is a device which you can use to transfer fluids.--]"
 				""
-				"Like the Omnidirectional Hopper, its input and output can point in any direction, and it uses the same placement and rotation rules."
+				"与全方位漏斗一样，它的输入和输出可以指向任何方向，并且使用相同的位置和旋转规则。[--Like the Omnidirectional Hopper, its input and output can point in any direction, and it uses the same placement and rotation rules.--]"
 				""
-				"You can add &5Speed Upgrades&r to increase the transfer rate."
+				"您可以添加&5速度升级&r以提高传输速率。[--You can add &5Speed Upgrades&r to increase the transfer rate.--]"
 			]
 			dependencies: ["121DF7B31DB4BEF8"]
 			optional: true
@@ -506,9 +506,9 @@
 			y: -12.0d
 			shape: "diamond"
 			description: [
-				"&5Heat Sink&r is a block used to get rid of Heat."
+				"&5散热片&r是使用消除热量的块。[--&5Heat Sink&r is a block used to get rid of Heat.--]"
 				""
-				"He only dissipate heat from the block they're directly connected to. To connect more Heat Sinks, use Heat Pipes, the more the heat sinks the less the heat."
+				"他只从他们直接连接的区块散热。要连接更多散热片，请使用热管，散热片越多，热量就越少。[--He only dissipate heat from the block they're directly connected to. To connect more Heat Sinks, use Heat Pipes, the more the heat sinks the less the heat.--]"
 			]
 			hide_dependency_lines: true
 			dependencies: ["121DF7B31DB4BEF8"]
@@ -529,9 +529,9 @@
 			y: -12.0d
 			shape: "diamond"
 			description: [
-				"The &5Vortex Tube&r is a dynamic heat source which converts pressure directly to heat and cold."
+				"&5涡流管&r是一种动态热源，可将压力直接转换为热和冷。[--The &5Vortex Tube&r is a dynamic heat source which converts pressure directly to heat and cold.--]"
 				""
-				"It's highly recommended to put a Heat Sink on the unused side of a Vortex Tube, for efficiency."
+				"为了提高效率，强烈建议在涡流管未使用的一侧放置散热器。[--It's highly recommended to put a Heat Sink on the unused side of a Vortex Tube, for efficiency.--]"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -555,15 +555,15 @@
 			y: -11.0d
 			shape: "diamond"
 			description: [
-				"The &5Refinery&r is a multiblock machine which uses heat to refine Oil into various fuels."
+				"炼油厂是一种多块机器，利用热量将石油提炼成各种燃料。[--The &5Refinery&r is a multiblock machine which uses heat to refine Oil into various fuels.--]"
 				""
-				"The fuels that can be produced are, sorted from lightest to haviest :"
-				"• LPG"
-				"• Gasoline"
-				"• Kerosene"
-				"• Diesel"
+				"可生产的燃料从最轻到最多：[--The fuels that can be produced are, sorted from lightest to haviest :--]"
+				"•液化石油气[--• LPG--]"
+				"•汽油[--• Gasoline--]"
+				"•煤油[--• Kerosene--]"
+				"•柴油[--• Diesel--]"
 				""
-				"The &5Refinery&r multiblock is made by placing down a Refinery Controller, then stack 2-4 Refinery Outputs on top of or beside the Controller. "
+				"&5炼油厂&r多块是通过放置一个炼油厂控制器，然后在控制器顶部或旁边堆叠2-4个炼油厂输出。[--The &5Refinery&r multiblock is made by placing down a Refinery Controller, then stack 2-4 Refinery Outputs on top of or beside the Controller. --]"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -712,9 +712,9 @@
 			x: -6.0d
 			y: -5.75d
 			description: [
-				"&5Lubricant&r is required for crafting &bSpeed Upgrade&r."
+				"&5合成&b速度升级&r需要润滑剂&r。[--&5Lubricant&r is required for crafting &bSpeed Upgrade&r.--]"
 				""
-				"It is created in a Thermopneumatic Processing Plant with Diesel (or Biodiesel) and Redstone."
+				"它是在配有柴油（或生物柴油）和红石的热气动处理工厂中创建的。[--It is created in a Thermopneumatic Processing Plant with Diesel (or Biodiesel) and Redstone.--]"
 			]
 			dependencies: ["75B03878AA52F00E"]
 			id: "0F0CE8DBEF01ED7D"
@@ -733,7 +733,7 @@
 			x: -8.25d
 			y: -5.25d
 			shape: "octagon"
-			description: ["&5Molten Plastic&r is made from LPG and Coal, or Biodiesel and Chacoal in the Thermopneumatic Processing Plant."]
+			description: ["&5熔融塑料&r由液化石油气和煤炭或热气动处理厂中的生物柴油和木炭制成。[--&5Molten Plastic&r is made from LPG and Coal, or Biodiesel and Chacoal in the Thermopneumatic Processing Plant.--]"]
 			dependencies: ["75B03878AA52F00E"]
 			size: 2.0d
 			id: "5C05ABDF754FEC7A"
@@ -904,7 +904,7 @@
 			x: -8.25d
 			y: -3.25d
 			shape: "hexagon"
-			description: ["&5Heat Frame&r is a gadget that can be used to heat (or freeze) items in any inventory."]
+			description: ["&5导热框架&r是一个小工具，可以使用加热（或冻结）任何物品栏中的物品。[--&5Heat Frame&r is a gadget that can be used to heat (or freeze) items in any inventory.--]"]
 			hide_dependency_lines: true
 			dependencies: ["121DF7B31DB4BEF8"]
 			id: "73F46C7D022F9708"
@@ -924,9 +924,9 @@
 			y: -1.25d
 			shape: "square"
 			description: [
-				"Place a bucket or tank of Molten Plastic into an inventory with Heat Frame attached, and chill the Heat Frame, ideally try to get a temperature below -80C (the colder the better)."
+				"将一个装有熔融塑料的桶或罐放入导热框架物品栏，理想情况下尽量使温度低于-80C（越冷越好）。[--Place a bucket or tank of Molten Plastic into an inventory with Heat Frame attached, and chill the Heat Frame, ideally try to get a temperature below -80C (the colder the better).--]"
 				""
-				"Molten Plastic will be consumed from the bucket or tank, and you will have a chance for a second &5Plastic Sheet&r for each 1000mb of Molten Plastic consumed."
+				"熔融塑料将从桶或储罐中消耗，每消耗1000MB熔融塑料，你将有机会获得2个&5塑料板&r。[--Molten Plastic will be consumed from the bucket or tank, and you will have a chance for a second &5Plastic Sheet&r for each 1000mb of Molten Plastic consumed.--]"
 			]
 			dependencies: [
 				"5C05ABDF754FEC7A"
@@ -949,8 +949,8 @@
 			x: -9.5d
 			y: -0.5d
 			shape: "square"
-			subtitle: "64,000 mb capacity"
-			description: ["Can be connected with tanks above and below with a wrench."]
+			subtitle: "64000mb容量[--64,000 mb capacity--]"
+			description: ["可使用扳手连接上下储罐。[--Can be connected with tanks above and below with a wrench.--]"]
 			hide_dependency_lines: true
 			dependencies: [
 				"3D156DB23470F2D5"
@@ -974,11 +974,11 @@
 			x: -5.75d
 			y: -3.25d
 			description: [
-				"A &5Fluid Mixer&r uses pressure to combine two fluids into a resulting fluid and/or item."
+				"&5流体混合器&r使用压力将两种流体混合成一种流体和/或物品。[--A &5Fluid Mixer&r uses pressure to combine two fluids into a resulting fluid and/or item.--]"
 				""
-				"Its primary use is in Biodiesel production."
+				"其主要用途是生物柴油生产。[--Its primary use is in Biodiesel production.--]"
 				""
-				"The Fluid Mixer will run faster if more pressure is provided."
+				"如果提供更多压力，流体混合器将运行得更快。[--The Fluid Mixer will run faster if more pressure is provided.--]"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1197,9 +1197,9 @@
 			x: -9.25d
 			y: 9.0d
 			description: [
-				"The &5Etching Tank&r should first be filled with &bEtching Acid&r. Then insert up to 25 Empty PCB's which have already been either partially or fully exposed in a &bUV Light Box&r."
+				"&5蚀刻槽&r应首先填充&b蚀刻酸&r。然后放入最多25个已经部分或完全曝光的在&b紫外线光&r中的空PCB。[--The &5Etching Tank&r should first be filled with &bEtching Acid&r. Then 放入 up to 25 Empty PCB's which have already been either partially or fully exposed in a &bUV Light Box&r.--]"
 				""
-				"While it's possible juste to pour Etching Acid into the world and throw PCB's into the pool, using the Etching Tank is a much safer and faster way to do it."
+				"虽然只需将蚀刻酸倒入世界并将PCB扔进水池也是可以的，但使用蚀刻槽是一种更安全、更快的方法。[--While it's possible juste to pour Etching Acid into the world and throw PCB's into the pool, using the Etching Tank is a much safer and faster way to do it.--]"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1221,7 +1221,7 @@
 		{
 			x: -7.25d
 			y: 9.0d
-			description: ["&5Etching Acid&r is used to chemically develop PCB's. Etching Acid is made in a Pressure Chamber and used in the Ething Tank."]
+			description: ["&5蚀刻酸&r用于化学开发PCB。蚀刻酸在压力室中制备，并在蚀刻槽中使用。[--&5Etching Acid&r is used to chemically develop PCB's. Etching Acid is made in a Pressure Chamber and used in the Ething Tank.--]"]
 			hide_dependency_lines: true
 			dependencies: [
 				"5C05ABDF754FEC7A"
@@ -1243,7 +1243,7 @@
 			x: -7.0d
 			y: -0.5d
 			shape: "square"
-			description: ["Charging Station is used to charge or discharge PneumaticCraft items like the Air Canister, Manometer, Pneumatic Wrench, ..."]
+			description: ["充电站用于充气或放电气动飞行器物品，如空气罐、压力计、气动扳手，等等……[--Charging Station is used to charge or discharge PneumaticCraft items like the Air Canister, Manometer, Pneumatic Wrench, ...--]"]
 			hide_dependency_lines: true
 			dependencies: [
 				"3D156DB23470F2D5"
@@ -1462,9 +1462,9 @@
 			y: 3.0d
 			shape: "rsquare"
 			description: [
-				"The &5Amadron Tablet&r is an item than can be used to order items and fluids for delivery by Drones."
+				"&5亚马龙平板电脑&r是一种物品，可以使用订购物品和气动门基座，由无人机交付。[--The &5Amadron Tablet&r is an item than can be used to order items and fluids for delivery by Drones.--]"
 				""
-				"To do so, an inventory and/or fluid tank needs to be selected by right-clicking with the tablet to bind it. This inventory/tank is then used to take items as payment, and receive the items you ordered."
+				"要做到这一点，需要用平板电脑右击选择一个物品栏和/或储液罐进行绑定。然后使用这个物品栏/储液罐将物品作为付款，并接收你订购的物品。[--To do so, an inventory and/or fluid tank needs to be selected by right-clicking with the tablet to bind it. This inventory/tank is then used to take items as payment, and receive the items you ordered.--]"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1490,9 +1490,9 @@
 			x: -8.25d
 			y: 5.75d
 			description: [
-				"The &5PCB Blueprint&r is a special component, required in the crafting of the UV Light Box."
+				"&5PCB蓝图&r是紫外线光合成所需的特殊组件。[--The &5PCB Blueprint&r is a special component, required in the crafting of the UV Light Box.--]"
 				""
-				"It cannot be crafted normally, but must be traded for, usually via Amadron Tablet."
+				"它无法正常制作，但必须通过亚马龙平板电脑进行交易。[--It cannot be crafted normally, but must be traded for, usually via 亚马龙 Tablet.--]"
 			]
 			dependencies: ["71A53E095D73463A"]
 			id: "372CC7F5B1EB8424"
@@ -1562,12 +1562,12 @@
 			x: -8.25d
 			y: 7.0d
 			description: [
-				"The &5UV Light Box&r is a machine in which you can expose PCB's to UV light."
+				"&5紫外线光&r是一种可以将PCB暴露在紫外线光下的机器。[--The &5UV Light Box&r is a machine in which you can expose PCB's to UV light.--]"
 				""
-				"The exposure process takes a maximum of 10 minutes, less if you add Speed Upgrades to the machines."
+				"曝光过程最多需要最大，如果将速度升级添加到机器中，则所需时间会更少。[--The exposure process takes a maximum of 10 minutes, less if you add Speed Upgrades to the machines.--]"
 				""
-				"After the full 10 minutes, you'll have a 100% chance that the PCB will be successfully etched in Etching Acid."
-				"You can however expose the PCB for a shorter time, which will result in a lower chance of the PCB successfully being etched."
+				"10分钟后，你将有100%的机会在蚀刻酸中成功蚀刻PCB。[--After the full 10 minutes, you'll have a 100% chance that the PCB will be successfully etched in Etching Acid.--]"
+				"然而，你可以在更短的时间内暴露PCB，这将降低PCB成功蚀刻的机会。[--You can however expose the PCB for a shorter time, which will result in a lower chance of the PCB successfully being etched.--]"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1674,11 +1674,11 @@
 			y: 10.0d
 			shape: "square"
 			description: [
-				"The &5Programmer&r is a machine used to program Drones, using a visual programming system where Puzzle Pieces are assembled in a programming GUI."
+				"&5编程器&r是一台使用为无人机编程的机器，它使用一个拼图编程系统，其中拼图块在编程GUI中组装。[--The &5Programmer&r is a machine used to program Drones, using a visual programming system where Puzzle Pieces are assembled in a programming GUI.--]"
 				""
-				"The Programmer does not require pressure to operate."
+				"编程器无需压力即可操作。[--The Programmer does not require pressure to operate.--]"
 				""
-				"Refear at the manual to learn how drone programming works."
+				"参考手册了解无人机编程的工作原理。[--Refear at the manual to learn how drone programming works.--]"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1701,11 +1701,11 @@
 			x: -7.25d
 			y: 16.75d
 			description: [
-				"The &5Aerial Interface&r is a very powerful device which can connect directly with a player's inventory. When sufficiently pressurized, it can be interacted with, like any other inventory."
+				"&5空气接口&r是一款功能强大的设备，可以直接连接玩家的物品栏。当压力足够大时，它可以像其他任何物品栏一样与之相互作用。[--The &5Aerial Interface&r is a very powerful device which can connect directly with a player's inventory. When sufficiently pressurized, it can be interacted with, like any other inventory.--]"
 				""
-				"Instead of landing in the Interface, items get sent directly to the owning player."
+				"物品不是降落在界面上，而是直接发送给拥有它的玩家。[--Instead of landing in the Interface, items get sent directly to the owning player.--]"
 				""
-				"You could use a Logistics Resquester Frame on the Interface to keep yourself supplied with 64 torches, for example."
+				"例如，你可以在界面上使用物流请求框架来为自己提供64个火把。[--You could use a Logistics Resquester Frame on the Interface to keep yourself supplied with 64 torches, for example.--]"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1752,17 +1752,17 @@
 			}]
 		}
 		{
-			title: "Assembly Line"
+			title: "装配线[--Assembly Line--]"
 			icon: "pneumaticcraft:assembly_controller"
 			x: -8.25d
 			y: 14.0d
 			shape: "octagon"
 			description: [
-				"To be able to craft higher tier materials, you'll need an &5Assembly System&r, a collection of Assembly Machines."
+				"为了能够制造出更高级的品质材料，你需要一个&5装配系统&r，一个装配机器集合。[--To be able to craft higher tier materials, you'll need an &5Assembly System&r, a collection of Assembly Machines.--]"
 				""
-				"These machines communicate with each other when they're horizontally ajacent. Only one machine of each type can exist."
+				"这些机器在水平相邻时相互通信。每种类型只能存在一台机器。[--These machines communicate with each other when they're horizontally ajacent. Only one machine of each type can exist.--]"
 				""
-				"The assembly line runs on compressed air, but you only need to suply air to the Assembly Controller to power the whole system."
+				"装配线使用压缩空气，但你只需向装配控制器供应空气，即可为整个系统供能。[--The assembly line runs on compressed air, but you only need to suply air to the Assembly Controller to power the whole system.--]"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1835,7 +1835,7 @@
 		{
 			x: -8.25d
 			y: 15.5d
-			description: ["&5Advanced Pressure Tubes&r require an Assembly Controller to manufacture. They can contain up to 20 bar of pressure and have a capacity of 4000mL of air."]
+			description: ["&5高级压力管&r需要装配控制器来制造。它们可以容纳向上20bar的压力，容量为4000mb空气。[--&5Advanced Pressure Tubes&r require an Assembly Controller to manufacture. They can contain up to 20 bar of pressure and have a capacity of 4000mL of air.--]"]
 			hide_dependency_lines: true
 			dependencies: ["1FDDA157DFAF2A7F"]
 			id: "1996234F379C69E0"
@@ -1854,8 +1854,8 @@
 		{
 			x: -9.25d
 			y: 15.25d
-			subtitle: "128,000 mb capacity"
-			description: ["Can be connected with tanks above and below with a wrench."]
+			subtitle: "128000mb容量[--128,000 mb capacity--]"
+			description: ["可使用扳手连接上下储罐。[--Can be connected with tanks above and below with a wrench.--]"]
 			hide_dependency_lines: true
 			dependencies: [
 				"4B85D83C46CDB7E5"
@@ -1879,9 +1879,9 @@
 			y: 18.0d
 			shape: "diamond"
 			description: [
-				"&5Advanced Liquid Compressor&r is the Tier 2 version of the Liquid Compressor, which a maximum safe pressure of 20 bar. It generates a base 50mL air/tick, and can be upgraded with &bSpeed Upgrades&r."
+				"&5高级液体压缩机&r是流体压缩机的高级版本，其最大安全压力为20bar。它可以产生基础50mL空气/t，并且可以使用&b速度升级&r进行升级。[--&5Advanced Liquid Compressor&r is the Tier 2 version of the Liquid Compressor, which a maximum safe pressure of 20 bar. It generates a base 50mL air/tick, and can be upgraded with &bSpeed Upgrades&r.--]"
 				""
-				"This generator must be cooled, as its efficiency will drop as the temperature rises, up to the point where no air is generated at all."
+				"这台发电机必须冷却，因为它的效率会随着温度的升高而下降，直到不会产出任何空气为止。[--This generator must be cooled, as its efficiency will drop as the temperature rises, up to the point where no air is generated at all.--]"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1907,9 +1907,9 @@
 			y: 18.0d
 			shape: "diamond"
 			description: [
-				"&5Advanced Air Compressor&r is the Tier 2 version of the Air Compressor, which a maximum safe pressure of 20 bar. It generates a base 50mL air/tick, and can be upgraded with &bSpeed Upgrades&r."
+				"&5高级空气压缩机&r是空气压缩机的高级版本，最大安全压力为20bar。它可以产生基础50mL空气/t，并且可以使用&b速度升级&r进行升级。[--&5Advanced Air Compressor&r is the Tier 2 version of the Air Compressor, which a maximum safe pressure of 20 bar. It generates a base 50mL air/tick, and can be upgraded with &bSpeed Upgrades&r.--]"
 				""
-				"This generator must be cooled, as its efficiency will drop as the temperature rises, up to the point where no air is generated at all."
+				"这台发电机必须冷却，因为它的效率会随着温度的升高而下降，直到不会产出任何空气。[--This generator must be cooled, as its efficiency will drop as the temperature rises, up to the point where no air is generated at all.--]"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1935,13 +1935,13 @@
 			y: 18.75d
 			shape: "diamond"
 			description: [
-				"&5Electrostatic Compressor&r is a tier 2 air compressor, which uses lightning for the energy to produce compressed air."
+				"&5静电压缩机&r是一种高级空气压缩机，它利用闪电作为能量来产生压缩空气。[--&5Electrostatic Compressor&r is a tier 2 air compressor, which uses lightning for the energy to produce compressed air.--]"
 				""
-				"When it is struck by lightning it will instantly produce 200,000mL of air. Seems like a lot, but how often do you see a Charged Creeper sneaking around ? Remember, the Electrostatic Compressor needs to get struck by lightning."
+				"当它被闪电击中时，会立即产生200000mL的空气。看起来有很多，但你多久会看到一个闪电苦力怕在你身边游荡？记住，静电压缩机需要被闪电击中。[--When it is struck by lightning it will instantly produce 200,000mL of air. Seems like a lot, but how often do you see a Charged Creeper sneaking around ? Remember, the Electrostatic Compressor needs to get struck by lightning.--]"
 				""
-				"To increase the chance of this happening, you can connect Iron Bars to this machine which act as a conductor for the lightning bolt."
+				"为了增加发生这种情况的可能性，你可以将铁栏杆连接到这台机器上，作为闪电的导体。[--To increase the chance of this happening, you can connect Iron Bars to this machine which act as a conductor for the lightning bolt.--]"
 				""
-				"Some piece of advice would be to create a large grid of Iron Bars : they can be up 5 blocks away horizontally (circular radius), and up to 5 blocks above or below, but they must all be connected to the Electrostatic Compressor via each other."
+				"一些建议是创建一个大的铁栏杆网格：它们可以水平距离向上方块（圆形半径），向上5个方块以上或以下，但它们必须彼此连接到静电压缩机。[--Some piece of advice would be to create a large grid of Iron Bars : they can be up 5 blocks away horizontally (circular radius), and up to 5 blocks above or below, but they must all be connected to the Electrostatic Compressor via each other.--]"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1968,11 +1968,11 @@
 			y: 18.75d
 			shape: "diamond"
 			description: [
-				"The &5Pneumatic Dynamo&r converts compressed air into &6Forge Energy&r."
+				"&5气动发电机&r将压缩空气转换为&6FE&r。[--The &5Pneumatic Dynamo&r converts compressed air into &6Forge Energy&r.--]"
 				""
-				"It produces 40 FE/tick by default; but can be upgraded with &bSpeed Upgrades&r."
+				"默认生成40FE/t；但可以使用&b速度升级&r进行升级。[--It produces 40 FE/tick by default; but can be upgraded with &bSpeed Upgrades&r.--]"
 				""
-				"An important factor that influence efficiency is the Dynamo's temperature. The Dynamo need to be cooled, or its efficiency will drop as the temperature rises, up to the point where no air is generated at all."
+				"影响效率的一个重要因素是发电机的温度。发电机需要冷却，否则其效率将随着温度的升高而下降，直到不会产生任何空气。[--An important factor that influence efficiency is the Dynamo's temperature. The Dynamo need to be cooled, or its efficiency will drop as the temperature rises, up to the point where no air is generated at all.--]"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -2015,8 +2015,8 @@
 		{
 			x: -9.25d
 			y: 16.75d
-			subtitle: "512,000 mb capacity"
-			description: ["Can be connected with tanks above and below with a wrench."]
+			subtitle: "512000mb容量[--512,000 mb capacity--]"
+			description: ["可使用扳手连接上下储罐。[--Can be connected with tanks above and below with a wrench.--]"]
 			dependencies: [
 				"319E93987C9DB62B"
 				"77745626200420A0"
@@ -2034,21 +2034,21 @@
 			}]
 		}
 		{
-			title: "Master Assembly Factory"
+			title: "大师装配厂[--Master Assembly Factory--]"
 			icon: "masterfulmachinery:assemblylaser_controller"
 			x: -8.25d
 			y: 20.25d
 			shape: "gear"
 			description: [
-				"The &aMaster Assembly Factory&r is a custom machinery to make different items and block like Pneumaticcraft's Armor or RfTools Machine frame."
+				"大师装配厂是一种自定义机械，用于制造不同的物品和模块，如气动飞行器装甲或RfTools机器框架。[--The &aMaster Assembly Factory&r is a custom machinery to make different items and block like Pneumaticcraft's Armor or RfTools Machine frame.--]"
 				""
-				"It needs energy and pressure to operate."
+				"它需要能量和压力才能运转。[--It needs energy and pressure to operate.--]"
 				""
-				"You can use the create schematic to build it !"
+				"你可以使用机械动力蓝图来建造它！[--You can use the create schematic to build it !--]"
 				""
-				"&cIn order to make create schematics work properly, please do not rotate them while building them !"
+				"&c为了使机械动力蓝图工作，请不要在建造时旋转它们！[--&cIn order to make create schematics work properly, please do not rotate them while building them !--]"
 				""
-				"&bYou can use the Entangled mod to entangle the inputs of your masterful machineries and have a better automation."
+				"&b你可以使用纠缠方块模组来纠缠你的masterful machineries的输入，并实现更好的自动化。[--&bYou can use the Entangled mod to entangle the inputs of your masterful machineries and have a better automation.--]"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -2185,7 +2185,7 @@
 			x: -6.75d
 			y: -15.75d
 			shape: "octagon"
-			description: ["This chest is blastproof and preserves its content when broken."]
+			description: ["这个箱子是防爆的，破坏后可以保存里面的东西。[--This chest is blastproof and preserves its content when broken.--]"]
 			dependencies: [
 				"1F9249795027D6AD"
 				"121DF7B31DB4BEF8"
@@ -2220,12 +2220,12 @@
 			}]
 		}
 		{
-			title: "Unlock : &aLitherite&r recipe"
+			title: "解锁：&a莱泽尔&r配方[--Unlock : &aLitherite&r recipe--]"
 			icon: "envirocore:litherite_crystal"
 			x: -0.75d
 			y: -3.25d
 			shape: "gear"
-			subtitle: "Making Litherite Crystal"
+			subtitle: "制作莱泽尔水晶[--Making Litherite Crystal--]"
 			description: ["{image:chroma:textures/quests/litherite.png width:230 height:150 align:1}"]
 			dependencies: ["7C17F05252A4FC79"]
 			size: 1.5d
@@ -2234,7 +2234,7 @@
 			tasks: [{
 				id: "0A0E965A2D94D8DD"
 				type: "checkmark"
-				title: "Unlock : &aLitherite&r recipe"
+				title: "解锁：&a莱泽尔&r配方[--Unlock : &aLitherite&r recipe--]"
 			}]
 		}
 		{
@@ -2259,11 +2259,11 @@
 			}]
 		}
 		{
-			title: "First impression with drones"
+			title: "无人机的第一印象[--First impression with drones--]"
 			x: -15.5d
 			y: 10.5d
-			subtitle: "Programming 101"
-			description: ["To use drones you first need a drone, a programmer and somme puzzle pieces. Place and right click onto the programmer, you'll be greeted with an interface. I'll try to explain most of it but just know for now that it's just like the Scratch programming language."]
+			subtitle: "编程101[--Programming 101--]"
+			description: ["要使用无人机，你首先需要一个无人机、一个编程器和一些拼图。放置并右击编程器，你将看到一个界面。我将尝试解释其中的大部分内容，但现在只知道它就像Scratch编程语言。[--To use drones you first need a drone, a programmer and somme puzzle pieces. Place and right click onto the programmer, you'll be greeted with an interface. I'll try to explain most of it but just know for now that it's just like the Scratch programming language.--]"]
 			dependencies: [
 				"6DF3EF704B97047E"
 				"64051736858F3248"
@@ -2274,24 +2274,24 @@
 			tasks: [{
 				id: "722E9E25E9746CB3"
 				type: "checkmark"
-				title: "Using Drones"
+				title: "使用无人机[--Using Drones--]"
 			}]
 		}
 		{
-			title: "Some Basics"
+			title: "一些基础知识[--Some Basics--]"
 			x: -17.0d
 			y: 10.5d
-			subtitle: "How boi is this complicated"
+			subtitle: "这有多复杂[--How boi is this complicated--]"
 			description: [
-				"On the interface you have three important parts that you'll use throughout making your program. "
+				"在界面上，你有三个重要的部分，你将在整个程序制作过程中使用它们。[--On the interface you have three important parts that you'll use throughout making your program. --]"
 				""
-				"First one is at the top right, this is where you will put your drone, the export arrow is for exporting your program and the import arrow for importing the program stored inside the drone."
+				"第一个位于右手上方，这是放置无人机的位置，导出箭用于导出程序，导入箭用于导入无人机中存储的程序。[--First one is at the top right, this is where you will put your drone, the export arrow is for exporting your program and the import arrow for importing the program stored inside the drone.--]"
 				""
-				"Second one is the middle area, this is where you will put every action you'r drone is going to make. You can zoom out and in with the mouse wheel or sidebar and drag click to move around."
+				"第二个是中间区域，这是你将要做的每一个动作的地方。你可以使用鼠标滚轮或拖动侧边栏滚动界面。[--Second one is the middle area, this is where you will put every action you'r drone is going to make. You can zoom out and in with the mouse wheel or sidebar and drag click to move around.--]"
 				""
-				"Lastly and most importantly, the area on the right. First try and hit the \"TAB\" key to open up the menu with all the pieces. Those pieces are the pieces used to make the drones action, you will put them in the middle area. Be aware of the output of those pieces, as you can observe some have different shape and just like when you are little you can't put a square on a triangle."
+				"最后也是最重要的是，右手的区域。首先尝试一下，点击玩家“TAB”键打开全部的菜单。这些拼图块用来控制无人机动作，你将把它们放在中间区域。注意这些拼图的输出，因为你可以观察到一些拼图有不同的形状，就像你小时候不能在三角形上放一个正方形一样。[--Lastly and most importantly, the area on the right. First try and hit the \"TAB\" key to open up the menu with all the pieces. Those pieces are the pieces used to make the drones action, you will put them in the middle area. Be aware of the output of those pieces, as you can observe some have different shape and just like when you are little you can't put a square on a triangle.--]"
 				""
-				"(For people that want more complex program, at the bottom left there are three modes each having more pieces than the precedent)"
+				"（对于想要更复杂程序的人，在左边有三种模式，每种模式都比之前的模式有更多的拼图）[--(For people that want more complex program, at the bottom left there are three modes each having more pieces than the precedent)--]"
 			]
 			dependencies: ["37ABB320CA809E91"]
 			min_width: 300
@@ -2299,26 +2299,26 @@
 			tasks: [{
 				id: "0736BCFC1E92257D"
 				type: "checkmark"
-				title: "Some basics."
+				title: "一些基础知识。[--Some basics.--]"
 			}]
 		}
 		{
 			x: -18.5d
 			y: 10.5d
-			subtitle: "Your turn now !"
+			subtitle: "现在轮到你了！[--Your turn now !--]"
 			description: [
-				"You might have seen that there is more than one drone. The first \"Drone\" is fully customizable but requires you to make a full program to work. Whilst the others work without one but aren't as customizable."
+				"你可能已经看到了不止一架无人机。第一个“无人机”是完全可定制的，但需要你制作一个完整的程序才能工作。而其他工作没有一个，但没有定制。[--You might have seen that there is more than one drone. The first \"Drone\" is fully customizable but requires you to make a full program to work. Whilst the others work without one but aren't as customizable.--]"
 				""
-				"On a side note, drones can be used as a replacement for most if not all of the automation you know of."
+				"顺便说一句，无人机可以用来作为大多数（不是全部）自动化的替代品。[--On a side note, drones can be used as a replacement for most if not all of the automation you know of.--]"
 				""
-				"The mod has a book in which everything is described. Now go on little one : Fly !"
+				"模组有一本手册，里面描述了一切。现在，小家伙：飞吧！[--The mod has a book in which everything is described. Now go on little one : Fly !--]"
 			]
 			dependencies: ["37CF7DD738BEB7C7"]
 			id: "050B2EA343C02DFC"
 			tasks: [{
 				id: "6E0FB6D7E365FDF5"
 				type: "checkmark"
-				title: "Some Precisions"
+				title: "一些细节[--Some Precisions--]"
 			}]
 		}
 		{
@@ -2326,9 +2326,9 @@
 			y: -9.25d
 			shape: "diamond"
 			description: [
-				"A &5Gas Lift&r is a pump, basically. It uses pressure to decrease the density of a liquid to force it upwards."
+				"&5气举&r基本上是一个泵。它利用压力降低流体的密度，迫使流体向上流动。[--A &5Gas Lift&r is a pump, basically. It uses pressure to decrease the density of a liquid to force it upwards.--]"
 				""
-				"When pressurized, it extrudes Drill Pipes downwards until it hits any liquid, at which point it will pump it. This makes it perfect for Oil extraction, as Oil might be deep underground."
+				"加压时，它向下挤压钻杆，直到遇到任何流体，然后将其泵出。这使其非常适合于石油开采，因为石油可能位于地下深处。[--When pressurized, it extrudes Drill Pipes downwards until it hits any liquid, at which point it will pump it. This makes it perfect for Oil extraction, as Oil might be deep underground.--]"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -2371,11 +2371,11 @@
 			y: 18.5d
 			shape: "diamond"
 			description: [
-				"&rFlux Compressor&r converts Forge Energy into compressed air. It consumes a base 40 FE/tick, but can be upgraded with &bSpeed Upgrades&r."
+				"&r通量压缩机&r将FE转换为压缩空气。它消耗基本40FE/刻度，但可以使用&b速度升级&r进行升级。[--&rFlux Compressor&r converts Forge Energy into compressed air. It consumes a base 40 FE/tick, but can be upgraded with &bSpeed Upgrades&r.--]"
 				""
-				"The Flux Compressor has a capacity of 100,000 FE and accepts FE at double the rate it uses it."
+				"通量压缩机的容量为100000FE，以其使用率的两倍接受FE。[--The Flux Compressor has a capacity of 100,000 FE and accepts FE at double the rate it uses it.--]"
 				""
-				"This generator must be cooled, as its efficiency will drop as the temperature rises, up to the point where no air is generated at all."
+				"这台发电机必须冷却，因为它的效率会随着温度的升高而下降，直到不会产生任何空气。[--This generator must be cooled, as its efficiency will drop as the temperature rises, up to the point where no air is generated at all.--]"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -2403,9 +2403,9 @@
 			y: -13.839285714285715d
 			shape: "octagon"
 			description: [
-				"&6Mining Dimension :&r Place in the Overworld and Sneak Right-Click with an empty hand."
+				"&6维度矿井：&r放在主世界中，空手潜行右键。[--&6Mining Dimension :&r Place in the Overworld and Sneak Right-Click with an empty hand.--]"
 				""
-				"&4Other Place :&r Place in the Nether and Sneak Right-Click with an empty hand."
+				"&4其他位置：&r放置在下界中，空手潜行右键。[--&4Other Place :&r Place in the Nether and Sneak Right-Click with an empty hand.--]"
 			]
 			dependencies: [
 				"7B9FBBCD2F962A0B"

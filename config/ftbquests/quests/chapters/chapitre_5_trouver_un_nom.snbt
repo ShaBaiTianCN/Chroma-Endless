@@ -3,7 +3,7 @@
 	group: "60C88776031840B1"
 	order_index: 0
 	filename: "chapitre_5_trouver_un_nom"
-	title: "&bChapter 1&r &6-&r The Last Elemental Bender"
+	title: "&b第一章&r &6 &r最后的元素合成师[--&bChapter 1&r &6-&r The Last Elemental Bender--]"
 	icon: "elementalcraft:purecrystal"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,10 +11,10 @@
 		{
 			x: -7.25d
 			y: 5.75d
-			subtitle: "Improved Extracting"
+			subtitle: "改进的提取[--Improved Extracting--]"
 			description: [
-				"The &5Improved Extractor&r is an advanced version of the &3Extractor&r. It extract &2elements&r faster."
-				"As for any other &2Instruments&r, the &5Improved Extractor&r needs to be on top of a &3Container&r but not a &3Small Container&r."
+				"&5改进的提取器&r是&3提取器&r的高级版本。它更快地提取&2元素&r。[--The &5Improved Extractor&r is an advanced version of the &3Extractor&r. It extract &2elements&r faster.--]"
+				"与任何其他&2仪器&r一样，&5改进的提取器&r需要位于&3容器&r的顶部，而不是&3小型容器&r的顶部。[--As for any other &2Instruments&r, the &5Improved Extractor&r needs to be on top of a &3Container&r but not a &3Small Container&r.--]"
 			]
 			dependencies: ["42794F7270EC5336"]
 			id: "48B6CE2B7C611B03"
@@ -32,10 +32,10 @@
 		{
 			x: -7.25d
 			y: 4.5d
-			subtitle: "Extracting from Elemental orbs"
+			subtitle: "从元素球中提取[--Extracting from Elemental orbs--]"
 			description: [
-				"Use an &5Extractor&r to extract &2elements&r from &3sources&r."
-				"To do so, place the &5Extractor&r above a &3Container&r and below the &3source&r you want to extract."
+				"使用&5提取器&r从&3源&r中提取&2元素&r。[--Use an &5Extractor&r to extract &2elements&r from &3sources&r.--]"
+				"要执行此操作，请将&5提取器&r放置在&3容器&r上方，并放置在要提取的&3源&r下方。[--To do so, place the &5Extractor&r above a &3Container&r and below the &3source&r you want to extract.--]"
 			]
 			dependencies: ["5269FB3852203971"]
 			id: "42794F7270EC5336"
@@ -52,7 +52,7 @@
 			}]
 		}
 		{
-			title: "Element Holders"
+			title: "元素持有者[--Element Holders--]"
 			icon: {
 				id: "elementalcraft:element_holder_fire"
 				Count: 1b
@@ -69,8 +69,8 @@
 			}
 			x: -8.5d
 			y: 3.75d
-			subtitle: "Storing Elements"
-			description: ["&5Element Holders&r can hold &2elements&r, for transport or for use by &2spells&r. To fill them hold right-click on a &3source&r of the same &2element&r type. You can also transfer &2element&r back to a receiver by holding right-click on it."]
+			subtitle: "存储元素[--Storing Elements--]"
+			description: ["&5元素持有者&r可以按住&2元素&r，用于运输或&2法术&r使用。要填充它们，请按住右键单击相同&2元素&r类型的&3源&r。您也可以通过按住右键单击&2元素&r返回到接收器。[--&5Element Holders&r can hold &2elements&r, for transport or for use by &2spells&r. To fill them hold right-click on a &3source&r of the same &2element&r type. You can also transfer &2element&r back to a receiver by holding right-click on it.--]"]
 			dependencies: [
 				"61363AAF911F665B"
 				"42794F7270EC5336"
@@ -159,10 +159,10 @@
 		{
 			x: -11.75d
 			y: 0.5d
-			subtitle: "Fire Blasting Furnace"
+			subtitle: "火高炉[--Fire Blasting Furnace--]"
 			description: [
-				"The &5Fire Blast Furnace&r is the &5Blast Furnace&r variant of the &3Fire Furnace&r."
-				"As for any other &2Instruments&r, the &5Blast Fire Furnace&r needs to be on top of a &3Container&r but not a &3Small Container&r."
+				"&5火高炉&r是&3火熔炉&r的&5高炉&r变体。[--The &5Fire Blast Furnace&r is the &5Blast Furnace&r variant of the &3Fire Furnace&r.--]"
+				"对于任何其他&2仪器&r，&5火高炉&r需要位于&3容器&r的顶部，而不是&3小容器&r的顶部。[--As for any other &2Instruments&r, the &5Blast Fire Furnace&r needs to be on top of a &3Container&r but not a &3Small Container&r.--]"
 			]
 			dependencies: ["797866E6B3B0A46F"]
 			id: "0333650A8BE09237"
@@ -180,10 +180,10 @@
 		{
 			x: -11.75d
 			y: -0.5d
-			subtitle: "Cooking with Element"
+			subtitle: "用元素烹饪[--Cooking with Element--]"
 			description: [
-				"The &5Fire Furnace&r smelts items by using &2fire element&r instead of fuel. "
-				"As for any other &2Instruments&r, the &5Fire Furnace&r needs to be on top of a &3Container&r but not a &3Small Container&r."
+				"&5火熔炉&r使用&2火元素&r代替燃料冶炼物品。[--The &5Fire Furnace&r smelts items by using &2fire element&r instead of fuel. --]"
+				"对于任何其他&2仪器&r，&5火熔炉&r需要位于&3容器&r的顶部，而不是&3小容器&r的顶部。[--As for any other &2Instruments&r, the &5Fire Furnace&r needs to be on top of a &3Container&r but not a &3Small Container&r.--]"
 			]
 			hide_dependency_lines: false
 			dependencies: ["797866E6B3B0A46F"]
@@ -202,8 +202,8 @@
 		{
 			x: -10.75d
 			y: 0.0d
-			subtitle: "This Fire Burns "
-			description: ["Put an &n&lInert Crystal&r in a &2Element Infuser&r and infuse it with &4Fire&r."]
+			subtitle: "这团火正在燃烧[--This Fire Burns --]"
+			description: ["将&n&l惰性水晶&r放入&2元素注入器&r中，并注入&4火&r。[--Put an &n&lInert Crystal&r in a &2Element Infuser&r and infuse it with &4Fire&r.--]"]
 			dependencies: ["2EF6A9F779B7721E"]
 			id: "797866E6B3B0A46F"
 			tasks: [{
@@ -220,12 +220,12 @@
 		{
 			x: -7.25d
 			y: 2.75d
-			subtitle: "Not compatible with all instruments"
+			subtitle: "不兼容全部仪器[--Not compatible with all instruments--]"
 			description: [
-				"The &5Small Element Container&r is a simple &2element&r storage for providing &2elements&r to &2instruments&r."
-				"All &2instruments&r need to be placed on top of a &5Container&r to operate."
-				"The &5Small Element Container&r can only wortk with &3Extractors&r and &3Infusers&r."
-				"You can also transfer &2elements&r from one &5Container&r to another using &3pipes&r."
+				"&5小元素容器&r是一个简单的&2元素&r储存器，用于为&2仪器&r。[--The &5Small Element Container&r is a simple &2element&r storage for providing &2elements&r to &2instruments&r.--]"
+				"全部&2仪器&r需要被放置在&5容器&r顶部才能操作。[--All &2instruments&r need to be placed on top of a &5Container&r to operate.--]"
+				"&5小元素容器&r只能与&3提取器&r&3和&3注入器&r一起工作。[--The &5Small Element Container&r can only wortk with &3Extractors&r and &3Infusers&r.--]"
+				"您还可以使用&3管道&r将&2元素&r&5从一个&5容器&r传输到另一个容器&r。[--You can also transfer &2elements&r from one &5Container&r to another using &3pipes&r.--]"
 			]
 			dependencies: ["43EB5B6F9FA18134"]
 			id: "61363AAF911F665B"
@@ -245,20 +245,20 @@
 			x: -9.25d
 			y: 0.0d
 			shape: "square"
-			subtitle: "Fire Infusing"
+			subtitle: "火注入[--Fire Infusing--]"
 			dependencies: ["03C527A6204354AA"]
 			id: "2EF6A9F779B7721E"
 			tasks: [{
 				id: "18634B7519A20DF5"
 				type: "checkmark"
-				title: "Infuse With Fire"
+				title: "注入火[--Infuse With Fire--]"
 			}]
 		}
 		{
 			x: -9.25d
 			y: -1.25d
-			subtitle: "Resmelting Glass"
-			description: ["Used for some craft but mainly for decoration."]
+			subtitle: "重新熔化玻璃[--Resmelting Glass--]"
+			description: ["用于某些工艺，但主要用于装饰。[--Used for some craft but mainly for decoration.--]"]
 			dependencies: ["2EF6A9F779B7721E"]
 			id: "24B28B4198B98016"
 			tasks: [{
@@ -275,8 +275,8 @@
 		{
 			x: -5.0d
 			y: -1.0d
-			subtitle: "Earth Contained"
-			description: ["Put an &n&lInert Crystal&r in a &7Element Infuser&r and infuse it with &2Earth&r."]
+			subtitle: "包含的土元素[--Earth Contained--]"
+			description: ["将&n&l惰性水晶&r放入&7元素注入器&r中，并注入&2土&r。[--Put an &n&lInert Crystal&r in a &7Element Infuser&r and infuse it with &2Earth&r.--]"]
 			dependencies: ["50ACA9EBE90B7CBC"]
 			id: "1F072851FDC6EFA4"
 			tasks: [{
@@ -294,20 +294,20 @@
 			x: -6.0d
 			y: 0.0d
 			shape: "square"
-			subtitle: "Earth Infusing"
+			subtitle: "土灌注[--Earth Infusing--]"
 			dependencies: ["03C527A6204354AA"]
 			id: "50ACA9EBE90B7CBC"
 			tasks: [{
 				id: "79E75EA7C25AEAF3"
 				type: "checkmark"
-				title: "Infuse With Earth"
+				title: "土注入[--Infuse With Earth--]"
 			}]
 		}
 		{
 			x: -6.0d
 			y: -1.5d
-			subtitle: "A new rock "
-			description: ["The &5Whiterock&r is an &2earth infused &5stone&r. It is used in the crafting of advanced &2instruments&r and &2shrines&r. To get it simply put &5stone&r in a &3Element Infuser&r and infused it with &2Earth&r."]
+			subtitle: "一个新岩石[--A new rock --]"
+			description: ["&5白石&r是一块&2注入土的&5石头&r。它被使用先进&2仪器&r和&2神龛&r的合成。要获得它，只需将&5石头&r放入&3元素注入器&r中，并注入&2土&r。[--The &5Whiterock&r is an &2earth infused &5stone&r. It is used in the crafting of advanced &2instruments&r and &2shrines&r. To get it simply put &5stone&r in a &3Element Infuser&r and infused it with &2Earth&r.--]"]
 			dependencies: ["50ACA9EBE90B7CBC"]
 			id: "2B5B7AED6FDF9867"
 			tasks: [{
@@ -324,7 +324,7 @@
 		{
 			x: -5.25d
 			y: -3.25d
-			description: ["Put a &n&lString&r in a &2Element Infuser&r and infuse it with &eAir&r."]
+			description: ["将&n&l线&r放入&2元素注入器&r中，并注入&e空气&r。[--Put a &n&lString&r in a &2Element Infuser&r and infuse it with &eAir&r.--]"]
 			dependencies: ["3D4B8DB699CDE202"]
 			id: "491B2193A90E7426"
 			tasks: [{
@@ -342,22 +342,22 @@
 			x: -7.25d
 			y: -3.25d
 			shape: "square"
-			subtitle: "Air Infusing"
+			subtitle: "气注入[--Air Infusing--]"
 			dependencies: ["03C527A6204354AA"]
 			id: "3D4B8DB699CDE202"
 			tasks: [{
 				id: "2EDDB62520328E74"
 				type: "checkmark"
-				title: "Infuse With Air"
+				title: "注入气[--Infuse With Air--]"
 			}]
 		}
 		{
 			x: -7.25d
 			y: 0.0d
-			subtitle: "Using Elements"
+			subtitle: "使用元素[--Using Elements--]"
 			description: [
-				"Now that you can extract &2elements&r, it's time to use them."
-				"To do so you need an &5Infuser&r on top of a &3Container&r. Don't forget to connect it to the &3Extractor's Container&r with a &3pipe&r."
+				"现在您可以提取&2元素&r，是时候使用它们了。[--Now that you can extract &2elements&r, it's time to use them.--]"
+				"要做到这一点，您需要在&3容器&r的顶部安装&5注入器&r。别忘了用管道&3将其连接到&3提取器的容器&r。[--To do so you need an &5Infuser&r on top of a &3Container&r. Don't forget to connect it to the &3Extractor's Container&r with a &3pipe&r.--]"
 			]
 			dependencies: ["61363AAF911F665B"]
 			id: "03C527A6204354AA"
@@ -375,8 +375,8 @@
 		{
 			x: -11.0d
 			y: -3.25d
-			subtitle: "Water Power !"
-			description: ["Put a &n&lNether Quartz&r in a &2Element Infuser&r and infuse it with &bWater&r."]
+			subtitle: "水的力量！[--Water Power !--]"
+			description: ["将&n&l下界石英&r放入&2元素注入器&r中，并注入&b水&r。[--Put a &n&lNether Quartz&r in a &2Element Infuser&r and infuse it with &bWater&r.--]"]
 			dependencies: ["18E78747198F075F"]
 			id: "379064666E7A2E58"
 			tasks: [{
@@ -393,8 +393,8 @@
 		{
 			x: -11.0d
 			y: -4.5d
-			subtitle: "Do not dive"
-			description: ["Put an &n&lInert Crystal&r in a &2Element Infuser&r and infuse it with &bWater&r."]
+			subtitle: "不要潜水[--Do not dive--]"
+			description: ["将&n&l惰性水晶&r放入&2元素注入器&r中，并注入&b水&r。[--Put an &n&lInert Crystal&r in a &2Element Infuser&r and infuse it with &bWater&r.--]"]
 			dependencies: ["18E78747198F075F"]
 			id: "68711AC9EA30B4EA"
 			tasks: [{
@@ -412,20 +412,20 @@
 			x: -9.0d
 			y: -3.25d
 			shape: "square"
-			subtitle: "Water Infusing"
+			subtitle: "水注入[--Water Infusing--]"
 			dependencies: ["03C527A6204354AA"]
 			id: "18E78747198F075F"
 			tasks: [{
 				id: "66102B6BFD441304"
 				type: "checkmark"
-				title: "Infuse With Water"
+				title: "注入水[--Infuse With Water--]"
 			}]
 		}
 		{
 			x: -9.0d
 			y: -4.5d
-			subtitle: "Drowning Iron"
-			description: ["Put an &n&lIron Ingot&r in a &2Element Infuser&r and infuse it with &bWater&r."]
+			subtitle: "溺水的铁[--Drowning Iron--]"
+			description: ["将&n&l铁锭&r放入&2元素注入器&r，并注入&b水&r。[--Put an &n&lIron Ingot&r in a &2Element Infuser&r and infuse it with &bWater&r.--]"]
 			dependencies: ["18E78747198F075F"]
 			id: "68CBC7E57700B6BE"
 			tasks: [{
@@ -440,12 +440,14 @@
 			}]
 		}
 		{
-			title: "How To Craft Spells"
+			title: "如何制作咒语[--How To Craft Spells--]"
 			icon: "elementalcraft:spell_desk"
 			x: -9.0d
 			y: -5.75d
-			subtitle: "Wingardium Levioooosa !"
-			description: ["To craft &2spells&r you need to first craft a &5spell desk&r. To use it just right-click it with some &5scroll paper&r and then with some &5infused crystal&r. The bigger the crystal stack, the better chance you have to get a spell, and the resulting spell is aligned with the same &2element&r as the crysal used."]
+			subtitle: "Wingardium Levioooosa！[--Wingardium Levioooosa !--]"
+			description: [
+				"要制作&2咒语&r，你需要先制作&5咒语桌&r。要使用它，只需用鼠标右键单击一些&5卷轴&r，然后用一些&5注入水晶&r。水晶堆叠越大，你获得咒语的机会就越大，所产生的咒语与使用使用的相同&2元素&r对应。[--To craft &2spells&r you need to first craft a &5spell desk&r. To use it just right-click it with some &5scroll paper&r and then with some &5infused crystal&r. The bigger the crystal stack, the better chance you have to get a spell, and the resulting spell is aligned with the same &2element&r as the crysal used.--]"
+				]
 			dependencies: [
 				"68CBC7E57700B6BE"
 				"7F18EAF2FA50C3E5"
@@ -472,11 +474,11 @@
 		{
 			x: -7.25d
 			y: -5.75d
-			subtitle: "Air Grinder"
+			subtitle: "空气研磨机[--Air Grinder--]"
 			description: [
-				"The &6Air Mill Grindstone&r allows you to grind down items like &5stone&r to &5gravel&r."
-				"As for any other &2Instruments&r, the &6Air Mill Grindstone&r needs to be on top of a &3Container&r but not a &3Small Container&r."
-				"As you can understand, it'll consume Air."
+				"&6空气磨粉机砂轮&r允许您将像&5石头&r到&5沙砾&r这样的物品碾碎。[--The &6Air Mill Grindstone&r allows you to grind down items like &5stone&r to &5gravel&r.--]"
+				"对于任何其他&2仪器&r，&6空气磨机砂轮&r需要位于&3容器&r顶部，而不是&3小容器&r顶部。[--As for any other &2Instruments&r, the &6Air Mill Grindstone&r needs to be on top of a &3Container&r but not a &3Small Container&r.--]"
+				"如你所知，它将消耗空气。[--As you can understand, it'll consume Air.--]"
 			]
 			dependencies: ["7F18EAF2FA50C3E5"]
 			id: "58973E0689D3AB3D"
@@ -494,8 +496,8 @@
 		{
 			x: -7.25d
 			y: -4.5d
-			subtitle: "Air Force"
-			description: ["Put an &n&lInert Crystal&r in a &2Element Infuser&r and infuse it with &eAir&r."]
+			subtitle: "空“军”[--Air Force--]"
+			description: ["将&n&l惰性水晶&r放入&2元素注入器&r中，并注入&e空气&r。[--Put an &n&lInert Crystal&r in a &2Element Infuser&r and infuse it with &eAir&r.--]"]
 			dependencies: ["3D4B8DB699CDE202"]
 			id: "7F18EAF2FA50C3E5"
 			tasks: [{
@@ -512,8 +514,8 @@
 		{
 			x: -5.25d
 			y: -4.5d
-			subtitle: "A better Stick"
-			description: ["Use the &2Element Binder&r to create this item ! It consumes &2Earth&r!"]
+			subtitle: "更好的木棍[--A better Stick--]"
+			description: ["使用&2元素合成器&r创建此物品！它消耗&2土&r！[--Use the &2Element Binder&r to create this item ! It consumes &2Earth&r!--]"]
 			dependencies: ["491B2193A90E7426"]
 			id: "381D351161EDF237"
 			tasks: [{
@@ -530,10 +532,10 @@
 		{
 			x: -5.25d
 			y: -5.75d
-			subtitle: "The Power of The Sun"
+			subtitle: "太阳的力量[--The Power of The Sun--]"
 			description: [
-				"The &5Solar Element Synthesizer&r allows you to harvest elements from the sun light, it needs to see the sky and only works during the day. You also need to provide lense to make it work."
-				"It must be placed above a &3Container&r."
+				"&5太阳能元素合成器&r允许您从太阳光中获取元素，它需要看到天空，并且只在白天工作。你还需要提供镜片以使其工作。[--The &5Solar Element Synthesizer&r allows you to harvest elements from the sun light, it needs to see the sky and only works during the day. You also need to provide lense to make it work.--]"
+				"它必须被放置在&3容器&r上方。[--It must be placed above a &3Container&r.--]"
 			]
 			dependencies: ["381D351161EDF237"]
 			id: "32352E0EF4809F2B"
@@ -551,8 +553,8 @@
 		{
 			x: -3.75d
 			y: -5.75d
-			subtitle: "A better Focus"
-			description: ["Slightly increase the range of &2spells&r."]
+			subtitle: "更加专注[--A better Focus--]"
+			description: ["稍微增加&2法术&r的范围。[--Slightly increase the range of &2spells&r.--]"]
 			dependencies: ["5946C729C43E17F5"]
 			id: "393536FA9655608A"
 			tasks: [{
@@ -576,10 +578,10 @@
 		{
 			x: -3.75d
 			y: -4.5d
-			subtitle: "Magic Wand"
+			subtitle: "魔术棒[--Magic Wand--]"
 			description: [
-				"A &5Focus&r can hold multiple &2spells&r."
-				"You can add &2spells&r to it by putting the &5focus&r in an anvil with the &5scroll&r of the &2spell&r. You can circle through &2spells&r by holding shift and scrolling."
+				"&5专注&r可以容纳多种&2法术&r。[--A &5Focus&r can hold multiple &2spells&r.--]"
+				"您可以通过将&5专注&r放在铁砧上，使用&2咒语&r的&5卷轴&r，将&2法术&r添加到其中。通过按住shift键并滚动，您可以在&2咒语&r之间循环。[--You can add &2spells&r to it by putting the &5focus&r in an anvil with the &5scroll&r of the &2spell&r. You can circle through &2spells&r by holding shift and scrolling.--]"
 			]
 			dependencies: ["381D351161EDF237"]
 			id: "5946C729C43E17F5"
@@ -597,8 +599,8 @@
 		{
 			x: 2.5d
 			y: 4.5d
-			subtitle: "Your Ingame Wiki"
-			description: ["Everything you need to know about the &6&lElementalCraft&r mod."]
+			subtitle: "您的游戏内Wiki[--Your Ingame Wiki--]"
+			description: ["关于&6&l元素工艺&r模组，你需要了解的所有信息。[--Everything you need to know about the &6&lElementalCraft&r mod.--]"]
 			dependencies: ["148AC206C02F9761"]
 			id: "190E6A8147CD1EC5"
 			tasks: [{
@@ -619,10 +621,10 @@
 			}]
 		}
 		{
-			title: "Raw Elements Shards"
+			title: "粗元素碎片[--Raw Elements Shards--]"
 			x: 4.0d
 			y: 4.5d
-			subtitle: "Can be dropped on mobs "
+			subtitle: "可由怪物掉落[--Can be dropped on mobs --]"
 			dependencies: ["190E6A8147CD1EC5"]
 			id: "53B53495DEA95E9B"
 			tasks: [
@@ -654,7 +656,7 @@
 			}]
 		}
 		{
-			title: "Elemental Sources"
+			title: "元素源[--Elemental Sources--]"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -664,17 +666,17 @@
 			}
 			x: 2.5d
 			y: 6.0d
-			subtitle: "Natural Power"
+			subtitle: "自然力量[--Natural Power--]"
 			description: [
-				"Trough your adventure you will find some &0Elemental Sources&r."
-				"Here are the 4 &4el&bem&6en&2ts&r that you will be able to find :"
-				"- &4Fire Source&r."
+				"通过你的冒险，你会发现一些&0元素源&r。[--Trough your adventure you will find some &0Elemental Sources&r.--]"
+				"以下是你可以找到的4&4el&bem&6en&2ts&r（元素）：[--Here are the 4 &4el&bem&6en&2ts&r that you will be able to find :--]"
+				"-&4火源&r[--- &4Fire Source&r.--]"
 				"{image:chroma:textures/quests/fire.png width:100 height:100 align:1}"
-				"- &eAir Source."
+				"-&e气源&r[--- &eAir Source.--]"
 				"{image:chroma:textures/quests/air.png width:100 height:100 align:1}"
-				"- &2Earth Source&r"
+				"-&2土源&r[--- &2Earth Source&r--]"
 				"{image:chroma:textures/quests/earth.png width:100 height:100 align:1}"
-				"- &bWater Source&r."
+				"-&b水源&r[--- &bWater Source&r.--]"
 				"{image:chroma:textures/quests/water.png width:100 height:100 align:1}"
 			]
 			dependencies: ["190E6A8147CD1EC5"]
@@ -683,7 +685,7 @@
 			tasks: [{
 				id: "6644A18C9A3A75C2"
 				type: "checkmark"
-				title: "Find &4Fire&r, &bWater&r, &2Earth&r and &6Air&r sources"
+				title: "寻找&4火&r、&b水&r、&2土&r和&6空气&r源[--Find &4Fire&r, &bWater&r, &2Earth&r and &6Air&r sources--]"
 				icon: {
 					id: "ftbquests:custom_icon"
 					Count: 1b
@@ -701,8 +703,8 @@
 		{
 			x: -1.0d
 			y: 0.0d
-			subtitle: "Faster !"
-			description: ["The &5Improved Element Binder&r works like a &3Binder&r and &3Infuser&r meaning it can do either binding or infusion at a faster rate. As for any other &2Instruments&r, the &5Improved Binder&r needs to be on top of a &3Container&r but not a &3Small Container&r."]
+			subtitle: "更快！[--Faster !--]"
+			description: ["&5改进的元素合成器&r的工作方式类似于&3合成器&r和&3注入器&r，这意味着它可以以更快的速度进行绑定或注入。对于任何其他&2工具&r，&5改进的合成器&r需要位于&3容器&r顶部。而不是&3小容器&r顶部。[--The &5Improved Element Binder&r works like a &3Binder&r and &3Infuser&r meaning it can do either binding or infusion at a faster rate. As for any other &2Instruments&r, the &5Improved Binder&r needs to be on top of a &3Container&r but not a &3Small Container&r.--]"]
 			dependencies: ["552D81EF1814A4DD"]
 			id: "13DC2D43396579FB"
 			tasks: [{
@@ -719,8 +721,8 @@
 		{
 			x: -1.0d
 			y: 1.5d
-			subtitle: "Binding elements to items"
-			description: ["The &5Binder&r is one of the most important &2Instrument&r. It channels elements to combine multiples items together. Be careful because the order is which you put the items is really important, you need to put them clockwise from the top. As for any other &2Instruments&r, the &5Binder&r needs to be on top of a &3Container&r, but not a &3Small Container&r."]
+			subtitle: "将元素绑定到物品[--Binding elements to items--]"
+			description: ["&5合成器&r是最重要的&2工具&r。它引导元素将多个物品组合在一起。要小心，因为你放置物品的顺序非常重要，你需要从顶部顺时针放置。对于任何其他&2工具&r，&5合成器&r需要放在&3容器&r的顶部，而不是&3小容器&r的顶部。[--The &5Binder&r is one of the most important &2Instrument&r. It channels elements to combine multiples items together. Be careful because the order is which you put the items is really important, you need to put them clockwise from the top. As for any other &2Instruments&r, the &5Binder&r needs to be on top of a &3Container&r, but not a &3Small Container&r.--]"]
 			dependencies: ["5269FB3852203971"]
 			id: "552D81EF1814A4DD"
 			tasks: [{
@@ -737,8 +739,8 @@
 		{
 			x: 2.5d
 			y: 1.5d
-			subtitle: "Elemental Tank"
-			description: ["The &5Element Container&r is an &2element&r storage, containing more &2elements&r than the &3Small Container&r, and it is compatible with all &2instruments&r."]
+			subtitle: "元素储罐[--Elemental Tank--]"
+			description: ["&5元素容器&r是一个&2元素&r存储，它包含的&2元素&r比&3小容器&r更多，并且它与全部&4仪器&r兼容。[--The &5Element Container&r is an &2element&r storage, containing more &2elements&r than the &3Small Container&r, and it is compatible with all &2instruments&r.--]"]
 			dependencies: ["5269FB3852203971"]
 			id: "33958A09FB7E36BE"
 			tasks: [{
@@ -753,12 +755,12 @@
 			}]
 		}
 		{
-			title: "Creating Runes"
+			title: "合成符文[--Creating Runes--]"
 			icon: "elementalcraft:inscriber"
 			x: 2.5d
 			y: 2.75d
-			subtitle: "Carving White Rocks"
-			description: ["The &5Rune Inscriber&r is used to create Runes. At the difference of other &2instruments&r it needs to be right-clicked multiple times with a &5Rune Inscription Chisel&r to operate."]
+			subtitle: "錾制白色岩石[--Carving White Rocks--]"
+			description: ["&5符文铭文&r用于合成符文。与其他&2仪器&r不同的是，它需要用&5符文铭刻凿&r右键单击多次才能操作。[--The &5Rune Inscriber&r is used to create Runes. At the difference of other &2instruments&r it needs to be right-clicked multiple times with a &5Rune Inscription Chisel&r to operate.--]"]
 			dependencies: [
 				"33958A09FB7E36BE"
 				"5269FB3852203971"
@@ -809,8 +811,8 @@
 		{
 			x: 0.75d
 			y: 0.0d
-			subtitle: "Infused by Air"
-			description: ["Use the &2Element Binder&r to create this ingot ! It consumes &eAir&r !"]
+			subtitle: "空气注入[--Infused by Air--]"
+			description: ["使用&2元素合成器&r合成此锭！它消耗&e空气&r！[--Use the &2Element Binder&r to create this ingot ! It consumes &eAir&r !--]"]
 			dependencies: [
 				"552D81EF1814A4DD"
 				"33958A09FB7E36BE"
@@ -830,8 +832,8 @@
 		{
 			x: -3.75d
 			y: 0.25d
-			subtitle: "The Best Element Pipe"
-			description: ["Those are the cables needed to craft the &#a2a9f1&lPure Crystal&r."]
+			subtitle: "最佳元素管道[--The Best Element Pipe--]"
+			description: ["这些是制作&#a2a9f1&l纯水晶&r所需的电缆。[--Those are the cables needed to craft the &#a2a9f1&lPure Crystal&r.--]"]
 			dependencies: [
 				"5269FB3852203971"
 				"4E0EFFD2B6E7E1BE"
@@ -851,7 +853,7 @@
 		{
 			x: -3.75d
 			y: 1.5d
-			subtitle: "A better Element Pipe"
+			subtitle: "更好的元素管道[--A better Element Pipe--]"
 			dependencies: [
 				"5269FB3852203971"
 				"43EB5B6F9FA18134"
@@ -871,13 +873,13 @@
 		{
 			x: -3.75d
 			y: 2.75d
-			subtitle: "Your First Element Pipe"
+			subtitle: "你的第一个元素管道[--Your First Element Pipe--]"
 			description: [
-				"&5Pipes&r are used to transport &2elements&r across distances. Their main use is to provide &2instruments&r with the required &2element&r. You can configure a &5pipe&r by right-clicking a section or the core to change it from :"
-				"- &2Connected&r."
-				"- &2Disconnected&r."
-				"- &2Insert&r."
-				"- &2Extract&r."
+				"&5管道&r使用跨距离传输&2元素&r。它们的主要用途是为&2仪器&r提供所需的&2元素&r。你可以通过右键单击部分或核心来配置&5管道&r，以将其更改为：[--&5Pipes&r are used to transport &2elements&r across distances. Their main use is to provide &2instruments&r with the required &2element&r. You can configure a &5pipe&r by right-clicking a section or the core to change it from :--]"
+				"-&2已连接&r。[--- &2Connected&r.--]"
+				"-&2已断开&r。[--- &2Disconnected&r.--]"
+				"-&2输入&r。[--- &2Insert&r.--]"
+				"-&2提取&r。[--- &2Extract&r.--]"
 			]
 			dependencies: ["5269FB3852203971"]
 			id: "43EB5B6F9FA18134"
@@ -895,10 +897,10 @@
 		{
 			x: -5.0d
 			y: 1.5d
-			subtitle: "Hiding Pipes"
+			subtitle: "隐藏管道[--Hiding Pipes--]"
 			description: [
-				"The &5pipe cover frame&r allows you to hide a &3pipe&r behind a block. Use it on a pipe (preferably while sneaking) then right click it with the block you want to hide it behind."
-				"You can hide frames and show pipes by holding a pipe, a frame or having an empty hand."
+				"&5管盖框架&r允许你在方块后面隐藏&3管道&r。在管道上使用它（最好是在潜行时），然后用右键点击它，并将其隐藏在后面。[--The &5pipe cover frame&r allows you to hide a &3pipe&r behind a block. Use it on a pipe (preferably while sneaking) then right click it with the block you want to hide it behind.--]"
+				"你可以通过手持管道、框架或空手来隐藏框架和显示管道。[--You can hide frames and show pipes by holding a pipe, a frame or having an empty hand.--]"
 			]
 			dependencies: [
 				"43EB5B6F9FA18134"
@@ -922,8 +924,8 @@
 			x: -3.75d
 			y: 4.5d
 			shape: "diamond"
-			subtitle: "A worthy Trade"
-			description: ["Thanks to &2The Alfeihm&r you'll get the &6Contained Crystal&r used for multiple crafting."]
+			subtitle: "有价值的交易[--A worthy Trade--]"
+			description: ["多亏了&2亚尔夫海姆&r，你将获得&6内含的水晶&r用于多种合成。[--Thanks to &2The Alfeihm&r you'll get the &6Contained Crystal&r used for multiple crafting.--]"]
 			dependencies: ["148AC206C02F9761"]
 			id: "5269FB3852203971"
 			tasks: [{
@@ -940,8 +942,8 @@
 		{
 			x: 0.75d
 			y: 1.5d
-			subtitle: "Creating Elemental Source With Shards"
-			description: ["Place this on any &2Container&r and right-click with any &#a2a9f1Elements&r. It will fill the &2Container&r with the &#a2a9f1Element&r of the Shard."]
+			subtitle: "使用碎片合成元素源[--Creating Elemental Source With Shards--]"
+			description: ["将其放置在任何&2容器&r上，然后右键单击任何&r元素。它将使用碎片的&#a2a9f1元素&r填充&2容器&r。[--Place this on any &2Container&r and right-click with any &#a2a9f1Elements&r. It will fill the &2Container&r with the &#a2a9f1Element&r of the Shard.--]"]
 			dependencies: ["5269FB3852203971"]
 			id: "22BE141241096122"
 			tasks: [{
@@ -1002,7 +1004,7 @@
 			tasks: [{
 				id: "29664B9339682121"
 				type: "checkmark"
-				title: "Unlock : &aThe Undergarden &rquest line"
+				title: "解锁：&a深暗之园&r任务线[--Unlock : &aThe Undergarden &rquest line--]"
 			}]
 			rewards: [{
 				id: "0A2F5E08C646096C"
@@ -1013,9 +1015,9 @@
 		{
 			x: 9.0d
 			y: 0.5d
-			subtitle: "Afrit Boss"
+			subtitle: "火灵Boss[--Afrit Boss--]"
 			description: [
-				"In order to spawn this new &cboss&r, you shall assemble the four elements of &0&ldarkness&r."
+				"为了生成这个新的&cBoss&r，你应该组合&0&l黑暗&r的四个元素。[--In order to spawn this new &cboss&r, you shall assemble the four elements of &0&ldarkness&r.--]"
 				""
 				"{image:chroma:textures/quests/afrit_essence_craft.png width:150 height:150 align:1}"
 			]
@@ -1107,8 +1109,8 @@
 			x: 9.25d
 			y: -3.25d
 			shape: "gear"
-			subtitle: "Dragon's Anger"
-			description: ["See the &6Gem Crystallizer&r quest to have more information."]
+			subtitle: "龙的愤怒[--Dragon's Anger--]"
+			description: ["有关更多信息，请参阅&6宝石结晶器&r任务。[--See the &6Gem Crystallizer&r quest to have more information.--]"]
 			dependencies: ["7BD2D6B517F906ED"]
 			id: "567BBF4D2121418C"
 			tasks: [{
@@ -1126,8 +1128,8 @@
 			x: 8.25d
 			y: -3.25d
 			shape: "gear"
-			subtitle: "Dwarf's Exploring"
-			description: ["See the &6Gem Crystallizer&r quest to have more information."]
+			subtitle: "矮人的探索[--Dwarf's Exploring--]"
+			description: ["有关更多信息，请参阅&6宝石结晶器&r任务。[--See the &6Gem Crystallizer&r quest to have more information.--]"]
 			dependencies: ["7BD2D6B517F906ED"]
 			id: "45ACEDB8B8D30E96"
 			tasks: [{
@@ -1145,8 +1147,8 @@
 			x: 7.25d
 			y: -3.25d
 			shape: "gear"
-			subtitle: "Avatar's Peace"
-			description: ["See the &6Gem Crystallizer&r quest to have more information."]
+			subtitle: "阿凡达的和平[--Avatar's Peace--]"
+			description: ["有关更多信息，请参阅&6宝石结晶器&r任务。[--See the &6Gem Crystallizer&r quest to have more information.--]"]
 			dependencies: ["7BD2D6B517F906ED"]
 			id: "1B5469D64AE3F850"
 			tasks: [{
@@ -1164,8 +1166,8 @@
 			x: 6.25d
 			y: -3.25d
 			shape: "gear"
-			subtitle: "Aquaman's Wrath"
-			description: ["See the &6Gem Crystallizer&r quest to have more information."]
+			subtitle: "Aquaman的愤怒[--Aquaman's Wrath--]"
+			description: ["有关更多信息，请参阅&6宝石结晶器&r任务。[--See the &6Gem Crystallizer&r quest to have more information.--]"]
 			dependencies: ["7BD2D6B517F906ED"]
 			id: "53E0B3F747685F9E"
 			tasks: [{
@@ -1183,8 +1185,8 @@
 			x: 7.75d
 			y: -5.0d
 			shape: "diamond"
-			subtitle: "Resulting From The Pure Infuser"
-			description: ["Welcome to a new tier of needed ingredient in order to progress through &6&lElementalCraft&r."]
+			subtitle: "由纯净注入器产生[--Resulting From The Pure Infuser--]"
+			description: ["欢迎来到需要更高级材料的新阶段！在&6&l元素工艺&r继续发展。[--Welcome to a new tier of needed ingredient in order to progress through &6&lElementalCraft&r.--]"]
 			hide_dependency_lines: true
 			dependencies: [
 				"343F169E9B91EC9B"
@@ -1209,8 +1211,8 @@
 			x: 5.5d
 			y: -5.0d
 			description: [
-				"The &5Purifier&r takes &5ores&r and purify them to create &5Pure Ores&r at a ration of one to two. You can get them smelt into ingots using any &5Furnaces&r."
-				"As for any other &2Instruments&r, the &5Ore Purifier&r needs to be on top of a &3Container&r but not a &3Small Container&r."
+				"&5纯化器&r以一比二的比例提取&5矿石&r并对其进行纯化，从而生成&5纯矿石&r。你可以使用任何&5熔炉&r将它们熔炼成锭。[--The &5Purifier&r takes &5ores&r and purify them to create &5Pure Ores&r at a ration of one to two. You can get them smelt into ingots using any &5Furnaces&r.--]"
+				"对于任何其他&2仪器&r，&5矿石净化器&r需要位于&3容器&r的顶部，而不是&3小容器&r的顶部。[--As for any other &2Instruments&r, the &5Ore Purifier&r needs to be on top of a &3Container&r but not a &3Small Container&r.--]"
 			]
 			dependencies: ["7BD2D6B517F906ED"]
 			id: "53F48F179B01DBFC"
@@ -1228,8 +1230,8 @@
 		{
 			x: 8.75d
 			y: -6.25d
-			subtitle: "Netherite? Nope !"
-			description: ["A new Ingot used for some crafts."]
+			subtitle: "下界合金？不！[--Netherite? Nope !--]"
+			description: ["用于某些工艺品的新锭。[--A new Ingot used for some crafts.--]"]
 			dependencies: ["7BD2D6B517F906ED"]
 			id: "7260BE309AD6DF62"
 			tasks: [{
@@ -1246,8 +1248,8 @@
 		{
 			x: 8.75d
 			y: -7.5d
-			subtitle: "The 4 Fantastics"
-			description: ["Combine the holy power of nature ! "]
+			subtitle: "4个幻想[--The 4 Fantastics--]"
+			description: ["结合大自然神圣的力量！[--Combine the holy power of nature ! --]"]
 			dependencies: ["7260BE309AD6DF62"]
 			id: "70CDDDD6961ED529"
 			tasks: [{
@@ -1265,8 +1267,8 @@
 		{
 			x: 10.0d
 			y: -7.5d
-			subtitle: "Elemental Master"
-			description: ["The &6Pure Element Holder&r acts like the normal &6Element Holder&r but can hold the 4 Elements."]
+			subtitle: "元素大师[--Elemental Master--]"
+			description: ["&6纯净元素容器&r的作用类似于中&6元素容器，但可以容纳4个元素。[--The &6Pure Element Holder&r acts like the normal &6Element Holder&r but can hold the 4 Elements.--]"]
 			dependencies: ["70CDDDD6961ED529"]
 			id: "46D435CD299EF61F"
 			tasks: [{
@@ -1294,8 +1296,8 @@
 		{
 			x: 9.75d
 			y: -5.0d
-			subtitle: "Moving Sources"
-			description: ["&5Receptacles&r are power tools that allow you to move &3source&r. You can pick u pand place back &3source&r into the world using right-click."]
+			subtitle: "移动源[--Moving Sources--]"
+			description: ["&5容器&r是能量工具，允许你传输&3能量&r。你可以拿起并将&3源&r放回世界。[--&5Receptacles&r are power tools that allow you to move &3source&r. You can pick u pand place back &3source&r into the world using right-click.--]"]
 			dependencies: ["7BD2D6B517F906ED"]
 			id: "60A2528E8D290EAB"
 			tasks: [{
@@ -1319,10 +1321,10 @@
 		{
 			x: 10.75d
 			y: -5.75d
-			subtitle: "More Durability !"
+			subtitle: "更耐用！[--More Durability !--]"
 			description: [
-				"Acts like the previous &2receptacle&r but has more durability to move more &3sources&r."
-				"It can be repaired by using &cFireite&r."
+				"与前一个&2容器&r类似，但具有更强的耐久性，可以传输更多&3源&r。[--Acts like the previous &2receptacle&r but has more durability to move more &3sources&r.--]"
+				"可以使用&cFireite&r对其进行修复。[--It can be repaired by using &cFireite&r.--]"
 			]
 			dependencies: ["60A2528E8D290EAB"]
 			id: "4E066969159206A6"
@@ -1347,7 +1349,7 @@
 		{
 			x: 2.75d
 			y: -3.25d
-			subtitle: "It might burn"
+			subtitle: "它可能会燃烧[--It might burn--]"
 			dependencies: ["42310EAE3A06F15E"]
 			id: "717F8022297E00D2"
 			tasks: [{
@@ -1364,7 +1366,7 @@
 		{
 			x: 1.75d
 			y: -3.25d
-			subtitle: "Grass not included"
+			subtitle: "不包括草[--Grass not included--]"
 			dependencies: ["1F1890B436E5414D"]
 			id: "61D352299B41DBB0"
 			tasks: [{
@@ -1382,10 +1384,10 @@
 			x: 1.25d
 			y: -2.0d
 			shape: "hexagon"
-			subtitle: "A new way of using Elements"
+			subtitle: "使用元素的新方法[--A new way of using Elements--]"
 			description: [
-				"The &5Pure Infuser&r is the most powerful crafting tool? it uses &5pedestals&r to channel all 4 &2elements&r into 1 item. To operate, it needs to be circled with each of the 4 &5pedestals&r, each being provided with the correct &2element&r using &3improved pipes&r. "
-				"Once this setup is done, you can start crating by putting the correct &5ingredient&r on each &2pedestal&r and the main one on the &2pure infuser&r."
+				"&5纯净注入器&r是最强大的合成工具？它使用&5基座&r将全部4个&2元素&r导入1个物品。要操作，需要用4个&5基座&r中的每一个来圈起来，每个基座都配有正确的&2元件&r&3，使用&3改进的管道&r。[--The &5Pure Infuser&r is the most powerful crafting tool? it uses &5pedestals&r to channel all 4 &2elements&r into 1 item. To operate, it needs to be circled with each of the 4 &5pedestals&r, each being provided with the correct &2element&r using &3improved pipes&r. --]"
+				"完成此设置后，你可以开始装箱，方法是将正确的&5配料&r放在每个&2底座&r上，将主配料放在&2纯净注入器&r上。[--Once this setup is done, you can start crating by putting the correct &5ingredient&r on each &2pedestal&r and the main one on the &2pure infuser&r.--]"
 			]
 			dependencies: [
 				"0D78C3974BBDEDF3"
@@ -1410,7 +1412,7 @@
 		{
 			x: 0.75d
 			y: -3.25d
-			subtitle: "Lighter than air"
+			subtitle: "比空气轻[--Lighter than air--]"
 			dependencies: ["217BBDA743C9716C"]
 			id: "343F169E9B91EC9B"
 			tasks: [{
@@ -1427,7 +1429,7 @@
 		{
 			x: -0.25d
 			y: -3.25d
-			subtitle: "Careful, might be slippery"
+			subtitle: "小心，可能很滑[--Careful, might be slippery--]"
 			dependencies: ["48E7E8ACC4F2EB9C"]
 			id: "4431A21A852F98FA"
 			tasks: [{
@@ -1445,7 +1447,7 @@
 			x: -0.25d
 			y: -4.5d
 			shape: "pentagon"
-			subtitle: "&bWater&r at it's finest"
+			subtitle: "最好的&b水&b[--&bWater&r at it's finest--]"
 			dependencies: ["1ED7B5CA71DDFF89"]
 			id: "48E7E8ACC4F2EB9C"
 			tasks: [{
@@ -1463,7 +1465,7 @@
 			x: 0.75d
 			y: -4.5d
 			shape: "pentagon"
-			subtitle: "&eAir&r at it's finest"
+			subtitle: "最好的&e气&r[--&eAir&r at it's finest--]"
 			dependencies: ["1ED7B5CA71DDFF89"]
 			id: "217BBDA743C9716C"
 			tasks: [{
@@ -1481,7 +1483,7 @@
 			x: 1.75d
 			y: -4.5d
 			shape: "pentagon"
-			subtitle: "&2Earth&r at it's finest"
+			subtitle: "最好的&2土&r[--&2Earth&r at it's finest--]"
 			dependencies: ["1ED7B5CA71DDFF89"]
 			id: "1F1890B436E5414D"
 			tasks: [{
@@ -1499,7 +1501,7 @@
 			x: 2.75d
 			y: -4.5d
 			shape: "pentagon"
-			subtitle: "&4Fire&r at it's finest"
+			subtitle: "最好的&4火&r[--&4Fire&r at it's finest--]"
 			dependencies: ["1ED7B5CA71DDFF89"]
 			id: "42310EAE3A06F15E"
 			tasks: [{
@@ -1516,13 +1518,13 @@
 		{
 			x: 1.25d
 			y: -5.75d
-			subtitle: "Quality Gems "
+			subtitle: "优质宝石[--Quality Gems --]"
 			description: [
-				"The &5Gem Crystallizer&r allows you to infuse the power of a single &5crystal&r to a &5diamond&r to create &5elemental gem&r. There are 3 qualities of gems :"
-				"- Crude,"
-				"- Fine,"
-				"And Pristine."
-				"To use it place the &5diamond&r first, then the &2crystal&r and finaly up to ten &5shards&r to increase the chance of a better quality &5gem&r."
+				"&5宝石结晶器&r允许你将单个&5水晶&r的力量注入&5钻石&r，以合成&5元素宝石&r。宝石有三种品质：[--The &5Gem Crystallizer&r allows you to infuse the power of a single &5crystal&r to a &5diamond&r to create &5elemental gem&r. There are 3 qualities of gems :--]"
+				"-原油，[--- Crude,--]"
+				"-好吧，[--- Fine,--]"
+				"还有普里斯汀。[--And Pristine.--]"
+				"要使用它，请先放置&5钻石&r，然后放置&2水晶&r，最后放置向上十块&5碎片&r，以增加获得更高质量&5宝石&r的机会。[--To use it place the &5diamond&r first, then the &2crystal&r and finaly up to ten &5shards&r to increase the chance of a better quality &5gem&r.--]"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1546,8 +1548,8 @@
 			x: 0.0d
 			y: 4.5d
 			shape: "diamond"
-			subtitle: "Your First Ore"
-			description: ["While mining you may find some &l&nInert Ore&r. Mine it and you'll obtain this !"]
+			subtitle: "你的第一块矿石[--Your First Ore--]"
+			description: ["采矿时，你可能会发现一些&l&n惰性矿石&r。挖掘它，你就会得到这个！[--While mining you may find some &l&nInert Ore&r. Mine it and you'll obtain this !--]"]
 			size: 2.0d
 			id: "148AC206C02F9761"
 			tasks: [{
@@ -2084,20 +2086,20 @@
 			}]
 		}
 		{
-			title: "Elemental Spells"
+			title: "元素咒语[--Elemental Spells--]"
 			icon: "elementalcraft:scroll_paper"
 			x: -9.0d
 			y: -7.25d
 			shape: "rsquare"
-			subtitle: "All the Spells !"
-			description: ["You can find all the informations about the spells in the &2&lElementopedia&r"]
+			subtitle: "全部咒语！[--All the Spells !--]"
+			description: ["你可以在&2&l元素百科全书&r中找到有关咒语的全部信息[--You can find all the informations about the spells in the &2&lElementopedia&r--]"]
 			dependencies: ["7F6F05F53A58BCD3"]
 			optional: true
 			id: "73D5C86184299230"
 			tasks: [{
 				id: "25E9D57CF53A332D"
 				type: "item"
-				title: "Elemental Spell"
+				title: "元素咒语[--Elemental Spell--]"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -2251,8 +2253,8 @@
 		{
 			x: 7.75d
 			y: -2.0d
-			subtitle: "Storing ludicrous amount of Element."
-			description: ["The &5Element Reservoirs&r is an advanced &3element&r storage , containing more &2elements&r than the &3Container&r, it is compatible with all &2instruments&r. But there is 4 different version each 1 for each elements."]
+			subtitle: "存储了大量元素。[--Storing ludicrous amount of Element.--]"
+			description: ["&5元素贮器&r是一种先进的&3元素&r存储器，可容纳的&2元素&r比&3容器&r多，它与全部&2仪器&r兼容。但每个元素有4个不同的版本。[--The &5Element Reservoirs&r is an advanced &3element&r storage , containing more &2elements&r than the &3Container&r, it is compatible with all &2instruments&r. But there is 4 different version each 1 for each elements.--]"]
 			dependencies: [
 				"53E0B3F747685F9E"
 				"1B5469D64AE3F850"
@@ -2264,7 +2266,7 @@
 			tasks: [{
 				id: "543E56B2B416AAD6"
 				type: "checkmark"
-				title: "Reservoirs"
+				title: "贮器[--Reservoirs--]"
 			}]
 		}
 	]

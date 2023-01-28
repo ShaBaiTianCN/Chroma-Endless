@@ -3,7 +3,7 @@
 	group: "0889EAB460A6BD29"
 	order_index: 2
 	filename: "ch_1_rename"
-	title: "&bChapter 3&r &6-&r Create everything"
+	title: "&b第三章&r &6-&r 机械动力"
 	icon: "create:large_cogwheel"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -21,7 +21,7 @@
 	}]
 	quests: [
 		{
-			title: "To &l&#71797ESteel Age&r  "
+			title: "前往 &l&#71797E钢铁时代&r  "
 			icon: {
 				id: "immersiveengineering:hammer"
 				Count: 1b
@@ -38,23 +38,23 @@
 			tasks: [{
 				id: "3A9435082C6149A1"
 				type: "checkmark"
-				title: "To &l&#71797ESteel Age&r  "
+				title: "前往&l&#71797E钢铁时代&r  "
 			}]
 		}
 		{
 			x: 16.5d
 			y: 29.75d
-			subtitle: "The Mechanical Press is a mechanical component that applies Pressing, Packing, and Compacting recipes to items below it"
+			subtitle: "动力辊压机可以处理位于其下方的物品，为之提供金属压片，自动打包和压块塑形功能。"
 			description: [
-				"It is an important early-game item, as it is used to press Ingots into Sheets, which are important ingredients for higher-level components."
+				"这是一个很重要的早期游戏物品，因为它被用于将金属锭压成片，而金属片是高级组件的重要组成部分。"
 				""
-				"The Mechanical Press is powered by an internal Shaft, accessed from two opposite sides. Much like Shafts, Presses will relay rotation along their axis. It processes items faster when it receives faster rotational power."
+				"动力辊压机可以通过其内部的轴来提供动力，这个轴横穿了相对的两个面。与传动杆类似的是，动力辊压机也可以在它的轴线上传递旋转力。当被提供了更快的旋转力时，它会工作得更快。"
 				""
-				"By default, the Mechanical Press will apply Pressing recipes to items underneath it. This can be set up in two ways:"
+				"默认情况下，动力辊压机会处理其下方的物品。而这个过程会存在着两种方式："
 				""
-				"● When placed one space above any block, it will process all stacks of valid items on the block when given a rotational power and a redstone signal(like a lever). Items with no pressing recipe are unaffected."
+				"●当动力辊压机被放置在其他物块上方并给定旋转力和红石信号（例如拉杆）时，它会处理堆叠在下方的所有物品。当然，没有配方的物品将不受影响。"
 				""
-				"● When placed one space above a Mechanical Belt, it will automatically press stacks of incoming items, stalling the belt until each operation is done. Items with no pressing recipe are ignored."
+				"●当动力辊压机被放置在传送带上时，它将会使物品停下，并自动处理该物品，直到所有的操作全部完成为止。同样的，没有配方的物品将不受影响。"
 			]
 			dependencies: ["3EE564D2D7642605"]
 			min_width: 300
@@ -71,18 +71,18 @@
 			}]
 		}
 		{
-			title: "Andesite Alloys"
+			title: "安山合金"
 			x: 15.0d
 			y: 33.0d
 			shape: "gear"
-			description: ["This item unlocks many other Create items !"]
+			description: ["这将会解锁更多机械动力物品！"]
 			dependencies: ["4FF742939987793B"]
 			size: 2.0d
 			id: "3441111B8198CC9D"
 			tasks: [{
 				id: "6667979E694CF489"
 				type: "item"
-				title: "32x Andesite Alloys"
+				title: "32x安山合金"
 				item: "create:andesite_alloy"
 				count: 32L
 			}]
@@ -97,15 +97,15 @@
 			icon: "create:mechanical_mixer"
 			x: 14.5d
 			y: 29.0d
-			subtitle: "The Mechanical Mixer is a mechanical component that applies Mixing recipes and shapeless Crafting recipes to items in Basins."
+			subtitle: "动力搅拌器是一个在工作盆中应用混合配方以及各种无序合成配方组件。"
 			description: [
-				"The Mechanical Mixer is powered by an internal cogwheel, and will behave as one to any adjacent components, relaying and reversing rotation sideways."
+				"动力搅拌器可以通过其内部的齿轮来提供动力，同时可以表现得像临近的齿轮相同，传递并将旋转力反向。"
 				""
-				"The Mixer requires a minimum rotational speed of 32 RPM from its power source to work. Mixers will process ingredients faster the more speed it is given."
+				"动力搅拌器最少需要32RPM以支持其工作。当被提供了更快的旋转力时，它会工作得更快。"
 				""
-				"To work, a Mixer must be placed directly above a Basin, with a 1 block gap. When a valid recipe is inserted by throwing the ingredients in the Mixer, the Mixer will automatically combine the ingredients."
+				"动力搅拌器必须被径直放置在一个距离一格的工作盆的上方。当一个有效的配方被投入搅拌器后，它将自动混合原料。"
 				""
-				"The Mechanical Mixer may be used to perform mixing recipes, which are not possible to make anywhere else."
+				"动力搅拌器可以用来执行混合配方，而不可能用于制作其他配方。"
 			]
 			dependencies: ["3EE564D2D7642605"]
 			min_width: 266
@@ -131,11 +131,11 @@
 			icon: "create:deployer"
 			x: 31.5d
 			y: 27.0d
-			subtitle: "The Deployer simulates player actions on blocks up 2 to blocks away from it"
+			subtitle: "机械手可以模仿玩家两格距离上的动作。"
 			description: [
-				"The Deployer simulates right clicks by default. It can be adjusted to left click instead with a Wrench."
+				"在默认情况下，机械手会使用右键点击。使用扳手会使它调整为左键点击。"
 				""
-				"The Deployer has 2 inventory slots; the held item and one extra internal slot. As well as unusable items, items harvested by the Deployer will be transferred to the extra slot to be removed by other machines, during this time the Deployer will stall. Items cannot be extracted from the extra slot directly by the player."
+				"机械手有两个槽：手持物品以及一个额外内部插槽。和不可用的物品相同，被机械手收获的物品将会被转移到额外的槽中以被其他机械移除，在这期间，机械手将会暂停。玩家不能直接从额外的槽中提取物品。"
 			]
 			dependencies: ["5FAB66FE3921DAF1"]
 			id: "2F7EB9DBC6CE7522"
@@ -151,14 +151,14 @@
 			}]
 		}
 		{
-			title: "Shaft"
+			title: "传动杆"
 			x: 17.5d
 			y: 33.0d
-			subtitle: "The shaft is a basic mechanical component in Create"
+			subtitle: "传动杆是机械动力中的基础机械部件"
 			description: [
-				"A shaft can be used to connect two mechanical components in such a way that the rotation of one rotates the other, and shafts serve as the only blocks upon which Mechanical Belts can be placed."
+				"传动杆可以被用作链接两个机械部件，这样旋转力将从一个部件传导到另外一个，并且传动杆是唯一可以放置传送带的方块。"
 				""
-				"When two mechanical components are connected by a shaft, any rotational force provided to either component will also be provided to the other component at the same speed. As such, if both components provide stress, this can cause the machine to become overstressed."
+				"当两个机械部件由传动杆链接时，任何提供给其中一个部件的旋转力将会以相同速度提供给另外一个部件。因此，如果两个部件都消耗应力，就可能会导致整个机器应力过载。"
 			]
 			dependencies: ["3441111B8198CC9D"]
 			id: "15267232FEECB502"
@@ -195,7 +195,7 @@
 		{
 			x: 23.75d
 			y: 33.0d
-			subtitle: "Casings are blocks used for crafting, and for aesthetic purposes"
+			subtitle: "机壳可以用于制作其他机械部件，也可以用作装饰方块。"
 			dependencies: ["3441111B8198CC9D"]
 			id: "410AC414B2B492D1"
 			tasks: [{
@@ -210,7 +210,7 @@
 			}]
 		}
 		{
-			title: "Manual Kinetic Sources"
+			title: "手动动力源"
 			icon: "create:hand_crank"
 			x: 19.25d
 			y: 35.0d
@@ -239,15 +239,15 @@
 			x: 20.75d
 			y: 35.0d
 			shape: "octagon"
-			subtitle: "Water Wheel is a source of rotational power"
+			subtitle: "水车是一个旋转力的来源"
 			description: [
-				"It generates rotational force when water flows over it. Due to the fact that the materials required to craft it are easily accessible in the early-game, the Water Wheel serves as the earliest generator that can be made. Total stress capacity can be increased by adding more wheels in sequence."
+				"当水流过它时，它会产生旋转力。由于制作水车的材料在游戏前期非常容易获取，水车通常被看作是早期的动力源。通过增加水车数量可以提升总应力量。"
 				""
-				"When water flows over a Water Wheel, it will begin to rotate. This rotational power can be conveyed to other components from the Water Wheels' axis."
+				"当水流过水车时，水车就会开始旋转。旋转力就可以通过水车的轮轴传递到其他部件。"
 				""
-				"The more sides of the wheel the water covers, the faster the wheel will rotate and the more stress capacity it will provide. Only flowing water or source blocks with bubble columns counts toward the power generation."
+				"水流覆盖水车的侧面越多，轮子旋转得就越快，它所能提供的应力量也就越大。只有流动的水或是带有气泡柱的水源才能带动水车。"
 				""
-				"To maximize the output from a Water Wheel, have water flowing in the right direction around as much of the wheel as possible."
+				"为了使水车输出动力最大化，让正确方向上的水流尽可能多地流过水车的各个侧面。"
 			]
 			dependencies: ["50B9AEC7812CEE92"]
 			min_width: 300
@@ -268,15 +268,15 @@
 			x: 19.0d
 			y: 33.75d
 			shape: "octagon"
-			subtitle: "The Encased Fan is a mechanical component that can create air streams and generate power."
+			subtitle: "鼓风机是一种可以产生气流或产生动力的机械部件。"
 			description: [
-				"Its air streams are used for moving entities or for Bulk Washing, Bulk Blasting, and Bulk Smoking."
+				"它的气流被用来移动实体或用于批量洗涤，批量熔炼或是批量烟熏。"
 				""
-				"When an Encased Fan is placed facedown directly over a heat source (Fire, Lava, Magma Block, active Blaze Burner, or a Campfire) and powered by Redstone, it will provide 64 units of Kinetic Stress at 4 RPM."
+				"当一台鼓风机扇叶向下被放置在热源上方（火焰，岩浆，岩浆块，活跃的烈焰人燃烧室或是篝火）并被红石充能时，它将提供64个单位的应力。（速度为4RPM）"
 				""
-				"When powered by rotational force, an Encased Fan creates an air stream that extends several blocks in front of it. This air stream pushes entities away from the fan or pulls entities towards it depending on the direction of the rotation that the fan receives. Powering an Encased Fan with faster rotational force will cause its air stream to be stronger and faster."
+				"当一台鼓风机被旋转力驱动时，它会产生一条延伸数个方块的气流。气流将会把实体推离鼓风机或是把实体拉向鼓风机，这取决于鼓风机接受到的旋转力的方向。为鼓风机提供更快的旋转力将会使气流变得更快更强。"
 				""
-				"This setup is tied with a Windmill Bearing attached to a single block of Wool as the most compact power source available in Survival mode."
+				"在生存模式下，一个连有一块羊毛的风车轴承可以作为其最紧凑的动力源。"
 			]
 			dependencies: ["50B9AEC7812CEE92"]
 			min_width: 300
@@ -293,18 +293,18 @@
 			}]
 		}
 		{
-			title: "Windmill"
+			title: "风车"
 			icon: "create:propeller"
 			x: 21.0d
 			y: 33.75d
 			shape: "octagon"
-			subtitle: "It is composed of a Windmill Bearing and Sails"
+			subtitle: "它由风车轴承和风帆组成。"
 			description: [
-				"Any block can be attached to the front of the Windmill Bearing but only Wool and Sails will produce power. The wool or sail can be placed in any configuration since shape does not matter."
+				"任何方块都可以被放置在风车轴承的前面，但只有羊毛和风帆会产生动力。羊毛和风帆可以以任何形状放置，因为形状并不重要。"
 				""
-				"Super Glue is needed to attach blocks together. Sails will connect to each other and blocks that have already been attached without needing to use Super Glue. Right Click the windmill bearing with an empty hand to start the windmill."
+				"连接方块时需要使用强力胶。风帆将彼此连接以及连接到已经连接的块，而不需要使用强力胶。空手右键点击风帆框架以启动风车。"
 				""
-				"If you want to stop it to change the attached blocks, simply right-click on the block with an empty hand again. A Wrench can be used to change the spin direction of the windmill"
+				"如果你先停止它来改变连接的方块，只需要再次空手右键风车轴承。此外，扳手可以用来改变风车的旋转方向。"
 			]
 			dependencies: ["50B9AEC7812CEE92"]
 			id: "1C195EE74039A47B"
@@ -338,15 +338,15 @@
 			x: 20.0d
 			y: 32.0d
 			shape: "octagon"
-			subtitle: "Furnace Engine can be used to generate Rotational Force when a furnace burns"
+			subtitle: "熔炉引擎可以在熔炉燃烧时产生动力。"
 			description: [
-				"In order to generate power, it must be connected to a Furnace, Smoker, or Blast Furnace, as well as a Flywheel."
+				"为了提供动力，它必须被连接到一个熔炉（或是烟熏炉，高炉）和一个飞轮上。"
 				""
-				"To generate power with a Furnace Engine, place it adjacent a Furnace block, then place the Flywheel one block away from the Furnace Engine (there must be air between the two)."
+				"要让熔炉引擎产生动力，把它放置在一个熔炉方块的侧面，然后将飞轮放置在距离熔炉引擎一格远的地方（它们之间必须要是空气）。"
 				""
-				"They should be in a line, spanning 4 blocks in total. A Furnace/Smoker will generate 16384 SU at 16 RPM. Using a Blast Furnace will generate twice as much SU and RPM as the furnace and smoker at 32768 SU at 32 RPM. "
+				"它们应该在一条线上，一共占据四格空间一个熔炉/烟熏炉将产生16384SU（速度为16RPM）。使用高炉将产生两倍的应力及转速，即产生32768SU（速度为32RPM）"
 				""
-				"The Furnace Engine will generate power as long as it is burning something. When whatever fuel inside it stops burning, the generator will come to a halt."
+				"只要熔炉还在燃烧，熔炉引擎就会产生动力。一旦燃料停止燃烧，熔炉引擎就会停止工作。"
 			]
 			dependencies: ["50B9AEC7812CEE92"]
 			id: "68484812D253D45A"
@@ -389,16 +389,16 @@
 			}]
 		}
 		{
-			title: "Crushing Wheels"
+			title: "粉碎轮"
 			x: 29.25d
 			y: 23.75d
-			subtitle: "Crushing Wheels are the more advanced version of the Millstone"
+			subtitle: "粉碎轮是石磨的更高级版本。"
 			description: [
-				"It applies Crushing recipes to any items inserted from the direction they are spinning away from. At 16 RPM, 1 wheel uses 128 Stress units."
+				"它适用于粉碎任何在其工作时输入的物品。在转速为16RPM时，一个粉碎轮将使用128SU。"
 				""
-				"Two Crushing Wheels must be placed next to each other horizontally one block apart. Both wheels must be given equal and opposite rotational force, with the left wheel rotating clockwise and the right wheel rotating counterclockwise. Any items to be crushed must be inserted at the 'top' of the wheels."
+				"两个粉碎轮必须被放置在同一平面上，它们之间相隔一个方块。两个轮子必须被给予相反的旋转力（即左轮子顺时针旋转时，右轮子必须逆时针旋转）。任何要粉碎的物品都需要输入到粉碎轮的“顶部”"
 				""
-				"When crafting Crushing Wheels you can use any kind of stone. This includes Andesite, Diorite and Granite but does not include Cobblestone."
+				"当制作粉碎轮时，你可以使用任何种类的石头。包括安山岩，闪长岩和花岗岩，但是不包括原石。"
 			]
 			dependencies: ["4AC1298723D8A89A"]
 			id: "5145861F42CD2EE3"
@@ -419,15 +419,15 @@
 			icon: "create:cogwheel"
 			x: 20.0d
 			y: 33.0d
-			subtitle: "The Cogwheels are a basic mechanical component in Create that relays rotation"
+			subtitle: "齿轮是机械动力中的一个基础机械部件，用于传递旋转力。"
 			description: [
-				"Cogwheels have a lot of methods of interlocking:"
+				"齿轮有很多咬合方式："
 				""
-				"● A Cogwheel and a Large Cogwheel interlock when placed diagonally to each other and facing the same direction. The Large Cogwheel will rotate at half the speed of the Cogwheel."
+				"●当面向相同的方向并成对角线放置时，齿轮和大齿轮将咬合。此时，大齿轮将以齿轮的一般速度旋转。"
 				""
-				"A cogwheel can also be used like a Shaft, conveying rotation from the ends of its axis. Mechanical components can be connected to each end, and several Cogwheels connected to each other function the same as multiple shafts would."
+				"齿轮也可以像传动杆一样使用，它也可以从两端的轴传递旋转力。机械部件可以连接到每一端，多个齿轮相互咬合时，其功能与多个传动杆相同。"
 				""
-				"● Two Large Cogwheels interlock when placed perpendicular to each other, effectively changing its axis and direction, but not its speed."
+				"●两个大齿轮相互垂直放置时会相互咬合，这能够有效地改变它们的轴和方向，而不会改变速度。"
 			]
 			dependencies: ["15267232FEECB502"]
 			min_width: 300
@@ -454,21 +454,21 @@
 		{
 			x: 15.75d
 			y: 29.0d
-			subtitle: "The Millstone is a more basic equivalent of the Crushing Wheels, capable of applying milling recipes to any items inserted from above."
+			subtitle: "石磨是粉碎轮的基础版本，能够研磨任何从他上方输入的物品。"
 			description: [
-				"A Millstone can be powered by a shaft from below or by a cogwheel from the side."
+				"石磨可以由下面的轴或是侧面的齿轮提供动力。"
 				""
-				"There are two ways to insert items into a Millstone:"
+				"有两种方法可以向石磨中输入物品："
 				""
-				"● Dropping items on top of it: anything that can be processed will be picked up if the input buffer is empty."
+				"●将物品丢在石磨上面：如果输入缓存是空的，任何可被处理的东西都将被拾取。"
 				""
-				"● Hoppers, Funnels, Transposers, and other inserters can directly feed it items from any side."
+				"●溜槽，漏斗，管道和其他输入器都可以直接从任何一侧向它提供物品。 "
 				""
-				"A Millstone will take some time to process inserted ingredients and will show particles while it is working. Once finished, the Millstone will not drop or output the result by itself, but there are two ways to remove processed items:"
+				"石磨需要一些时间来处理输入的物品，并且在石磨工作时，会有粒子效果显示。结束后，石磨不会掉落或是自动输出产物。有两种方法可以取出产物："
 				""
-				"● Right-clicking the Millstone with an empty hand: this will manually pick up everything in the output buffer."
+				"●空手右键点击石磨：这将手动拾取输出缓存中的所有物品。"
 				""
-				"● Hoppers, Extractors, Transposers, and other exporters can pull items out of the output buffer from any side."
+				"●溜槽，漏斗，管道或是其他输出器都可以从任何一侧将输出缓存中的物品取出。"
 			]
 			dependencies: ["3EE564D2D7642605"]
 			min_width: 300
@@ -488,15 +488,15 @@
 		{
 			x: 18.5d
 			y: 28.25d
-			subtitle: "Chutes transport items vertically, similarly to Mechanical Belts"
+			subtitle: "溜槽用于垂直运输物品，类似于传送带。"
 			description: [
-				"Chutes can insert or extract from inventories above or below them."
+				"溜槽可以从上面或是下面的存储方块中输入或输出物品。"
 				""
-				"Connected chutes will pass items along, similarly to a Mechanical Belt. Chutes can be connected to other chutes diagonally."
+				"连接的溜槽会传递物品，类似于传送带，溜槽可以与其他溜槽斜角连接。"
 				""
-				"To pull items up, an appropriately powered Encased Fan is needed on top of the chutes."
+				"想要将物品向上输出时，则需要在溜槽顶部安装一个提供了适量动力的鼓风机。"
 				""
-				"Chutes can be right clicked with a Wrench to be given windows."
+				"使用扳手右击可以在溜槽上设置观察窗。"
 			]
 			dependencies: ["3EE564D2D7642605"]
 			id: "7370F4A279D30FA7"
@@ -514,7 +514,7 @@
 		{
 			x: 20.5d
 			y: 29.0d
-			description: ["Smart Chutes behave similarly to Brass Funnels. They can be filtered to only extract certain items, and be stopped with a redstone signal. Unlike funnels, they can insert and extract at the same time, but can only function vertically."]
+			description: ["智能溜槽与黄铜漏斗类似，它们可以过滤物品，以提取特定的物品也可以被红石信号停止。与漏斗不同的是，它可以同时输入输出，但是只能垂直工作。"]
 			dependencies: ["3EE564D2D7642605"]
 			id: "380CF1D8364DD30D"
 			tasks: [{
@@ -547,13 +547,13 @@
 		{
 			x: 18.5d
 			y: 26.75d
-			subtitle: "The Brass Funnel is a block that can extract or insert items into inventories, much like the Andesite Funnel"
+			subtitle: "黄铜漏斗是一个可以从存储方块中提取物品或将物品输入到存储方块。"
 			description: [
-				"Like other Brass machines, the Brass Funnel can be set to filter items. It can also output a set amount of items, as well as only input items stacked to the set amount."
+				"与其他黄铜机器类似，黄铜漏斗可以设置过滤项。它还可以只输出或输入设定了数量的物品。"
 				""
-				"It can be set to insert or extract with a Wrench."
+				"它也可以被扳手设置为输入或输出。"
 				""
-				"It can be turned off with redstone."
+				"它还可以被红石关闭"
 			]
 			dependencies: ["3EE564D2D7642605"]
 			id: "795E53F4B8400698"
@@ -569,7 +569,7 @@
 			}]
 		}
 		{
-			title: "Storage For Fluids"
+			title: "存储流体"
 			icon: "create:item_drain"
 			x: 23.0d
 			y: 36.0d
@@ -622,19 +622,19 @@
 		{
 			x: 27.0d
 			y: 27.5d
-			subtitle: "The Mechanical Arm is a block used to transfer items"
+			subtitle: "动力臂可以用来转移物品。"
 			description: [
-				"With the Mechanical Arm in hand, right clicking valid inventories will select them to have items be taken from it, or deposited to it if the inventory cannot have items be taken from it."
-				"From there, further right clicking will toggle between taking from and depositing to."
-				"The Mechanical Arm can then be placed by right clicking on a block, and powering it."
+				"手中持有动力臂时，右键点击有效的存储容器将选择它作为取出容器如果不能取出，则作为存入容器。"
+				"再次右键点击可以将目标容器从取出容器变为存入容器。"
+				"你可以通过右键单击一个方块来放置动力臂。"
 				""
-				"The Mechanical Arm has three different behaviors which can be selected with the Wrench:"
+				"动力臂有三种可供扳手选择的不同行为："
 				""
-				"● Round Robin - The Mechanical Arm will take from and deposit to available inventories in the order of placement."
+				"●轮询调度——动力臂将循环输出至所有有效的输出端。"
 				""
-				"● Forced Round Robin - The same function as Round Robin, but the Mechanical Arm will not move items until the next inventory in order of placement is available."
+				"●强制轮询调度——与轮询调度相同的行为模式，但是动力臂将会一直等待，直到下一个输出端可用。"
 				""
-				"● Prefer First - The Mechanical Arm will always take from and deposit to the first available inventory in order of placement."
+				"●最近优先——动力臂会将物品输出至更早被选择的输出端。"
 			]
 			dependencies: ["2A83D8FCCCFE217C"]
 			min_width: 300
@@ -656,11 +656,7 @@
 			y: 28.25d
 			description: [
 				""
-				"The Interfaces must be placed facing each other at 1-2 blocks apart, one on a moving structure with a Fluid Tank and one stationary. A Fluid Pump is required to insert or extract liquid from the moving structure. Moving structures will automatically stall for an Interface. A Redstone signal can be applied to break off the connection early."
-				""
-				"The Portable Storage Interface is a block that allows stationary contraptions to directly interact with onboard inventories."
-				""
-				"Portable Storage Interfaces are used on moving contraptions including Mechanical Pistons, Bearings, or Cart Contraptions. For Portable Storage Interfaces to interact they must face each other at 1-2 blocks apart. The moving interface must have an onboard inventory while the stationary interface has something inserting or extracting directly from it, such as a Mechanical Belt or Funnel. Inventory will then be exchanged at the rate of the inserting or extracting component."
+				"移动式存储接口用于从移动的结构中提取物品，移动式流体接口用于从移动的结构中提取流体，详细的使用方式请使用思索功能查看。"
 			]
 			hide_dependency_lines: false
 			dependencies: ["2A83D8FCCCFE217C"]
@@ -675,11 +671,11 @@
 		{
 			x: 27.0d
 			y: 26.5d
-			subtitle: "The Rotation Speed Controller is a mechanical component that allows the player to precisely control rotational speed"
+			subtitle: "转速控制器是一个允许玩家精确控制旋转速度的机械部件。"
 			description: [
-				"For the Rotation Speed Controller to work, it must be paired with a Large Cogwheel. The Rotation Speed Controller, when powered by the Large Cogwheel, outputs any desired speed of rotational force from its sides. It also does the opposite; when powered from its sides, it controls the speed of the Large Cogwheel."
+				"转速控制器需要与一个大齿轮联合使用，当动力由大齿轮提供时，可以通过鼠标滚轮调节从侧面输出任意速度的动力，反之亦反。"
 				""
-				"The rotation speed can be set by looking at the front or the back of the machine and scrolling up or down. Shifting while scrolling allows the player to have more precise control over the speed. The speed can be set to any integer from -256 to 256."
+				"更加详细的使用方法请使用思索功能查看。"
 			]
 			dependencies: ["2A83D8FCCCFE217C"]
 			min_width: 300
@@ -696,14 +692,14 @@
 			}]
 		}
 		{
-			title: "Rose Quartz"
+			title: "玫瑰石英"
 			icon: "create:rose_quartz"
 			x: 13.5d
 			y: 32.5d
 			description: [
-				"&4Sand Paper&r is a tool used only to create Polished Rose Quartz."
+				"&4砂纸&r是用来制造磨制玫瑰石英的工具。"
 				""
-				"&eRose Quartz&r may be used to make &c&lPolished Rose Quartz&r. To do this, the player must hold Sand Paper in their offhand, Rose Quartz in their main hand, and right click. The polished version will then drop on the ground."
+				"&e玫瑰石英&r可以被用来制造&c&l磨制玫瑰石英&r。制作时，玩家需要副手拿砂纸，主手拿玫瑰石英，然后按住右键。磨制玫瑰石英将会出现在你的物品栏。"
 			]
 			dependencies: ["3441111B8198CC9D"]
 			id: "1B29F8E51716D37A"
@@ -711,7 +707,7 @@
 				{
 					id: "2D9E2863B209A0DF"
 					type: "item"
-					title: "Sand Paper"
+					title: "砂纸"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -776,13 +772,13 @@
 			icon: "create:blaze_cake"
 			x: 27.5d
 			y: 34.5d
-			subtitle: "Blaze Cake is an item that can be fed to a Blaze Burner in order to make it Super-Heated"
+			subtitle: "烈焰蛋糕是一个可以使烈焰人燃烧室进入超级加热状态的物品。"
 			description: [
-				"Blaze Cake can be used to feed the Blaze Burner, making it Super-Heated for 50 seconds. It then turns into standard a blaze, lasting for 205 seconds."
+				"烈焰蛋糕可以被用来喂烈焰人燃烧室，使其超级加热50秒。然后会进入一般加热状态205秒。"
 				""
-				"Then, it turns into the fading phase, lasting for 50 seconds. During this phase the Blaze still provides enough heat to make the Heated recipes."
+				"之后会进入50秒的衰落阶段，在这个阶段他仍然能够提供足够的热量。"
 				""
-				"Finally, the Blaze becomes smouldering, and does not provide any heat to the basin."
+				"最后，烈焰人燃烧室会进入阴燃阶段，不再提供任何热量。"
 			]
 			dependencies: [
 				"0A2AC8B884DB6A51"
@@ -828,8 +824,8 @@
 			icon: "create:blaze_burner"
 			x: 27.5d
 			y: 33.0d
-			subtitle: "A Blaze Burner is a heating component that is required for certain Mixing recipes"
-			description: ["Blaze Burners must have Blazes in them to function. To put a Blaze in an Empty Blaze Burner, right-click on a Blaze to capture it. Alternatively, Empty Blaze Burner can be filled by clicking on a Blaze Spawner."]
+			subtitle: "烈焰人燃烧室是一个加热组件，在某些混合配方中需要其提供热量。"
+			description: ["为了能够正常运转，烈焰人燃烧室必须装有烈焰人。右键单击烈焰人以将其捕获到空的烈焰人燃烧室中，右键烈焰人刷怪笼也能起到同样的效果。"]
 			dependencies: ["410AC414B2B492D1"]
 			id: "2035F6C5153C3D90"
 			tasks: [
@@ -920,13 +916,9 @@
 		{
 			x: 17.5d
 			y: 29.0d
-			subtitle: "A Mechanical Belt is a mechanical component that conveys rotation and moves items and entities"
+			subtitle: "传送带是用来传递旋转力，移动物品和实体的机械部件。"
 			description: [
-				"Placing a Belt requires two Shafts. Place the Belt by right-clicking on the first shaft and then right clicking the second. Both shafts must face the same direction. A mechanical belt can be up to 20 blocks long."
-				""
-				"A Mechanical Belt can be placed over any number of Shafts that are arranged horizontally, vertically, or diagonally (45° towards the y axis) in a single line, provided that the belt is not obstructed and that the total length is no longer than twenty blocks. Andesite Casing and Brass Casing can be placed over any segment of a Belt."
-				""
-				"Mechanical Belts can be dyed be right clicking on them with a Dye. This will add colored stripes along the edges of the belt. To remove the dye, right click on the belt with a Water Bucket or Water Bottle."
+				"传送带不仅仅可以水平连接也可以成45°角相连或是垂直相连。更详细的使用说明请使用思索功能查看。"
 			]
 			dependencies: ["15267232FEECB502"]
 			id: "3EE564D2D7642605"
@@ -945,11 +937,11 @@
 		{
 			x: 23.75d
 			y: 30.25d
-			subtitle: "The Gearbox is a block used to transfer Rotational power"
+			subtitle: "十字齿轮箱是用来传递旋转力的方块。"
 			description: [
-				"The Gearbox can relay Rotational power in four horizontal directions."
+				"十字齿轮箱可用于在同一平面的四个方向传递旋转力。"
 				""
-				"When used in a straight line, the Gearbox will reverse rotation."
+				"相对的两个面的旋转方向会相反。"
 			]
 			dependencies: ["410AC414B2B492D1"]
 			id: "1A802EE6462D7762"
@@ -969,15 +961,15 @@
 			y: 29.75d
 			shape: "octagon"
 			description: [
-				"The Wrench is a tool used to rotate, dismantle and configure components."
+				"扳手是用于旋转、拆卸和配置部件的工具。"
 				""
-				"Right clicking a component with the Wrench will rotate the component toward or away from the face with which you interacted."
+				"使用扳手右击部件将使部件向着远离你交互的面旋转。"
 				""
-				"Right clicking a component while sneaking with the Wrench will dismantle the component and place it in your inventory."
+				"使用扳手潜行右键部件将会破坏部件并将其放置在你的物品栏中。"
 				""
-				"Hovering over certain configurable components will allow configuration by scrolling."
+				"将鼠标悬停在某些可配置部件上可以通过滚轮进行配置。"
 				""
-				"For certain components such as the Linear Chassis, ctrl can be held to configure all connected components at once."
+				"对于某些组件（如机壳地盘），按住ctrl键将一次性配置所有连接的组件。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["50B9AEC7812CEE92"]
@@ -996,7 +988,7 @@
 		{
 			x: 23.75d
 			y: 31.5d
-			subtitle: "The Clutch stops outgoing rotation when a redstone signal is applied"
+			subtitle: "当被红石信号充能时，离合器将停止输出旋转力。"
 			dependencies: ["410AC414B2B492D1"]
 			id: "07E47447E4D025C5"
 			tasks: [{
@@ -1013,7 +1005,7 @@
 		{
 			x: 22.75d
 			y: 31.25d
-			subtitle: "The Gearshift reverses outgoing Rotational Force when a Redstone signal is applied"
+			subtitle: "当被红石信号充能时，反转齿轮箱将会输出旋转方向相反的旋转力。"
 			dependencies: ["410AC414B2B492D1"]
 			id: "626EB949D0B01014"
 			tasks: [{
@@ -1030,8 +1022,8 @@
 		{
 			x: 24.75d
 			y: 31.25d
-			subtitle: "The Adjustable Chain Gearshift functions similarly to Encased Chain Drive, but can change the speed of the output with a redstone input"
-			description: ["With a redstone signal on the input, adjacent Gearshifts will change speed output depending on the strength of the signal, maxing out at double. With a redstone signal on an output, the speed of said output will be decreased, being halved at most."]
+			subtitle: "可调节链式传动箱与链式传动箱类似，但是可以通过红石信号改变输出速度。"
+			description: ["输入红石信号后，相邻的链式传动箱将会增加输出的速度，速度的改变取决于红石信号的强度，最大为两倍速度。在输出端存在红石信号时，输出的速度将会降低，最多为原来的一半速度。"]
 			dependencies: ["410AC414B2B492D1"]
 			id: "34198CE4708B069C"
 			tasks: [{
@@ -1153,11 +1145,11 @@
 			}]
 		}
 		{
-			title: "Speed ans Stress display"
+			title: "速度和应力显示"
 			icon: "create:goggles"
 			x: 20.0d
 			y: 34.25d
-			description: ["The Engineer's Goggles will show the stress impact of the viewed machine while it is running. It will also give numbers and highlight the current rotation when looking at a Stressometer or Speedometer,. Additionally, it shows how much fluid is stored in a tank along with the total storage capacity of the tank when you look at one of the blocks from the tank."]
+			description: ["工程师护目镜将显示机器运行时的应力影响。当查看应力表或速度机时，它会给出当前的应力的数字。此外，当你查看流体储罐时，它会显示当前流体储罐存储了多少流体以及流体储罐的总容量。"]
 			dependencies: ["50B9AEC7812CEE92"]
 			id: "776713B4EE3868E7"
 			tasks: [{
@@ -1179,13 +1171,13 @@
 			icon: "create:mechanical_piston"
 			x: 18.75d
 			y: 38.25d
-			subtitle: "Mechanical Piston is a piston that can extend multiple blocks when powered with Rotational power"
+			subtitle: "动力活塞是活塞的一种，当被提供动力时，活塞臂可以延伸多个方块。"
 			description: [
-				"To extend, the Piston must have Piston Extension Poles at the end as well as Rotational power. The maximum extension pole length is 64 blocks."
+				"动力活塞需要在末端放置活塞杆同时被供应旋转力时才能工作。最大工作距离为64个方块。"
 				""
-				"When the rotation is reversed, the piston will retract. The end must be made sticky with a Slimeball to bring the pushed blocks back with it."
+				"当旋转反向时，动力活塞将收回。当其末端需要使用粘液球粘起来以便于将被推走的方块拉回来。"
 				""
-				"Multiple blocks can be pushed with the use of Linear Chassis, Radial Chassis, or Super Glue. Such structures function similarly to rotating structures and minecart contraptions."
+				"多方块结构可以使用机壳底盘，旋转底盘以及强力胶以被推动。这样的结构类似于旋转结构和矿车装置。"
 			]
 			dependencies: ["15267232FEECB502"]
 			id: "20AF8421A5B4B414"
@@ -1231,13 +1223,13 @@
 		{
 			x: 16.25d
 			y: 38.25d
-			subtitle: "Mechanical Bearing is meant to create and rotate moving structures"
+			subtitle: "动力轴承可以用来创建和移动旋转结构。"
 			description: [
-				"The structure will rotate. If another Mechanical Bearing is used within a Contraption, facing the same way as the original, the blocks attached to that bearing will keep their alignment as the rest of the structure moves."
+				"这个部件会旋转。如果在多方块结构中使用了另一个朝向与原始方向相同的动力轴承，连接到第二个动力轴承上的方块在移动时将保持对齐。"
 				""
-				"In older versions, the Mechanical Bearing also had the functionality of Windmill Bearings which could be scrolled through with a Wrench."
+				"在较旧的版本中，动力轴承也具有与风车轴承相同的功能，即可以使用扳手滚动调整。"
 				""
-				"The structure's behavior when ceasing movement can be adjusted with a Wrench. It can be changed to place the blocks: always, only near the initial angle, or never."
+				"多方块结构停止运动时的行为可以使用扳手调整。其有三种运动模式：停止时总是将装置方块化；停止时只在接近初始角度时实体化方块；只有旋转轴摧毁时实体化方块。"
 			]
 			dependencies: ["15267232FEECB502"]
 			id: "01EBB3BA360F7E81"
@@ -1255,11 +1247,11 @@
 		{
 			x: 17.5d
 			y: 38.5d
-			subtitle: "The Rope Pulley functions much like a Mechanical Piston, but in only one direction and without the need for Piston Extension Poles"
+			subtitle: "绳索滑轮的功能很像活塞，但它只有一个方向且不需要活塞杆。"
 			description: [
-				"The Rope Pulley can extend downwards 130 blocks before stopping. It is most commonly used for excavating or elevators."
+				"绳索滑轮在停止前可以向下延伸130个方块。它常常被用作挖掘或是制作电梯。"
 				""
-				"Use Linear Chassis, Radial Chassis, or Super Glue to push more blocks."
+				"使用机壳地盘，旋转底盘或是强力胶以推动更多的方块。"
 			]
 			dependencies: ["15267232FEECB502"]
 			id: "747CCE1344E5A567"
@@ -1283,8 +1275,8 @@
 		{
 			x: 15.5d
 			y: 37.25d
-			subtitle: "Cart Assembler can attach a structure to carts that pass through it when supplied with a redstone signal"
-			description: ["Using a Wrench, the Cart Assembler can be configured to set the movement of cart contraptions to \"Always face toward motion (default,)\" \"Pause actors while rotating,\" and \"Lock Rotation.\" On the second setting, actors such as a Deployer will not work while the cart rotates. On the third setting, the contraption will not change alignment along with the cart, and will retain the same rotation from when it was built, much like the effect of a Mechanical Bearing on a cart contraption."]
+			subtitle: "当被红石信号充能时，矿车装配站可以将它上面的结构附加至经过它的矿车上。"
+			description: ["使用扳手可以将矿车装配站的运动模式设置为“\始终面朝前进方向（默认）\”、“\矿车转向时机器停止工作\”和“\旋转锁定\”。在第二种模式下，矿车与结构保持相同方向，然而当结构处于和其原始方位不一样的方向时机械只会保持运动状态而不会实际工作，在第三种模式下，无论矿车如何转向结构都会保持其原始方位，当它被使用时，与机械轴承在多方块结构中的使用效果类似。"]
 			dependencies: ["15267232FEECB502"]
 			id: "1A4E5F4D3B0997C1"
 			tasks: [{
@@ -1299,7 +1291,7 @@
 			}]
 		}
 		{
-			title: "Chassis"
+			title: "底盘"
 			icon: "create:secondary_linear_chassis"
 			x: 17.5d
 			y: 37.25d
@@ -1384,13 +1376,13 @@
 		{
 			x: 18.5d
 			y: 25.75d
-			subtitle: "The Brass Tunnel is a machine that can only be placed on Mechanical Belts. It can sort items that pass through"
+			subtitle: "黄铜隧道时一台只能放置在传送带上的机械部件。它可以将经过的物品分类。"
 			description: [
-				"Sides of the Brass Tunnel can be filtered to only allow certain items to pass through it. If multiple outputs are available, items will be split."
+				"黄铜隧道的两侧都可以被过滤，从而只允许特定的物品通过。如果存在多个输出端，物品将会被分流。"
 				""
-				"Items can be split by having multiple sides of the Tunnel connected to an outgoing belt, or through multiple adjacent tunnels with outgoing belts."
+				"物品可以通过隧道的多个侧面传入到输出端，或是通过多个相邻的置于传送带上的黄铜隧道分割。"
 				""
-				"Using the Wrench, adjacent Tunnels can be set to output all at once, stalling when items are missing. Synchronized tunnels may not draw from adjacent tunnels, so it may be necessary to have splitting tunnels placed before them."
+				"使用扳手可以将邻近的黄铜隧道设置为一次性全部输出，找不到输出的物品将会停止，隧道不会从相邻的隧道中提取物品，所以有必要在物品进入隧道前放置好隧道。"
 			]
 			dependencies: ["3EE564D2D7642605"]
 			id: "52985EEAEC06671E"
@@ -1432,13 +1424,13 @@
 		{
 			x: 19.25d
 			y: 29.0d
-			subtitle: "The Depot is used as an interaction point for machines such as the Mechanical Arm"
+			subtitle: "置物台可以用作机器（如动力臂）的交互点。"
 			description: [
-				"Items can be right clicked or inserted onto the depot. Machines such as Mechanical Presses will interact with the items the same way they would on a Mechanical Belt."
+				"物品可以右键单击或是被输入进入置物台。像是动力辊压机这样的机器将处理置物台上的物品，就像在传送带上的那样。"
 				""
-				"Items will stay on a depot until they are extracted by a player or another machine."
+				"物品将会一直呆在置物台上，直到被玩家或是其他机器提取出来。"
 				""
-				"Mechanical Arms are best used with Depots, as they are not usually fast enough to grab items directly off Mechanical Belts at low speeds."
+				"动力臂最适合与置物台一起使用，因为动力臂通常都不够快，无法在低速时直接从传送带上提取物品。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["3EE564D2D7642605"]
@@ -1455,11 +1447,11 @@
 			}]
 		}
 		{
-			title: "&lMechanical Mixer&r and Ingots Method    "
+			title: "&l混合&r，然后制作金属锭"
 			icon: "create:mechanical_mixer"
 			x: 29.25d
 			y: 33.0d
-			description: ["Combine a &#B87333Copper Ingot&r and a &#BAC4C8Zinc Ingot&r in a &oCreate&r &lMechanical Mixer&r and &lBasin&r (&4Heated&r). They will mix and form &#B5A642Brass Ingots&r."]
+			description: ["将一个&#B87333铜锭&r和一个&#BAC4C8锌锭&r放置在一个带有&l工作盆&r（&4被供有热量&r）的&l动力搅拌器&r。它们将被混合并形成&#B5A642黄铜锭&r。"]
 			dependencies: ["410AC414B2B492D1"]
 			id: "36498F5EA504C9EC"
 			tasks: [
@@ -1486,9 +1478,9 @@
 			shape: "octagon"
 			subtitle: "\"Nothing better than Tea\" Mahat 2022"
 			description: [
-				"Put any Leaves, 250mb Water, and 250mb Milk in a heated Mechanical Mixer. Then, put the liquid in a bottle with a Spout."
+				"将任意种类的树叶，250mb的水和250mb的牛奶置入被加热的机械搅拌器中。然后将得到的液体放入玻璃瓶中。"
 				""
-				"Gives haste for 3 minutes when drank and restores half a hunger point."
+				"饮用后将给予玩家3分钟的急迫效果，并恢复1点饱食度。"
 			]
 			dependencies: ["5174E5B7DC17EF63"]
 			id: "1CDFE832772544D4"
@@ -1508,11 +1500,11 @@
 			y: 38.5d
 			subtitle: "The Mechanical Drill is a block used to break blocks"
 			description: [
-				"A stationary Mechanical Drill will break blocks in the block in front of it with a time in seconds of (45 x Hardness)/RPM and will hurt entities in an area around it."
+				"一个固定的动力钻头将会破坏其面前的方块，所需时间公式为：破坏秒数=(45 x 硬度)/RPM，同时会伤害面前区域内的实体。"
 				""
-				"A Mechanical Drill moved by components such as a Mechanical Bearing or Mechanical Piston will break blocks and damage entities with which it collides. Mechanical Drills moving as such, or those part of a larger contraption through the use of Chassis or Super Glue do not need to receive a rotational force to mine, and instead break blocks at a constant rate when in contact with said block. The entire construction the Mechanical Drill is placed on will freeze in place (and remain an entity) while the Mechanical Drill digs the block; for example, a Mechanical Drill will pause the extension of a Mechanical Piston when it drills a block, and the extension will resume once the block is broken. The time it takes for a Mechanical Drill to break a block is based on the block's Hardness value."
+				"由动力轴承或动力活塞等部件驱动的动力钻头会在与之碰撞时破坏方块或伤害实体。动力钻头或是其他通过使用底盘或强力胶连接起来的更大多方块结构不需要接受旋转力以工作，而是在与其他方块接触时以一个恒定的速度破坏方块。放置了动力钻头的多方块结构在动力钻头工作时将会被冻结在原地（并保持实体状态）；例如，动力钻头在工作时将会暂停动力活塞的推动，当方块被打破时，推动将继续。动力钻头打破方块的时间基于目标方块的硬度。"
 				""
-				"Shift-right-clicking on a Mechanical Drill with a Wrench will destroy the Mechanical Drill and place it in your inventory."
+				"使用扳手潜行右键点击动力钻头以将其破坏并存入你的物品栏中。"
 			]
 			dependencies: ["15267232FEECB502"]
 			min_width: 300
@@ -1532,8 +1524,8 @@
 		{
 			x: 15.0d
 			y: 38.5d
-			subtitle: "The Mechanical Plough is a component used to break non-collidable blocks"
-			description: ["While attached to a moving structure, the Mechanical Plough will break non-collidable blocks it comes in contact with (ex. snow layers). The Mechanical Plough will also move entities and till soil blocks."]
+			subtitle: "动力犁是一种用于打破不具有实体碰撞箱的部件。"
+			description: ["当动力犁被放置在一个移动结构中时，它将打破它接触到的不具有固体碰撞箱的方块（如雪层）。动力犁也会推动实体和耕地。"]
 			dependencies: ["15267232FEECB502"]
 			id: "58D327056F7FDDCC"
 			tasks: [{
@@ -1552,11 +1544,11 @@
 			x: 18.0d
 			y: 40.25d
 			description: [
-				"Mechanical Saws are powered through rotational force, and when placed down facing to the side they will automatically chop down wood blocks in front of them. When chopping down a tree, it will automatically destroy the entire tree by only destroying the bottom-most block. This also works with 2x2 trees as long as at least the last block (horizontally) is mined using the saw."
+				"动力锯可以被旋转力驱动，当被面朝侧面放置时，它会自动破坏前面的树木方块。只需要破坏最底部的方块，它就可以一次性砍倒一整棵树。这也适用于2x2的树，只要同一水平面上最后一个方块是动力锯破坏的即可。"
 				""
-				"When mechanical saws are placed facing upwards, logs and woods can be dropped on top of them to make them into stripped logs and stripped woods respectively."
+				"当动力锯面朝上放置时，可以将扔在上面的原木处理成为去皮原木。"
 				""
-				"Mechanical saws are automatically powered when on a create contraption (cart, piston, pulley, ext.). You can mine a saw with either an axe or a pickaxe."
+				"动力锯在多方块结构（如矿车，活塞或滑轮等）中是自动工作的。你可以用斧头或稿子破坏动力锯。"
 			]
 			dependencies: ["15267232FEECB502"]
 			id: "5C95DD67E0594C5A"
@@ -1575,11 +1567,11 @@
 		{
 			x: 17.0d
 			y: 40.25d
-			subtitle: "The Mechanical Harvester is a component used to harvest crops"
+			subtitle: "动力收割机是用于收割作物的机械部件。"
 			description: [
-				"The Mechanical Harvester will harvest all mature crops it comes in contact with while moving. It will then either deposit the items to an inventory on the moving structure, or, if no inventories are available, it will drop the items on to the ground."
+				"动力收割机将收获它在移动过程中接触到的所有成熟作物。然后将收获物存储在移动结构的存储方块中，如果不存在存储方块，它将把物品掉落在地上。"
 				""
-				"Unlike most components, the Mechanical Harvester cannot be powered while stationary. This is likely due to the fact that in order for the Harvester to work, it must be within the same block as the mature crop to harvest, which could not happen with a stationary component."
+				"与大多数机械部件不同的是，动力收割机在静止时不能被驱动。这可能是由于，为了让动力收割机工作，它必须与成熟的作物处于同一方块中，而在静止结构中，这将是不可能的。"
 			]
 			dependencies: ["15267232FEECB502"]
 			id: "0BB0CA66F51CF240"
@@ -1596,7 +1588,7 @@
 			}]
 		}
 		{
-			title: "Pipe"
+			title: "管道"
 			icon: "create:fluid_pipe"
 			x: 23.0d
 			y: 35.0d
@@ -2131,7 +2123,7 @@
 			}]
 		}
 		{
-			title: "Compound Factory Components - Part 1"
+			title: "自动复合注入器第一部分"
 			icon: "masterfulmachinery:autoinfuser_controller"
 			x: 29.25d
 			y: 39.0d
@@ -2178,7 +2170,7 @@
 			}]
 		}
 		{
-			title: "Compound Factory Components - Part 2"
+			title: "自动复合注入器第二部分"
 			icon: "masterfulmachinery:autoinfuser_controller"
 			x: 31.5d
 			y: 39.0d
@@ -2292,11 +2284,11 @@
 			y: 40.36054421768708d
 			shape: "gear"
 			description: [
-				"This multiblock allow you to automate &bShadow Steel&r and &bRefined Radiant&r"
+				"自动复合注入器用途是自动化&b暗影钢&r和&b光辉石&r"
 				""
-				"&cIn order to make create schematics work properly, please do not rotate them while building them !"
+				"&c为了使自动复合注入器正常工作，请不要在建造时旋转蓝图！"
 				""
-				"&bYou can use the Entangled mod to entangle the inputs of your masterful machineries and have a better automation."
+				"&b你可以使用纠缠方块模组来纠缠你机器的输入口以创建一个更好的自动化系统。"
 			]
 			dependencies: [
 				"1DE3DBD772BE1138"
@@ -2306,7 +2298,7 @@
 			tasks: [{
 				id: "556B1FBCF1F1286E"
 				type: "checkmark"
-				title: "Build The Compact Machine Factory"
+				title: "建造自动复合注入器"
 			}]
 			rewards: [
 				{
@@ -2322,7 +2314,7 @@
 			]
 		}
 		{
-			title: "Speed and Stress display"
+			title: "速度和应力显示"
 			x: 20.0d
 			y: 35.5d
 			dependencies: ["50B9AEC7812CEE92"]

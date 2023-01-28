@@ -3,7 +3,7 @@
 	group: "60C88776031840B1"
 	order_index: 2
 	filename: "pedestals"
-	title: "&bChapter 3&r &6-&r Pedestals"
+	title: "&b第3章&r&6-&r基座[--&bChapter 3&r &6-&r Pedestals--]"
 	icon: "pedestals:coin/default"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -13,14 +13,14 @@
 			y: -8.5d
 			shape: "hexagon"
 			description: [
-				"Pedestals can send 4 kinds of things:"
+				"基座可以进行4类传输：[--Pedestals can send 4 kinds of things:--]"
 				""
-				"• Items, The Item will render on the 'Top' of the pedestal when it has items."
-				"• Fluids, A blue particle will show when fluid is in the pedestal."
-				"• Energy, A red particle will display when Energy is in the pedestal"
-				"• Experience, A green particle will display when there is experience in the pedestal."
+				"•物品传输：当基座中存在物品时，物品会显示在基座顶端。[--• Items, The Item will render on the 'Top' of the pedestal when it has items.--]"
+				"•流体传输：当基座中存在流体时，会显示蓝色的粒子效果。[--• Fluids, A blue particle will show when fluid is in the pedestal.--]"
+				"•能量传输：当基座中存在能量时，会显示红色的粒子效果。[--• Energy, A red particle will display when Energy is in the pedestal--]"
+				"•经验传输：当基座中存在经验时，会显示绿色的粒子效果。[--• Experience, A green particle will display when there is experience in the pedestal.--]"
 				""
-				"You can also use Modifiers to effect the rate at which it transfers at for a period of time, modifiers only effect the 1 pedestal it is applied to, so modifying a long line of pedestals would require giving the modifier to each pedestal in the chain."
+				"你可以使用加速工具来改变基座的传输速度。一些加速效果只能对单个基座生效，所以如果想加速一整排基座，你可能需要对每个基座都使用一次加速工具。[--You can also use Modifiers to effect the rate at which it transfers at for a period of time, modifiers only effect the 1 pedestal it is applied to, so modifying a long line of pedestals would require giving the modifier to each pedestal in the chain.--]"
 			]
 			dependencies: [
 				"6F6A4FCF06CDAA5A"
@@ -44,11 +44,11 @@
 			y: -10.75d
 			shape: "gear"
 			description: [
-				"Pedestals can transfer displayed items from one to another by linking them together. They can also transfer fluids, FE, and XP in their upgrades this way."
+				"只要把基座连接起来，它们就可以进行物品传输。添加升级后，其它对应的传输也可以通过连接进行。[--Pedestals can transfer displayed items from one to another by linking them together. They can also transfer fluids, FE, and XP in their upgrades this way.--]"
 				""
-				"This is done with the Linking Tool: Sneak Right-Click a pedestal with the tool to choose the receiving Pedestal, and then do the same to choose the sending Pedestal. If this sounds backwards crouch-right-click the Linking Tool in the air to convert it into a Backwards Linking Tool, which links Sender -> Receiver."
+				"连接需要使用连接工具。用它下蹲+右键一个基座以设置传输终点，再同样设置传输范围内的第二个基座以设置起点。如果觉得这种顺序有些本末倒置的话，可以使用连接工具对空气下蹲+右键，这会让它变为一个反向连接工具，设置顺序会改为起点->终点。[--This is done with the Linking Tool: Sneak Right-Click a pedestal with the tool to choose the receiving Pedestal, and then do the same to choose the sending Pedestal. If this sounds backwards crouch-right-click the Linking Tool in the air to convert it into a Backwards Linking Tool, which links Sender -> Receiver.--]"
 				""
-				"Each Sending Pedestal can be linked to a maximum of 8 Receivers; Receivers can be linked to any number of senders.You can right click a Sender with the Linking wand to display information about it, and to get a visual indication of which pedestals it’s linked to. By default the sending mechanism uses a priority system, which is indicated by the color particles emitted - black is first, white is last."
+				"每个基座最多只能向8个其它基座进行输出，但可以接收任意数量的输入。使用连接工具右键一个基座可以查看它与哪些基座建立了输出。向多个基座输出时会默认存在优先级而不是平均分配，可以根据散发出的粒子效果观察：黑色粒子效果代表了最先输出的位置，白色则是最后输出的位置。[--Each Sending Pedestal can be linked to a maximum of 8 Receivers; Receivers can be linked to any number of senders.You can right click a Sender with the Linking wand to display information about it, and to get a visual indication of which pedestals it’s linked to. By default the sending mechanism uses a priority system, which is indicated by the color particles emitted - black is first, white is last.--]"
 			]
 			dependencies: ["68E7A3D70265EBF0"]
 			size: 1.5d
@@ -68,7 +68,7 @@
 		{
 			x: 2.0d
 			y: -10.75d
-			description: ["Right-Click a pedestal with the Upgrade Tool to get information about the upgrade on it."]
+			description: ["使用升级工具右键一个已升级基座可以查看相关升级信息。[--Right-Click a pedestal with the Upgrade Tool to get information about the upgrade on it.--]"]
 			dependencies: ["6F6A4FCF06CDAA5A"]
 			id: "74280DC39D53843D"
 			tasks: [{
@@ -86,9 +86,9 @@
 			x: 1.25d
 			y: -10.25d
 			description: [
-				"The Tool Swapper will allow you to add or remove Tools to some upgrades. Hold a tool you'd like to add in your off-hand and Right-Click the pedestal with the swapper to insert a tool, or Right-Click the pedestal with the tool when your off-hand is empty to remove one."
+				"工具交换器可以让你将工具放入或取出基座。把工具放在副手后，用工具交换器右键基座以放入该工具；副手为空时，用交换器右键有工具的基座可以将其取出。[--The Tool Swapper will allow you to add or remove Tools to some upgrades. Hold a tool you'd like to add in your off-hand and Right-Click the pedestal with the swapper to insert a tool, or Right-Click the pedestal with the tool when your off-hand is empty to remove one.--]"
 				""
-				"Tool durability isn't used when a tool is inserted into a pedestal, but it does confer any enchantments on the tool (i.e. Fortune or Silk Touch) to the operation of the upgrade."
+				"工具放入基座后，它的耐久不会减少，附魔（如时运或精准采集）也会作用在基座升级对应的操作上。[--Tool durability isn't used when a tool is inserted into a pedestal, but it does confer any enchantments on the tool (i.e. Fortune or Silk Touch) to the operation of the upgrade.--]"
 			]
 			dependencies: ["6F6A4FCF06CDAA5A"]
 			id: "459EDAB80462D93B"
@@ -104,16 +104,16 @@
 			}]
 		}
 		{
-			title: "Pedestal Filters"
+			title: "基座过滤器[--Pedestal Filters--]"
 			icon: "pedestals:filterswapper"
 			x: 0.5d
 			y: -9.75d
 			description: [
-				"Filters allow control over which items are allowed in a pedestal display. Filter type (whitelist/blacklist) can be changed by crouch-right-clicking the air. The filters that need to be programmed (such as Item or Mod filters) can be crouch-right-clicked on an inventory to set them to the contents of that inventory."
+				"过滤器允许控制基座显示中允许哪些物品。过滤器类型（白名单/黑名单）可以通过潜行右键空气进行更改。需要编程的过滤器（例如物品或模组过滤器）可以在物品栏上右键单击，以将其设置为该物品栏的内容。[--Filters allow control over which items are allowed in a pedestal display. Filter type (whitelist/blacklist) can be changed by crouch-right-clicking the air. The filters that need to be programmed (such as Item or Mod filters) can be crouch-right-clicked on an inventory to set them to the contents of that inventory.--]"
 				""
-				"Filters can be added to a pedestal by holding them in your offhand while right-clicking the pedestal with an empty hand. They can be removed by doing the same with either a filter or a filter tool in your offhand."
+				"通过将过滤器拿在手上，同时用空手右键单击基座，可以将过滤器添加到基座上。它们可以通过使用过滤器或手边的过滤器工具进行同样的操作来移除。[--Filters can be added to a pedestal by holding them in your offhand while right-clicking the pedestal with an empty hand. They can be removed by doing the same with either a filter or a filter tool in your offhand.--]"
 				""
-				"The Filter Tool will allow you to remove filters (as above), but it will also allow you to get information on the filter in a pedestal by right-clicking it."
+				"过滤器工具将允许您删除过滤器（如上所述），但它也允许您通过右键单击基座中的过滤器获取有关信息。[--The Filter Tool will allow you to remove filters (as above), but it will also allow you to get information on the filter in a pedestal by right-clicking it.--]"
 			]
 			dependencies: ["6F6A4FCF06CDAA5A"]
 			min_width: 300
@@ -141,9 +141,9 @@
 			y: -5.75d
 			shape: "hexagon"
 			description: [
-				"Displaying items and moving them between pedestals is good, but you can add additional functionality with Upgrades. You'll need a number of these Upgrade Bases to get started."
+				"显示物品并在基座之间移动很好，但你可以通过升级添加其他功能。你需要一些这些升级基础才能开始。[--Displaying items and moving them between pedestals is good, but you can add additional functionality with Upgrades. You'll need a number of these Upgrade Bases to get started.--]"
 				""
-				"Pedestal Upgrades can be added to a pedestal by holding them in your offhand and right-clicking the pedestal. They can be removed by holding another upgrade or the Upgrade Tool in your offhand while left-clicking the pedestal."
+				"基座升级可以通过将它们拿在手上并右键单击基座来添加到基座。你可以通过左手拿着另一个升级或升级工具，同时左键单击基座来移除它们。[--Pedestal Upgrades can be added to a pedestal by holding them in your offhand and right-clicking the pedestal. They can be removed by holding another upgrade or the Upgrade Tool in your offhand while left-clicking the pedestal.--]"
 			]
 			dependencies: ["0F5064AAAA97F693"]
 			size: 2.0d
@@ -161,15 +161,15 @@
 			}]
 		}
 		{
-			title: "Energy Transfer"
+			title: "能量转移[--Energy Transfer--]"
 			icon: "pedestals:coin/rfrelay"
 			x: 2.25d
 			y: -3.5d
 			shape: "rsquare"
 			description: [
-				"&cImports Energy&f from Blocks/Machines or Inserted Items, into the Pedestal Energy Network (PEN). Can Send Energy To Other Connected Pedestals In the PEN."
+				"&c将能量&f从方块/机器或插入的物品输入基座能量网络（PEN）。可以向PEN中的其他连接基座发送能量。[--&cImports Energy&f from Blocks/Machines or Inserted Items, into the Pedestal Energy Network (PEN). Can Send Energy To Other Connected Pedestals In the PEN.--]"
 				""
-				"&cExports Energy&f from the PEN, into Inserted Items, or Attached Blocks/Machines. Cannot Send Energy to Other Connected Pedestals."
+				"&c将PEN中的能量&f输出到插入的物品或附加的方块/机器中。无法向其他连接的基座发送能量。[--&cExports Energy&f from the PEN, into Inserted Items, or Attached Blocks/Machines. Cannot Send Energy to Other Connected Pedestals.--]"
 			]
 			dependencies: ["5FC7404520358E37"]
 			id: "74B6104861F8E82F"
@@ -177,13 +177,13 @@
 				{
 					id: "75A3B68D44A09645"
 					type: "item"
-					title: "Energy Import Upgrade"
+					title: "能量输入升级[--Energy Import Upgrade--]"
 					item: "pedestals:coin/rfimport"
 				}
 				{
 					id: "7C4E765EB04E9C8B"
 					type: "item"
-					title: "Energy Export Upgrade"
+					title: "能量输出升级[--Energy Export Upgrade--]"
 					item: "pedestals:coin/rfexport"
 				}
 			]
@@ -194,15 +194,15 @@
 			}]
 		}
 		{
-			title: "Item Transportation Upgrade"
+			title: "物品传输升级[--Item Transportation Upgrade--]"
 			icon: "pedestals:coin/import"
 			x: 3.25d
 			y: -3.5d
 			shape: "rsquare"
 			description: [
-				"&bImports items &ffrom the 'below' inventory into the Pedestal Item Network. Default speed is 1 item transferred per second, but can be increased to 64 items per tick (1280 items per second at 20tps)."
+				"&b将物品&f从“下面”物品栏导入基座物品网络。默认速度为每秒传输1个物品，但可以增加到每刻64个物品（每秒1280个物品，20tps）。[--&bImports items &ffrom the 'below' inventory into the Pedestal Item Network. Default speed is 1 item transferred per second, but can be increased to 64 items per tick (1280 items per second at 20tps).--]"
 				""
-				"&bExports items&f from the Pedestal Item Network into a 'below' inventory. Default speed is 1 item transferred per second, but can be increased to 64 items per tick (1280 items per second at 20tps)."
+				"&b将物品&f从基座物品网络导出到“底下”物品栏。默认速度为每秒传输1个物品，但可以增加到每刻64个物品（每秒1280个物品，20tps）。[--&bExports items&f from the Pedestal Item Network into a 'below' inventory. Default speed is 1 item transferred per second, but can be increased to 64 items per tick (1280 items per second at 20tps).--]"
 			]
 			dependencies: ["5FC7404520358E37"]
 			id: "4E214C706CC0D2C8"
@@ -215,7 +215,7 @@
 				{
 					id: "214F3F6DBDC52BFC"
 					type: "item"
-					title: "Item Export Upgrade"
+					title: "物品输出升级[--Item Export Upgrade--]"
 					item: "pedestals:coin/export"
 				}
 			]
@@ -226,15 +226,15 @@
 			}]
 		}
 		{
-			title: "Fluid Transfer"
+			title: "流体传输[--Fluid Transfer--]"
 			icon: "pedestals:coin/fluidimport"
 			x: 4.25d
 			y: -3.5d
 			shape: "rsquare"
 			description: [
-				"&3Imports fluids&f from items (inserted in the pedestal) or tanks (below the pedestal) into the PEN. Items that are in the pedestal, will be automatically sent to a connected pedestal once they are empty of fluid."
+				"&3将流体&f从物品（插入基座）或储罐（基座下方）导入PEN。基座中的物品在排空流体后将自动发送到连接的基座。[--&3Imports fluids&f from items (inserted in the pedestal) or tanks (below the pedestal) into the PEN. Items that are in the pedestal, will be automatically sent to a connected pedestal once they are empty of fluid.--]"
 				""
-				"&3Exports fluids&f from the PEN by filling buckets or items inserted in the pedestal, or tanks below the pedestal. Items in the pedestal will be automatically sent once they have been filled with fluid, providing there is a pedestal it can send the item to."
+				"&3通过加注插在基座中的桶或物品，或基座下方的储罐，从PEN中输出流体&f。基座中的物品在填充流体后将自动发送，前提是有一个基座可以将物品发送到该基座。[--&3Exports fluids&f from the PEN by filling buckets or items inserted in the pedestal, or tanks below the pedestal. Items in the pedestal will be automatically sent once they have been filled with fluid, providing there is a pedestal it can send the item to.--]"
 			]
 			dependencies: ["5FC7404520358E37"]
 			id: "1607FBD21B655BEA"
@@ -242,13 +242,13 @@
 				{
 					id: "6E6C4CFDB2CEEE67"
 					type: "item"
-					title: "Fluid Import Upgrade"
+					title: "流体输入升级[--Fluid Import Upgrade--]"
 					item: "pedestals:coin/fluidimport"
 				}
 				{
 					id: "2BECAF0229A2EB57"
 					type: "item"
-					title: "Fluid Export Upgrade"
+					title: "流体输出升级[--Fluid Export Upgrade--]"
 					item: "pedestals:coin/fluidexport"
 				}
 			]
@@ -263,9 +263,9 @@
 			y: 0.75d
 			shape: "rsquare"
 			description: [
-				"Slot this in a pedestal to generate cobblestone in the pedestal, once there is a full stack in the pedestal it will buffer the rest. The maximum amount of buffer is around 2.3 billion. Because there is already a stack in the pedestal you can't add cobble to the buffer yourself normally, if you want to store cobble in the pedestal (like when you've gone mining and have a ton of cobble) you can drop the cobble onto the pedestal using 'Q' key (default) or pulling stacks out of your inventory right infront of the pedestal so they fall on it and not on the ground."
+				"槽位这个在基座中产生圆石在基座中，一旦有一个完整的堆栈在基座中它将缓冲其余的。最大缓冲量约为23亿。因为基座上已经有一堆圆石，你通常无法自己往缓冲区添加圆石，如果你想在基座上储存圆石（比如当你采矿时有一吨圆石），你可以使用“Q”键（默认）将圆石丢弃到基座上，或者从基座正前方的物品栏中取出圆石堆，使其落在基座上，而不是落在地面上。[--Slot this in a pedestal to generate cobblestone in the pedestal, once there is a full stack in the pedestal it will buffer the rest. The maximum amount of buffer is around 2.3 billion. Because there is already a stack in the pedestal you can't add cobble to the buffer yourself normally, if you want to store cobble in the pedestal (like when you've gone mining and have a ton of cobble) you can drop the cobble onto the pedestal using 'Q' key (default) or pulling stacks out of your inventory right infront of the pedestal so they fall on it and not on the ground.--]"
 				""
-				"Using the &5Exp Anvil&f you can enchant the upgrade with silktouch, which will generate stone instead of cobble."
+				"使用&5经验铁砧&f，你可以用精准采集附魔升级，这将生成石头而不是圆石。[--Using the &5Exp Anvil&f you can enchant the upgrade with silktouch, which will generate stone instead of cobble.--]"
 			]
 			dependencies: ["5FC7404520358E37"]
 			size: 1.5d
@@ -274,7 +274,7 @@
 			tasks: [{
 				id: "030312BE1E2B5E4E"
 				type: "item"
-				title: "Cobble Generator Upgrade"
+				title: "圆石发电机升级[--Cobble Generator Upgrade--]"
 				item: "pedestals:coin/cobble"
 			}]
 			rewards: [{
@@ -296,13 +296,13 @@
 			x: 0.25d
 			y: -2.5d
 			shape: "rsquare"
-			description: ["Just like the Normal Quarry Upgrade, except you need to connect it to the PEN as it'll consume energy and not require solid fuel to be used."]
+			description: ["就像采石场升级一样，除了你需要把它连接到PEN上，因为它会消耗能量，而且不需要使用固体燃料。[--Just like the Normal Quarry Upgrade, except you need to connect it to the PEN as it'll consume energy and not require solid fuel to be used.--]"]
 			dependencies: ["5FC7404520358E37"]
 			id: "4CAFA3369FC0A9EF"
 			tasks: [{
 				id: "4885E0D609417C93"
 				type: "item"
-				title: "Quarry Upgrade"
+				title: "采石场升级[--Quarry Upgrade--]"
 				item: "pedestals:coin/quarry"
 			}]
 			rewards: [{
@@ -318,16 +318,16 @@
 			y: -2.5d
 			shape: "rsquare"
 			description: [
-				"Place an inventory below the pedestal for item inputs."
-				"Drop fuel items on the pedestal to fuel it."
-				"Outputs come out at the top of the pedestal. Can smelt anything a vanilla furnace can."
+				"在基座下方放置一份物品栏，用于物品输入。[--Place an inventory below the pedestal for item inputs.--]"
+				"丢弃燃料物品放在基座上给它加燃料。[--Drop fuel items on the pedestal to fuel it.--]"
+				"输出位于基座顶部。可以烧炼原版熔炉配方的任何东西。[--Outputs come out at the top of the pedestal. Can smelt anything a vanilla furnace can.--]"
 			]
 			dependencies: ["5FC7404520358E37"]
 			id: "3BDE4E1992941B0B"
 			tasks: [{
 				id: "5B79137F33B8D340"
 				type: "item"
-				title: "Smelting Upgrades"
+				title: "烧炼升级[--Smelting Upgrades--]"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -358,16 +358,16 @@
 			y: -2.5d
 			shape: "rsquare"
 			description: [
-				"Place an inventory below the pedestal for item inputs."
-				"Drop fuel items on the pedestal to fuel it."
-				"Outputs come out at the top of the pedestal. Saws vanilla wood blocks into other wood blocks or sticks."
+				"在基座下方放置一份物品栏，用于物品输入。[--Place an inventory below the pedestal for item inputs.--]"
+				"丢弃燃料物品放在基座上给它加燃料。[--Drop fuel items on the pedestal to fuel it.--]"
+				"输出位于基座顶部。将香草木头方块锯成其他木头方块或木棍。[--Outputs come out at the top of the pedestal. Saws vanilla wood blocks into other wood blocks or sticks.--]"
 			]
 			dependencies: ["5FC7404520358E37"]
 			id: "6D743BD4B8E03A9A"
 			tasks: [{
 				id: "1E802BA08A7D7B6A"
 				type: "item"
-				title: "Sawmill Upgrades"
+				title: "锯木厂升级[--Sawmill Upgrades--]"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -398,16 +398,16 @@
 			y: -2.5d
 			shape: "rsquare"
 			description: [
-				"Place an inventory below the pedestal for item inputs."
-				"Drop fuel items on the pedestal to fuel it."
-				"Outputs come out at the top of the pedestal. Can crush most Ores, Stone, Cobble, Gravel, blaze Rod, Sugar Cane, Beetroot, P.Potato, Potato, Wheat, Bone, and Vanilla Flowers."
+				"在基座下方放置一份物品栏，用于物品输入。[--Place an inventory below the pedestal for item inputs.--]"
+				"投掷燃料物品在基座上给它加燃料。[--Drop fuel items on the pedestal to fuel it.--]"
+				"输出位于基座顶部。可以压碎大多数矿石、石头、圆石、沙砾、烈焰棒、甘蔗、甜菜、P.马铃薯、马铃薯、小麦、骨头和原版花。[--Outputs come out at the top of the pedestal. Can crush most Ores, Stone, Cobble, Gravel, blaze Rod, Sugar Cane, Beetroot, P.Potato, Potato, Wheat, Bone, and Vanilla Flowers.--]"
 			]
 			dependencies: ["5FC7404520358E37"]
 			id: "5CB82BDD9185BE64"
 			tasks: [{
 				id: "5B883451CA5BA491"
 				type: "item"
-				title: "Crusher Upgrades"
+				title: "破碎机升级[--Crusher Upgrades--]"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -437,9 +437,9 @@
 			y: -2.5d
 			shape: "rsquare"
 			description: [
-				"Needs an inventory below the pedestal for empty bucket inputs. This upgrade looks for cows in the area and will milk them, filling any buckts in the input chest, and putting the full buckets in the pedestal to be transferred out."
+				"需要基座下方的物品栏用于空桶输入。这一升级将在该区域寻找奶牛，并为其挤奶，将所有的桶装满输入箱子，并将装满的桶放在基座上，以便转出。[--Needs an inventory below the pedestal for empty bucket inputs. This upgrade looks for cows in the area and will milk them, filling any buckts in the input chest, and putting the full buckets in the pedestal to be transferred out.--]"
 				""
-				"The upgrades range can be extended for dairy farms with large pastures, but due to how vanilla cows can be milked indefinitely, 1 cow near the pedestal at default range is all thats necessary."
+				"升级范围可以扩大到拥有大型牧场的奶牛场，但由于原版奶牛可以无限挤奶，因此只需要在默认范围内靠近基座有1头牛。[--The upgrades range can be extended for dairy farms with large pastures, but due to how vanilla cows can be milked indefinitely, 1 cow near the pedestal at default range is all thats necessary.--]"
 			]
 			dependencies: ["5FC7404520358E37"]
 			min_width: 250
@@ -447,7 +447,7 @@
 			tasks: [{
 				id: "157180B7DE8FA1A2"
 				type: "item"
-				title: "Milker Upgrade"
+				title: "挤奶器升级[--Milker Upgrade--]"
 				item: "pedestals:coin/milker"
 			}]
 			rewards: [{
@@ -460,13 +460,13 @@
 			x: 5.25d
 			y: -2.5d
 			shape: "rsquare"
-			description: ["&3Pumps fluids &ffrom its work area and into its internal buffer. If the pedestal has items in it, it will replace the pumped spaces with the provided blocks"]
+			description: ["&3将流体&f从其工作区泵入内部缓冲区。如果基座中有物品，它将用提供的方块替换泵送空间[--&3Pumps fluids &ffrom its work area and into its internal buffer. If the pedestal has items in it, it will replace the pumped spaces with the provided blocks--]"]
 			dependencies: ["5FC7404520358E37"]
 			id: "2B7DB8805F3AF804"
 			tasks: [{
 				id: "5F2C768BC9344A2C"
 				type: "item"
-				title: "Fluid Pump Upgrade"
+				title: "液压泵升级[--Fluid Pump Upgrade--]"
 				item: "pedestals:coin/fluidpump"
 			}]
 			rewards: [{
@@ -479,13 +479,13 @@
 			x: 3.25d
 			y: -0.5d
 			shape: "rsquare"
-			description: ["This upgrade convert fluid like Experience, Essence, Memory Essence, ... to XP."]
+			description: ["这一升级转换流体，如经验，经验，记忆精华……到XP。[--This upgrade convert fluid like Experience, Essence, Memory Essence, ... to XP.--]"]
 			dependencies: ["5FC7404520358E37"]
 			id: "149D37E4F77ADD38"
 			tasks: [{
 				id: "0235C5EFB9FCAA8C"
 				type: "item"
-				title: "Fuid to XP converter Upgrade"
+				title: "流体到XP转换器升级[--Fuid to XP converter Upgrade--]"
 				item: "pedestals:coin/fluidxpconverter"
 			}]
 			rewards: [{
@@ -498,13 +498,13 @@
 			x: 6.25d
 			y: -2.5d
 			shape: "rsquare"
-			description: ["Places fluids from its internal buffer into the world."]
+			description: ["将流体从其内部缓冲区放入世界。[--Places fluids from its internal buffer into the world.--]"]
 			dependencies: ["5FC7404520358E37"]
 			id: "20FA13EF0A3E9191"
 			tasks: [{
 				id: "268F799519D674ED"
 				type: "item"
-				title: "Fluid Drain Upgrade"
+				title: "流体排放升级[--Fluid Drain Upgrade--]"
 				item: "pedestals:coin/fluiddrain"
 			}]
 			rewards: [{
@@ -519,16 +519,16 @@
 			y: -1.5d
 			shape: "rsquare"
 			description: [
-				"&aThe bottler &fwill pull empty bottles from the inventory 'below' the pedestal, fill them, outputting the bottle of experience to the pedestal."
+				"&a装瓶器&f将从基座“下方”的物品栏中取出空瓶，装满它们，将经验瓶输出到基座。[--&aThe bottler &fwill pull empty bottles from the inventory 'below' the pedestal, fill them, outputting the bottle of experience to the pedestal.--]"
 				""
-				"&bExp Dropper &fworks similar to the Item Dropper, except it drops xp. Connect it to an exp source and when its not powered by redstone it will drop xp orbs in world to be picked up."
+				"&b经验投掷器&f的工作原理与物品投掷器类似，只是它会减少经验值。将其连接到一个经验源上，当它不由红石供电时，它将在世界上掉落经验球以供拾起。[--&bExp Dropper &fworks similar to the Item Dropper, except it drops xp. Connect it to an exp source and when its not powered by redstone it will drop xp orbs in world to be picked up.--]"
 			]
 			dependencies: ["5FC7404520358E37"]
 			id: "61540CE7E11EE1EF"
 			tasks: [{
 				id: "27F4F98BCECEB08A"
 				type: "item"
-				title: "XP Output"
+				title: "XP输出[--XP Output--]"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -558,9 +558,9 @@
 			y: -1.5d
 			shape: "rsquare"
 			description: [
-				"&5Exp Enchanter &fis similar to a normal enchanting table, this enchanter requires book shelves, or some block with enchanting power to be placed around it, the exception is, it can receive enchanting power from book shelves stacked 3 high."
+				"&5经验附魔师&f类似于中的附魔台，这个附魔师需要将书或一些具有附魔力量的方块被放置周围，例外的是，它可以从3层高的书架中获得附魔力量。[--&5Exp Enchanter &fis similar to a normal enchanting table, this enchanter requires book shelves, or some block with enchanting power to be placed around it, the exception is, it can receive enchanting power from book shelves stacked 3 high.--]"
 				""
-				"This means a fully sorrounded enchanting pedestal can enchant at level 96 using only vanilla book shelves.The enchanter will always try to enchant items at the maximum level it can, so some system to move bookshelves out of range would be needed if one wants to enchant below their maximum enchanting setup. Due to this enchanter working under water, torches between the enchanter and bookshelves do not decrease the enchantment level."
+				"这意味着一个满书架的附魔基座只能使用原版书在96级进行附魔。附魔师总是会尝试在最大等级对物品进行附魔，所以如果你想在最大附魔设置下对书架进行附魔，就需要一些系统将书架移出范围。由于这个附魔师在水下工作，附魔师和书架之间的火把不会降低魔法等级。[--This means a fully sorrounded enchanting pedestal can enchant at level 96 using only vanilla book shelves.The enchanter will always try to enchant items at the maximum level it can, so some system to move bookshelves out of range would be needed if one wants to enchant below their maximum enchanting setup. Due to this enchanter working under water, torches between the enchanter and bookshelves do not decrease the enchantment level.--]"
 			]
 			dependencies: ["5FC7404520358E37"]
 			min_width: 300
@@ -568,7 +568,7 @@
 			tasks: [{
 				id: "4539D41EF0983E52"
 				type: "item"
-				title: "Enchanter Upgrade"
+				title: "附魔师升级[--Enchanter Upgrade--]"
 				item: "pedestals:coin/xpenchanter"
 			}]
 			rewards: [{
@@ -583,11 +583,11 @@
 			y: -0.5d
 			shape: "rsquare"
 			description: [
-				"&6Exp anvil &fcan repair items in the inventory 'below' using its stored xp, the repair cost is similar to the mending enchantment."
+				"&6Exp铁砧&f可以使用其存储的xp修复“下面”物品栏中的物品，修复成本与经验修补附魔类似。[--&6Exp anvil &fcan repair items in the inventory 'below' using its stored xp, the repair cost is similar to the mending enchantment.--]"
 				""
-				"For combing enchantments or renaming tools, an infusion style structure is required.In relation to the pedestal with the anvil upgrade, a pedestal needs to be placed with a 1 block space in between, to the north, east, south, and west. You are not required to have these 4 additional pedestals, it just increases the amount of items that can be combined at once."
+				"为了组合附魔或重命名工具，需要一个灌注式结构。对于带有铁砧升级的基座，需要被放置一个基座，基座之间的北、东、南和西各有一块空格。你不需要有这4个额外的基座，它只是增加了一次可以组合的物品数量。[--For combing enchantments or renaming tools, an infusion style structure is required.In relation to the pedestal with the anvil upgrade, a pedestal needs to be placed with a 1 block space in between, to the north, east, south, and west. You are not required to have these 4 additional pedestals, it just increases the amount of items that can be combined at once.--]"
 				""
-				"Items in the below inventory will be repaired first, and then the anvil pedestal will check if there is anything to be combined, if nothing exists it will output the item into the pedestal."
+				"以下物品栏中的物品将首先进行修复，然后铁砧基座将检查是否有要组合的东西，如果没有，它将把物品输出到基座中。[--Items in the below inventory will be repaired first, and then the anvil pedestal will check if there is anything to be combined, if nothing exists it will output the item into the pedestal.--]"
 			]
 			dependencies: ["5FC7404520358E37"]
 			min_width: 300
@@ -595,7 +595,7 @@
 			tasks: [{
 				id: "759B858B4ABFA81A"
 				type: "item"
-				title: "XP Anvil"
+				title: "XP铁砧[--XP Anvil--]"
 				item: "pedestals:coin/xpanvil"
 			}]
 			rewards: [{
@@ -608,13 +608,13 @@
 			x: 2.25d
 			y: -0.5d
 			shape: "rsquare"
-			description: ["This upgrade can store a large amount of levels when upgraded with the capacity enchantment.It is best to have this upgrade connected between the source of your exp, and the pedestal upgrades that consume exp to create other items."]
+			description: ["使用容量附魔升级时，此升级可以存储大量等级。最好将此升级连接到你的经验来源和消耗经验以创建其他物品的基座升级之间。[--This upgrade can store a large amount of levels when upgraded with the capacity enchantment.It is best to have this upgrade connected between the source of your exp, and the pedestal upgrades that consume exp to create other items.--]"]
 			dependencies: ["5FC7404520358E37"]
 			id: "7B57D818434CCE0A"
 			tasks: [{
 				id: "77F26AD7AD274A26"
 				type: "item"
-				title: "Exp Tank Upgrade"
+				title: "Exp储罐升级[--Exp Tank Upgrade--]"
 				item: "pedestals:coin/xptank"
 			}]
 			rewards: [{
@@ -627,9 +627,9 @@
 			x: 3.25d
 			y: -12.0d
 			description: [
-				"The Color Pallet can be used to customize the color of your Pedestals. Throw the pallet on the ground with up to 3 each of Red, Green, and/or Blue dye, and right click it with your Linking tool to set its color. You can then right-click pedestals with it to paint them. The pedestal will retain its color if you break it."
+				"彩色托盘可使用定制基座的颜色。将托盘扔在地上，最多可放置3种红色、绿色和/或蓝色染料染料，然后用链接工具右手剪断以设置其颜色。然后可以用它右键单击基座以绘制它们。如果你把基座弄坏了，它会保持原色。[--The Color Pallet can be used to customize the color of your Pedestals. Throw the pallet on the ground with up to 3 each of Red, Green, and/or Blue dye, and right click it with your Linking tool to set its color. You can then right-click pedestals with it to paint them. The pedestal will retain its color if you break it.--]"
 				""
-				"Pedestals can be lit up by Right-Clicking them with a glowstone block. They can also be water-logged by Sneak Right-Clicking them with a bucket of water."
+				"用荧石块右击基座，可以照亮基座。它们也可以用潜行右击拿水桶使它含水。[--Pedestals can be lit up by Right-Clicking them with a glowstone block. They can also be water-logged by Sneak Right-Clicking them with a bucket of water.--]"
 			]
 			dependencies: ["6F6A4FCF06CDAA5A"]
 			min_width: 250
@@ -649,13 +649,13 @@
 			icon: "pedestals:bookrange"
 			x: 5.25d
 			y: -10.25d
-			description: ["It's wonderful that you can enchant your upgrades, but that can be so... random. These books allow you to ensure you get the particular enchant you need. Keep in mind that you cannot combine these with an upgrade in a vanilla anvil - you MUST use the XP Anvil from Pedestals."]
+			description: ["你可以对升级进行附魔，这太棒了，但这可能是如此……随机的。这些书可以让你确保你得到你需要的特殊附魔。请记住，你不能将这些与普通铁砧中的升级相结合-你必须使用基座上的XP铁砧。[--It's wonderful that you can enchant your upgrades, but that can be so... random. These books allow you to ensure you get the particular enchant you need. Keep in mind that you cannot combine these with an upgrade in a vanilla anvil - you MUST use the XP Anvil from Pedestals.--]"]
 			dependencies: ["6F6A4FCF06CDAA5A"]
 			id: "5352186C65DA3D58"
 			tasks: [{
 				id: "1A88D61BBD15DC48"
 				type: "item"
-				title: "Enchantment Focused Books"
+				title: "附魔书[--Enchantment Focused Books--]"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -696,19 +696,19 @@
 			x: 4.5d
 			y: -10.75d
 			description: [
-				"Augments can be added to a Pedestal to enhance a pedestal's item sending behavior. You can add up to 5 of each of the first 3 augments - the other 3 only require 1."
+				"可以向基座添加增强功能，以增强基座的物品发送行为。你可以将前3个增强项中的每一个向上相加到5，其他3个只需要1。[--Augments can be added to a Pedestal to enhance a pedestal's item sending behavior. You can add up to 5 of each of the first 3 augments - the other 3 only require 1.--]"
 				""
-				"&bSpeed&f - Decreases the delay between transfers."
+				"&b速度&f-减少传输之间的延迟。[--&bSpeed&f - Decreases the delay between transfers.--]"
 				""
-				"&aCapacity&f - Increases how many items are transferred."
+				"&a容量&f-增加传输的物品数量。[--&aCapacity&f - Increases how many items are transferred.--]"
 				""
-				"&eRange&f - Increases the distance allowed between linked pedestals."
+				"&e范围&f-增加链接基座之间允许的距离。[--&eRange&f - Increases the distance allowed between linked pedestals.--]"
 				""
-				"&8Sound Muffler&f - Removes any sound an upgrade makes (except for tool equip sounds)."
+				"&8消声器&f-移除升级后发出的任何声音（工具装备声音除外）。[--&8Sound Muffler&f - Removes any sound an upgrade makes (except for tool equip sounds).--]"
 				""
-				"&5Particle Diffuser&f - Removes any particles produced by the upgrade."
+				"&5粒子扩散器&f-删除升级产生的所有粒子效果。[--&5Particle Diffuser&f - Removes any particles produced by the upgrade.--]"
 				""
-				"&4Round Robin Augment&f - Changes the sending behavior of the pedestal from Priority to Round Robin."
+				"&4循环增强&f-将基座的发送行为从优先级更改为循环。[--&4Round Robin Augment&f - Changes the sending behavior of the pedestal from Priority to Round Robin.--]"
 			]
 			dependencies: ["6F6A4FCF06CDAA5A"]
 			min_width: 300
@@ -716,7 +716,7 @@
 			tasks: [{
 				id: "31B4611EFF579B65"
 				type: "item"
-				title: "Augments"
+				title: "扩增[--Augments--]"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -760,9 +760,9 @@
 			x: 6.0d
 			y: -9.75d
 			description: [
-				"The Advanced enchantment allows upgrades that manipulate an inventory below the pedestal to interact with the inventories of entities. This can, for example, be used to import items from or export items to mobs using the appropriate upgrades."
+				"高级附魔允许升级操作基座下方的物品栏，以与实体库存交互。例如，可以使用从生物导入物品，或使用适当的升级将物品导出到怪物。[--The Advanced enchantment allows upgrades that manipulate an inventory below the pedestal to interact with the inventories of entities. This can, for example, be used to import items from or export items to mobs using the appropriate upgrades.--]"
 				""
-				"The Advanced enchantment requires an enchanting level of 92; because of this it will need a modded enchanting method such as the XP Enchanter upgrade."
+				"高级附魔需要92的附魔等级；因此，它需要一个改进的附魔方法，比如XP附魔师升级。[--The Advanced enchantment requires an enchanting level of 92; because of this it will need a modded enchanting method such as the XP Enchanter upgrade.--]"
 			]
 			dependencies: ["6F6A4FCF06CDAA5A"]
 			id: "09115840895F2752"
@@ -781,13 +781,13 @@
 			x: 3.75d
 			y: -1.5d
 			shape: "rsquare"
-			description: ["&bExp Grindstone&f requires an inventory below it, this upgrade will pull enchanted items out of the inventory below it and grind the enchant off leaving the unenchanted item in the pedestal to be removed. The enchants that got \"ground\" off are converted into xp and will be stored in the upgrades internal buffer, which can be extracted by connecting it to another exp upgrade that consumes or stores xp."]
+			description: ["&b经验砂轮&f需要在其下方有一个物品栏，此升级将从其下方的物品栏中取出附魔物品，并磨掉附魔，将未结界的物品留在基座上待移除。“下方”的附魔被转换为xp，并将存储在升级内部缓冲区中，通过将其连接到另一个消耗或存储xp的exp升级，可以提取该缓冲区。[--&bExp Grindstone&f requires an inventory below it, this upgrade will pull enchanted items out of the inventory below it and grind the enchant off leaving the unenchanted item in the pedestal to be removed. The enchants that got \"ground\" off are converted into xp and will be stored in the upgrades internal buffer, which can be extracted by connecting it to another exp upgrade that consumes or stores xp.--]"]
 			dependencies: ["5FC7404520358E37"]
 			id: "314E2C63DB305703"
 			tasks: [{
 				id: "2804CD5216B7A3C3"
 				type: "item"
-				title: "Exp Grindstone Upgrade"
+				title: "Exp砂轮升级[--Exp Grindstone Upgrade--]"
 				item: "pedestals:coin/xpgrindstone"
 			}]
 			rewards: [{
@@ -811,9 +811,9 @@
 			y: -1.5d
 			shape: "rsquare"
 			description: [
-				"Similar to the Magnet upgrade except it will &acollect xp&f, and hold it in its internal buffer.It will also absorb xp from a player who is colliding (has their body against) with the pedestal with this upgrade.The speed enchant increases how fast it pulls xp and capacity enchant will increase how many levels itll absorb at one time."
+				"与磁铁升级类似，只是它将&a收集xp&f，并将其保存在内部缓冲区中。升级后，它还将吸收与基座相撞（身体紧贴）的玩家的xp。速度附魔增加了它拉xp的流畅，而容量附魔将增加它一次吸收的等级。[--Similar to the Magnet upgrade except it will &acollect xp&f, and hold it in its internal buffer.It will also absorb xp from a player who is colliding (has their body against) with the pedestal with this upgrade.The speed enchant increases how fast it pulls xp and capacity enchant will increase how many levels itll absorb at one time.--]"
 				""
-				"You need to connect another exp upgrade, like the &bExp Tank&f to this upgrade in order to transfer the levels out, as the buffer maxes at 30 levels of storage."
+				"你需要将另一个exp升级（如&bexp Tank&f）连接到此升级，以便将级别转移出去，因为缓冲区最多可存储30个级别。[--You need to connect another exp upgrade, like the &bExp Tank&f to this upgrade in order to transfer the levels out, as the buffer maxes at 30 levels of storage.--]"
 			]
 			dependencies: ["5FC7404520358E37"]
 			min_width: 250
@@ -821,7 +821,7 @@
 			tasks: [{
 				id: "06881A38EEC3889A"
 				type: "item"
-				title: "Exp Magnet Upgrade"
+				title: "Exp磁铁升级[--Exp Magnet Upgrade--]"
 				item: "pedestals:coin/xpmagnet"
 			}]
 			rewards: [{

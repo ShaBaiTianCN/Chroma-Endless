@@ -13,6 +13,24 @@
 
 ## 作者
 
+- [Ricky-fight](https://github.com/Ricky-fight)
+- [AnzhiZhang](https://github.com/AnzhiZhang)
+- [nai200](https://github.com/nai200)
+- [Cactusstudent](https://github.com/Cactusstudent)
+- [KlparetlR](https://github.com/KlparetlR)
+- [bilibiliHaifu](https://github.com/bilibiliHaifu)
+- [reallyhotice](https://github.com/reallyhotice)
+- [Kanzaki-snail](https://github.com/Kanzaki-snail)
+- [invisibility233](https://github.com/invisibility233)
+- [xinyihl](https://github.com/xinyihl)
+- [SipengXie](https://github.com/SipengXie)
+- [2D6-Lir732613](https://github.com/2D6-Lir732613)
+- [MeMoXrisE](https://github.com/MeMoXrisE)
+- [233lailai](https://github.com/233lailai)
+- [Shengxiaomoyu-ForesT](https://github.com/Shengxiaomoyu-ForesT)
+- [mmoyuin](https://github.com/mmoyuin)
+- [inomo](https://github.com/inomo)
+
 ## 安装
 
 ![汉化补丁食用说明](汉化补丁食用说明.jpg)

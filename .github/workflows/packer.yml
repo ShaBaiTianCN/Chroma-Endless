@@ -22,18 +22,18 @@ jobs:
       release_name: ${{ steps.pack.outputs.release_name }}
 
     steps:
-      - name: Check Out master
+      - name: Checkout master
         uses: actions/checkout@v3
         if: github.event_name == 'workflow_dispatch'
 
-      - name: Check Out ${{ github.event.pull_request.head.sha }}
+      - name: Checkout ${{ github.event.pull_request.head.sha }}
         uses: actions/checkout@v3
         if: github.event_name == 'pull_request_target'
         with:
           ref: ${{ github.event.pull_request.head.sha }}
 
       - name: Setup Python
-        uses: actions/setup-python@v3
+        uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
@@ -63,6 +63,9 @@ jobs:
     if: ${{ github.event_name == 'workflow_dispatch' }}
 
     steps:
+      - name: Check Out master
+        uses: actions/checkout@v3
+
       - name: Download Artifact
         uses: actions/download-artifact@v3
         with:

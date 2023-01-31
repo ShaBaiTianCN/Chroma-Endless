@@ -3,7 +3,7 @@
 	group: "56CE41B21EC10C89"
 	order_index: 2
 	filename: "modern_storage"
-	title: "&bChapter 3&r &6-&r Modern storage"
+	title: "&b第三章&r &6-&r 现代化存储"
 	icon: "refinedstorage:controller"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: -9.25d
 			y: -10.0d
-			description: ["&bThe Construction Cores&r are used in recipes for devices that turn items from the storage network into items in the world."]
+			description: ["&b成型核心&r用于将网络中的物品变成世界上的物品的设备的合成配方。"]
 			dependencies: ["15865A4733956F1D"]
 			id: "1476EC5D72316F09"
 			tasks: [{
@@ -28,7 +28,7 @@
 		{
 			x: -9.25d
 			y: -15.0d
-			description: ["&bThe Destruction Cores&r are used in recipes for devices that turn items from the world into items in the storage network."]
+			description: ["&b破坏核心&r用于将世界中的物品变成网络上的物品的设备的合成配方。"]
 			dependencies: ["15865A4733956F1D"]
 			id: "25E22801C42095BB"
 			tasks: [{
@@ -46,7 +46,7 @@
 			x: -1.25d
 			y: -15.625d
 			shape: "gear"
-			description: ["To obtain &bQuartz Enriched Iron&r, put &b3 Compressed Iron&r and &b144mb of Molten Quartz&r in a &bDissolution Chamber&r."]
+			description: [" 把&b3个压缩铁锭&r和&b144mb的熔融石英&r放入&b化学溶解室&r来获得&b富石英铁&r。"]
 			dependencies: ["121DF7B31DB4BEF8"]
 			size: 2.5d
 			id: "41408A17D409DA61"
@@ -65,7 +65,7 @@
 		{
 			x: -16.75d
 			y: -12.5d
-			description: ["&bProcessor Binding&r is used to craft the various processors."]
+			description: ["&b处理器粘合物&r用来制作各种处理器。"]
 			dependencies: ["321831AE79F3707B"]
 			id: "069C09E2CF788202"
 			tasks: [{
@@ -82,7 +82,7 @@
 		{
 			x: -15.25d
 			y: -9.0d
-			description: ["&bThe Raw Basic Processor&r is used to craft a Basic Processor."]
+			description: ["&b未处理的基础处理器&r用于制作基础处理器。"]
 			dependencies: [
 				"069C09E2CF788202"
 				"5C7AB3AA250737D1"
@@ -102,7 +102,7 @@
 		{
 			x: -15.25d
 			y: -11.0d
-			description: ["&bThe Raw Improved Processor&r is used to craft a Improved Processor."]
+			description: ["&b未处理的进阶处理器&r用来制作进阶处理器。"]
 			dependencies: [
 				"069C09E2CF788202"
 				"5C7AB3AA250737D1"
@@ -122,7 +122,7 @@
 		{
 			x: -15.25d
 			y: -14.0d
-			description: ["&bThe Raw Advanced Processor&r is used to craft a Advanced Processor."]
+			description: ["&b未处理的高级处理器&r用来制作高级处理器。"]
 			dependencies: [
 				"069C09E2CF788202"
 				"5C7AB3AA250737D1"
@@ -142,7 +142,7 @@
 		{
 			x: -10.75d
 			y: -9.0d
-			description: ["&bThe Processors&r are used to craft the various Refined Storage devices."]
+			description: ["&b处理器&r用来制作精致储存的各种设备。"]
 			dependencies: ["15865A4733956F1D"]
 			id: "6479C243BAC2D6B1"
 			tasks: [{
@@ -159,7 +159,7 @@
 		{
 			x: -9.25d
 			y: -11.75d
-			description: ["&bThe Processors&r are used to craft the various Refined Storage devices."]
+			description: ["&b处理器&r用来制作精致储存的各种设备。"]
 			dependencies: ["15865A4733956F1D"]
 			id: "1A7CF32D3F88C76D"
 			tasks: [{
@@ -178,9 +178,9 @@
 			y: -1.25d
 			shape: "diamond"
 			description: [
-				"&bThe Stack upgrade&r will improve item or fluid transfer speeds by using a whole stack (64 items) instead of 1 item at a time."
+				"&b堆叠升级&r将通过一次传输一组物品（64个）而不是一个物品来提高物品和流体的传输速度。"
 				""
-				"It can be combined with speed upgrades to let the device go to the next slot quicker."
+				"它可以和速度升级相结合，让设备可以更快地进入下一槽位。"
 			]
 			dependencies: ["41560052D944E372"]
 			id: "0FC363629E8589DC"
@@ -201,9 +201,9 @@
 			y: -1.25d
 			shape: "diamond"
 			description: [
-				"&bThe Crafting Upgrade&r will schedule a crafting task when the item being used in a device is needed but not available."
+				"当设备中有需要的物品但无法获得时，&b合成升级&r将安排一个合成任务来制作此物品。"
 				""
-				"By using this upgrade, the amount of FE/t that this device draws will increase."
+				"如果使用此种升级，该设备的能量消耗将会增加。"
 			]
 			dependencies: ["41560052D944E372"]
 			id: "3ECF389C5235C876"
@@ -223,7 +223,7 @@
 			x: -12.0d
 			y: -1.75d
 			shape: "diamond"
-			description: ["&bThe Range Upgrade&r increases the range of the Wireless Transmitter."]
+			description: ["&b范围升级&r增加了无线发送器的范围。"]
 			dependencies: ["41560052D944E372"]
 			id: "6D69EB40B8C2B8BE"
 			tasks: [{
@@ -242,7 +242,7 @@
 			x: -14.0d
 			y: -1.75d
 			shape: "diamond"
-			description: ["&bThe Speed Upgrade&r will increase the speed of the device that it is being inserted to."]
+			description: ["&b速度升级&r将提高被传输的设备的传输速度。"]
 			dependencies: ["41560052D944E372"]
 			id: "70C4FD815EC48EC4"
 			tasks: [{
@@ -261,7 +261,7 @@
 			x: -13.0d
 			y: -2.0d
 			shape: "diamond"
-			description: ["&bThe Upgrade&r is the base item used for every type of upgrade."]
+			description: ["&b空白升级&r是用于每种类型升级的基本物品。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"1A7CF32D3F88C76D"
@@ -285,7 +285,7 @@
 			x: -7.25d
 			y: -4.25d
 			shape: "rsquare"
-			description: ["&bThe 4096k Fluid Storage Part&r is used to craft the 4096k Fluid Storage Disk."]
+			description: ["&b4096k流体存储元件&r是用来制作4096k流体存储磁盘的。"]
 			dependencies: ["0F711C8B7276E896"]
 			id: "73243352BB4BB00F"
 			tasks: [{
@@ -303,7 +303,7 @@
 			x: -7.25d
 			y: -5.25d
 			shape: "rsquare"
-			description: ["&bThe 1024k Fluid Storage Part&r is used to craft the 1024k Fluid Storage Disk."]
+			description: ["&b1024k流体存储元件&r是用来制作1024k流体存储磁盘的。"]
 			dependencies: ["5495770B359A1400"]
 			id: "613F07C10A246A8F"
 			tasks: [{
@@ -321,7 +321,7 @@
 			x: -7.25d
 			y: -6.25d
 			shape: "rsquare"
-			description: ["&bThe 256k Fluid Storage Part&r is used to craft the 256k Fluid Storage Disk."]
+			description: ["&b256k流体存储元件&r是用来制作256k流体存储磁盘的。"]
 			dependencies: ["12BABD84E5472CFB"]
 			id: "5B1B12BA2F3776F7"
 			tasks: [{
@@ -339,7 +339,7 @@
 			x: -7.25d
 			y: -7.25d
 			shape: "rsquare"
-			description: ["&bThe 64k Fluid Storage Part&r is used to craft the 64k Fluid Storage Disk."]
+			description: ["b64k流体存储元件&r是用来制作64k流体存储磁盘的。"]
 			dependencies: ["00E49B9468513FD2"]
 			id: "41BA023162D0338B"
 			tasks: [{
@@ -357,7 +357,7 @@
 			x: 4.75d
 			y: -4.25d
 			shape: "rsquare"
-			description: ["&bThe 64k Storage Part&r is used to craft the 64k Storage Disk."]
+			description: ["&b64k存储元件&r是用来制作64k存储磁盘的。"]
 			dependencies: ["4CB9359D414E5BD7"]
 			id: "1157865BF5EF54A2"
 			tasks: [{
@@ -375,7 +375,7 @@
 			x: 4.75d
 			y: -5.25d
 			shape: "rsquare"
-			description: ["&bThe 16k Storage Part&r is used to craft the 16k Storage Disk."]
+			description: ["&b16k存储元件&r是用来制作16k存储磁盘的。"]
 			dependencies: ["3B0EBD7D45B3A4DC"]
 			id: "6EE7101D8533924B"
 			tasks: [{
@@ -393,7 +393,7 @@
 			x: 4.75d
 			y: -6.25d
 			shape: "rsquare"
-			description: ["&bThe 4k Storage Part&r is used to craft the 4k Storage Disk."]
+			description: ["&b4k存储元件&r是用来制作4k存储磁盘的。"]
 			dependencies: ["1CCDDF83CCA202E5"]
 			id: "3A6E14232E48AC5D"
 			tasks: [{
@@ -411,7 +411,7 @@
 			x: 4.75d
 			y: -7.25d
 			shape: "rsquare"
-			description: ["&bThe 1k Storage Part&r is used to craft the 1k Storage Disk."]
+			description: ["&b1k存储元件&r是用来制作1k存储磁盘的。"]
 			dependencies: ["58B3E8756FDA260B"]
 			id: "5C4597DC0FB5DEFA"
 			tasks: [{
@@ -426,17 +426,17 @@
 			}]
 		}
 		{
-			title: "Wireless Network"
+			title: "无线网络工作"
 			icon: "refinedstorage:network_card"
 			x: 1.25d
 			y: -12.75d
 			shape: "octagon"
 			description: [
-				"&bA Network Card&r is an item that stores the coordinates of a Network Receiver."
+				"&b网卡&r是一个存储网络接收器坐标的物品。"
 				""
-				"&bThe Network Receiver&r is the block that receives a signal from the Network Transmitter."
+				"&b网络接收器&r是接收网络发送器的信号的方块。"
 				""
-				"&bA Network Transmitter&r sends a network signal to a Network Receiver that is specified in the given Network Card."
+				"&b网络发送器&r向指定的网卡中存储的网络接收器发送网络信号。"
 			]
 			dependencies: ["41408A17D409DA61"]
 			id: "3D60EA3037B7AC3A"
@@ -468,9 +468,9 @@
 			y: -10.5d
 			shape: "square"
 			description: [
-				"&bThe Security Card&r is an item that is bound to a player by right clicking."
+				"&b权限卡&r是一个通过右键点击与玩家绑定的物品。"
 				""
-				"&bThe Security Card&r has to be inserted into a Security Manager, and can be configured from there as well."
+				"&b权限卡&r必须插入权限管理器中，同时也可以在那里进行配置。"
 			]
 			dependencies: ["2B6CF6292BFF3F64"]
 			id: "44F3BB91F4F95044"
@@ -489,7 +489,7 @@
 		{
 			x: -9.25d
 			y: -13.25d
-			description: ["&bThe Processors&r are used to craft the various Refined Storage devices."]
+			description: ["&b处理器&r是用来制作各种精致存储的设备的。"]
 			dependencies: ["15865A4733956F1D"]
 			id: "481A8B96221DBD76"
 			tasks: [{
@@ -508,9 +508,9 @@
 			y: -0.5d
 			shape: "diamond"
 			description: [
-				"&bThe Silk Touch Upgrade&r makes the Destructor use Silk Touch on the blocks that it is breaking."
+				"&b精准采集升级&r可以让破坏面板对它破坏的方块使用精准采集。"
 				""
-				"By using this upgrade, the amount of FE/t that this device draws will increase."
+				"如果使用此种升级，该设备的能量消耗将会增加。"
 			]
 			dependencies: ["41560052D944E372"]
 			id: "38A75E8116400CAE"
@@ -531,14 +531,14 @@
 			y: -0.5d
 			shape: "diamond"
 			description: [
-				"&bThe Fortune Upgrade&r will make the Destructor use a certain fortune level (depending on which Fortune Upgrade you have) on the block it is breaking."
+				"&b时运升级&r可以让破坏面板对它破坏的方块使用时运。（时运等级取决于你有哪种时运升级）"
 				""
-				"This upgrade has 3 versions:"
-				"→ Fortune 1"
-				"→ Fortune 2"
-				"→ Fortune 3"
+				"此升级有3个版本："
+				"→时运1"
+				"→时运2"
+				"→时运3"
 				""
-				"By using this upgrade, the amount of FE/t that this device draws will increase."
+				"如果使用此种升级，该设备的能量消耗将会增加。"
 			]
 			dependencies: ["41560052D944E372"]
 			id: "6CCE409C41F39DB9"
@@ -559,13 +559,13 @@
 			y: -0.75d
 			shape: "diamond"
 			description: [
-				"&bThe Regulator Upgrade&r is an upgrade that can be inserted into an Exporter to keep certain items or fluids in stock in the connected inventory."
+				"&b调节升级&r是一种可以插入输出面板的升级，它可以让输出面板保持连接库存中的某些物品或液体。"
 				""
-				"It will try to keep the connected inventory stocked by using items or fluids from the storage network."
+				"它将通过调用存储网络的物品或液体来保持连接的库存。"
 				""
-				"Additionally, the Regulator Upgrade can be combined with a Crafting Upgrade to start autocrafting tasks when the stock from the storage network runs out."
+				"此外，当调节升级和合成升级相结合时，在存储网络中的库存耗尽时可以自动开始合成任务。"
 				""
-				"By using this upgrade, the amount of FE/t that this device draws will increase."
+				"如果使用此种升级，该设备的能量消耗将会增加。"
 			]
 			dependencies: ["41560052D944E372"]
 			id: "4394174ED730AB2D"
@@ -585,10 +585,10 @@
 			x: -4.25d
 			y: -14.5d
 			description: [
-				"&bThe Wrench&r in Refined Storage is a tool that can do two things:"
+				"&b扳手&r在精致存储中可以做到两件事："
 				""
-				"→ Rotate blocks"
-				"→ Break Refined Storage covers"
+				"→ 旋转方块"
+				"→ 破坏精致存储丨伪装版"
 			]
 			dependencies: ["41408A17D409DA61"]
 			id: "1B7CC06E7A266337"
@@ -609,9 +609,9 @@
 			y: -7.0d
 			shape: "octagon"
 			description: [
-				"&bThe Filter&r is an item that can be used in any Grid."
+				"&b过滤卡&r是可以在任何终端中使用的物品。"
 				""
-				"In the Filter’s GUI, which can be opened by pressing right click while holding the filter in hand, the player can specify which items and fluids can be visible."
+				"在过滤卡的GUI中，玩家可以指定哪些物品和液体可以被看到，这个GUI在玩家手持过滤卡时右键打开。"
 			]
 			dependencies: ["4A8902E267157E88"]
 			id: "1ED46C0FD075DACE"
@@ -630,13 +630,13 @@
 			icon: "refinedstorage:crafting_grid"
 			x: 4.5d
 			y: -8.75d
-			description: ["&bThe Crafting Grid&r is the same as a regular Grid, but has a crafting inventory."]
+			description: ["&b合成终端&r和终端功能一样，只不过玩家可以在合成终端中进行合成。"]
 			dependencies: ["4A8902E267157E88"]
 			id: "50203C029B75E926"
 			tasks: [{
 				id: "2852D3FD521D4F97"
 				type: "item"
-				title: "Crafting Grid"
+				title: "合成终端"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -655,13 +655,13 @@
 			icon: "refinedstorage:grid"
 			x: 1.5d
 			y: -8.75d
-			description: ["&bThe Grid&r is a block that allows access to the items and fluids in the storage network."]
+			description: ["&b终端&r允许玩家访问存储网络中的物品和液体。"]
 			dependencies: ["2B6CF6292BFF3F64"]
 			id: "4A8902E267157E88"
 			tasks: [{
 				id: "0C1A31456DAA144C"
 				type: "item"
-				title: "Grid"
+				title: "终端"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -681,9 +681,9 @@
 			y: -8.75d
 			shape: "hexagon"
 			description: [
-				"&bThe Controller &fis the core of the Refined Storage network. "
+				"&b控制器&f是精致存储网络的核心。"
 				""
-				"You need to connect all the Refined Storage devices to this block. (You can connect devices by placing them right next to the Controller or with cables connected to said Controller.)"
+				"你需要将所有的精致存储设备连接到这个方块。（你可以通过将设备放在控制器旁边或者用线缆来连接它们。）"
 			]
 			dependencies: ["736A21D4029789B6"]
 			size: 2.0d
@@ -703,7 +703,7 @@
 			x: -12.5d
 			y: -4.75d
 			shape: "square"
-			description: ["&bThe Destructor&r destroys blocks or fluids in front of it and puts the drops in the storage network."]
+			description: ["&b破坏面板&r会破坏它面前的方块或流体，并将其存入存储网络。"]
 			dependencies: ["5361C5E7A1077FEF"]
 			id: "1E694C4BB9C48C2F"
 			tasks: [{
@@ -721,7 +721,7 @@
 			x: -12.5d
 			y: -5.75d
 			shape: "square"
-			description: ["&bThe Constructor&r places items or fluids from the storage network in the world."]
+			description: ["&b成型面板&r可以将物品或液体从存储网络中放到世界上。"]
 			dependencies: ["5361C5E7A1077FEF"]
 			id: "1911DB79BA781EB9"
 			tasks: [{
@@ -739,7 +739,7 @@
 			x: -3.5d
 			y: -7.0d
 			shape: "square"
-			description: ["&bThe Storage Monitor&r is a block that displays the current amount of a certain item or fluid in your storage system."]
+			description: ["&b存储监控器&r是一个可以显示当前存储系统中物体或流体多少的方块。"]
 			dependencies: ["2B6CF6292BFF3F64"]
 			id: "3601ECA661EA8C66"
 			tasks: [{
@@ -757,7 +757,7 @@
 			x: -14.5d
 			y: -4.75d
 			shape: "square"
-			description: ["The Fluid Interface is the same as an Interface but for &bfluids&r."]
+			description: ["流体面板的功能和物品传输接口一样，但它处理的对象是&b流体&r."]
 			dependencies: ["78BED8A761104E8C"]
 			id: "00AD6D48977CFA4F"
 			tasks: [{
@@ -775,7 +775,7 @@
 			x: -14.5d
 			y: -5.75d
 			shape: "square"
-			description: ["The Interface is a block that acts as a combination of the &bImporter&r and the &bExporter&r."]
+			description: ["物品传输接口是一种既可以当成&b输入总线&r也可以当成&b输出总线&r的方块。"]
 			dependencies: [
 				"78BED8A761104E8C"
 				"5361C5E7A1077FEF"
@@ -797,7 +797,7 @@
 			x: -11.5d
 			y: -5.75d
 			shape: "square"
-			description: ["&bThe Exporter &fextracts items or fluids from the storage network and inserts it in the inventory or tank connected to the device."]
+			description: ["&b输出总线&f可以从存储网络中取出物品或流体并将其放入与之连接的箱子或储罐。"]
 			dependencies: ["5361C5E7A1077FEF"]
 			id: "64AEF34D3FC6DA1C"
 			tasks: [{
@@ -815,7 +815,7 @@
 			x: -13.0d
 			y: -3.75d
 			shape: "square"
-			description: ["&bThe External&r Storage is a block that provides the storage network with an access to the storage of the inventory or fluid tank connected to the device making everything stored in it appear in the grid."]
+			description: ["&b外部存储总线&r是一个能够让存储网络得以识别与之连接的箱子或储罐中的所有物品或流体，并将其显示在终端上的方块。"]
 			dependencies: ["5361C5E7A1077FEF"]
 			id: "7A1A17B6C4A2F58B"
 			tasks: [{
@@ -833,7 +833,7 @@
 			x: -13.5d
 			y: -5.75d
 			shape: "square"
-			description: ["&bThe Importer&f imports items or fluids from the inventory connected to the device and inserts it in the storage network (if there is space)."]
+			description: ["&b输入总线&f可以将与装置连接的箱子或储罐中的物品或流体输入到存储网络中（如果空间足够的话）。"]
 			dependencies: ["5361C5E7A1077FEF"]
 			id: "78BED8A761104E8C"
 			tasks: [{
@@ -848,11 +848,11 @@
 			}]
 		}
 		{
-			title: "&5Disk Drive"
+			title: "&5磁盘驱动器"
 			x: -1.25d
 			y: -3.75d
 			shape: "rsquare"
-			description: ["&bThe Disk Drive&r is the block in which you store storage disks or fluid storage disks."]
+			description: ["&b磁盘驱动器&r是你存储存储磁盘和流体存储磁盘的方块。"]
 			dependencies: [
 				"736A21D4029789B6"
 				"2B6CF6292BFF3F64"
@@ -876,9 +876,9 @@
 			y: -8.450000000000001d
 			shape: "square"
 			description: [
-				"&bCables&r are used to connect devices to the Controller."
+				"&b线缆&r用于把设备连接到控制器。"
 				""
-				"Cables are not always necessary, as long as the devices are next to each other in any direction a connection will be established as well."
+				"线缆不总是必要的，只要设备在任何方向上彼此相邻，他们也会互相建立连接。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["41408A17D409DA61"]
@@ -900,7 +900,7 @@
 			x: -1.25d
 			y: -12.75d
 			shape: "octagon"
-			description: ["&bThe Machine Casing&r is a block that is used to craft the various Refined Storage devices."]
+			description: ["&b机器外壳&r是用来制作各种精致存储设备的方块。"]
 			dependencies: ["41408A17D409DA61"]
 			size: 1.5d
 			id: "736A21D4029789B6"
@@ -921,9 +921,9 @@
 			y: 2.0d
 			shape: "hexagon"
 			description: [
-				"&bThe Pattern Grid&r is the same as a regular Grid, but also allows for the creation of patterns."
+				"&b样板终端&r和普通终端一样，只不过玩家可以在样板终端上制作样板。"
 				""
-				"&bA Pattern&r is an item that is used in autocrafting. It stores the recipe that should be autocrafted."
+				"&b样板&r是一个用于自动合成的物品。它存储着用于自动合成的配方。"
 			]
 			dependencies: ["6DBC1BDEBCAD61B0"]
 			size: 1.5d
@@ -932,7 +932,7 @@
 				{
 					id: "7F623DF5432E353E"
 					type: "item"
-					title: "Pattern Grid"
+					title: "样板终端"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -957,13 +957,13 @@
 			icon: "refinedstorage:fluid_grid"
 			x: 7.5d
 			y: -8.75d
-			description: ["&bThe Fluid Grid&r is the same as a regular Grid, but is used for viewing fluids in the fluid storage of your storage network."]
+			description: ["&b流体终端&r和普通的终端一样，但是它用于查看你的存储网络中存储的流体。"]
 			dependencies: ["50203C029B75E926"]
 			id: "3116FA76D615D875"
 			tasks: [{
 				id: "71C7B45E2C6BCCC8"
 				type: "item"
-				title: "Fluid Grid"
+				title: "流体终端"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -983,9 +983,9 @@
 			y: -12.75d
 			shape: "octagon"
 			description: [
-				"&bThe Relay&r acts as Cable, but can be turned on or off depending on the redstone configuration."
+				"&b继电器&r和线缆的作用一样，但是可以通过红石信号开启或者关闭。"
 				""
-				"Devices connected after the Relay will be on or off depending if the Relay is on."
+				"继电器之后连接的设备将通过继电器的状态开启或者关闭。"
 			]
 			dependencies: ["736A21D4029789B6"]
 			id: "16769299E806906D"
@@ -1004,9 +1004,9 @@
 			x: 1.75d
 			y: -14.5d
 			description: [
-				"&bThe Detector&r is a block that emits a redstone signal if an item, or fluid, count matches a given amount."
+				"如果物品或者液体的数量和给定的数量相符，&b检测器&r就会发出红石信号。"
 				""
-				"It is also possible to be NBT or damage sensitive."
+				"它也可以检测伤害以及物品的NBT。"
 			]
 			dependencies: ["41408A17D409DA61"]
 			id: "6D8771AA4E5B9F96"
@@ -1027,11 +1027,11 @@
 			y: -8.75d
 			shape: "square"
 			description: [
-				"&bThe Security Manager&r is a block that can store security cards."
+				"&b权限管理器&r是可以存储权限卡的方块。"
 				""
-				"From it’s GUI, you can configure what permissions each player (that is bound with a Security Card) has."
+				"在它的图形界面上，你可以配置每个与权限卡绑定的玩家的权限。"
 				""
-				"Once the Security Card is inserted in the top slots, the permissions for that player will be restricted to the ones configured."
+				"一旦权限卡被插入顶部的槽位中，该玩家的权限将被限制在配置的权限中。"
 			]
 			dependencies: ["2B6CF6292BFF3F64"]
 			id: "5CAC39CBAAC5D606"
@@ -1051,13 +1051,13 @@
 			icon: "refinedstorage:disk_manipulator"
 			x: -1.25d
 			y: -1.0d
-			description: ["&bThe Disk Manipulator&r is a block that adds a fast way of transferring items between storage disks or fluid storage disks and the storage network."]
+			description: ["&b磁盘操作器&r可以让两个存储磁盘之间或流体存储磁盘之间快速传输物品或流体。"]
 			dependencies: ["6DBC1BDEBCAD61B0"]
 			id: "7AD4AA4EC0999F9A"
 			tasks: [{
 				id: "271654342D7CD01A"
 				type: "item"
-				title: "Disk Manipulator"
+				title: "磁盘操作器"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1078,9 +1078,9 @@
 			y: 4.25d
 			shape: "square"
 			description: [
-				"&bThe Crafter&r is a block that crafts items with patterns. It can take speed upgrades to increase the crafting speed."
+				"&b合成仓&r是一个可以通过样板制作物品的方块。他可以通过速度升级来提高制作速度"
 				""
-				"Can hold 9 patterns."
+				"可以放置9个合成样板。"
 			]
 			dependencies: [
 				"10244EFD9DDFBECB"
@@ -1091,7 +1091,7 @@
 			tasks: [{
 				id: "709E60E171BDFA74"
 				type: "item"
-				title: "Crafter"
+				title: "合成器"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1111,13 +1111,13 @@
 			x: -3.25d
 			y: 2.0d
 			shape: "square"
-			description: ["&bThe Crafter Manager&r is a block that allows you to see all your patterns in one GUI."]
+			description: ["合成管理器是一个允许您在一个GUI中查看全部模式的方块。"]
 			dependencies: ["10244EFD9DDFBECB"]
 			id: "007DBB1D334AA9DD"
 			tasks: [{
 				id: "5E007B4929C1BED2"
 				type: "item"
-				title: "Crafter Manager"
+				title: "合成管理器"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1137,16 +1137,16 @@
 			x: 10.5d
 			y: -8.75d
 			description: [
-				"&bThe Crafting Monitor&r is a block that shows all the current running crafting tasks and how long they have been running."
+				"&b合成监视器&r是一个显示全部所有正在运行的合成任务及其运行时间的方块。"
 				""
-				"Each crafting task can be cancelled manually. It is also possible to cancel all crafting tasks at once."
+				"每个合成任务都可以手动取消。也可以一次取消全部合成任务。"
 			]
 			dependencies: ["3116FA76D615D875"]
 			id: "20AB7B8B0D5C366C"
 			tasks: [{
 				id: "7729B4AEA54BAAE2"
 				type: "item"
-				title: "Crafting Monitor"
+				title: "合成监视器"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1166,11 +1166,11 @@
 			x: 1.5d
 			y: -10.75d
 			description: [
-				"With the &bWireless Grid &rthe player can access their items from anywhere."
+				"使用&b无线终端&r，玩家可以从任何地方访问他们的物品。"
 				""
-				"To activate the Wireless Grid, the player has to right click the Wireless Grid on a Controller."
+				"要激活无线终端，玩家必须在控制器上右键单击无线终端。"
 				""
-				"To use the Wireless Grid the item needs Forge Energy. You’ll have to charge it in a block that charges items from another mod."
+				"要使用无线终端，物品需要FE。你必须在另一个能给物品充电的方块内充电。"
 			]
 			dependencies: ["4A8902E267157E88"]
 			id: "5F1E4590EFFE3B6B"
@@ -1188,7 +1188,7 @@
 		{
 			x: 7.5d
 			y: -10.75d
-			description: ["With the &bWireless Fluid Grid &rthe player can access their fluids from anywhere."]
+			description: ["使用&b无线流体终端&r，玩家可以从任何地方访问流体。"]
 			dependencies: ["3116FA76D615D875"]
 			id: "6F6A20FF443F40C0"
 			tasks: [{
@@ -1205,7 +1205,7 @@
 		{
 			x: 4.5d
 			y: -10.75d
-			description: ["With the &bWireless Crafting Grid &rthe player can access their items from anywhere and craft directly in the gui."]
+			description: ["使用&b无线合成终端&r，玩家可以从任何地方访问他们的物品，并直接在gui中进行制作。"]
 			dependencies: ["50203C029B75E926"]
 			id: "60DAFFBF0838ADEF"
 			tasks: [{
@@ -1222,7 +1222,7 @@
 		{
 			x: 10.5d
 			y: -10.75d
-			description: ["With the &bWireless Crafting Monitor&r the player can see what is crafting from anywhere."]
+			description: ["使用&b无线合成监视器&r，玩家可以从任何地方查看合成。"]
 			dependencies: ["20AB7B8B0D5C366C"]
 			id: "2C949D9D5B6FFCAD"
 			tasks: [{
@@ -1242,11 +1242,11 @@
 			y: 2.0d
 			shape: "square"
 			description: [
-				"&bA Large Pattern Encoder&r is used to create patterns meant for machine automation."
+				"&b大样板编码器&r用于创建用于机器自动化的样板。"
 				""
-				"It takes up to 81 inputs and 9 outputs, so the storage network knows what to take and what to expect."
+				"它最多支持81个输入和9个输出，因此存储网络知道要接收什么和期望接收什么。"
 				""
-				"This block can’t be connected to a storage network."
+				"此方块无法连接到存储网络。"
 			]
 			dependencies: ["10244EFD9DDFBECB"]
 			optional: true
@@ -1273,9 +1273,9 @@
 			x: -11.75d
 			y: -12.5d
 			description: [
-				"&bThe Inscriber&r is used to create Refined Storage Processors, and cores."
+				"&b压印器&r用于合成精致存储处理器和核心。"
 				""
-				"You can upgrade this machine with speed upgrade to increase speed but increase energy consumption."
+				"您可以通过速度升级来升级此机器，以提高速度但增加能耗。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1308,7 +1308,7 @@
 			x: 5.75d
 			y: -7.25d
 			shape: "rsquare"
-			description: ["&bThe Unassembled 1k Storage Part&r is used to craft the 1k Storage Part in the &6Assembly line&r from Pneumaticcraft."]
+			description: ["&b未组装的1k存储部件&r使用在气动工艺的&6装配线&r中制造1k存储零件。"]
 			dependencies: ["3C9263A8B9322A17"]
 			id: "58B3E8756FDA260B"
 			tasks: [{
@@ -1326,7 +1326,7 @@
 			x: 5.75d
 			y: -6.25d
 			shape: "rsquare"
-			description: ["&bThe Unassembled 4k Storage Part&r is used to craft the 4k Storage Part in the &6Assembly line&r from Pneumaticcraft."]
+			description: ["&b未组装的4k存储部件&r使用在气动工艺的&6装配线&r中制造4k存储零件。"]
 			dependencies: ["58B3E8756FDA260B"]
 			id: "1CCDDF83CCA202E5"
 			tasks: [{
@@ -1344,7 +1344,7 @@
 			x: 5.75d
 			y: -5.25d
 			shape: "rsquare"
-			description: ["&bThe Unassembled 16k Storage Part&r is used to craft the 16k Storage Part in the &6Assembly line&r from Pneumaticcraft."]
+			description: ["&b未组装的16k存储部件&r使用在气动工艺的&6装配线&r中制造16k存储零件。"]
 			dependencies: ["1CCDDF83CCA202E5"]
 			id: "3B0EBD7D45B3A4DC"
 			tasks: [{
@@ -1362,7 +1362,7 @@
 			x: -8.25d
 			y: -7.25d
 			shape: "rsquare"
-			description: ["&bThe Unassembled 64k Fluid Storage Part&r is used to craft the 64k Fluid Storage Part in the &6Assembly line&r from Pneumaticcraft."]
+			description: ["&b未组装的64k流体存储部件&r使用在气动工艺的&6装配线&r中制造64k流体存储部件。"]
 			dependencies: ["3C04F89B893C3AD4"]
 			id: "00E49B9468513FD2"
 			tasks: [{
@@ -1380,7 +1380,7 @@
 			x: 5.75d
 			y: -4.25d
 			shape: "rsquare"
-			description: ["&bThe Unassembled 64k Storage Part&r is used to craft the 64k Storage Part in the &6Assembly line&r from Pneumaticcraft."]
+			description: ["&b未组装的64k存储部件&r使用在气动工艺的&6装配线&r中制造64k存储零件。"]
 			dependencies: ["3B0EBD7D45B3A4DC"]
 			id: "4CB9359D414E5BD7"
 			tasks: [{
@@ -1398,7 +1398,7 @@
 			x: -8.25d
 			y: -6.25d
 			shape: "rsquare"
-			description: ["&bThe Unassembled 256k Fluid Storage Part&r is used to craft the 256k Fluid Storage Part in the &6Assembly line&r from Pneumaticcraft."]
+			description: ["&b未组装的256k流体存储部件&r使用在气动工艺的&6装配线&r中制造256k流体储存部件。"]
 			dependencies: ["00E49B9468513FD2"]
 			id: "12BABD84E5472CFB"
 			tasks: [{
@@ -1416,7 +1416,7 @@
 			x: -8.25d
 			y: -5.25d
 			shape: "rsquare"
-			description: ["&bThe Unassembled 1024k Fluid Storage Part&r is used to craft the 1024k Fluid Storage Part in the &6Assembly line&r from Pneumaticcraft."]
+			description: ["&b未组装的1024k流体存储部件&r使用在气动工艺的&6装配线&r中制造1024k流体储存部件。"]
 			dependencies: ["12BABD84E5472CFB"]
 			id: "5495770B359A1400"
 			tasks: [{
@@ -1434,7 +1434,7 @@
 			x: -8.25d
 			y: -4.25d
 			shape: "rsquare"
-			description: ["&bThe Unassembled 4096k Fluid Storage Part&r is used to craft the 4096k Fluid Storage Part in the &6Assembly line&r from Pneumaticcraft."]
+			description: ["&b未组装的4096k流体存储部件&r使用在气动工艺的&6装配线&r中制造4096k液体存储部件。"]
 			dependencies: ["5495770B359A1400"]
 			id: "0F711C8B7276E896"
 			tasks: [{
@@ -1452,7 +1452,7 @@
 			x: 5.75d
 			y: -3.25d
 			shape: "rsquare"
-			description: ["&bThe Unassembled 256k Storage Part&r is used to craft the 256k Storage Part in the &6Assembly line&r from Pneumaticcraft."]
+			description: ["&b未装配的256k存储部件&r使用在气动工艺的&6装配线&r中制造256k存储零件。"]
 			dependencies: ["4CB9359D414E5BD7"]
 			id: "2808D5799C6FEB43"
 			tasks: [{
@@ -1470,7 +1470,7 @@
 			x: 5.75d
 			y: -2.25d
 			shape: "rsquare"
-			description: ["&bThe Unassembled 1024k Storage Part&r is used to craft the 1024k Storage Part in the &6Assembly line&r from Pneumaticcraft."]
+			description: ["&b未装配的1024k存储部件&r使用在气动工艺的&6装配线&r中制造1024k存储零件。"]
 			dependencies: ["2808D5799C6FEB43"]
 			id: "6B7ACAA5D0153351"
 			tasks: [{
@@ -1488,7 +1488,7 @@
 			x: 5.75d
 			y: -1.25d
 			shape: "rsquare"
-			description: ["&bThe Unassembled 4096k Storage Part&r is used to craft the 4096k Storage Part in the &6Assembly line&r from Pneumaticcraft."]
+			description: ["&b未组装的4096k存储部件&r使用在气动工艺的&6装配线&r中制造4096k的存储部件。"]
 			dependencies: ["6B7ACAA5D0153351"]
 			id: "0D4AE6329599374E"
 			tasks: [{
@@ -1506,7 +1506,7 @@
 			x: -8.25d
 			y: -3.25d
 			shape: "rsquare"
-			description: ["&bThe Unassembled 16384k Fluid Storage Part&r is used to craft the 16384k Fluid Storage Part in the &6Assembly line&r from Pneumaticcraft."]
+			description: ["&b未组装的16384k流体存储部件&r使用在气动工艺的&6装配线&r中制造16384k液体存储部件。"]
 			dependencies: ["0F711C8B7276E896"]
 			id: "7F41F57A78B7FEF1"
 			tasks: [{
@@ -1524,7 +1524,7 @@
 			x: 5.75d
 			y: -0.25d
 			shape: "rsquare"
-			description: ["&bThe Unassembled 16384k Storage Part&r is used to craft the 16384k Storage Part in the &6Assembly line&r from Pneumaticcraft."]
+			description: ["&b未装配的16384k存储部件&r使用在气动工艺的&6装配线&r中制造16384k的存储部件。"]
 			dependencies: ["0D4AE6329599374E"]
 			id: "5BAFD29F7DDCE5E0"
 			tasks: [{
@@ -1542,7 +1542,7 @@
 			x: -8.25d
 			y: -2.25d
 			shape: "rsquare"
-			description: ["&bThe Unassembled 65536k Fluid Storage Part&r is used to craft the 65536k Fluid Storage Part in the &6Assembly line&r from Pneumaticcraft."]
+			description: ["&b未组装的65536k流体存储部件&r使用在气动工艺的&6装配线&r中制造65536k流体存储部件。"]
 			dependencies: ["7F41F57A78B7FEF1"]
 			id: "070936B336845AC2"
 			tasks: [{
@@ -1560,7 +1560,7 @@
 			x: -8.25d
 			y: -1.25d
 			shape: "rsquare"
-			description: ["&bThe Unassembled 262144k Fluid Storage Part&r is used to craft the 262144k Fluid Storage Part in the &6Assembly line&r from Pneumaticcraft."]
+			description: ["&b未组装的262144k流体存储部件&r使用在气动工艺的&6装配线&r中制造262144k流体存储部件。"]
 			dependencies: ["070936B336845AC2"]
 			id: "4FB93B398B039835"
 			tasks: [{
@@ -1578,7 +1578,7 @@
 			x: -8.25d
 			y: -0.25d
 			shape: "rsquare"
-			description: ["&bThe Unassembled 1048576k Fluid Storage Part&r is used to craft the 1048576k Fluid Storage Part in the &6Assembly line&r from Pneumaticcraft."]
+			description: ["&b未组装的1048576k流体存储部件&r使用在气动工艺的&6装配线&r中制造1048576k流体存储部件。"]
 			dependencies: ["4FB93B398B039835"]
 			id: "58D5D4009D4FE8A1"
 			tasks: [{
@@ -1596,7 +1596,7 @@
 			x: 0.75d
 			y: 4.25d
 			shape: "square"
-			description: ["&bThe Netherite Crafter&r is the final upgrade to the crafter holding 81 patterns."]
+			description: ["&b下界合金合成器&r是拥有81个样板的合成器的最后升级版。"]
 			dependencies: [
 				"2587D7FD1E461E79"
 				"4C32DDB98EFDC15A"
@@ -1620,7 +1620,7 @@
 			x: -0.25d
 			y: 5.75d
 			shape: "square"
-			description: ["&bThe Diamond Crafter&r can hold 63 patterns."]
+			description: ["&b钻石合成器&r可以容纳63个样板。"]
 			dependencies: [
 				"60E82CF31223EA18"
 				"15770C3D59BEB5DB"
@@ -1642,7 +1642,7 @@
 			x: -2.25d
 			y: 5.75d
 			shape: "square"
-			description: ["&bThe Gold Crafter&r can hold 45 patterns."]
+			description: ["&b金合成器&r可以容纳45个样板。"]
 			dependencies: [
 				"3CA85459EABDA11E"
 				"5A250FD54B5D5215"
@@ -1665,9 +1665,9 @@
 			y: 4.25d
 			shape: "square"
 			description: [
-				"&bThe Iron Crafter&r and it's upgrades are all upgraded version of the regular crafter, each having more patern slots."
+				"&b铁合成器&r及其升级版都是常规合成器的升级版，每个都有更多的插槽。"
 				""
-				"&bThe Iron Crafter&r can hold 27 patterns."
+				"&b铁合成器&r可以容纳27个样板。"
 			]
 			dependencies: [
 				"0E08A1DEE423C8EC"
@@ -1691,7 +1691,7 @@
 			x: -11.5d
 			y: -4.75d
 			shape: "square"
-			description: ["Same as &bExporter&r but you can hold &618 items&r instead of 9."]
+			description: ["与&b输出面板&r相同，但你可以容纳&618个物品&r，而不是9个。"]
 			dependencies: ["64AEF34D3FC6DA1C"]
 			id: "37FF5696D8214A2C"
 			tasks: [{
@@ -1709,7 +1709,7 @@
 			x: -13.5d
 			y: -4.75d
 			shape: "square"
-			description: ["Same as &bImporter&r but you can hold &618 items&r instead of 9."]
+			description: ["与&b输入面板&r相同，但你可以容纳&618个物品&r，而不是9个。"]
 			dependencies: ["78BED8A761104E8C"]
 			id: "56B3EADA5A082325"
 			tasks: [{
@@ -1726,7 +1726,7 @@
 		{
 			x: -15.25d
 			y: -16.0d
-			description: ["&bThe Raw Neural Processor&r is used to craft a Neural Processor."]
+			description: ["&b未处理的神经处理器&r用来合成神经处理器。"]
 			dependencies: [
 				"069C09E2CF788202"
 				"5C7AB3AA250737D1"
@@ -1746,7 +1746,7 @@
 		{
 			x: -10.75d
 			y: -16.0d
-			description: ["&bThe Processors&r are used to craft the various Refined Storage devices."]
+			description: ["&b处理器&r用来制作各种精致存储设备。"]
 			dependencies: ["15865A4733956F1D"]
 			id: "040BA26E02982BB4"
 			tasks: [{
@@ -1764,7 +1764,7 @@
 			x: 4.75d
 			y: -3.25d
 			shape: "rsquare"
-			description: ["&bThe 256k Storage Part&r is used to craft the 256k Storage Disk."]
+			description: ["&b256k存储部件&r用于使用256k存储磁盘。"]
 			dependencies: ["2808D5799C6FEB43"]
 			id: "453C5B1C29C3BA67"
 			tasks: [{
@@ -1782,7 +1782,7 @@
 			x: 4.75d
 			y: -2.25d
 			shape: "rsquare"
-			description: ["&bThe 1024k Storage Part&r is used to craft the 1024k Storage Disk."]
+			description: ["&b1024k存储部件&r用于使用1024k存储磁盘。"]
 			dependencies: ["6B7ACAA5D0153351"]
 			id: "1C06D4F0A5488A94"
 			tasks: [{
@@ -1800,7 +1800,7 @@
 			x: 4.75d
 			y: -1.25d
 			shape: "rsquare"
-			description: ["&bThe 4096k Storage Part&r is used to craft the 4096k Storage Disk."]
+			description: ["&b4096k存储部件&r用于使用4096k存储磁盘。"]
 			dependencies: ["0D4AE6329599374E"]
 			id: "7B03C7844EEEF538"
 			tasks: [{
@@ -1818,7 +1818,7 @@
 			x: 4.75d
 			y: -0.25d
 			shape: "rsquare"
-			description: ["&bThe 16384k Storage Part&r is used to craft the 16384k Storage Disk."]
+			description: ["&b16384k存储部件&r用于使用16384k磁盘。"]
 			dependencies: ["5BAFD29F7DDCE5E0"]
 			id: "4EFC6830B0AFFF08"
 			tasks: [{
@@ -1836,7 +1836,7 @@
 			x: -7.25d
 			y: -3.25d
 			shape: "rsquare"
-			description: ["&bThe 16384k Fluid Storage Part&r is used to craft the 16384k Fluid Storage Disk."]
+			description: ["&b16384k流体存储部件&r用于使用16384k液体存储磁盘。"]
 			dependencies: ["7F41F57A78B7FEF1"]
 			id: "5E5F1E1E0C7BA949"
 			tasks: [{
@@ -1854,7 +1854,7 @@
 			x: -7.25d
 			y: -0.25d
 			shape: "rsquare"
-			description: ["&bThe 1048576k Fluid Storage Part&r is used to craft the 1048576k Fluid Storage Disk."]
+			description: ["&b1048576k流体存储部件&r用于使用1048576k流体存储磁盘。"]
 			dependencies: ["58D5D4009D4FE8A1"]
 			id: "5E29ED310932B7E8"
 			tasks: [{
@@ -1872,7 +1872,7 @@
 			x: -7.25d
 			y: -1.25d
 			shape: "rsquare"
-			description: ["&bThe 262144k Fluid Storage Part&r is used to craft the 262144k Fluid Storage Disk."]
+			description: ["&b262144k流体存储部件&r用于使用262144k流体存储磁盘。"]
 			dependencies: ["4FB93B398B039835"]
 			id: "6E57C6B63433F3C8"
 			tasks: [{
@@ -1890,7 +1890,7 @@
 			x: -7.25d
 			y: -2.25d
 			shape: "rsquare"
-			description: ["&bThe 65536k Fluid Storage Part&r is used to craft the 65536k Fluid Storage Disk."]
+			description: ["&b65536k流体存储部件&r用于使用65536k流体存储磁盘。"]
 			dependencies: ["070936B336845AC2"]
 			id: "5E9E508F1D640ED4"
 			tasks: [{
@@ -1908,9 +1908,9 @@
 			x: -13.75d
 			y: -12.5d
 			description: [
-				"&bThe Silicon&r can be obtained by smelting quartz."
+				"&b硅&r可以通过烧炼下界石英获得。"
 				""
-				"This item has no use other than being used in crafting recipes."
+				"这个物品除了使用合成配方之外没有任何用处。"
 			]
 			dependencies: ["134355C7D75FC7F3"]
 			dependency_requirement: "one_completed"
@@ -1927,15 +1927,15 @@
 			}]
 		}
 		{
-			title: "&bFluid Storage Disk"
+			title: "&b流体存储磁盘"
 			icon: "extrastorage:disk_16384k_fluid"
 			x: -4.5d
 			y: -3.75d
 			shape: "hexagon"
 			description: [
-				"&bA Fluid Storage Disk&r is an item where items from the storage system are stored on. It has to be put in a Disk Drive."
+				"&b流体存储磁盘&r是存储系统中存放物品存储数据的物品。它必须放在磁盘驱动器中。"
 				""
-				"The Fluid Storage Disk won’t despawn when dropped in the world."
+				"流体存储磁盘不会在变为掉落物时刷新消失。"
 			]
 			dependencies: [
 				"613F07C10A246A8F"
@@ -1953,7 +1953,7 @@
 			tasks: [{
 				id: "3931776CC389A7EB"
 				type: "item"
-				title: "Fluid Storage Disk"
+				title: "流体存储磁盘"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -2069,9 +2069,9 @@
 			x: 13.25d
 			y: -10.75d
 			description: [
-				"&bThe Universal Grid&r is an upgrade from the Wireless Grid."
+				"&b通用终端&r是无线终端的升级。"
 				""
-				"You can switch between Grid, Crafting Grid and Fluid Grid."
+				"你可以在终端、合成终端和流体终端之间切换。"
 			]
 			dependencies: [
 				"5F1E4590EFFE3B6B"
@@ -2096,9 +2096,9 @@
 			y: -12.5d
 			shape: "rsquare"
 			description: [
-				"&bThe Wireless Transmitter&r is used to send signals to wireless network items in Refined Storage."
+				"&b无线发送器&r使用向精炼存储中的无线网络物品发送信号。"
 				""
-				"The default range is 16 blocks, but can be upgraded with range upgrades."
+				"默认范围是16个方块，但可以通过范围升级进行升级。"
 			]
 			dependencies: [
 				"2C949D9D5B6FFCAD"
@@ -2111,7 +2111,7 @@
 			tasks: [{
 				id: "4D88C7AA958420B3"
 				type: "item"
-				title: "Wireless Transmitter"
+				title: "无线发送器"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -2131,22 +2131,22 @@
 			y: -6.75d
 			shape: "square"
 			description: [
-				"&bA Cover&r is an item used to hide cables."
+				"&b伪装板&r是使用隐藏电缆的物品。"
 				""
-				"You can also hide blocks that have a cable on them, like the Importer or Exporter."
+				"你还可以隐藏带有电缆的方方块，如输入面板或输出面板。"
 				""
-				"It will block network connections, cables can’t pass through the “hidden” side."
+				"它将阻挡网络连接，电缆无法通过“已隐藏”侧。"
 				""
-				"Covers can be removed by sneaking and right-clicking them with the Wrench."
+				"可以通过潜行并用扳手右击来取下伪装板。"
 				""
-				"&bA Hollow Cover&r is the same as a Cover but has a hole so you can pass cables through it."
+				"&b空心伪装板&r与伪装板相同，但有一个孔，可以让电缆穿过。"
 			]
 			dependencies: ["5361C5E7A1077FEF"]
 			id: "1450F8FD58EBC92B"
 			tasks: [{
 				id: "32FE1CE87CD6DE8D"
 				type: "item"
-				title: "Cover"
+				title: "伪装板"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -2183,15 +2183,15 @@
 			}]
 		}
 		{
-			title: "&6Storage Disk"
+			title: "&6存储磁盘"
 			icon: "extrastorage:disk_16384k"
 			x: 2.0d
 			y: -3.75d
 			shape: "hexagon"
 			description: [
-				"&bA Storage Disk&r is an item where items from the storage network are stored on. It has to be put in a Disk Drive."
+				"&b存储磁盘&r是存储网络中物品的物品。它必须放在磁盘驱动器中。"
 				""
-				"The Storage Disk won’t despawn when dropped in the world."
+				"存储磁盘不会在丢弃个数时消失。"
 			]
 			dependencies: [
 				"5C4597DC0FB5DEFA"
@@ -2209,7 +2209,7 @@
 			tasks: [{
 				id: "1EE8574BFDC913B3"
 				type: "item"
-				title: "Storage Disk"
+				title: "存储磁盘"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -2325,7 +2325,7 @@
 			x: -13.0d
 			y: 0.25d
 			shape: "diamond"
-			description: ["With this upgrade you can access to your Storage System over an &dInfinite Range&r. "]
+			description: ["通过此升级，你可以通过&d无限范围&r访问存储系统。"]
 			dependencies: ["41560052D944E372"]
 			id: "6CF56E109FEF8065"
 			tasks: [{
@@ -2343,7 +2343,7 @@
 			x: -13.0d
 			y: 1.25d
 			shape: "diamond"
-			description: ["Same as the Infinity Upgrade but with this upgrade you can access to your Storage System &dAccross Dimensions&r and with an &dInfinite Range&r !"]
+			description: ["与无限升级相同，但通过此升级可以实现&d跨维度&r和&d无限范围&r访问！"]
 			dependencies: ["6CF56E109FEF8065"]
 			id: "0E2E1BC262FC4B46"
 			tasks: [{

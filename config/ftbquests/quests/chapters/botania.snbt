@@ -3,7 +3,7 @@
 	group: "206AEEAA9A4E5484"
 	order_index: 1
 	filename: "botania"
-	title: "&b第二章&r&6-&r植物魔法"
+	title: "&b第二章&r &6-&r 植物魔法"
 	icon: {
 		id: "botania:lexicon"
 		Count: 1b

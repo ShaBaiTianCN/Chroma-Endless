@@ -3,7 +3,7 @@
 	group: "60C88776031840B1"
 	order_index: 2
 	filename: "pedestals"
-	title: "&b第3章&r&6-&r基座"
+	title: "&b第3章&r &6-&r 基座"
 	icon: "pedestals:coin/default"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

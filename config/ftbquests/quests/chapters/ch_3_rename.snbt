@@ -3,7 +3,7 @@
 	group: "206AEEAA9A4E5484"
 	order_index: 0
 	filename: "ch_3_rename"
-	title: "&b第一章&r&6-&r经典机械"
+	title: "&b第一章&r &6-&r 经典机械"
 	icon: "thermal:machine_frame"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -1014,8 +1014,8 @@
 		{
 			x: 2.0d
 			y: 5.75d
-			subtitle: "不完全是“有机”的农业"
-			description: ["使用Forge能量为植物注入营养和光照。"]
+			subtitle: "不完全“有机”的农业"
+			description: ["使用FE为植物注入营养和光照。"]
 			dependencies: ["677773349FE468C2"]
 			id: "5B1BA329958A7ACC"
 			tasks: [{
@@ -1493,7 +1493,6 @@
 			}]
 		}
 		{
-			title: "金币"
 			icon: "thermal:electrum_coin"
 			x: 0.0d
 			y: 16.5d
@@ -1906,4 +1905,3 @@
 		}
 	]
 }
-

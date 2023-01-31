@@ -3,7 +3,7 @@
 	group: "56CE41B21EC10C89"
 	order_index: 1
 	filename: "envirotech"
-	title: "&b第2章&r &6- &r新型机械[--&bChapter 2&r &6-&r New Kind Of Machinery--]"
+	title: "&b第2章&r &6- &r新型机械"
 	icon: "envirotech:nanorite_void_miner_ccu"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -153,36 +153,36 @@
 			x: -3.0d
 			y: -17.75d
 			description: [
-				"&l虚空矿机计划&r：[--&lVoid Miner Programs&r:--]"
-				"•&a水晶矿机&r-在Environmental Core中开采分层水晶。[--• &aCrystal Miner&r - This mines the tiered crystals in Environmental Core.--]"
+				"&l虚空矿机计划&r："
+				"•&a水晶矿机&r-在Environmental Core中开采分层水晶。"
 				""
-				"•&a矿石矿机&r-开采矿石。[--• &aOre Miner&r - This mines Ores.--]"
+				"•&a矿石矿机&r-开采矿石。"
 				""
-				"•&a资源矿机&r-开采各种泥土、石头、沙子、砾石等。[--• &aResource Miner&r - This mines stuff like various Dirt's, Stones, Sands, Gravels etc.--]"
+				"•&a资源矿机&r-开采各种泥土、石头、沙子、砾石等。"
 				""
-				"•&a植物矿机&r-开采树叶、原木、植物、作物、树苗等。[--• &aBotanic Miner&r - This mines Leaves, Logs, Plants, Crops, Sapling's etc.--]"
+				"•&a植物矿机&r-开采树叶、原木、植物、作物、树苗等。"
 				""
-				"•&a复合矿机&r-根据程序开采。[--• &aMulti Miner&r - This mines any drop from any program.--]"
+				"•&a复合矿机&r-根据程序开采。"
 				""
-				"•&a宝石矿石&r-宝石矿石，如钻石、祖母绿和其他晶体。[--• &aGemstone Ore&r - Gem based ores such as Diamonds, Emeralds and other crystals.--]"
+				"•&a宝石矿石&r-宝石矿石，如钻石、祖母绿和其他晶体。"
 				""
-				"•&a金属矿石&r-金属矿石，如铁、铜、金、银等。[--• &aMetallic Ore&r - Metalic ores such as Iron, Copper, Gold, Silver, etc.--]"
+				"•&a金属矿石&r-金属矿石，如铁、铜、金、银等。"
 				""
-				"•&a矿物矿石&r-被视为矿物的矿石，如煤炭、红石、硫、镍等。[--• &aMineral Ore&r - Ores that are considered Minerals such as Coal, Redstone, Sulfer, Nitor etc.--]"
+				"•&a矿物矿石&r-被视为矿物的矿石，如煤炭、红石、硫、镍等。"
 				""
-				"•&a魔法矿石&r-这将从魔法模块中开采魔法矿石（如果有）。[--• &aMagical Ore&r - This will mine magical ores from magic mods if any are present.--]"
+				"•&a魔法矿石&r-这将从魔法模块中开采魔法矿石（如果有）。"
 				""
-				"•&a冻资源&r-冰、雪和其他冻材料。[--• &aFrozen Resource&r - Ice, Snow and other Frozen materials.--]"
+				"•&a冻资源&r-冰、雪和其他冻材料。"
 				""
-				"•&a松散资源&r-泥土、砾石、沙子等。[--• &aLoose Resource&r - Dirts, Gravels, Sands etc.--]"
+				"•&a松散资源&r-泥土、砾石、沙子等。"
 				""
-				"•&a岩石资源&r-石头和其他困难/岩石材料。[--• &aRocky Resource&r - Stones and other hard/rocky materials.--]"
+				"•&a岩石资源&r-石头和其他困难/岩石材料。"
 				""
-				"•&a花卉植物学&r-花卉[--• &aFlowery Botanic&r - Flowers--]"
+				"•&a花卉植物学&r-花卉"
 				""
-				"•&a森林植物&r-树叶、原木、树苗等。[--• &aForesty Botanic&r - Leaves, Logs, Saplings etc.--]"
+				"•&a森林植物&r-树叶、原木、树苗等。"
 				""
-				"•&a花园植物学&r-作物、种子等。[--• &aGargen Botanic&r - Crops, Seeds etc.--]"
+				"•&a花园植物学&r-作物、种子等。"
 			]
 			dependencies: [
 				"7D50FDFB133F3C3B"
@@ -232,11 +232,11 @@
 			x: -4.75d
 			y: -11.0d
 			description: [
-				"在虚空矿机的透镜内使用透镜将增加某些物品的开采率。[--Using lenses inside the Lens Holder on the Void Miner will increase the mine rate of certain items.--]"
+				"在虚空矿机的透镜内使用透镜将增加某些物品的开采率。"
 				""
-				"例如，如果你在矿物矿机程序中使用了红色透镜，那么你的矿机会比没有透镜的情况下产生更多的红石。[--For example, if you used a Red Lens on a Mineral Miner program, your miner would produce more Redstone than it usually would without the lens.--]"
+				"例如，如果你在矿物矿机程序中使用了红色透镜，那么你的矿机会比没有透镜的情况下产生更多的红石。"
 				""
-				"您还可以使用“放大修改器”进一步提高该速率。[--You can also increase that rate even further using Amplification Modifiers.--]"
+				"您还可以使用“放大修改器”进一步提高该速率。"
 			]
 			dependencies: [
 				"6289C8AE15A4BF73"
@@ -303,14 +303,14 @@
 		{
 			x: -0.25d
 			y: -19.0d
-			subtitle: "日夜为继的区块矿机[--Chunks for days --]"
-			description: ["区块矿机就像它的名字所暗示的那样，是一个从虚空中创建方块的虚空矿机。如果您想使用这些工具进行一些自动化或使用压力源，它可能会很有用。[--The Chunk 矿机 is like its name implies, a void 矿机 that creates chunks from emandatus. It can be useful if you want to do some automations with those or to have ressources.--]"]
+			subtitle: "日夜为继的区块矿机"
+			description: ["区块矿机就像它的名字所暗示的那样，是一个从虚空中创建方块的虚空矿机。如果您想使用这些工具进行一些自动化或使用压力源，它可能会很有用。"]
 			dependencies: ["4A34BD6688EE9DA1"]
 			id: "7846C1B5A918BDC0"
 			tasks: [{
 				id: "2A9914E1AB2B0433"
 				type: "item"
-				title: "&#46FCB8区块矿机&r[--&#46FCB8Chunk 矿机&r--]"
+				title: "&#46FCB8区块矿机&r"
 				item: {
 					id: "envirocore:flash_memory"
 					Count: 1b
@@ -332,14 +332,14 @@
 		{
 			x: 1.25d
 			y: -19.0d
-			subtitle: "光本身并不安全[--Light itself isn't safe--]"
-			description: ["另一方面，黑洞采掘机是一种非常特殊的采集器，可以从黑洞（在末地）或基岩下（在主世界）采掘物品。你可以期待找到非常有趣的物品，只需知道每一个等级都会让矿机变得更加强大，越来越接近黑黑洞的中心，收获物品。[--The Black Hole Harvester on the other hand is a very special 矿机, harvesting lost items from a black hole (In The End) or from beneath bedrock itself (In The Overworld). You can expect to find very interesting items, just know that each tier makes the 矿机 more powerful, harvesting items closer and closer to the heart of the black hole.--]"]
+			subtitle: "光本身并不安全"
+			description: ["另一方面，黑洞采掘机是一种非常特殊的采集器，可以从黑洞（在末地）或基岩下（在主世界）采掘物品。你可以期待找到非常有趣的物品，只需知道每一个等级都会让矿机变得更加强大，越来越接近黑黑洞的中心，收获物品。"]
 			dependencies: ["4A34BD6688EE9DA1"]
 			id: "3EAB4C4E47E658EA"
 			tasks: [{
 				id: "47817A43C0FC2EA7"
 				type: "item"
-				title: "&#46FCB8黑洞采掘机&r[--&#46FCB8Black Hole Harvester&r--]"
+				title: "&#46FCB8黑洞采掘机&r"
 				item: {
 					id: "envirocore:flash_memory"
 					Count: 1b
@@ -361,13 +361,13 @@
 		{
 			x: 0.5d
 			y: -17.75d
-			description: ["本包增加了自定义的环保科技矿机物品：区块矿机和黑洞采掘机。[--This pack adds custom made environmental tech 矿机s programs: the Chunk 矿机 and the Black Hole Harvester.--]"]
+			description: ["本包增加了自定义的环保科技矿机物品：区块矿机和黑洞采掘机。"]
 			dependencies: ["410B9715305CEB04"]
 			id: "4A34BD6688EE9DA1"
 			tasks: [{
 				id: "7211F0E3941F9C5D"
 				type: "checkmark"
-				title: "自定义矿机[--Custom 矿机s--]"
+				title: "自定义矿机"
 			}]
 			rewards: [{
 				id: "2C669108E90613F5"
@@ -382,12 +382,12 @@
 			y: 5.25d
 			shape: "rsquare"
 			description: [
-				"20x框架（等级>=1）[--20x Frame (Tier>=1)--]"
-				"18x面板[--18x Panel--]"
-				"04xIO方块或框架（等级>=1）[--04x IO Block or Frame (Tier>=1)--]"
-				"02x升级[--02x Modifier--]"
-				"02x激光核心[--02x Laser Core--]"
-				"01x激光镜架[--01x Laser Lens Holder--]"
+				"20x框架（等级>=1）"
+				"18x面板"
+				"04xIO方块或框架（等级>=1）"
+				"02x升级"
+				"02x激光核心"
+				"01x激光镜架"
 			]
 			dependencies: [
 				"4486C68BF5B9FCE2"
@@ -414,12 +414,12 @@
 			y: 5.25d
 			shape: "rsquare"
 			description: [
-				"28x框架（等级>=2）[--28x Frame (Tier>=2)--]"
-				"16x面板[--16x Panel--]"
-				"04x IO方块或框架（等级>=2）[--04x IO Block or Frame (Tier>=2)--]"
-				"04升级[--04 Modifier--]"
-				"03x激光核心[--03x Laser Core--]"
-				"01x激光镜架[--01x Laser Lens Holder--]"
+				"28x框架（等级>=2）"
+				"16x面板"
+				"04x IO方块或框架（等级>=2）"
+				"04升级"
+				"03x激光核心"
+				"01x激光镜架"
 			]
 			dependencies: [
 				"73368EF2948452D9"
@@ -445,12 +445,12 @@
 			y: 5.25d
 			shape: "rsquare"
 			description: [
-				"44x框架（等级>=3）[--44x Frame (Tier>=3)--]"
-				"36x面板[--36x Panel--]"
-				"04x IO方块或框架（等级>=3）[--04x IO Block or Frame (Tier>=3)--]"
-				"08x升级[--08x Modifier--]"
-				"04x激光核心[--04x Laser Core--]"
-				"01x激光镜架[--01x Laser Lens Holder--]"
+				"44x框架（等级>=3）"
+				"36x面板"
+				"04x IO方块或框架（等级>=3）"
+				"08x升级"
+				"04x激光核心"
+				"01x激光镜架"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -478,12 +478,12 @@
 			y: 5.25d
 			shape: "rsquare"
 			description: [
-				"52x框架（等级>=4）[--52x Frame (Tier>=4)--]"
-				"56x面板[--56x Panel--]"
-				"04x IO方块或框架（等级>=4）[--04x IO Block or Frame (Tier>=4)--]"
-				"12x升级[--12x Modifier--]"
-				"05x激光核心[--05x Laser Core--]"
-				"01x激光镜架[--01x Laser Lens Holder--]"
+				"52x框架（等级>=4）"
+				"56x面板"
+				"04x IO方块或框架（等级>=4）"
+				"12x升级"
+				"05x激光核心"
+				"01x激光镜架"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -511,12 +511,12 @@
 			y: 5.25d
 			shape: "rsquare"
 			description: [
-				"68x框架（等级>=5）[--68x Frame (Tier>=5)--]"
-				"36x面板[--36x Panel--]"
-				"04x IO方块或框架（等级>=5）[--04x IO Block or Frame (Tier>=5)--]"
-				"16x升级[--16x Modifier--]"
-				"06x激光核心[--06x Laser Core--]"
-				"01x激光镜架[--01x Laser Lens Holder--]"
+				"68x框架（等级>=5）"
+				"36x面板"
+				"04x IO方块或框架（等级>=5）"
+				"16x升级"
+				"06x激光核心"
+				"01x激光镜架"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -543,12 +543,12 @@
 			y: 5.25d
 			shape: "rsquare"
 			description: [
-				"88x框架（等级>=6）[--88x Frame (Tier>=6)--]"
-				"56x面板[--56x Panel--]"
-				"04x IO方块或框架（等级>=6）[--04x IO Block or Frame (Tier>=6)--]"
-				"20x升级[--20x Modifier--]"
-				"06x激光核心[--06x Laser Core--]"
-				"01x激光镜架[--01x Laser Lens Holder--]"
+				"88x框架（等级>=6）"
+				"56x面板"
+				"04x IO方块或框架（等级>=6）"
+				"20x升级"
+				"06x激光核心"
+				"01x激光镜架"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -575,12 +575,12 @@
 			y: 5.25d
 			shape: "rsquare"
 			description: [
-				"92x框架（等级>=7）[--92x Frame (Tier>=7)--]"
-				"56x面板[--56x Panel--]"
-				"04x IO方块或框架（等级>=7）[--04x IO Block or Frame (Tier>=7)--]"
-				"20x升级[--20x Modifier--]"
-				"07x激光核心[--07x Laser Core--]"
-				"01x激光镜架[--01x Laser Lens Holder--]"
+				"92x框架（等级>=7）"
+				"56x面板"
+				"04x IO方块或框架（等级>=7）"
+				"20x升级"
+				"07x激光核心"
+				"01x激光镜架"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -608,12 +608,12 @@
 			y: 5.25d
 			shape: "rsquare"
 			description: [
-				"100x框架（等级>=8）[--100x Frame (Tier>=8)--]"
-				"88x面板[--88x Panel--]"
-				"04x IO方块或框架（等级>=8）[--04x IO Block or Frame (Tier>=8)--]"
-				"20x升级[--20x Modifier--]"
-				"07x激光核心[--07x Laser Core--]"
-				"01x激光镜架[--01x Laser Lens Holder--]"
+				"100x框架（等级>=8）"
+				"88x面板"
+				"04x IO方块或框架（等级>=8）"
+				"20x升级"
+				"07x激光核心"
+				"01x激光镜架"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -640,10 +640,10 @@
 			y: 5.25d
 			shape: "rsquare"
 			description: [
-				"16x框架（等级>=1）[--16x Frame (Tier>=1)--]"
-				"04x IO方块或框架（等级>=1）[--04x IO Block or Frame (Tier>=1)--]"
-				"04x升级[--04x Modifier--]"
-				"09x太阳能电池[--09x Solar Cell--]"
+				"16x框架（等级>=1）"
+				"04x IO方块或框架（等级>=1）"
+				"04x升级"
+				"09x太阳能电池"
 			]
 			dependencies: [
 				"73368EF2948452D9"
@@ -669,10 +669,10 @@
 			y: 5.25d
 			shape: "rsquare"
 			description: [
-				"24x框架（等级>=2）[--24x Frame (Tier>=2)--]"
-				"04x IO方块或框架（等级>=2）[--04x IO Block or Frame (Tier>=2)--]"
-				"04x升级[--04x Modifier--]"
-				"25x太阳能电池[--25x Solar Cell--]"
+				"24x框架（等级>=2）"
+				"04x IO方块或框架（等级>=2）"
+				"04x升级"
+				"25x太阳能电池"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -699,10 +699,10 @@
 			y: 5.25d
 			shape: "rsquare"
 			description: [
-				"32x框架（等级>=3）[--32x Frame (Tier>=3)--]"
-				"04x IO方块或框架（等级>=3）[--04x IO Block or Frame (Tier>=3)--]"
-				"08x升级[--08x Modifier--]"
-				"49x太阳能电池[--49x Solar Cell--]"
+				"32x框架（等级>=3）"
+				"04x IO方块或框架（等级>=3）"
+				"08x升级"
+				"49x太阳能电池"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -730,10 +730,10 @@
 			y: 5.25d
 			shape: "rsquare"
 			description: [
-				"48x框架（等级>=5）[--48x Frame (Tier>=5)--]"
-				"04x IO方块或框架（等级>=5）[--04x IO Block or Frame (Tier>=5)--]"
-				"12x升级[--12x Modifier--]"
-				"121x太阳能电池[--121x Solar Cell--]"
+				"48x框架（等级>=5）"
+				"04x IO方块或框架（等级>=5）"
+				"12x升级"
+				"121x太阳能电池"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -760,10 +760,10 @@
 			y: 5.25d
 			shape: "rsquare"
 			description: [
-				"40x框架（等级>=4）[--40x Frame (Tier>=4)--]"
-				"04x IO方块或框架（等级>=4）[--04x IO Block or Frame (Tier>=4)--]"
-				"08x升级[--08x Modifier--]"
-				"81x太阳能电池[--81x Solar Cell--]"
+				"40x框架（等级>=4）"
+				"04x IO方块或框架（等级>=4）"
+				"08x升级"
+				"81x太阳能电池"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -791,10 +791,10 @@
 			y: 5.25d
 			shape: "rsquare"
 			description: [
-				"56x框架（等级>=6）[--56x Frame (Tier>=6)--]"
-				"04x IO方块或框架（等级>=6）[--04x IO Block or Frame (Tier>=6)--]"
-				"12x升级[--12x Modifier--]"
-				"169x太阳能电池[--169x Solar Cell--]"
+				"56x框架（等级>=6）"
+				"04x IO方块或框架（等级>=6）"
+				"12x升级"
+				"169x太阳能电池"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -821,10 +821,10 @@
 			y: 5.25d
 			shape: "rsquare"
 			description: [
-				"64x框架（等级>=7）[--64x Frame (Tier>=7)--]"
-				"04x IO方块或框架（等级>=7）[--04x IO Block or Frame (Tier>=7)--]"
-				"16x升级[--16x Modifier--]"
-				"225x太阳能电池[--225x Solar Cell--]"
+				"64x框架（等级>=7）"
+				"04x IO方块或框架（等级>=7）"
+				"16x升级"
+				"225x太阳能电池"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -851,11 +851,11 @@
 			y: 5.25d
 			shape: "rsquare"
 			description: [
-				"4x框架（等级>=1）[--4x Frame (Tier>=1)--]"
-				"1x IO方块或框架（等级>=1）[--1x IO Block or Frame (Tier>=1)--]"
-				"3x升级[--3x Modifier--]"
-				"3根避雷针[--3x Lightning Rod--]"
-				"3x绝缘避雷针[--3x Insulated Lightning Rod--]"
+				"4x框架（等级>=1）"
+				"1x IO方块或框架（等级>=1）"
+				"3x升级"
+				"3根避雷针"
+				"3x绝缘避雷针"
 			]
 			dependencies: [
 				"73368EF2948452D9"
@@ -881,11 +881,11 @@
 			y: 5.25d
 			shape: "rsquare"
 			description: [
-				"4x框架（等级>=2）[--4x Frame (Tier>=2)--]"
-				"1x IO方块或框架（等级>=2）[--1x IO Block or Frame (Tier>=2)--]"
-				"3x升级[--3x Modifier--]"
-				"5x避雷针[--5x Lightning Rod--]"
-				"4x绝缘避雷针[--4x Insulated Lightning Rod--]"
+				"4x框架（等级>=2）"
+				"1x IO方块或框架（等级>=2）"
+				"3x升级"
+				"5x避雷针"
+				"4x绝缘避雷针"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -912,11 +912,11 @@
 			y: 5.25d
 			shape: "rsquare"
 			description: [
-				"09x框架（等级>=3）[--09x Frame (Tier>=3)--]"
-				"01x IO方块或框架（等级>=3）[--01x IO Block or Frame (Tier>=3)--]"
-				"03x升级[--03x Modifier--]"
-				"04x避雷针[--04x Lightning Rod--]"
-				"16x绝缘避雷针[--16x Insulated Lightning Rod--]"
+				"09x框架（等级>=3）"
+				"01x IO方块或框架（等级>=3）"
+				"03x升级"
+				"04x避雷针"
+				"16x绝缘避雷针"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -944,10 +944,10 @@
 			y: 5.25d
 			shape: "rsquare"
 			description: [
-				"09x框架（等级>=4）[--09x Frame (Tier>=4)--]"
-				"01x IO方块或框架（等级>=4）[--01x IO Block or Frame (Tier>=4)--]"
-				"03x升级[--03x Modifier--]"
-				"05x避雷针[--05x Lightning Rod--]"
+				"09x框架（等级>=4）"
+				"01x IO方块或框架（等级>=4）"
+				"03x升级"
+				"05x避雷针"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -975,11 +975,11 @@
 			y: 5.25d
 			shape: "rsquare"
 			description: [
-				"09x框架（等级>=5）[--09x Frame (Tier>=5)--]"
-				"01x IO方块或框架（等级>=5）[--01x IO Block or Frame (Tier>=5)--]"
-				"03x升级[--03x Modifier--]"
-				"06x避雷针[--06x Lightning Rod--]"
-				"26x绝缘避雷针[--26x Insulated Lightning Rod--]"
+				"09x框架（等级>=5）"
+				"01x IO方块或框架（等级>=5）"
+				"03x升级"
+				"06x避雷针"
+				"26x绝缘避雷针"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1006,11 +1006,11 @@
 			y: 5.25d
 			shape: "rsquare"
 			description: [
-				"09x框架（等级>=6）[--09x Frame (Tier>=6)--]"
-				"01x IO方块或框架（等级>=6）[--01x IO Block or Frame (Tier>=6)--]"
-				"03x升级[--03x Modifier--]"
-				"07x避雷针[--07x Lightning Rod--]"
-				"31x绝缘避雷针[--31x Insulated Lightning Rod--]"
+				"09x框架（等级>=6）"
+				"01x IO方块或框架（等级>=6）"
+				"03x升级"
+				"07x避雷针"
+				"31x绝缘避雷针"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1037,12 +1037,12 @@
 			y: 5.25d
 			shape: "rsquare"
 			description: [
-				"34x框架（等级>=7）[--34x Frame (Tier>=7)--]"
-				"03x面板[--03x Panel--]"
-				"01xIO方块或框架（等级>=7）[--01xIO Block or Frame (Tier>=7)--]"
-				"04x升级[--04x Modifier--]"
-				"07x避雷针[--07x Lightning Rod--]"
-				"55x绝缘避雷针[--55x Insulated Lightning Rod--]"
+				"34x框架（等级>=7）"
+				"03x面板"
+				"01xIO方块或框架（等级>=7）"
+				"04x升级"
+				"07x避雷针"
+				"55x绝缘避雷针"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1069,12 +1069,12 @@
 			y: 5.25d
 			shape: "rsquare"
 			description: [
-				"34x框架（等级>=8）[--34x Frame (Tier>=8)--]"
-				"03x面板[--03x Panel--]"
-				"01xIO方块或框架（等级>=8）[--01xIO Block or Frame (Tier>=8)--]"
-				"04x升级[--04x Modifier--]"
-				"07x避雷针[--07x Lightning Rod--]"
-				"68x绝缘避雷针[--68x Insulated Lightning Rod--]"
+				"34x框架（等级>=8）"
+				"03x面板"
+				"01xIO方块或框架（等级>=8）"
+				"04x升级"
+				"07x避雷针"
+				"68x绝缘避雷针"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -2260,7 +2260,7 @@
 			}]
 		}
 		{
-			title: "&b空白升级[--&bNull Modifier--]"
+			title: "&b空白升级"
 			x: -6.75d
 			y: -8.5d
 			shape: "diamond"
@@ -2288,11 +2288,11 @@
 			}]
 		}
 		{
-			title: "&6放大升级[--&6Amplification Modifier--]"
+			title: "&6放大升级"
 			x: -5.75d
 			y: -9.0d
 			shape: "diamond"
-			subtitle: "放大升级是新的精度。镜片实施后的升级[--Amplification modifier is new Accuracy. Modifier for lenses once they are implemented--]"
+			subtitle: "放大升级是新的精度。镜片实施后的升级"
 			dependencies: ["5406C09C6DB130BD"]
 			id: "2831181500FBDEC6"
 			tasks: [{
@@ -2315,11 +2315,11 @@
 			}]
 		}
 		{
-			title: "&6带宽升级[--&6Bandwidth Modifier--]"
+			title: "&6带宽升级"
 			x: -6.25d
 			y: -9.5d
 			shape: "diamond"
-			subtitle: "带宽增加了矿机的下降量[--Bandwidth increases amount of drops in 矿机--]"
+			subtitle: "带宽增加了矿机的下降量"
 			dependencies: ["5406C09C6DB130BD"]
 			id: "037BA9C3F1B0C7EA"
 			tasks: [{
@@ -2342,11 +2342,11 @@
 			}]
 		}
 		{
-			title: "&6频率升级[--&6Frequency Modifier--]"
+			title: "&6频率升级"
 			x: -7.25d
 			y: -9.5d
 			shape: "diamond"
-			subtitle: "频率增加速度[--Frequency increases speed--]"
+			subtitle: "频率增加速度"
 			dependencies: ["5406C09C6DB130BD"]
 			id: "1A7CC0A580388774"
 			tasks: [{
@@ -2369,11 +2369,11 @@
 			}]
 		}
 		{
-			title: "&6辐射升级[--&6Radiant Modifier--]"
+			title: "&6辐射升级"
 			x: -7.75d
 			y: -9.0d
 			shape: "diamond"
-			subtitle: "辐射能允许避雷针在晴朗的天气被动发电[--Radiant allows lightning rod to generate energy passively in sunny weather--]"
+			subtitle: "辐射能允许避雷针在晴朗的天气被动发电"
 			dependencies: ["5406C09C6DB130BD"]
 			id: "1967D5F7306D3183"
 			tasks: [{
@@ -2396,11 +2396,11 @@
 			}]
 		}
 		{
-			title: "&6压电升级[--&6Piezo Modifier--]"
+			title: "&6压电升级"
 			x: -5.75d
 			y: -8.0d
 			shape: "diamond"
-			subtitle: "压电升级允许太阳能在下雨/雷雨时通过振动产生能量[--Piezo Modifier allows solars to generate energy in rain/thunderstorms from vibrations--]"
+			subtitle: "压电升级允许太阳能在下雨/雷雨时通过振动产生能量"
 			dependencies: ["5406C09C6DB130BD"]
 			id: "614D3ED31930538C"
 			tasks: [{
@@ -2423,11 +2423,11 @@
 			}]
 		}
 		{
-			title: "&6静电改性剂[--&6Electrostatic Modifier--]"
+			title: "&6静电改性剂"
 			x: -6.25d
 			y: -7.5d
 			shape: "diamond"
-			subtitle: "静电升级允许避雷针在下雨和打雷时被动产生能量[--Electrostatic modifier allows Lightning rods to generate energy passively in rain and thunder--]"
+			subtitle: "静电升级允许避雷针在下雨和打雷时被动产生能量"
 			dependencies: ["5406C09C6DB130BD"]
 			id: "2A8A2FC13E6647E9"
 			tasks: [{
@@ -2450,11 +2450,11 @@
 			}]
 		}
 		{
-			title: "&6标注升级[--&6Dimensional Modifier--]"
+			title: "&6标注升级"
 			x: -7.75d
 			y: -8.0d
 			shape: "diamond"
-			subtitle: "维度允许来自维度的全部生物群落的全部物品，虚空矿机就在这个维度中被开采[--Dimensional allows all items from all biomes from the dimension that the void 矿机 is in to be mined--]"
+			subtitle: "维度允许来自维度的全部生物群落的全部物品，虚空矿机就在这个维度中被开采"
 			dependencies: ["5406C09C6DB130BD"]
 			id: "025D475038BBD548"
 			tasks: [{
@@ -2477,11 +2477,11 @@
 			}]
 		}
 		{
-			title: "&6多维升级[--&6Interdimensional Modifier--]"
+			title: "&6多维升级"
 			x: -7.25d
 			y: -7.5d
 			shape: "diamond"
-			subtitle: "Interdimensional允许您获得任何维度的全部材料[--Interdimensional allows you to get all materials in any dimension--]"
+			subtitle: "Interdimensional允许您获得任何维度的全部材料"
 			dependencies: ["5406C09C6DB130BD"]
 			id: "216A31F3813F7029"
 			tasks: [{
@@ -2504,7 +2504,7 @@
 			}]
 		}
 		{
-			title: "&6FE输入[--&6FE Input--]"
+			title: "&6FE输入"
 			x: 0.0d
 			y: -7.5d
 			shape: "diamond"
@@ -2530,7 +2530,7 @@
 			}]
 		}
 		{
-			title: "&6FE输出[--&6FE Output--]"
+			title: "&6FE输出"
 			x: 1.0d
 			y: -7.5d
 			shape: "diamond"
@@ -2556,7 +2556,7 @@
 			}]
 		}
 		{
-			title: "&6物品输出[--&6Item Output--]"
+			title: "&6物品输出"
 			x: 0.5d
 			y: -7.0d
 			shape: "diamond"
@@ -2582,7 +2582,7 @@
 			}]
 		}
 		{
-			title: "&b空IO[--&bNullIO--]"
+			title: "&b空IO"
 			x: 0.49693877551021615d
 			y: -8.369727891156472d
 			shape: "diamond"
@@ -2670,7 +2670,7 @@
 			}]
 		}
 		{
-			title: "切割机工厂部件-第1部分[--Cutting Machine Factory Component - Part 1--]"
+			title: "切割机工厂部件-第1部分"
 			icon: "masterfulmachinery:cuttingmachine_controller"
 			x: -4.5d
 			y: -6.0d
@@ -2779,7 +2779,7 @@
 			}]
 		}
 		{
-			title: "切割机工厂部件-第2部分[--Cutting Machine Factory Component - Part 2--]"
+			title: "切割机工厂部件-第2部分"
 			icon: "masterfulmachinery:cuttingmachine_controller"
 			x: -1.5d
 			y: -6.0d
@@ -2829,9 +2829,9 @@
 			x: -3.0d
 			y: -7.25d
 			description: [
-				"&c为了使机械动力蓝图工作，请不要在建造时旋转它们！[--&cIn order to make create schematics work properly, please do not rotate them while building them !--]"
+				"&c为了使机械动力蓝图工作，请不要在建造时旋转它们！"
 				""
-				"&b您可以使用纠缠方块模组来纠缠您的masterful machineries的输入，并实现更好的自动化。[--&bYou can use the Entangled mod to entangle the inputs of your masterful machineries and have a better automation.--]"
+				"&b您可以使用纠缠方块模组来纠缠您的masterful machineries的输入，并实现更好的自动化。"
 			]
 			dependencies: [
 				"14550162EEE40261"
@@ -2841,7 +2841,7 @@
 			tasks: [{
 				id: "1C1D452D6BC3A640"
 				type: "checkmark"
-				title: "建造切割机工厂[--Build The Cutting Machine Factory--]"
+				title: "建造切割机工厂"
 			}]
 			rewards: [{
 				id: "6780273B1A6ACD00"
@@ -3040,10 +3040,10 @@
 			y: 5.25d
 			shape: "rsquare"
 			description: [
-				"72x框架（等级>=8）[--72x Frame (Tier>=8)--]"
-				"04xIO方块或框架（等级>=8）[--04xIO Block or Frame (Tier>=8)--]"
-				"16x升级[--16x Modifier--]"
-				"289x太阳能电池[--289x Solar Cell--]"
+				"72x框架（等级>=8）"
+				"04xIO方块或框架（等级>=8）"
+				"16x升级"
+				"289x太阳能电池"
 			]
 			hide_dependency_lines: true
 			dependencies: [

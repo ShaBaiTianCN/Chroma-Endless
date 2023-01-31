@@ -21,7 +21,7 @@
 	}]
 	quests: [
 		{
-			title: "前往 &l&#71797E钢铁时代&r  "
+			title: "前往&l&#71797E钢铁时代&r  "
 			icon: {
 				id: "immersiveengineering:hammer"
 				Count: 1b

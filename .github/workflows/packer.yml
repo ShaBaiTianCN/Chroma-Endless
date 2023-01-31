@@ -86,7 +86,6 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          echo ${{ github.event.inputs.pre_release == 'true' }}
           gh release edit ${{ github.event.inputs.version }} --prerelease
 
   comment-pr:

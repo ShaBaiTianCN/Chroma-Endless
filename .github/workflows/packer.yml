@@ -72,25 +72,12 @@ jobs:
       - name: Zip
         run: cd ${{ needs.pack.outputs.release_name }} && zip -r ../${{ needs.pack.outputs.release_name }}.zip ./* && cd ..
 
-      - name: Create Release
-        id: create_release
-        uses: actions/create-release@v1
+      - name: Upload
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ github.event.inputs.version }}
-          release_name: ${{ needs.pack.outputs.release_name }}
-          prerelease: ${{ github.event.inputs.pre_release }}
-
-      - name: Upload Release Asset
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ${{ needs.pack.outputs.release_name }}.zip
-          asset_name: ${{ needs.pack.outputs.release_name }}.zip
-          asset_content_type: application/zip
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo ${{ github.event.inputs.pre_release ? '--prerelease' : '' }}
+          gh release create ${{ github.event.inputs.version }} ${{ needs.pack.outputs.release_name }}.zip --title ${{ needs.pack.outputs.release_name }} ${{ github.event.inputs.pre_release ? '--prerelease' : '' }}
 
   comment-pr:
     runs-on: ubuntu-latest

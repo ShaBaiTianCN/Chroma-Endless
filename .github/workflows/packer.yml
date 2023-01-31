@@ -82,11 +82,11 @@ jobs:
           gh release create ${{ github.event.inputs.version }} ${{ needs.pack.outputs.release_name }}.zip --title ${{ needs.pack.outputs.release_name }}
 
       - name: Mark Prerelease
-        if: ${{ github.event.inputs.pre_release }} == 'true'
+        if: ${{ github.event.inputs.pre_release == 'true' }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          echo ${{ github.event.inputs.pre_release }} == 'true'
+          echo ${{ github.event.inputs.pre_release == 'true' }}
           gh release edit ${{ github.event.inputs.version }} --prerelease
 
   comment-pr:

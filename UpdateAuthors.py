@@ -3,8 +3,7 @@ import json
 
 authors_data = json.loads(input())
 
-authors = [(i['author']['login'], i['author']['path']) for i in authors_data]
-authors.sort(key=lambda i: i[0])
+authors = [(i['author']['login'], i['author']['path'], i['total']) for i in authors_data][::-1]
 authors_text = ''.join([
     '## 作者\n\n',
     *[f'- [{i[0]}](https://github.com{i[1]})\n' for i in authors],

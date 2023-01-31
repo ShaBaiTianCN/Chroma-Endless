@@ -72,12 +72,18 @@ jobs:
       - name: Zip
         run: cd ${{ needs.pack.outputs.release_name }} && zip -r ../${{ needs.pack.outputs.release_name }}.zip ./* && cd ..
 
-      - name: Upload
+      - name: Create and Upload
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          echo ${{ github.event.inputs.pre_release ? '--prerelease' : '' }}
-          gh release create ${{ github.event.inputs.version }} ${{ needs.pack.outputs.release_name }}.zip --title ${{ needs.pack.outputs.release_name }} ${{ github.event.inputs.pre_release ? '--prerelease' : '' }}
+          gh release create ${{ github.event.inputs.version }} ${{ needs.pack.outputs.release_name }}.zip --title ${{ needs.pack.outputs.release_name }}
+
+      - name: Mark Prerelease
+        env:
+          GH_TOKEN: ${{ github.token }}
+        if: github.event.inputs.pre_release
+        run: |
+          gh release edit ${{ github.event.inputs.version }} --prerelease
 
   comment-pr:
     runs-on: ubuntu-latest
